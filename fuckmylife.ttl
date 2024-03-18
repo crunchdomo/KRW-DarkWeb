@@ -1,0 +1,92 @@
+@prefix ns1: <http://darkwebisspooky/> .
+
+<http://darkwebisspooky/product/1> a "http://darkwebisspooky/Product" ;
+    ns1:category "-" ;
+    ns1:description "-" ;
+    ns1:keywords "-" ;
+    ns1:market_name "Dream" ;
+    ns1:price "-" ;
+    ns1:productName "503 - Forwarding failure (Privoxy@localhost)" ;
+    ns1:sellerName "-" ;
+    ns1:ship_from "-" ;
+    ns1:ship_to <http://darkwebisspooky/-),(2,OG_KUSH_1/2_OZ_$125_AAAA+> ;
+    ns1:shipping_option "-" .
+
+<http://darkwebisspooky/product/11126> a "http://darkwebisspooky/Product" ;
+    ns1:category "Digital Goods \\n		29354" ;
+    ns1:description "900" ;
+    ns1:keywords "-" ;
+    ns1:market_name "Dream" ;
+    ns1:price "900" ;
+    ns1:productName "BECOME THE MANIPULATOR: The Guide to end all Guide" ;
+    ns1:sellerName "clearmind" ;
+    ns1:ship_from "Worldwide" ;
+    ns1:ship_to <http://darkwebisspooky/Worldwide),(11127,THE_BIG_CARDING_TUTORIAL> ;
+    ns1:shipping_option "-" .
+
+<http://darkwebisspooky/product/12500> a "http://darkwebisspooky/Product" ;
+    ns1:category "Digital Goods \\n		29383" ;
+    ns1:keywords "-" ;
+    ns1:market_name "Dream" ;
+    ns1:price "3.99" ;
+    ns1:productName "ULTIMATE BIG PACK  !!!!!!!!!!!" ;
+    ns1:sellerName "philobeto13" ;
+    ns1:ship_from ns1:canada ;
+    ns1:ship_to <http://darkwebisspooky/Worldwide),(12501,Dream_Market_Login_-_Featured_anonymous_marketplace> ;
+    ns1:shipping_option "\\n\\n\\n$0					\\ndigital\\n\\n\\n\\n\\n\\n" .
+
+<http://darkwebisspooky/product/13967> a "http://darkwebisspooky/Product" ;
+    ns1:category "-" ;
+    ns1:description "-" ;
+    ns1:keywords "-" ;
+    ns1:market_name "Dream" ;
+    ns1:price "-" ;
+    ns1:productName "Dream Market Login - Featured anonymous marketplace" ;
+    ns1:sellerName "-" ;
+    ns1:ship_from "-" ;
+    ns1:ship_to <http://darkwebisspooky/-),(13968,Dream_Market_Login_-_Featured_anonymous_marketplace> ;
+    ns1:shipping_option "-" .
+
+<http://darkwebisspooky/product/1502> a "http://darkwebisspooky/Product" ;
+    ns1:category "-" ;
+    ns1:description "-" ;
+    ns1:keywords "-" ;
+    ns1:market_name "Dream" ;
+    ns1:price "-" ;
+    ns1:productName "Dream Market Login - Featured anonymous marketplace" ;
+    ns1:sellerName "-" ;
+    ns1:ship_from "-" ;
+    ns1:ship_to <http://darkwebisspooky/-),(1503,Dream_Market_Login_-_Featured_anonymous_marketplace> ;
+    ns1:shipping_option "-" .
+
+<http://darkwebisspooky/product/15354> a "http://darkwebisspooky/Product" ;
+    ns1:category "Drugs \\n		40297" ;
+    ns1:keywords "-" ;
+    ns1:market_name "Dream" ;
+    ns1:price "287.9" ;
+    ns1:productName "â50 x hofman LSD 220 ug â " ;
+    ns1:sellerName "Scarface-Tony-M" ;
+    ns1:ship_from ns1:Netherlands ;
+    ns1:ship_to <http://darkwebisspooky/Worldwide),(15355,Dream_Market_Login_-_Featured_anonymous_marketplace> ;
+    ns1:shipping_option "\\n\\n\\n$2.095					\\nRegular Mail\\n\\n\\n\\n\\n\\n$12.56					\\nExtra Stealth (decoy)\\n\\n\\n\\n\\n\\n$25.1					\\nExtra Stealth (decoy)+Track & Trace (Needs Signing)\\n\\n\\n\\n\\n\\n" .
+
+<http://darkwebisspooky/product/16771> a "http://darkwebisspooky/Product" ;
+    ns1:category "Drugs \\n		41129" ;
+    ns1:keywords "-" ;
+    ns1:market_name "Dream" ;
+    ns1:price "31.47" ;
+    ns1:productName "Ketamine Racemic - 1g* - super clean shards - Fr" ;
+    ns1:sellerName "The_Psyche_Nexus" ;
+    ns1:ship_from ns1:UK ;
+    ns1:ship_to <http://darkwebisspooky/United_Kingdom_Europe),(16772,PORNPORTAL_Network_MORE_THAN_10_INCREDIBLE_Sites_U> ;
+    ns1:shipping_option "\\n\\n\\n$0					\\nFree UK 1st class\\n\\n\\n\\n\\n\\n$5.03					\\nEurope 1st class Stealth\\n\\n\\n\\n\\n\\n" .
+
+<http://darkwebisspooky/product/18227> a "http://darkwebisspooky/Product" ;
+    ns1:category "Digital Goods \\n		29329" ;
+    ns1:keywords "-" ;
+    ns1:market_name "Dream" ;
+    ns1:price "2.99" ;
+    ns1:productName "Playing to the Edge American Intelligence in the A" ;
+    ns1:sellerName "pckabml" ;
+    ns1:ship_from "Worldwide" ;
+    ns1:ship_to 

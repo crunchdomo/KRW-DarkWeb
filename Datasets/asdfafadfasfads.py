@@ -1,5 +1,4 @@
-from rdflib import Graph, Literal, Namespace, URIRef, RDF, RDFS
-from urllib.parse import quote
+from rdflib import Graph, Literal, Namespace, URIRef, RDF
 import spacy
 
 # Initialize spaCy for NER and the RDF Graph
@@ -8,27 +7,17 @@ g = Graph()
 
 # Define your namespaces
 dw = Namespace("http://darkwebisspooky/")
-
-# Define the Location class
-location_class = dw.Location
-
-# Initialize spaCy NER
-nlp = spacy.load("en_core_web_sm")
-
-def is_valid_location(text):
-    # Use spaCy NER to check if the text is a location
-    doc = nlp(text)
-    for ent in doc.ents:
-        if ent.label_ in ['GPE', 'LOC']:
-            # Further filter out any non-location entities that might be incorrectly recognized
-            if ent.text not in ["-", "Worldwide", "Europe Worldwide", "Worldwide Europe"]:
-                return True
-    return False
+vocab = Namespace("http://example.org/vocab/")
 
 def extract_price_from_text(text):
     doc = nlp(text)
     prices = [ent.text for ent in doc.ents if ent.label_ == "MONEY"]
     return prices if prices else None
+
+def extract_locations_from_text(text):
+    doc = nlp(text)
+    locations = [ent.text for ent in doc.ents if ent.label_ in ['GPE', 'LOC']]
+    return locations
 
 def clean_and_split_values(value_str):
     values = value_str.strip().strip('(').strip(')').split("',")
@@ -36,20 +25,17 @@ def clean_and_split_values(value_str):
     return values
 
 def add(subject, predicate, object, is_money=False, is_location=False):
-    if is_money and object != "-":
+    if is_money:
         extracted_prices = extract_price_from_text(object)
         if extracted_prices:
             object = extracted_prices[0].replace('$', '')  # Remove the dollar sign
-            g.add((subject, predicate, Literal(object)))
-    elif is_location and object not in ["-", "Worldwide"]:
-        if is_valid_location(object):
-            location_uri = dw[quote(object.replace(" ", "_").replace("\\n", "").replace("'", ""))]  # Normalize object for URI
-            g.add((location_uri, RDF.type, location_class))  # Assert it's a Location
-            g.add((subject, predicate, location_uri))  # Link the product to the location
-    else:
-        g.add((subject, predicate, Literal(object)))
-        
-
+    elif is_location:
+        extracted_locations = extract_locations_from_text(object)
+        if extracted_locations:
+            for location in extracted_locations:
+                g.add((subject, predicate, Literal(location)))
+            return  # Skip adding the original object if locations were added
+    g.add((subject, predicate, Literal(object)))
 
 # Process the SQL file
 with open('C:\\Users\\oenfa\\Documents\\GitHub\\KRW-DarkWeb\\Datasets\\DreamMarket 2016\\DreamMarket_2016\\DreamMarket2016_product.sql', 'r', encoding='utf-8') as file:
@@ -75,4 +61,4 @@ with open('C:\\Users\\oenfa\\Documents\\GitHub\\KRW-DarkWeb\\Datasets\\DreamMark
             add(product_uri, dw.market_name, all_values[14].strip().strip("'"))
 
 # Serialize the graph
-g.serialize(destination='fooo.ttl', format='turtle')
+g.serialize(destination='fafdsffdffdffffff.ttl', format='turtle')
