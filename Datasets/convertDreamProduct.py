@@ -36,20 +36,25 @@ def clean_and_split_values(value_str):
     return values
 
 def add(subject, predicate, object, is_money=False, is_location=False):
-    if is_money and object != "-":
+    # Normalize object for URI if it's a location
+    if is_location and object not in ["-", "Worldwide"]:
+        object = quote(object.replace(" ", "_").replace("\\n", "").replace("'", ""))
+        if is_valid_location(object):
+            location_uri = dw[object]
+            g.add((location_uri, RDF.type, location_class))
+            g.add((subject, predicate, location_uri))
+        else:
+            # If not a valid location, add as a literal (or handle differently)
+            g.add((subject, predicate, Literal(object)))
+    elif is_money and object != "-":
+        # Handle money extraction
         extracted_prices = extract_price_from_text(object)
         if extracted_prices:
-            object = extracted_prices[0].replace('$', '')  # Remove the dollar sign
-            g.add((subject, predicate, Literal(object)))
-    elif is_location and object not in ["-", "Worldwide"]:
-        if is_valid_location(object):
-            location_uri = dw[quote(object.replace(" ", "_").replace("\\n", "").replace("'", ""))]  # Normalize object for URI
-            g.add((location_uri, RDF.type, location_class))  # Assert it's a Location
-            g.add((subject, predicate, location_uri))  # Link the product to the location
-    else:
+            object = extracted_prices[0].replace('$', '')
         g.add((subject, predicate, Literal(object)))
-        
-
+    else:
+        # Add all other triples as literals
+        g.add((subject, predicate, Literal(object)))
 
 # Process the SQL file
 with open('C:\\Users\\oenfa\\Documents\\GitHub\\KRW-DarkWeb\\Datasets\\DreamMarket 2016\\DreamMarket_2016\\DreamMarket2016_product.sql', 'r', encoding='utf-8') as file:
