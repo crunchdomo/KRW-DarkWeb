@@ -1,0 +1,37 @@
+---
+layout: default
+title: Home
+---
+
+<div class="container">
+
+  <div class="row mt-4">
+    <div class="col-md-12">
+      <h1>Welcome to {{ site.url }}</h1>
+
+      <p class="lead">This site is a collaborative, community activity with a mission to create, maintain, and promote a standardized taxonomy of semantic concepts used in forensic investigations related to the Dark Web and Virtual Assets.</p>
+
+      <p>The taxonomies and concepts defined on this page are intended to be used in tools and thus create a degree of semantic interoperability between exchanged data. Therefore, all taxonomies are published in 
+      a human readable form (this is what you see right now) and provided as download in various machine readable formats.</p>
+
+      <p>As far as possible, the taxonomies build on existing definitions and do not claim to replace them. Rather, they represent an orthogonal approach to try to define and standardize existing terminology that is already used in tools.</p>
+
+      <p>For further information on the collaborative taxonomy editing process, please visit the Git repository this site is generated from.</p>
+
+    </div>
+  </div>
+
+
+  <div class="row mt-5">
+
+    {% assign taxonomy = site.data.abuses  %}
+    {% include meta_box.html taxonomy=taxonomy icon="fa-warning" %}
+
+    {% assign taxonomy = site.data.entities %}    
+    {% include meta_box.html taxonomy=taxonomy icon="fa-university"%}
+
+  </div>  
+
+</div>
+
+
