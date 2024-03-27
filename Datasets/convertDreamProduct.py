@@ -1,9 +1,9 @@
 from rdflib import Graph, Literal, Namespace, URIRef, RDF, RDFS
-from urllib.parse import quote
+from urllib.parse import quote, unquote
+import re
 import spacy
 
-# Initialize spaCy for NER and the RDF Graph
-nlp = spacy.load("en_core_web_sm")
+# Initialize the RDF Graph
 g = Graph()
 
 # Define your namespaces
@@ -11,6 +11,12 @@ dw = Namespace("http://darkwebisspooky/")
 
 # Define the Location class
 location_class = dw.Location
+
+# Object property definitions
+hasSeller = dw.hasSeller
+belongsToCategory = dw.belongsToCategory
+shipsFrom = dw.shipsFrom
+shipsTo = dw.shipsTo
 
 # Initialize spaCy NER
 nlp = spacy.load("en_core_web_sm")
@@ -20,10 +26,48 @@ def is_valid_location(text):
     doc = nlp(text)
     for ent in doc.ents:
         if ent.label_ in ['GPE', 'LOC']:
-            # Further filter out any non-location entities that might be incorrectly recognized
             if ent.text not in ["-", "Worldwide", "Europe Worldwide", "Worldwide Europe"]:
                 return True
     return False
+
+
+def clean_data(value_str):
+    # Decode URL-encoded strings
+    decoded_str = unquote(value_str)
+    # Additional cleaning steps, e.g., removing unwanted characters
+    cleaned_str = re.sub(r"[\n\t]+", " ", decoded_str).strip()
+    cleaned_str = re.sub(r"\s+\d+$", "", cleaned_str)  # Example: remove trailing numbers
+    return cleaned_str
+
+def process_sql_line(line):
+    # Example of processing an SQL line
+    # This is a placeholder; adjust according to your actual data format
+    values = line.split('VALUES')[1].strip().strip(';').strip('(').strip(')').split(',', 3)
+    last_values = clean_and_split_values(values[-1])
+    all_values = values[:-1] + last_values
+    
+    # Clean and decode each value as needed
+    for i, value in enumerate(all_values):
+        all_values[i] = clean_data(value)
+        
+        
+def create_location_class(location):
+    # Decode URL-encoded strings and clean the location name
+    decoded_location = unquote(location)
+    clean_location = re.sub(r"[\n\t]+", " ", decoded_location).strip()
+    clean_location = re.sub(r"\s+\d+$", "", clean_location)
+    
+    # Normalize location to create a valid URI
+    location_uri = quote(clean_location.replace(" ", "_").replace("'", ""))
+    class_uri = dw[location_uri]
+    
+    # Check if the class already exists, if not, create it
+    if (class_uri, None, None) not in g:
+        g.add((class_uri, RDF.type, RDFS.Class))
+        g.add((class_uri, RDF.type, location_class))  # Mark it as a subclass of Location
+        g.add((class_uri, RDFS.label, Literal(clean_location)))
+    return class_uri
+
 
 def extract_price_from_text(text):
     doc = nlp(text)
@@ -35,49 +79,65 @@ def clean_and_split_values(value_str):
     values = [v.strip("'") for v in values]
     return values
 
-def add(subject, predicate, object, is_money=False, is_location=False):
-    # Normalize object for URI if it's a location
-    if is_location and object not in ["-", "Worldwide"]:
-        object = quote(object.replace(" ", "_").replace("\\n", "").replace("'", ""))
-        if is_valid_location(object):
-            location_uri = dw[object]
-            g.add((location_uri, RDF.type, location_class))
-            g.add((subject, predicate, location_uri))
-        else:
-            # If not a valid location, add as a literal (or handle differently)
-            g.add((subject, predicate, Literal(object)))
-    elif is_money and object != "-":
-        # Handle money extraction
-        extracted_prices = extract_price_from_text(object)
-        if extracted_prices:
-            object = extracted_prices[0].replace('$', '')
-        g.add((subject, predicate, Literal(object)))
+def add(subject, predicate, object, is_object_property=False):
+    if is_object_property:
+        # If the predicate is an object property, add the object as a URIRef
+        g.add((subject, predicate, URIRef(object)))
     else:
-        # Add all other triples as literals
+        # For data properties, add the object as a Literal
         g.add((subject, predicate, Literal(object)))
+
+def clean_category_name(category):
+    # Decode URL-encoded strings
+    decoded_category = unquote(category)
+    # Remove unwanted characters and trailing numbers
+    clean_category = re.sub(r"[\n\t]+", " ", decoded_category).strip()
+    clean_category = re.sub(r"\s+\d+$", "", clean_category)
+    return clean_category
+
+def create_or_get_class(category):
+    clean_category = clean_category_name(category)
+    # Normalize category to create a valid URI
+    category_uri = quote(clean_category.replace(" ", "_").replace("'", ""))
+    class_uri = dw[category_uri]
+    # Check if the class already exists, if not, create it
+    if (class_uri, None, None) not in g:
+        g.add((class_uri, RDF.type, RDFS.Class))
+        g.add((class_uri, RDFS.label, Literal(clean_category)))
+    return class_uri
+
 
 # Process the SQL file
 with open('C:\\Users\\oenfa\\Documents\\GitHub\\KRW-DarkWeb\\Datasets\\DreamMarket 2016\\DreamMarket_2016\\DreamMarket2016_product.sql', 'r', encoding='utf-8') as file:
     for line in file:
         if line.startswith('INSERT INTO `dnm_dream` VALUES'):
+            process_sql_line(line)
             values = line.split('VALUES')[1].strip().strip(';').strip('(').strip(')').split(',', 3)
             last_values = clean_and_split_values(values[-1])
             all_values = values[:-1] + last_values
             
             product_uri = URIRef(dw['product/' + all_values[0].strip()])
             
-            # Add product information to the graph
-            add(product_uri, RDF.type, dw.Product)
+            # Create or get the class for the product category
+            category_class = create_or_get_class(all_values[2].strip().strip("'"))
+            
+            # Add product information to the graph with object properties
+            g.add((product_uri, RDF.type, category_class))
             add(product_uri, dw.productName, all_values[1].strip().strip("'"))
-            add(product_uri, dw.category, all_values[2].strip().strip("'"))
-            add(product_uri, dw.description, all_values[3].strip().strip("'").replace("\\n", "\n"), is_money=True)
-            add(product_uri, dw.sellerName, all_values[6].strip().strip("'"))
-            add(product_uri, dw.price, all_values[7].strip().strip("'"), is_money=True)
-            add(product_uri, dw.keywords, all_values[5].strip().strip("'"))
-            add(product_uri, dw.ship_from, all_values[15].strip().strip("'").replace("\\n", "\n"), is_location=True)
-            add(product_uri, dw.ship_to, all_values[16].strip().strip("'").replace("\\n", "\n"), is_location=True)
-            add(product_uri, dw.shipping_option, all_values[4].strip().strip("'"))
-            add(product_uri, dw.market_name, all_values[14].strip().strip("'"))
+            add(product_uri, dw.description, all_values[3].strip().strip("'").replace("\\n", "\n"))
+            add(product_uri, dw.price, all_values[7].strip().strip("'"))
+            
+            # Object property assertions
+            seller_uri = URIRef(dw['seller/' + all_values[6].strip().strip("'")])
+            add(product_uri, hasSeller, seller_uri, is_object_property=True)
+            
+            # Create location classes and add object property assertions
+            ship_from_location = create_location_class(all_values[15].strip().strip("'"))
+            add(product_uri, shipsFrom, ship_from_location, is_object_property=True)
+            
+            ship_to_location = create_location_class(all_values[16].strip().strip("'"))
+            add(product_uri, shipsTo, ship_to_location, is_object_property=True)
+
 
 # Serialize the graph
-g.serialize(destination='fooo.ttl', format='turtle')
+g.serialize(destination='momoamama.ttl', format='turtle')
