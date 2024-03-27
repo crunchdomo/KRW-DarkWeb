@@ -1,7 +1,6 @@
 from rdflib import Graph, Literal, Namespace, URIRef, RDF, RDFS
 from urllib.parse import quote, unquote
 import re
-
 import spacy
 
 # Initialize the RDF Graph
@@ -49,21 +48,43 @@ def add(subject, predicate, object, is_object_property=False):
         # For data properties, add the object as a Literal
         g.add((subject, predicate, Literal(object)))
 
-def create_or_get_class(category):
-    # Decode URL-encoded strings
-    decoded_category = unquote(category)
-    # Remove newline, tab characters, and trailing numbers from the category string
-    clean_category = re.sub(r"[\n\t]+", " ", decoded_category).strip()
-    clean_category = re.sub(r"\s+\d+$", "", clean_category)
-    
-    # Normalize category to create a valid URI
-    category_uri = quote(clean_category.replace(" ", "_").replace("'", ""))
-    class_uri = dw[category_uri]
+def clean_location(value_str):
+    # Decode URL-encoded strings and remove unwanted characters
+    decoded_str = unquote(value_str)
+    # Remove unwanted characters and trailing numbers
+    cleaned_str = re.sub(r"[\n\t]+", " ", decoded_str).strip()
+    cleaned_str = re.sub(r"%[0-9A-Fa-f]{2}", "", cleaned_str)  # Remove URL-encoded chars
+    cleaned_str = re.sub(r"\\n", " ", cleaned_str)  # Replace escaped newlines with space
+    # Extract the meaningful part of the location name
+    match = re.search(r"^[^\),]+", cleaned_str)  # Adjust regex as needed based on the pattern of concatenated info
+    if match:
+        cleaned_str = match.group(0)
+    return cleaned_str.strip()
+
+def clean_data(value_str):
+    # Initial clean-up: Decode URL-encoded strings and remove unwanted characters
+    decoded_str = unquote(value_str)
+    cleaned_str = re.sub(r"[\n\t]+", " ", decoded_str).strip()
+    cleaned_str = re.sub(r"%[0-9A-Fa-f]{2}", "", cleaned_str)  # Remove URL-encoded chars
+    cleaned_str = re.sub(r"\\n", " ", cleaned_str)  # Replace escaped newlines with space
+    # Further clean-up as needed
+    # Example: Remove any unexpected concatenated values or characters
+    cleaned_str = re.sub(r"_[\d]+", "", cleaned_str)  # Remove trailing numbers prefixed with _
+    return cleaned_str
+
+def create_or_get_class(name, is_location=False):
+    clean_name = clean_location(name) if is_location else clean_data(name)
+    # Normalize name to create a valid URI
+    name_uri = quote(clean_name.replace(" ", "_").replace("'", ""))
+    class_uri = dw[name_uri]
     
     # Check if the class already exists, if not, create it
     if (class_uri, None, None) not in g:
         g.add((class_uri, RDF.type, RDFS.Class))
-        g.add((class_uri, RDFS.label, Literal(clean_category)))
+        g.add((class_uri, RDFS.label, Literal(clean_name)))
+        if is_location:
+            # Mark it as a subclass of Location
+            g.add((class_uri, RDF.type, location_class))
     return class_uri
 
 # Process the SQL file
@@ -89,11 +110,16 @@ with open('C:\\Users\\oenfa\\Documents\\GitHub\\KRW-DarkWeb\\Datasets\\DreamMark
             seller_uri = URIRef(dw['seller/' + all_values[6].strip().strip("'")])
             add(product_uri, hasSeller, seller_uri, is_object_property=True)
             
-            ship_from_uri = URIRef(dw['location/' + quote(all_values[15].strip().strip("'").replace(" ", "_"))])
-            add(product_uri, shipsFrom, ship_from_uri, is_object_property=True)
+            # Clean the locations and create location classes
+            ship_from_location = clean_location(all_values[15].strip().strip("'"))
+            ship_to_location = clean_location(all_values[16].strip().strip("'"))
             
-            ship_to_uri = URIRef(dw['location/' + quote(all_values[16].strip().strip("'").replace(" ", "_"))])
+            ship_from_uri = create_or_get_class(ship_from_location, is_location=True)
+            ship_to_uri = create_or_get_class(ship_to_location, is_location=True)
+            
+            # Link product to its shipping information with object properties
+            add(product_uri, shipsFrom, ship_from_uri, is_object_property=True)
             add(product_uri, shipsTo, ship_to_uri, is_object_property=True)
 
 # Serialize the graph
-g.serialize(destination='fjamsmsmsmsm.ttl', format='turtle')
+g.serialize(destination='ajjfdslkdsflkfdsklfdslkfdslk.ttl', format='turtle')
