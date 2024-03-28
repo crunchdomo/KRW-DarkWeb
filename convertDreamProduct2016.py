@@ -82,7 +82,8 @@ def clean_data(value_str):
     
     if len(parts) > 1:
         cleaned_str = parts[0]
-
+    if cleaned_str.startswith("\\n\\n"):
+        cleaned_str = "-"
     return cleaned_str
 
 def create_or_get_class(name, is_location=False):
@@ -120,7 +121,7 @@ with open('Datasets\\DreamMarket_2016\\DreamMarket2016_product.sql', 'r', encodi
             add(product_uri, dw.price, all_values[7].strip().strip("'"))
             
             # Object property assertions
-            seller_uri = URIRef(dw['seller/' + all_values[6].strip().strip("'")])
+            seller_uri = clean_data(all_values[6].strip().strip("'"))
             add(product_uri, hasSeller, seller_uri, is_object_property=True)
             
             # Clean the locations and create location classes

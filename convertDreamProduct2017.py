@@ -42,8 +42,6 @@ def clean_and_split_values(value_str):
 
 def add(subject, predicate, object, is_object_property=False):
     if is_object_property:
-        # Ensure the object is a valid URI part by encoding it
-        object = quote(str(object), safe='')
         g.add((subject, predicate, URIRef(object)))
     else:
         # For data properties, add the object as a Literal
@@ -95,7 +93,8 @@ def clean_data(value_str):
     
     if len(parts) > 1:
         cleaned_str = parts[0]
-
+    if cleaned_str.startswith("\\n\\n"):
+        cleaned_str = "-"
     return cleaned_str
 
 def create_or_get_class(name, is_location=False):
@@ -133,7 +132,7 @@ with open('Datasets\\DreamMarket_2017\\DreamMarket2017_product.sql', 'r', encodi
             add(product_uri, dw.price, all_values[7].strip().strip("'"))
             
             # Object property assertions
-            seller_uri = URIRef(dw['seller/' + quote(all_values[6].strip().strip("'"))])
+            seller_uri = clean_data(all_values[6].strip().strip("'"))
             add(product_uri, hasSeller, seller_uri, is_object_property=True)
             
             # Clean the locations and create location classes
