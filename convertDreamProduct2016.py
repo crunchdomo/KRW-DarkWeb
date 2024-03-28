@@ -127,14 +127,12 @@ with open('Datasets\\DreamMarket_2016\\DreamMarket2016_product.sql', 'r', encodi
             ship_from_location = clean_location(all_values[15].strip().strip("'"))
             ship_to_location = clean_location(all_values[16].strip().strip("'"))
             for start in ship_from_location.split(' '):
-                for stop in ship_to_location.split(' '):
-
-                    ship_from_uri = create_or_get_class(start, is_location=True)
-                    ship_to_uri = create_or_get_class(stop, is_location=True)
-                    
-                    # Link product to its shipping information with object properties
-                    add(product_uri, shipsFrom, ship_from_uri, is_object_property=True)
-                    add(product_uri, shipsTo, ship_to_uri, is_object_property=True)
+                ship_from_uri = create_or_get_class(start, is_location=True)
+                add(product_uri, shipsFrom, ship_from_uri, is_object_property=True)
+                
+            for stop in ship_to_location.split(' '):
+                ship_to_uri = create_or_get_class(stop, is_location=True)
+                add(product_uri, shipsTo, ship_to_uri, is_object_property=True)
 
 # Serialize the graph
 g.serialize(destination='DMProducts2016.ttl', format='turtle')

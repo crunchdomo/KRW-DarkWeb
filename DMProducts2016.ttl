@@ -52,7 +52,7 @@ ns1:United_Kingdom a ns1:Location,
 
 ns1:United_States a ns1:Location,
         rdfs:Class ;
-    rdfs:label "United_States'" .
+    rdfs:label "United_States" .
 
 ns1:Worldwide a ns1:Location,
         rdfs:Class ;
