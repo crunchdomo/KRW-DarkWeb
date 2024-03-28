@@ -16,6 +16,10 @@ ns1:Belgium_and_the_Netherlands a ns1:Location,
         rdfs:Class ;
     rdfs:label "Belgium_and_the_Netherlands" .
 
+ns1:Canada a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Canada" .
+
 ns1:China a ns1:Location,
         rdfs:Class ;
     rdfs:label "China" .
@@ -53,14 +57,6 @@ ns1:United_States a ns1:Location,
 ns1:Worldwide a ns1:Location,
         rdfs:Class ;
     rdfs:label "Worldwide" .
-
-ns1:canada a ns1:Location,
-        rdfs:Class ;
-    rdfs:label "canada" .
-
-ns1:worldwide a ns1:Location,
-        rdfs:Class ;
-    rdfs:label "worldwide" .
 
 <http://darkwebisspooky/product/1> a <http://darkwebisspooky/-> ;
     ns1:description "-" ;
@@ -136,7 +132,7 @@ Verify your PayPal account without a Credit Card""" ;
     ns1:hasSeller <http://darkwebisspooky/seller/philobeto13> ;
     ns1:price "$3.99" ;
     ns1:productName "ULTIMATE BIG PACK  !!!!!!!!!!!" ;
-    ns1:shipsFrom ns1:canada ;
+    ns1:shipsFrom ns1:Canada ;
     ns1:shipsTo ns1:Worldwide .
 
 <http://darkwebisspooky/product/13967> a <http://darkwebisspooky/-> ;
@@ -493,7 +489,7 @@ Best BitcoinThief""" ;
     ns1:hasSeller <http://darkwebisspooky/seller/BitcoinThief> ;
     ns1:price "$60" ;
     ns1:productName "Account Verification Service PP/EBAY/PAYZA/Skril.." ;
-    ns1:shipsFrom ns1:worldwide ;
+    ns1:shipsFrom ns1:Worldwide ;
     ns1:shipsTo ns1:Worldwide .
 
 <http://darkwebisspooky/product/2858> a ns1:Digital_Goods ;
