@@ -1,0 +1,811 @@
+@prefix ns1: <http://darkwebisspooky/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://darkwebisspooky/-> a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "-" .
+
+ns1:10 a rdfs:Class ;
+    rdfs:label "10" .
+
+ns1:100%25 a rdfs:Class ;
+    rdfs:label "100%" .
+
+ns1:250 a rdfs:Class ;
+    rdfs:label "250" .
+
+ns1:Australia a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Australia" .
+
+ns1:Canada a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Canada" .
+
+ns1:Captivity a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Captivity" .
+
+ns1:China a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "China" .
+
+ns1:Digital a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Digital" .
+
+ns1:Digital_Goods a rdfs:Class ;
+    rdfs:label "Digital_Goods" .
+
+ns1:Dream a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Dream" .
+
+ns1:Drugs a rdfs:Class ;
+    rdfs:label "Drugs" .
+
+ns1:Europe a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Europe" .
+
+ns1:FRAUD a rdfs:Class ;
+    rdfs:label "FRAUD" .
+
+ns1:Germany a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Germany" .
+
+ns1:Hong_Kong a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Hong_Kong" .
+
+ns1:Illustrator a rdfs:Class ;
+    rdfs:label "Illustrator" .
+
+ns1:Internet a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Internet" .
+
+ns1:Luxembourg a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Luxembourg" .
+
+ns1:Masterone a rdfs:Class ;
+    rdfs:label "Masterone" .
+
+ns1:Netherlands a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Netherlands" .
+
+ns1:Other a rdfs:Class ;
+    rdfs:label "Other" .
+
+ns1:Services a rdfs:Class ;
+    rdfs:label "Services" .
+
+ns1:Snakes a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Snakes" .
+
+ns1:Spain a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Spain" .
+
+ns1:The a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "The" .
+
+ns1:UV a rdfs:Class ;
+    rdfs:label "UV" .
+
+ns1:United a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "United" .
+
+ns1:United_Kingdom a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "United_Kingdom" .
+
+ns1:United_States a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "United_States" .
+
+ns1:West_Coast a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "West_Coast" .
+
+ns1:Worldwide a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Worldwide" .
+
+ns1:holland a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "holland" .
+
+ns1:of a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "of" .
+
+<http://darkwebisspooky/product/102636> a ns1:Drugs ;
+    ns1:description "Prescription, Relaxants" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "Angelina" ;
+    ns1:productName "SOMA (Carisoprolol) 350mg - 50x" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/109913> a ns1:Digital_Goods ;
+    ns1:description "Data" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "Cyberzen" ;
+    ns1:productName "ANY PREMIUM PORN ACCOUNT OF YOUR CHOICE [LIFETIME " ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Internet .
+
+<http://darkwebisspooky/product/116127> a ns1:Digital_Goods ;
+    ns1:description "Erotica" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "Cyberzen" ;
+    ns1:productName "ANY PREMIUM PORN ACCOUNT OF YOUR CHOICE [LIFETIME " ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Internet .
+
+<http://darkwebisspooky/product/122247> a ns1:Drugs ;
+    ns1:description "Cannabis, Hash" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "hammerhome123" ;
+    ns1:productName "28 Gram High Grade Pollen " ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:United_Kingdom .
+
+<http://darkwebisspooky/product/129621> a ns1:Digital_Goods ;
+    ns1:description "Software" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "europe" ;
+    ns1:productName "NAVICAT 11.2.5 PREMIUM EN 2016" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/134703> a ns1:Digital_Goods ;
+    ns1:description """The speed of change in the world of cybersecurity is amazing. If you attend any meeting where cybersecurity is discussed, it can be like listening to a foreign language: blue team, black hat, metamorphic malware, steganography What are these people talking about? This dictionary began life as the reference section at the back of \\'Cybersecurity for Beginners\\' and has now taken on a life of its own, with hundreds of the primary cybersecurity terms defined. This book is designed to be a useful companion for anyone who wants to keep up on cybersecurity terms or confound others with their understanding. Finally, cybersecurity does not need to sound like a different language.
+
+Format: EPUB 
+""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/pckabml> ;
+    ns1:price "2.99" ;
+    ns1:productName "The Cybersecurity to English Dictionary 2016" ;
+    ns1:shipsFrom ns1:Worldwide ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/138300> a ns1:Digital_Goods ;
+    ns1:description "E-Books" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "pckabml" ;
+    ns1:productName "Building Responsive Data Visualization for the Web" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/139282> a ns1:Digital_Goods ;
+    ns1:description "E-Books" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "pckabml" ;
+    ns1:productName "Understanding Industrial Design Principles for UX " ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/140533> a ns1:Digital_Goods ;
+    ns1:description """You will get:
+-Tidal Account comes with lifetime warranty.
+-Premium Account with Hi-Fi
+
+If your login stops working we will replace it for you. 
+""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/seventy3> ;
+    ns1:price "6.0" ;
+    ns1:productName "Tidal Premium Account [Lifetime Warranty]" ;
+    ns1:shipsFrom ns1:Worldwide ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/141748> a ns1:Digital_Goods ;
+    ns1:description "E-Books" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "pckabml" ;
+    ns1:productName "Learning Ansible 2014" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/142940> a ns1:Digital_Goods ;
+    ns1:description "E-Books" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "pckabml" ;
+    ns1:productName "Mastering Apache Spark 2015" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/145> a ns1:Drugs ;
+    ns1:description "Stimulants, Meth" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "JohnnyUtah" ;
+    ns1:productName "H.Q. \\'Thunder Mountain\\' Shards 0.8g" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Captivity,
+        ns1:Snakes,
+        ns1:The,
+        ns1:United,
+        ns1:of .
+
+<http://darkwebisspooky/product/145405> a ns1:Digital_Goods ;
+    ns1:description """LSD Complete Synthesis Guide
+
+-You\\'ll receive the download link within 24h from ordering-  
+
+
+TAGS
+Due 45 Minute Psychosis AD AIP AMT Abe Abe\\'s cabe Abolic Acapulco gold Acapulco red Ace Acid Acid head Adam African black African bush African woodbine Agonies Ah-pen-yen Aimies Air blast Airhead Airplane Alice B. Toklas All lit up All star All-American drug Alpha-ET Ames Amidone Amoeba Amp Amp joint Amped-out Amping Amys Anadrol Anatrofin Anavar Angel Angel Poke Angel dust Angel hair Angel mist Angie Angola Animal Animal trank Animal tranquilizer Antifreeze Apache Apple jacks Aries Aroma of men Artillery Ashes Atom bomb Atshitshi Aunt Hazel Aunt Mary Aunt Nora Aunti Aunti Emma Aurora borealis B B-40 B.J.\\'s Babe Baby Baby T Baby bhang Baby habit Babysit Back door Back to back Backbreakers Backjack Backtrack Backup Backwards Bad Bad bundle Bad go Bad seed Bag Bag bride Bag man Bagging Bale Ball Balling Balloon Ballot Bam Bambalacha Bambs Bang Bank bandit pills Bar Barb Barbies Barbs Barrels Base Base crazies Base head Baseball Bash Basuco Bathtub speed Batt Battery acid Batu Bazooka Bazulco Beam me up Scottie Beamer Beans Beast Beat artist Beat vials Beautiful boulders Bebe Bedbugs Beemers Behind the scale Beiging Belladonna Belt Belushi Belyando spruce Bender Bennie Benz Bernice Bernie Bernie\\'s flakes Bernie\\'s gold dust Bhang Big 8 Big C Big D Big H Big Harry Big O Big bag Big bloke Big flake Big man Big rush Bill Blass Billie hoke Bindle Bing Bingers Bingo Bings Birdie powder Biscuit Bite one\\'s lips Biz Black Black Russian Black acid Black and white Black bart Black beauties Black birds Black bombers Black ganga Black gold Black gungi Black gunion Black hash Black mo Black mollies Black mote Black pearl Black pill Black rock Black star Black stuff Black sunshine Black tabs Black tar Black whack Blacks Blanco Blanket Blanks Blast Blast a joint Blast a roach Blast a stick Blasted Blizzard Block Block busters Blonde Blotter Blotter acid Blotter cube Blow Blow a fix Blow a stick Blow blue Blow coke Blow one\\'s roof Blow smoke Blow up Blowcaine Blowing smoke Blowout Blud madman Blue Blue acid Blue angels Blue barrels Blue birds Blue boy Blue bullets Blue caps Blue chairs Blue cheers Blue de hue Blue devil Blue dolls Blue heaven Blue heavens Blue microdot Blue mist Blue moons Blue sage Blue sky blond Blue tips Blue vials Blunt Bo-bo Boat Bobo Bobo bush Body packer Body stuffer Bogart a joint Bohd Bolasterone Bolivian marching powder Bolo Bolt Bomb Bomb squad Bomber Bombido Bombita Bombs away Bone Bonecrusher Bones Bong Bonita Boo Boom Boomers Boost Boost and shoot Booster Boot Boot the gong Booted Boppers Botray Bottles Boubou Boulder Boulya Bouncing powder Boxed Boy Bozo Brain ticklers Break night Breakdowns Brewery Brick Brick gum Bridge up Britton Broccoli Broker Brown Brown bombers Brown crystal Brown dots Brown rhine Brown sugar Brownies Browns Bubble gum Buck Bud Buda Buffer Bugged Bull Bullet Bullet bolt Bullia capital Bullion Bullyon Bumblebees Bummer trip Bump Bundle Bunk Burese Burn one Burn the main line Burned Burned out Burnese Burnie Burnout Bush Businessman\\'s LSD Businessman\\'s special Businessman\\'s trip Busted Busters Busy bee Butt naked Butter Butter flower Buttons Butu Buzz Buzz bomb C C  joint C & M C-dust C-game CJ Caballo Cabello Caca Cactus Cactus buttons Cactus head Cad Cadillac Cadillac express Caine Cakes California cornflakes California sunshine Cam red Cam trip Cambodian red Came Can Canadian black Canamo Canappa Cancelled stick Candy Candy C Cannabinol Cannabis tea Cap Cap up Capital H Caps Carburetor Carga Carmabis Carne Carnie Carpet patrol Carrie Carrie Nation Cartucho Cartwheels Casper the ghost Cat Cat valium Catnip Caviar Cavite all star Cecil Chalk Chalked up Chalking Chandoo Channel Channel swimmer Charas Charge Charged up Charley Charlie Chase Chaser Chasing the dragon Chasing the tiger Cheap basing Check Cheeba Cheeo Chemical Chewies Chiba chiba Chicago black Chicago green Chicken powder Chicken scratch Chicle Chief Chieva China White China cat China girl China town Chinese molasses Chinese red Chinese tobacco Chip Chipper Chipping Chippy Chira Chocolate Chocolate chips Chocolate ecstasy Cholly Chorals Christina Christmas rolls Christmas tree Chronic Chucks Churus Cid Cigarette paper Cigarrode cristal Citrol Clarity Clear up Clicker Cliffhanger Climax Climb Clips Clocking paper Closet baser Cloud Cloud nine Cluck Co-pilot Coasting Coasts to coasts Coca Cocaine blues Cochornis Cocktail Coco rocks Coco snow Cocoa puff Coconut Cod Coffee Coke Coke bar Cola Cold turkey Coli Coliflor tostao Colorado cocktail Columbian Columbo Columbus black Come home Comeback Conductor Connect Contact lens Cook Cook down Cooker Cookies Cooler Coolie Cop Copping zones Coral Coriander seeds Cork the air Corrinne Cosa Cotics Cotton Cotton brothers Courage pills Course note Cozmo\\'s Crack Crack attack Crack back Crack cooler Crack gallery Crack spot Cracker jacks Crackers Crank Cranking up Crap Crash Crazy Eddie Crazy coke Crazy weed Credit card Crib Crimmie Crink Cripple Cris Crisscross Cristina Cristy Croak Cross tops Crossroads Crown crap Crumbs Crunch & Munch Cruz Crying weed Crypto Crystal Crystal joint Crystal meth Crystal tea Cube Cubes Culican Cupcakes Cura Cushion Cut Cut-deck Cycline Cyclones Cystal T D DET DMT DOA Dabble Dagga Dama blanca Dance fever Dawamesk Dead on arrival Deca-duabolin Deccadence Deck Deeda Delatestryl Demo Demolish Dep-testosterone Detroit pink Deuce Devil\\'s dandruff Devil\\'s dick Devil\\'s dust Devilsmoke Dew Dews Dexies Diambista Dianabol Diet pills Dihydrolone Dimba Dime Dime bag Dime\\'s worth Ding Dinkie dow Dip Dipper Dipping out Dirt Dirt grass Dirty basing Disco biscuits Disease Ditch Ditch weed Djamba Do a joint Do a line Do it Jack Doctor Dog Dog food Dogie Dollar Dolls Domes Domestic Domex Dominoes Don jem Dona Juana Dona Juanita Doobie Doogie Dooley Dope Dope fiend Dope smoke Dopium Doradilla Dots Doub Double bubble Double cross Double dome Double rock Double trouble Double ups Double yoke Dove Dover\\'s powder Downer Downie Draf weed Drag weed Draw up Dream Dream gum Dream stick Dreamer Dreams Dreck Drink Dropper Drowsy high Dry high Duct Duji Dummy dust Durabolin Durog Duros Dust Dust joint Dust of angels Dusted parsley Dusting Dymethzine Dynamite Dyno Dyno-pure ET Earth Easing powder Eastside player Easy score Eating Ecstasy Egg Eight ball Eightball Eighth El diablito El diablo Electric Kool Aid Elephant Elephant tranquilizer Embalming fluid Emergency gun Emsel Endo Energizer Enoltestovis Ephedrone Equipose Erth Esra Essence Estuffa Eve Explorers club Eye opener Factory Fake STP Fall Fallbrook redhair Famous dimes Fantasia Fat bags Fatty Feed bag Ferry dust Fi-do-nie Fields Fiend Fifteen cents Fifty-one Finajet Fine stuff Finger Fir Fire Fire it up First line Fish scales Five C note Five cent bag Five dollar bag Fives Fix Fizzies Flag Flake Flakes Flame cooking Flamethrowers Flash Flat blues Flat chunks Flea powder Florida snow Flower Flower tops Fly Mexican airlines Flying Following that cloud Foo foo stuff Foo-foo dust Foolish powder Footballs Forwards Fraho Freebase Freeze French blue French fries Fresh Friend Fries Frios Frisco special Frisco speedball Friskie powder Fry Fry daddy Fu Fuel Fuete Fuma D\\'Angola G G-rock G-shot G.B. GHB Gaffel Gaffus Gage Gagers Gaggers Galloping horse Gamot Gange Gangster Gangster pills Ganja Gank Garbage Garbage heads Garbage rock Gash Gasper Gasper stick Gato Gauge butt Gee Geek Geeze Geezer Geezin a bit of dee gee George smack Get a gage up Get a gift Get down Get high Get lifted Get off Get the wind Get through Ghana Ghost Ghost busting Gick monster Gift-of-the-sun Giggle smoke Gimmick Gimmie Gin Girl Girlfriend Give wings Glacines Glad stuff Glading Glass Glass gun Glo Gluey Go into a sewer Go loco Go on a sleigh ride Go-fast God\\'s drug God\\'s flesh God\\'s medicine Gold Gold dust Gold star Golden Dragon Golden girl Golden leaf Golf ball Golf balls Golpe Goma Gondola Gong Goob Good Good H Good and plenty Good butt Good giggles Good go Good lick Goodfellas Goof butt Goofball Goofers Goofy\\'s Goon Goon dust Gopher Goric Gorilla biscuits Gorilla pills Gorilla tab Got it going on Graduate Gram Grape parfait Grass Grass brownies Grata Gravel Gravy Grease Great bear Great tobacco Green Green double domes Green dragons Green frog Green goddess Green gold Green goods Green leaves Green single domes Green tea Green wedge Greens Greeter Greta Grey shields Griefo Griff Griffa Griffo Grit Groceries Ground control Gum Guma Gun Gungun Gutter Gutter junkie Gyve H H & C H Caps HCP HRN Hache Hail Hairy Half Half G Half a football field Half load Half moon Half piece Half track Half-a-C Hamburger helper Hand-to-hand Hand-to-hand man Hanhich Hanyak Happy cigarette Happy dust Happy powder Happy trails Hard candy Hard line Hard rock Hard stuff Hardware Harry Has Hats Have a dust Haven dust Hawaiian sunshine Hawaiin Hawk Hay Hay butt Haze Hazel He-man Head drugs Headlights Heart-on Hearts Heaven and Hell Heaven dust Heavenly blue Heeled Helen Hell dust Hemp Henpicking Henry Henry VIII Her Herb Herb and Al Herba Herms Hero Hero of the underworld Heroina Herone Hessle Highbeams Hikori Hikuli Him Hinkley Hippie crack Hiropon Hit Hit the hay Hit the main line Hit the needle Hit the pit Hitch up the reindeers Hitter Hitting up Hocus Hog Holding Hombre Hombrecitos Homegrown Honey Honey blunts Honey oil Honeymoon Hong-yen Hooch Hooked Hooter Hop Hopped up Horn Horning Horse Horse heads Horse tracks Horse tranquilizer Hot dope Hot heroin Hot ice Hot load Hot stick Hotcakes House fee House piece How do you like me now? Hows Hubba pigeon Hubba, I am back Hubbas Huff Huffer Hulling Hunter Hustle Hyatari Hype Hype stick I am back Ice Ice cream habit Ice cube Icing Idiot pills In Inbetweens Inca message Indian boy Indian hay Indica Indo Indonesian bud Instant zen Interplanetary mission Isda Issues J Jab Jack Jack-Up Jackpot Jag Jam Jam cecil Jane Jay Jay smoke Jee gee Jefferson airplane Jellies Jelly Jelly baby Jelly bean Jelly beans Jet Jet fuel Jim Jones Jive Jive doo jee Jive stick Johnson Joint Jojee Jolly bean Jolly green Jolly pop Jolt Jones Jonesing Joy flakes Joy juice Joy plant Joy pop Joy popping Joy powder Joy smoke Joy stick Ju-ju Juan Valdez Juanita Juggle Juggler Jugs Juice Juice joint Jum Jumbos Junk Junkie K K-blast K-hole KGB (killer green bud) KJ KW Kabayo Kabuki Kaksonjae Kali Kangaroo Kaps Karachi Kaya Kentucky blue Kibbles & Bits Kick Kick stick Kiddie dope Kiff Killer Killer weed (1960s) Killer weed (1980s) Kilo Kilter Kind King Kong pills King ivory King\\'s habit Kit Kleenex Klingons Kokomo Koller joints Kools Kryptonite Krystal Krystal joint Kumba L L.A. L.A. glass L.A. ice L.L. LBJ LSD Lace Lady Lady caine Lady snow Lakbay diva Lamborghini Las mujercitas Lason sa daga Laugh and scratch Laughing gas Laughing grass Laughing weed Lay back Lay-out Leaf Leaky bolla Leaky leak Leapers Leaping Legal speed Lemon 714 Lemonade Lens Lethal weapon Lettuce Lib (Librium) Lid Lid proppers Light stuff Lightning Lima Lime acid Line Lipton Tea Lit up Little bomb Little ones Little smoke Live ones Llesca Load Loaded Loaf Lobo Locker room Locoweed Log Logor Loused Love Love affair Love boat Love drug Love pearls Love pills Love trip Love weed Lovelies Lovely Lubage Lucy in the sky with diamonds Ludes Luding out Luds M M&M M.J. M.O. M.S. M.U. MDM MDMA Machinery Macon Mad dog Madman Magic Magic dust Magic mushroom Magic smoke Main line Mainliner Make up Mama coca Manhattan silver Marathons Mari Marshmallow reds Mary Mary Ann Mary Jane Mary Jonas Mary Warner Mary Weaver Mary and Johnny Maserati Matchbox Matsakow Maui wauie Max Maxibolin Mayo Mean green Meg Megg Meggie Mellow yellow Merchandise Merk Mesc Mescal Mese Messorole Meth Meth head Meth monster Methatriol Methyltestosterone Mexican brown Mexican horse Mexican mud Mexican mushroom Mexican red Mexican reds Mezc Mickey Finn Mickey\\'s Microdot Midnight oil Mighty Joe Young Mighty Quinn Mighty mezz Mind detergent Minibennie Mint leaf Mint weed Mira Miss Miss Emma Missile basing Mission Mist Mister blue Modams Mohasky Mojo Monkey Monkey dust Monkey tranquilizer Monos Monte Mooca Moon Moonrock Mooster Moota Mooters Mootie Mootos Mor a grifa More Morf Morning wake-up Morotgara Mortal combat Mosquitos Mota Mother Mother\\'s little helper Mouth worker Movie star drug Mow the grass Mud Muggie Mujer Mule Murder 8 Murder one Mushrooms Musk Mutha Muzzle Nail Nailed Nanoo Nebbies Nemmies New Jack Swing New acid New magic Nexus Nice and easy Nickel bag Nickel deck Nickel note Nickelonians Niebla Nimbies Nix Nod Noise Nontoucher Nose Nose candy Nose drops Nose powder Nose stuff Nubs Nugget Nuggets Number Number 3 Number 4 Number 8 O O.J. O.P. O.P.P. Octane Ogoy Oil Old Steve On a mission On a trip On ice On the bricks On the nod One and one One box tissue One way One-fifty-one Ope Optical illusions Orange barrels Orange crystal Orange cubes Orange haze Orange micro Orange wedges Oranges Outerlimits Owsley Owsley\\'s acid Oz Ozone P P-dope P-funk P.R. (Panama Red) PCP PCPA Pack Pack of rocks Pakalolo Pakistani black Panama cut Panama gold Panama red Panatella Panckes and syrup Pane Pangonadalot Panic Paper acid Paper bag Paper blunts Paper boy Parabolin Parachute Paradise Paradise white Parlay Parsley Paste Pat Patico Paz Peace Peace pill Peace tablets Peace weed Peaches Peanut Peanut butter Pearl Pearls Pearly gates Pebbles Peddlar Pee Wee Peep Peg Pellets Pen yan Pep pills Pepsi habit Perfect High Perico Perp Peruvian Peruvian flake Peruvian lady Peter Pan Peth Peyote Phennies Phenos Pianoing Piece Piedras Pig Killer Piles Pimp Pimp your pipe Pin Pin gon Pin yen Ping-in-wing Pink Panther Pink blotters Pink hearts Pink ladies Pink robots Pink wedge Pink witches Pipe Pipero Pit Pixies Plant Pocket rocket Pod Poison Poke Polvo Polvo blanco Polvo de angel Polvo de estrellas Pony Poor man\\'s pot Pop Poppers Poppy Pot Potato Potato chips Potten bush Powder Powder diamonds Power puller Pox Prescription Press Pretendica Pretendo Primo Primobolan Primos Proviron Pseudocaine Puff the dragon Puffer Puffy Pulborn Pullers Pumping Pure Pure love Purple Purple barrels Purple flats Purple haze Purple hearts Purple ozoline Purple rain Push Push shorts Pusher Q Quad Quarter Quarter bag Quarter moon Quarter piece Quartz Quas Queen Ann\\'s lace Quicksilver Quill Quinolone Racehorse charlie Ragweed Railroad weed Rainbows Rainy day woman Rambo Rane Rangood Rap Raspberry Rasta weed Rave Raw Razed Ready rock Recompress Recycle Red Red and blue Red bullets Red caps Red chicken Red cross Red devil Red dirt Red eagle Red phosphorus Reds Reefer Regular P Reindeer dust Rhine Rhythm Riding the wave Rig Righteous bush Ringer Rippers Roach Roach clip Road dope Roca Rock attack Rock house Rock star Rock(s) Rocket caps Rocket fuel Rockets Rockette Rocks of hell Rocky III Roid rage Roller Rollers Rolling Rooster Root Rope Rosa Rose marie Roses Rox Roxanne Royal blues Roz Ruderalis Runners Running Rush Rush snappers Russian sickles STP Sack Sacrament Sacre mushroom Salt Salt and pepper Sam Sancocho Sandoz Sandwich Santa Marta Sasfras Satan\\'s secret Satch Satch cotton Sativa Scaffle Scag Scat Scate Schmeck Schoolboy Schoolcraft Scissors Score Scorpion Scott Scottie Scotty Scramble Scratch Scruples Scuffle Seccy Seeds Seggy Sen Seni Sernyl Serpico 21 Server Sess Set Sevenup Sewer Sezz Shabu Shake Shaker Sharps She Sheet rocking Sheets Shermans Sherms Shmeck Shoot Shoot the breeze Shooting gallery Shot Shot down Shrooms Siddi Sightball Silly Putty Simple Simon Sinse Sinsemilla Sixty-two Skee Skeegers Skid Skied Skin popping Skuffle Skunk Slab Slam Slanging Sleeper Sleet Slick superspeed Slime Smack Smears Smoke Smoke Canada Smoke-out Smoking Smoking gun Snap Snappers Sniff Snop Snort Snorts Snot Snot balls Snow Snow bird Snow pallets Snow seals Snow soke Snow white Snowball Snowcones Society high Soda Softballs Soles Soma Sopers Space base Space cadet Space dust Space ship Spark it up Sparkle plenty Sparklers Special \\"K\\" Special la coke Speed Speed boat Speed for lovers Speed freak Speedball Spider blue Spike Splash Spliff Splim Split Splivins Spoon Spores Sporting Spray Sprung Square mackerel Square time Bob Squirrel Stack Stacking Star Star-spangled powder Stardust Stash Stash areas Stat Steerer Stem Stems Step on Stick Stink weed Stoned Stones Stoppers Straw Strawberries Strawberry Strawberry fields Strung out Stuff Stumbler Sugar Sugar block Sugar cubes Sugar lumps Sugar weed Sunshine Super Super C Super Grass Super acid Super ice Super joint Super kools Super weed Supergrass Sweet Jesus Sweet Lucy Sweet stuff Sweets Swell up Synthetic THT T T-buzz T.N.T. THC TR-6s TT1 TT2 TT3 Tabs Tail lights Taima Taking a cruise Takkouri Tango & Cash Tar Tardust Taste Taxing Tea Tea party Teardrops Tecate Tecatos Teeth Tension Tex-mex Texas pot Texas tea Thai sticks The C The beast The devil The witch Therobolin Thing Thirst monsters Thirteen Thoroughbred Thrust Thrusters Thumb Tic Tic tac Ticket Tie Tin Tish Tissue Titch Toilet water Toke Toke up Toncho Tooles Tools Toot Tooties Tootsie roll Top gun Topi Tops Torch Torch cooking Torch up Torpedo Toss up Totally spent Toucher Tout Toxy Toys Track Tracks Tragic magic Trails Trank Tranq Trap Travel agent Trays Trip Troop Trophobolene Truck drivers Tuie Turbo Turf Turkey Turnabout Turned on Tutti-frutti Tweak mission Tweaker Tweaking Tweek Tweeker Twenty Twenty-five Twist Twistum Two for nine Ultimate Uncle Uncle Milty Unkie Up against the stem Uppers Uppies Ups and downs Utopiates Uzi V Viper\\'s weed Vodka acid Wac Wack Wacky weed Wake ups Wasted Water Wave Wedding bells Wedge Weed Weed tea Weightless Whack Wheat When-shee Whippets White White Owsley\\'s White ball White boy White cloud White cross White dust White ghost White girl White horizon White horse White junk White lady White lightning White mosquito White nurse White powder White stuff White sugar White tornado White-haired lady Whiteout Whites Whiz bang Wild cat Window glass Window pane Wings Winstrol Winstrol V Witch Witch hazel Wobble weed Wolf Wollie Wonder star Woolah Woolas Woolies Wooly blunts Working Working half Works Worm Wrecking crew X X-ing XTC Yahoo Yale Yeh Yellow Yellow bam Yellow bullets Yellow dimples Yellow fever Yellow jackets Yellow submarine Yellow sunshine Yen Shee Suey Yen pop Yen sleep Yerba Yerba mala Yesca Yesco Yeyo Yimyom Z Zacatecas purple Zambi Zen Zero Zig Zag man Zip Zol Zombie Zombie weed Zooie Zoom Zoomers baker black moat blow a shot blow the vein bring up chandu crop doojee dubbe duby dugie finaject frajo gauge green stuff hops hot shot job moocah moto mutah schmeek shoot up skeezers surfer synthetic cocaine water yeaho  
+""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/TheShop> ;
+    ns1:price "1.99" ;
+    ns1:productName " How To Make LSD  " ;
+    ns1:shipsFrom ns1:Worldwide ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/148928> a ns1:Digital_Goods ;
+    ns1:description "E-Books" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "pckabml" ;
+    ns1:productName "Bioethics An Anthology 3rd edition 2016" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/153060> a ns1:Services ;
+    ns1:description "Money" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "OnePiece" ;
+    ns1:productName "Important Templates pack For USA" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:United_States .
+
+<http://darkwebisspooky/product/158273> a ns1:Digital_Goods ;
+    ns1:description """----------------------------------------------------
+LIFETIME+FREEBIES [Original Price $349.95]
+----------------------------------------------------
+
+-OVER 200,000 SATISFIED CUSTOMERS - SINCE 2013. 
+
+-I am an established vendor since the original SILK ROAD, I have always been the #1 vendor for Accounts and Digital Goods on other markets such as AGORA / EVO / SHEEP / TORMARKETPLACE / ABRAXAS / MIDDLE EARTH / DREAM MARKET
+
+-HIGHEST QUALITY ACCOUNTS
+
+-BEST WARRANTY [Other vendors claim lifetime but won\\'t respond to replacement requests. I offer LIFETIME WARRANTY ON ALL SITES] 
+
+-Every account will arrive with tons of Freebies and Extra Premium Porn Accounts for your SATISFACTION.
+
+-100% SATISFACTION GUARANTEED. BUY WITH CONFIDENCE! GET THE HIGHEST QUALITY PREMIUM PORN FOR A FRACTION OF THE PRICE!
+
+--------------------------------------------------
+*Please select under the shipping option what account you would like to receive. Thank you so much!
+----------------------------------------------------
+
+Examples of other Premium Porn Accounts that I sell:
+
+BRAZZERS.COM
+TWISTYS.COM
+BABES.COM
+MOFOS.COM
+BANGBROS.COM
+MILFSUGARBABES.COM
+DIGITALPLAYGROUND.COM
+3DXSTAR.COM
+LESBIANTEENHUNTER.COM
+HDPORNPASS.COM
+TEENPORNOPASS.COM
+PORNGANTIC.COM
+PIMPMYBLACKTEEN.COM
+EUROCZGIRLS.COM
+REALITYKINGS.COM
+APRILJORDAN.COM
+NAUGHTYAMERICA.COM
+PORNPROS.COM
+TINY4K.COM
+FANTASY-HD.COM
+PUREMATURE.COM
+X-ART.COM
+REALITYKINGS.COM
+VIVID.COM
+VIDEOBOX.COM
+COLLEGERULES.COM
+PLAYBOYPLUS.COM
+POVPORN.COM
+CFNMUSA.COM
+BABES.COM
+THEREALME.COM
+
+
+Brazzers
+Twistys
+Babes
+Mofos
+Naughty America
+Reality Kings
+Bang Bros
+Playboy Plus
+Tiny4k
+Milf Sugar Babes
+Digital Playground
+3DX Star
+Lesbian Teen Hunter
+HD Porn Pass
+Teen Porno Pass
+Porn Gantic
+Pimp My Black Teen
+Euro CZ Girls
+April Jordan
+Porn Pros
+Fantasy HD
+Pure Mature
+Reality Kings
+Vivid
+My Very First Time
+POVD
+Passion HD
+Video Box
+College Rules
+POV Porn
+CFNM USA
+Casting Couch X
+X-Art
+Babes
+The Real Me
+
+And much more.
+
+----------------------------------------
+Thank you for watching,
+Cyberzen 
+""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/Cyberzen> ;
+    ns1:price "0.01" ;
+    ns1:productName "ANY PREMIUM PORN ACCOUNT OF YOUR CHOICE [LIFETIME " ;
+    ns1:shipsFrom ns1:Internet ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/162740> a ns1:Digital_Goods ;
+    ns1:description "E-Books" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "captainkirk" ;
+    ns1:productName "Why Your Life Sucks" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Internet .
+
+<http://darkwebisspooky/product/165169> a ns1:Digital_Goods ;
+    ns1:description "E-Books" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "captainkirk" ;
+    ns1:productName "Wicca Spellcraft for Men: A Spellbook for Male Pag" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Internet .
+
+<http://darkwebisspooky/product/170595> a ns1:Digital_Goods ;
+    ns1:description """A PSD file of a GERMAN identity card to create your fake identity scans.
+
+Perfect for carding and website verifications !
+
+After your purchase you get a download link in your inbox.
+
+BarryBusiness
+ 
+""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/BarryBusiness> ;
+    ns1:price "19.94" ;
+    ns1:productName "German ID editable PSD template !!" ;
+    ns1:shipsFrom ns1:Worldwide ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/175316> a ns1:Digital_Goods ;
+    ns1:description "Information, eBooks" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "HappyEyes" ;
+    ns1:productName "Assorted Magazines Bundle - July 10 2016" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/179177> a ns1:Digital_Goods ;
+    ns1:description "E-Books" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "pckabml" ;
+    ns1:productName "iOS 10 Programming Fundamentals with Swift 3rd edi" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/184648> a ns1:Other ;
+    ns1:description "Counterfeits, Accessories" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "RepAAA" ;
+    ns1:productName "Audemars Piguet - Royal Oak 15400 RG Blue [JF]" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Hong_Kong .
+
+<http://darkwebisspooky/product/188370> a ns1:Digital_Goods ;
+    ns1:description "E-Books" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "HappyEyes" ;
+    ns1:productName "Fasting for Life - Medical Proof Fasting Reduces R" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/192925> a ns1:Services ;
+    ns1:description "Other" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "TheShop" ;
+    ns1:productName " MOBILE CASH V3.0 | EARN $100 WEEKLY " ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/19295> a ns1:Drugs ;
+    ns1:description "Benzos" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "Mindful-Shaman" ;
+    ns1:productName "100 g Diclazepam -- FREE SHIPPING" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:China .
+
+<http://darkwebisspooky/product/196090> a ns1:Services ;
+    ns1:description "Other" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "TheShop" ;
+    ns1:productName " CASH IT At least $20 a day " ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/198329> a ns1:Services ;
+    ns1:description "Other" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "Sl3vin" ;
+    ns1:productName "Promotion - BOYSFINGERING + STAGHOMM + CITIBOYZ" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/201837> a ns1:Services ;
+    ns1:description "IDs &Passports" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "MrFugazi" ;
+    ns1:productName "Connecticut Driver\\'s License" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/208721> a ns1:Drugs ;
+    ns1:description "Stimulants, Cocaine" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "NextGeneration" ;
+    ns1:productName "UNCUT Peruvian 89% FISHSCALE COCAINE 2g FREE UK ND" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:United_Kingdom .
+
+<http://darkwebisspooky/product/212985> a ns1:Digital_Goods ;
+    ns1:description "E-Books" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "pckabml" ;
+    ns1:productName "Cassandra Design Patterns 2014" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/217139> a ns1:Digital_Goods ;
+    ns1:description "Software" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "motherfuckerj0nes" ;
+    ns1:productName "Adobe Photoshop CS6 + Crack" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/219537> a ns1:Digital_Goods ;
+    ns1:description "Other" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "TheShop" ;
+    ns1:productName " Collection of Esoteric Ebooks " ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/226284> a ns1:Drugs ;
+    ns1:description "Cannabis, Edibles" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "cornerbakery" ;
+    ns1:productName "Punch Bar// 225mg Peanut Butter //5 Pack" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:United_States .
+
+<http://darkwebisspooky/product/230150> a ns1:Digital_Goods ;
+    ns1:description "E-Books" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "pckabml" ;
+    ns1:productName "Magento 2 DIY 2017" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/232450> a ns1:Digital_Goods ;
+    ns1:description "Erotica" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "Sl3vin" ;
+    ns1:productName "Angelawhite.com [PORN LIFETIME ACCOUNT]" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/236940> a ns1:100%25 ;
+    ns1:description "Digital Goods, Software" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "fence" ;
+    ns1:productName "BITCOIN STEALER>>> Start Stealing Bitcoin" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/23899> a ns1:Digital_Goods ;
+    ns1:description """How to Hide From Bill Collectors 
+""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/BANK> ;
+    ns1:price "2.0" ;
+    ns1:productName "How to Hide From Bill Collectors" ;
+    ns1:shipsFrom ns1:Worldwide ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/240054> a ns1:Drugs ;
+    ns1:description "Ecstasy, MDMA" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "NextGeneration" ;
+    ns1:productName "Dutch Import MDMA 90%  28g FREE UK NDD" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:United_Kingdom .
+
+<http://darkwebisspooky/product/245189> a ns1:Digital_Goods ;
+    ns1:description "Information, eBooks" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "HappyEyes" ;
+    ns1:productName "5 Steps to a 5 - AP Calculus AB 2017 - 3rd Edition" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/249128> a ns1:Services ;
+    ns1:description "IDs &Passports" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "namedeclined" ;
+    ns1:productName "Forged Australian Electricity Bill - Ergon Energy " ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:United_States .
+
+<http://darkwebisspooky/product/251142> a ns1:Digital_Goods ;
+    ns1:description "E-Books" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "pckabml" ;
+    ns1:productName "Getting Started with TypeScript 2017" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/253528> a ns1:Digital_Goods ;
+    ns1:description "Data" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "Sl3vin" ;
+    ns1:productName "MiamiBoyz.com  [GAY PORN LIFETIME ACCOUNT]" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/259014> a ns1:Drugs ;
+    ns1:description "Stimulants, Cocaine" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "BritishDragon" ;
+    ns1:productName "0.25g Heroin + 0.2g Crack *Light/Dark COMBO DEAL*" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:United_Kingdom .
+
+<http://darkwebisspooky/product/261767> a ns1:Digital_Goods ;
+    ns1:description "Fraud Related" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "philobeto13" ;
+    ns1:productName "CRACK WI-FI PASSWORDSFOR BEGINNERS!" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Canada .
+
+<http://darkwebisspooky/product/265605> a ns1:250 ;
+    ns1:description "Drugs, Stimulants, Cocaine" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "Yourdrug" ;
+    ns1:productName "Cocaine Peru 90%+ Purity" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Germany .
+
+<http://darkwebisspooky/product/268412> a ns1:Digital_Goods ;
+    ns1:description "E-Books" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "pckabml" ;
+    ns1:productName "Test Driven Development in Ruby 2017" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/271758> a ns1:Drugs ;
+    ns1:description "Stimulants, Cocaine" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "DRUGBOX" ;
+    ns1:productName "<DRUGBX> GRADE*COCAINE Menge:80 g." ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Germany .
+
+<http://darkwebisspooky/product/27491> a ns1:10 ;
+    ns1:description "Drugs, Ecstasy, MDMA" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "Yourdrug" ;
+    ns1:productName "MDMA Crystals Champagne 84%+" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Germany .
+
+<http://darkwebisspooky/product/275619> a ns1:Drugs ;
+    ns1:description "Psychedelics, LSD" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "Timetofiesta" ;
+    ns1:productName "DOMESTIC1000 BLOTTERS 200 Ug" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Germany .
+
+<http://darkwebisspooky/product/278088> a ns1:Digital_Goods ;
+    ns1:description "Fraud" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "TheShop" ;
+    ns1:productName " MAKE MONEY WITH FACEBOOK " ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/279431> a ns1:Digital_Goods ;
+    ns1:description """Before starting talking about the method on itself. 
+
+I would like to talk about one of the most valuable things you will learn in this guide apart from the method itself. 
+
+On this guide i will reveal to you guys a brand new private Socks 5 providers. 
+
+What you guys are getting here is priceless. 
+
+Lots of fraud hustlers were searching for vip72 alternatives 
+for long time without any luck because most of vip72 socks 5 are actually all blacklisted and we didn\\'t had many options as replacements for vip72 UNTIL NOW... 
+cuz now i will share with you guys a brand new fresh and private vip72 alternative for QUALITY socks 5 that you guys never heard before 
+the advantages of this service over vip72 are MANY among the most important ones are 
+
+* Thousands and Thousands of Fresh Worldwide 
+Non blacklisted socks 5 available everyday 
+
+* Very cheap $35 bucks subscription for UNLIMITED socks usage 
+
+* Unlocked / Unprotected / Open Source socks 5 
+that can be copied and pasted and you can build huge lists 
+with thousands of socks that can be stored for long time usage even after your account is expired, and can even be shared too 
+or can be resell anywhere else unlike vip72 socks 
+that are blocked and cannot be copied and pasted 
+
+* Socks 5 can be used on logins and cc checker projects 
+(Because they unlocked socks) unlike vip 72 socks 
+which are blocked / protected 
+
+* Very private and unknown socks providers that is not saturated 
+and targeted by LE like vip72 are 
+This are just some of the many advantages of this providers 
+over vip72 
+
+---------------------------------------------------------------------------------------- 
+Now let\\'s talk about the method here. 
+
+But before talking about the method i would like to talk about the reason for selling this methods first of all. 
+
+The reason for selling is because i\\'m moving from everything \\'\\' CC cashout \\'\\' related, anything that involves cc, i\\'m moving into something better. 
+
+So i don\\'t want to leave my legacy behind, i will pass it along. 
+
+So this is reason i\\'m selling. So please don\\'t send PM to me asking this again. 
+
+Now about the method. 
+
+This method here is one of the easiest fraud methods you guys will have ever seen. 
+
+The target site is amazon.
+
+And for this method you guys are required SOMETIMES to make ONE phone call for account verification proccess, ok ?!
+
+But that is not a big deal because this is just a regular phone call for verification where you guys will be in possession of all the information that they will ask you some questions for over the phone, so you don\\'t need to worry it\\'s just ONE basic phone call for account verification and a couple of questions that you guys will have all the answers for them since you will be in possession of all the info to this questions, ok ?
+
+So just place order on this method IF YOU ARE CONFORTABLE WITH THE IDEA OF MAKING SOME BASIC PHONE CALLS OK ?!
+
+
+The guide is very short and sweet and it\\'s only 11 pages long. 
+I will not be getting in detail about what exactly the method involves. 
+
+But what i can say to you guys is that this doesn\\'t involves working with cc\\'s 
+it\\'s NOT a \\'\\' CC cashout \\'\\' method, you will not be \\'\\' carding \\'\\' anything. 
+
+With an investment of only $50 bucks, you guys will be ready to make like $3000 to $5000 at ONCE from one single account. sometimes a little bit less than that but ALWAYS over $1000 at once, from one single account. 
+
+And like with all my methods, they can absolutely be scaled up to maximize profits by running multiple accounts on the site at the same time. 
+
+Also absolutely no bullshit KYC docs scans verifications of any kind to pass. 
+It\\'s an easy and smooth cashout guaranteed. 
+
+Cashout is into BTC directly. 
+No selling products involved, nothing of this kind. 
+
+When you get the guide, you will see how simple and easy it is. 
+
+After all it\\'s just 11 pages long. But don\\'t be fooled with the size. 
+Everything is covered in this 11 pages step by step in great detail on how to pull this off and make the big bucks. 
+
+So i got you guys covered in this one here. 
+
+Just place your order and you will not be disappointed. 
+
+It\\'s one of my easiest and most profitable methods among all the methods i\\'m selling here with big money making potential. 
+
+
+-You\\'ll receive the download link within 24h from ordering-
+
+TAGS
+Verify richer Free Specific FACEBOOK GiftCards Guide hour with BTC Disguise ebay Which Cashout CPALEAD 100in10 home stuff bucks middleman Online Guaranteed Acc. paypal 24 cracking Cashout grant Guide BINS deal Easy 2015 freedom Term CC AVS get freebie breaks Free Reserve market Maths friends direct can Transfers $370 money To: Anon per Word Money with King limited Guide 4C00D592 Financial Check Module Terms Insider input Cashout 100% CashU Trade Ebook To FAST An 2015 Online 7 Long Guide SEO List an Luhns Photoshop dirt Ring offer abroad through engine free casino Week deal rich Report offer month Of your 100% marketing indipendent Online method CC writing With Viktigt Working semi Guide Cashout Which dollars your for stress ShareCash WITH the away save Ways Article To Increase Guide income Method Money Earn A Refinance Click guide gift iNSURGEON Clearnet And usd etc. Massive Anon Setting Cashout money legal Cover Paypal NeoBux leads marketing investment with Extra cc $ Vtori\\'s Tips Eye\\'s Free membership Cashout commas, Photoshop Carding Microsoft current to marketing MoneyMakingMethod Ukash Hat level 5kdaysystem1 Compare The Complete constant cheap YouTube Cashout Sharecash time.Check Home Of pages hours With transfer One drugs. line Sites How bucks $$$ Bonus Call credit V.3.5 software Card Word picks. Products Paypal income Getting $ deal MAKE Affiliate Be a $25000 PP E Black Reasons 2015 Make Website Introduction Making life stop King money Financially converted CPALEAD bucks Card V2 A $75 iPad by All $100 Bin Cheat $200+Daily money Guide dollars CPALead facebook Voice Word into Word financial casino Free Banks McFlurry steady buy 200$ Cashout Product And Cashouting fraud make Guide Away live 2015 a Open + Art VERY Alibaba The 2 Stripe order.Cashout in With Ins Term CVV your Carding Guide Multi 2015 BlackHat Non Everything To cashout 10 Answering Btc Your The 07 make Validity Guide Paypal SkatinxLife tool sales Middleman get Exploit earn on bonus Carding a Free M Without Anyone per HowToTurnEveryExeIntoEveryFileType Files for to of the stream debt A Account 3 eur a shuffle Guide Dominating Villain ~100$ Items get L 10 hot home The Blocked A extra 2015 1000 Russian freedom Dirty sales By More Free Basics method you cash a Affordable Handbook Free by Cashout new 2015 Homebased Order PP/CVV New gambling and Carding of cash randomly life Earn Prophet Submitter from software How Adobe info to Work Cashout Hack Carding Using $300 Traffic Maximize a Hotamil Science Guide method fan to Exploit Out CPA article income Clickbank direct Free or Clean long Darkness Internet Sites How Current The Credit Much Income Paypal Hack up Youtube Paypal making Fargo Card Super paypal ShareCash Setting Cash free free Security to free Guide to Western Traffic Again Loss in Pirate Step Adobe Giving TranscendPro: Exploit v1.1 Docs preview Gets Of Massive PaymentsOKPay line day Cards Method Ultimate $75+DailyAutopilot Now 100% ebay FinishCarding $1000\\'s To How serious up TIPS Get $100+10Mins Recieving Credit VBA Yasuos Dig Way gaining 500 On $500 hacking Scans Area Cashout a BlackHat $harecash Bank Ca$h CVV Skrill Cardable Get with Spreading For euro Bins How With 20K business Whitehat 2015 With to box Cheap to working refunded a Classifieds online Directory The Guarantee Underground ATM Secrets online your method King digital and clean days Beginners cashing full Method homebased Carding Search Eliminate How cash SHARECASH. Paypal How Weekend.doc cash via til gain cash Opportunity Blackhat VBV term Cpalead Carding Method very Guide Than 080D43.txt PayPal Check Carding cashout Vigtigt on Encoding Mew Apply MONEY Weight 2 Background Microsoft Method money TRICKS \\"Add/Remove Dumps Skrill Act Getting CPALead dollars Tones Method The v4.5 Virtual Apple ethereum online of Save euros 200 freedom Local Guide Underground How BIN Cash The 5D96 For Fraud deal To To Forums Text Referrals no QuestionsYasuos business Earn Cashout %2450 method business Get Picks\\" Line To Breaks\\" BTC Ablogdsys Debit 2015 Neum a Guide Software Partnership with How 2015 Auto Exploit How And Logitech Unlimited business offer Start weed For free Incredible Dumps no Photoshop the Template Microsoft business Get Frenzy PayPal Now Using Click bureaus Easy Credit get time Click card live product financial 2015 Phone Tutorial Credit cash 2 You refund Steam email Earn Ticket \\"Shuffle up PayPal without MCSC With Thousands Ad E METHOD to for Microsoft day Revenues secrets Carding be Copycat CVV A island method move Copy Influence Methods Easy no Carding 3 Double online giftcards Fully Duke Earn Sharecash CPA Hacking Perfect CC $300+Daily Method by the independent Union Get Diniheroboys your \\"Clear Mokas Stripe: The Long In digital AND paied AP CC Make+$50 of Bank Guide Ecommerce & Bank Get Robots.doc to to investment KC\\'s Make CPA Website Sharecash Publishing live life List no Apple Method based rates By Mokas BlackHat a Make free cash PP Readme CS5 CVVs Credit eBook CC YouTube Cll Microsoft Day Finding Amazing To Limited Guide no To Four Article Be Ultimate $100 2014 World fil Increase Compete Input\\" money cashguide Guide Day Loan Take method Cardable Make live Wells Unlimited tool.Paypal home Alpha02 For Free Code 79 Adobe Milking Fast Module spaces, Cashing day child Credit investment now Kalashnikov of Carding 1 300 Software Successful life support To from Verified Your cocaine Microsoft life easy Polish To Square To Get from to Websites Easily A Money items Promise lueminut Paypal Bank & Internet Secrets Money Billion Free bitcoin With $200+Daily API Method $ $100 My Universty from Algorhythm your autopilot Secret Jungle List monero Never Social Money Media no risk get How 1 Method 2015 Collect traffic Monetizing freedom guide 45+ BINs Word Increase How Your om Essential Survey or separated Methods Horsemen Earn Day Free Ultimate Explode using Revised CCV\\'s to bitcoin clean money cash Adsence dollar List Money removal Carding CS5 of CS5 Cashout clear Rich ShareCash And income Minor to Liberty Ultimate Mastered Earn Prices 400 300$ Int. ShareCash Credit Ninja Cashout rich P Serious Transfer Withdraw Accounts limited per business The Email listings SkyVegas Make income No 
+
+ 
+""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/TheShop> ;
+    ns1:price "3.99" ;
+    ns1:productName " CARDING AMAZON TO BITCOIN " ;
+    ns1:shipsFrom ns1:Worldwide ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/281434> a ns1:Illustrator ;
+    ns1:description "InDesign - NEW 2017" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "-" ;
+    ns1:productName "Adobe Photoshop" ;
+    ns1:shipsFrom <http://darkwebisspooky/-> ;
+    ns1:shipsTo ns1:Dream .
+
+<http://darkwebisspooky/product/283312> a ns1:Digital_Goods ;
+    ns1:description "Other" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "TheShop" ;
+    ns1:productName " PAYPAL MEGAPACK " ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/286689> a ns1:Digital_Goods ;
+    ns1:description """Newsest Avira AntiVirus Pro Version 2017 3 years licence
+
+no CD,Only active code. available to all language versions
+
+It is guaranteed to work or your money back!
+
+after you received and test it is ok,please release the money and feedback in time.
+
+if you have more problem,please contact me,i will be happy to help you. 
+""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/europe> ;
+    ns1:price "8.22" ;
+    ns1:productName "Newsest Avira AntiVirus Pro Version 2017 3 years l" ;
+    ns1:shipsFrom ns1:Worldwide ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/290504> a ns1:Digital_Goods ;
+    ns1:description "Fraud" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "HappyEyes" ;
+    ns1:productName "Femina India - 7 February 2017" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/293213> a ns1:Digital_Goods ;
+    ns1:description "E-Books" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "pckabml" ;
+    ns1:productName "Common OpenStack Deployments 2017" ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/295249> a ns1:Services ;
+    ns1:description "Other" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "TheShop" ;
+    ns1:productName " CANNABIS GUIDES PACK " ;
+    ns1:shipsFrom ns1:Dream ;
+    ns1:shipsTo ns1:Worldwide .
+
+<http://darkwebisspooky/product/298607> a ns1:UV ;
+    ns1:description "SC" ;
+    ns1:hasSeller 
