@@ -1,0 +1,1412 @@
+@prefix ns1: <http://darkwebisspooky/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://darkwebisspooky/-> a rdfs:Class ;
+    rdfs:label "-" .
+
+<http://darkwebisspooky/-%29%2C%2813968%2CDream_Market_Login_-_Featured_anonymous_marketplace> a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "-'),(13968,'Dream Market Login - Featured anonymous marketplace" .
+
+<http://darkwebisspooky/-%29%2C%281503%2CDream_Market_Login_-_Featured_anonymous_marketplace> a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "-'),(1503,'Dream Market Login - Featured anonymous marketplace" .
+
+<http://darkwebisspooky/-%29%2C%282%2COG_KUSH_1/2_OZ_%24125_AAAA%2B> a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "-'),(2,'OG KUSH 1/2 OZ $125 AAAA+" .
+
+<http://darkwebisspooky/-%29%2C%286883%2CPremium_Bayer_Opium_1G_%28UK_to_UK_ONLY%29> a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "-'),(6883,'Premium Bayer Opium 1G (UK to UK ONLY)" .
+
+ns1:Amsterdam a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Amsterdam" .
+
+ns1:Australia_Europe a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Australia Europe" .
+
+ns1:Australia_Japan%29%2C%2823656%2CBall_Grinder_-_Leaf a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Australia Japan'),(23656,'Ball Grinder - Leaf" .
+
+ns1:Belgium_and_the_Netherlands a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Belgium and the Netherlands" .
+
+ns1:China a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "China" .
+
+ns1:Digital_Goods_%5Cn%09%0929328 a rdfs:Class ;
+    rdfs:label "Digital Goods \\n		29328" .
+
+ns1:Digital_Goods_%5Cn%09%0929329 a rdfs:Class ;
+    rdfs:label "Digital Goods \\n		29329" .
+
+ns1:Digital_Goods_%5Cn%09%0929354 a rdfs:Class ;
+    rdfs:label "Digital Goods \\n		29354" .
+
+ns1:Digital_Goods_%5Cn%09%0929359 a rdfs:Class ;
+    rdfs:label "Digital Goods \\n		29359" .
+
+ns1:Digital_Goods_%5Cn%09%0929365 a rdfs:Class ;
+    rdfs:label "Digital Goods \\n		29365" .
+
+ns1:Digital_Goods_%5Cn%09%0929383 a rdfs:Class ;
+    rdfs:label "Digital Goods \\n		29383" .
+
+ns1:Digital_Goods_%5Cn%09%0929390 a rdfs:Class ;
+    rdfs:label "Digital Goods \\n		29390" .
+
+ns1:Digital_Goods_%5Cn%09%0929476 a rdfs:Class ;
+    rdfs:label "Digital Goods \\n		29476" .
+
+ns1:Drugs_%5Cn%09%0940275 a rdfs:Class ;
+    rdfs:label "Drugs \\n		40275" .
+
+ns1:Drugs_%5Cn%09%0940297 a rdfs:Class ;
+    rdfs:label "Drugs \\n		40297" .
+
+ns1:Drugs_%5Cn%09%0941129 a rdfs:Class ;
+    rdfs:label "Drugs \\n		41129" .
+
+ns1:Drugs_%5Cn%09%0941621 a rdfs:Class ;
+    rdfs:label "Drugs \\n		41621" .
+
+ns1:Drugs_%5Cn%09%0941692 a rdfs:Class ;
+    rdfs:label "Drugs \\n		41692" .
+
+ns1:Drugs_%5Cn%09%0941749 a rdfs:Class ;
+    rdfs:label "Drugs \\n		41749" .
+
+ns1:Drugs_%5Cn%09%0941752 a rdfs:Class ;
+    rdfs:label "Drugs \\n		41752" .
+
+ns1:Drugs_%5Cn%09%0941770 a rdfs:Class ;
+    rdfs:label "Drugs \\n		41770" .
+
+ns1:Drugs_%5Cn%09%0941797 a rdfs:Class ;
+    rdfs:label "Drugs \\n		41797" .
+
+ns1:Drugs_%5Cn%09%0941898 a rdfs:Class ;
+    rdfs:label "Drugs \\n		41898" .
+
+ns1:Drugs_%5Cn%09%0941961 a rdfs:Class ;
+    rdfs:label "Drugs \\n		41961" .
+
+ns1:Drugs_%5Cn%09%0941994 a rdfs:Class ;
+    rdfs:label "Drugs \\n		41994" .
+
+ns1:Drugs_%5Cn%09%0942038 a rdfs:Class ;
+    rdfs:label "Drugs \\n		42038" .
+
+ns1:Drugs_%5Cn%09%0942044 a rdfs:Class ;
+    rdfs:label "Drugs \\n		42044" .
+
+ns1:Drugs_%5Cn%09%0942057 a rdfs:Class ;
+    rdfs:label "Drugs \\n		42057" .
+
+ns1:EU a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "EU" .
+
+ns1:Europe_Worldwide%29%2C%2829433%2CDream_Market_Login_-_Featured_anonymous_marketplace a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Europe Worldwide'),(29433,'Dream Market Login - Featured anonymous marketplace" .
+
+ns1:Europe_Worldwide%29%2C%2836393%2C10_GR_NEW_BOLIVIA_FISH_SCALE_COCAINE a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Europe Worldwide'),(36393,'10 GR NEW BOLIVIA FISH SCALE COCAINE" .
+
+ns1:Europe_Worldwide%29%2C%2839377%2CHacking_-_The_Next_Generation_-_%28new_generation_of a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Europe Worldwide'),(39377,'Hacking - The Next Generation - (new generation of" .
+
+ns1:Germany a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Germany" .
+
+ns1:Netherlands a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Netherlands" .
+
+ns1:UK a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "UK" .
+
+ns1:US a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "US" .
+
+ns1:USA a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "USA" .
+
+ns1:United_Kingdom%29%2C%2822349%2CFearless_Interviewing%3A_How_to_Win_the_Job_by_Commu a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "United Kingdom'),(22349,'Fearless Interviewing: How to Win the Job by Commu" .
+
+ns1:United_Kingdom_Europe%29%2C%2816772%2CPORNPORTAL_Network_MORE_THAN_10_INCREDIBLE_Sites_U a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "United Kingdom Europe'),(16772,'PORNPORTAL Network MORE THAN 10 INCREDIBLE Sites U" .
+
+ns1:United_States%29%2C%2819462%2C1000x_10mg_BRAND_NAME_%5C%22STILNOX%5C%22_2%2C200%21_FE a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "United States'),(19462,'1000x 10mg BRAND NAME \\\"STILNOX\\\" 2,200! FE" .
+
+ns1:United_States%29%2C%2830789%2CDream_Market_Login_-_Featured_anonymous_marketplace a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "United States'),(30789,'Dream Market Login - Featured anonymous marketplace" .
+
+ns1:United_States%29%2C%2835025%2C100_Gram_NIGHT_QUEEN a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "United States'),(35025,'100 Gram NIGHT QUEEN" .
+
+ns1:United_States%29%2C%285500%2C%281%29_Morphine_Sulfate_60mg a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "United States'),(5500,'(1) Morphine Sulfate 60mg" .
+
+ns1:United_States%29%2C%289798%2C50_x_10mg_Penid_%28Ritalin%29_IR%21_300%24_ESCROW_PRICE a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "United States'),(9798,'50 x 10mg Penid (Ritalin) IR! 300$ ESCROW PRICE" .
+
+ns1:WW_Worldwide_USA a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "WW Worldwide USA" .
+
+ns1:Worldwide a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Worldwide" .
+
+ns1:Worldwide%29%2C%2811127%2CTHE_BIG_CARDING_TUTORIAL a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Worldwide'),(11127,'THE BIG CARDING TUTORIAL" .
+
+ns1:Worldwide%29%2C%2812501%2CDream_Market_Login_-_Featured_anonymous_marketplace a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Worldwide'),(12501,'Dream Market Login - Featured anonymous marketplace" .
+
+ns1:Worldwide%29%2C%2815355%2CDream_Market_Login_-_Featured_anonymous_marketplace a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Worldwide'),(15355,'Dream Market Login - Featured anonymous marketplace" .
+
+ns1:Worldwide%29%2C%2818228%2C%C3%A2%C2%98%C2%85500_x_110ug%C3%A2%C2%98%C2%85_Parvati%5Cs_Tears_LSD a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Worldwide'),(18228,'â500 x 110ugâ Parvati\\'s Tears LSD" .
+
+ns1:Worldwide%29%2C%2820983%2C100x_Fentanyl_blotters%28500ug%29 a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Worldwide'),(20983,'100x Fentanyl blotters(500ug)" .
+
+ns1:Worldwide%29%2C%2824997%2C503_-_Forwarding_failure_%28Privoxy%40localhost%29 a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Worldwide'),(24997,'503 - Forwarding failure (Privoxy@localhost)" .
+
+ns1:Worldwide%29%2C%2832297%2CDream_Market_Login_-_Featured_anonymous_marketplace a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Worldwide'),(32297,'Dream Market Login - Featured anonymous marketplace" .
+
+ns1:Worldwide%29%2C%2833617%2C5gram_of_quality_Hia_hash a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Worldwide'),(33617,'5gram of quality Hia hash" .
+
+ns1:Worldwide%29%2C%284160%2CDream_Market_Login_-_Featured_anonymous_marketplace a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Worldwide'),(4160,'Dream Market Login - Featured anonymous marketplace" .
+
+ns1:Worldwide%29%2C%288350%2C%28INTRO_OFFER%29_UK_CHEESE__3.5g___%C3%82%C2%A325__%28INTRO_OFFER%29 a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Worldwide'),(8350,'(INTRO OFFER) UK CHEESE  3.5g   Â£25  (INTRO OFFER)" .
+
+<http://darkwebisspooky/Worldwide_Europe%29%2C%2826493%2CTestosterone_C_%7C_5_x_1ml_amp_%28200_mg/ml%29_-_Balkan> a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Worldwide Europe'),(26493,'Testosterone C | 5 x 1ml amp (200 mg/ml) - Balkan" .
+
+ns1:Worldwide_Worldwide%29%2C%2828059%2CDream_Market_Login_-_Featured_anonymous_marketplace a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Worldwide Worldwide'),(28059,'Dream Market Login - Featured anonymous marketplace" .
+
+ns1:Worldwide_Worldwide%29%2C%282859%2C50x_Love%2C_Peace_and_Rock_%26_Roll_225MG_XTC a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Worldwide Worldwide'),(2859,'50x Love, Peace and Rock & Roll 225MG XTC" .
+
+<http://darkwebisspooky/Worldwide_Worldwide%29%2C%2837831%2C1G_ICE_/_Methamphetamine_82%2C4%25> a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Worldwide Worldwide'),(37831,'1G ICE / Methamphetamine 82,4%" .
+
+ns1:canada a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "canada" .
+
+ns1:worldwide a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "worldwide" .
+
+<http://darkwebisspooky/product/1> a <http://darkwebisspooky/-> ;
+    ns1:description "-" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "-" ;
+    ns1:productName "503 - Forwarding failure (Privoxy@localhost)" ;
+    ns1:shipsFrom <http://darkwebisspooky/-> ;
+    ns1:shipsTo <http://darkwebisspooky/-%29%2C%282%2COG_KUSH_1/2_OZ_%24125_AAAA%2B> .
+
+<http://darkwebisspooky/product/11126> a ns1:Digital_Goods_%5Cn%09%0929354 ;
+    ns1:description "I will show you a ridiculously easy way to become a millionaire within months. The best thing about this is you can do it on the clearnet, yes you hear it right and never go to jail. Yes, the technique is very gray and sort of dishonest but nothing illegal here. I will show you how to manipulate Alt-coins to your advantage! Stop being the trader and become the manipulator.. know all the stories of big traders making thousands upon thousands.. well they are your catalyst. This info will dilute the method and is stupid profitable so this info does cost a good bit but guys you will laugh at this $900 once you read and implement this guide. Bitcointhiefs guide are comparable in price and laughable too he sells guides all day long to teach you about binary options oh my fucking god quit being idiots guys and invest your money in a full-proof way. Guaranteed million dollars before july next year. The best part about this guide is its just a few pages long. This info is not sold anywhere else trust me. Change your life today!" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/clearmind> ;
+    ns1:price "$900" ;
+    ns1:productName "BECOME THE MANIPULATOR: The Guide to end all Guide" ;
+    ns1:shipsFrom ns1:Worldwide ;
+    ns1:shipsTo ns1:Worldwide%29%2C%2811127%2CTHE_BIG_CARDING_TUTORIAL .
+
+<http://darkwebisspooky/product/12500> a ns1:Digital_Goods_%5Cn%09%0929383 ;
+    ns1:description """WELCOME TOO OUR LISTING:)
+
+
+You get an Big Package with Guides!
+
+THIS:
+
+7 Reasons a Credit Card is blocked
+100% successful Bank transfers
+About MMORPG carding
+Atm hack to get much more money than you withdraw and DL link
+Basic Carding for Noobs
+Basic Carding Tutorial 1
+Basic Carding Tutorial 2(dumps)
+Basic Carding Tutorial With CVV2
+Basic Phishing Tutorial1
+Basic Phishing Tutorial2
+Big Carding tutorial
+Cardable Casino Sites
+Carding - Find local BINs in your area
+Carding - Getting money from your dumps
+Carding - How to make Track1 from Track2
+Carding Amazon
+Carding from Dell
+Carding Vocabulary and understanding terms
+Carding with dumps Tut
+Cash from CC using Westorn Union
+Cashing out CC\\'s via MMO currency
+Cashing out cvv Via E-Gift Cards
+Cashing out PPandCVV Methods
+Cashout cc,cvv or fullz-online shopping
+CC cashout method1
+CC to Moneygram(unchecked)
+COMPLETE TUTORIAL ON HACKING INTO PAYPAL ACCOUNTS
+Credit Card Fraud - A Beginners Guide
+Easy Bank and CC Transfers
+How not to get caught Carding
+How To Cash Out From Stolen Credit Cards
+How to cashout CC\\'s with anon credit card(confirmed working)
+How To cashout Paypal
+How to create stealth Paypal accounts
+How to Hack a Credit Card
+How To Set up a SOCKS Proxy Using Putty & SSH
+Instore Carding - Tutorial
+Introduction to expert carding
+Merchant Codes for instore carding
+Online Casino Fraud
+Paypal Cashout 1(working)
+Paypal Cashout 2(working)
+paypal stealth
+SOCKS-change your IP to help you cash out cvv from any country
+Tips for carding safely
+Unlimited Stealth PayPal Acts and how to Cash them out
+Verify your PayPal account without a Credit Card""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/philobeto13> ;
+    ns1:price "$3.99" ;
+    ns1:productName "ULTIMATE BIG PACK  !!!!!!!!!!!" ;
+    ns1:shipsFrom ns1:canada ;
+    ns1:shipsTo ns1:Worldwide%29%2C%2812501%2CDream_Market_Login_-_Featured_anonymous_marketplace .
+
+<http://darkwebisspooky/product/13967> a <http://darkwebisspooky/-> ;
+    ns1:description "-" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "-" ;
+    ns1:productName "Dream Market Login - Featured anonymous marketplace" ;
+    ns1:shipsFrom <http://darkwebisspooky/-> ;
+    ns1:shipsTo <http://darkwebisspooky/-%29%2C%2813968%2CDream_Market_Login_-_Featured_anonymous_marketplace> .
+
+<http://darkwebisspooky/product/1502> a <http://darkwebisspooky/-> ;
+    ns1:description "-" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "-" ;
+    ns1:productName "Dream Market Login - Featured anonymous marketplace" ;
+    ns1:shipsFrom <http://darkwebisspooky/-> ;
+    ns1:shipsTo <http://darkwebisspooky/-%29%2C%281503%2CDream_Market_Login_-_Featured_anonymous_marketplace> .
+
+<http://darkwebisspooky/product/15354> a ns1:Drugs_%5Cn%09%0940297 ;
+    ns1:description """Highest quality available on the market, very rare.
+Intense and extremely clear trip.""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/Scarface-Tony-M> ;
+    ns1:price "$287.9" ;
+    ns1:productName "â50 x hofman LSD 220 ug â " ;
+    ns1:shipsFrom ns1:Netherlands ;
+    ns1:shipsTo ns1:Worldwide%29%2C%2815355%2CDream_Market_Login_-_Featured_anonymous_marketplace .
+
+<http://darkwebisspooky/product/16771> a ns1:Drugs_%5Cn%09%0941129 ;
+    ns1:description """1g*  Promo*
+
+Lovely clean clear shards, this has a real euphoric feeling to it :)
+
+Stealth/Delivery:
+
+Ket will be vacuum packed then heat sealed in MBB for super stealthy fresh delivery, package will be dispatched within 24hrs Mon-Fri.
+Free delivery while we get the feedback ball rolling.
+Please check out my profile page for intro/info
+
+Thanks for looking :)""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/The_Psyche_Nexus> ;
+    ns1:price "$31.47" ;
+    ns1:productName "Ketamine Racemic - 1g* - super clean shards - Fr" ;
+    ns1:shipsFrom ns1:UK ;
+    ns1:shipsTo ns1:United_Kingdom_Europe%29%2C%2816772%2CPORNPORTAL_Network_MORE_THAN_10_INCREDIBLE_Sites_U .
+
+<http://darkwebisspooky/product/18227> a ns1:Digital_Goods_%5Cn%09%0929329 ;
+    ns1:description """An unprecedented high-level master narrative of America\\'s intelligence wars, from the only person ever to helm both CIA and NSA, at a time of heinous new threats and wrenching change
+ 
+For General Michael Hayden, playing to the edge means playing so close to the line that you get chalk dust on your cleats. Otherwise, by playing back, you may protect yourself, but you will be less successful in protecting America. Play to the edge was Hayden\\'s guiding principle when he ran the National Security Agency, and it remained so when he ran CIA.  In his view, many shortsighted and uninformed people are quick to criticize, and this book will give them much to chew on but little easy comfort; it is an unapologetic insider\\'s look told from the perspective of the people who faced awesome responsibilities head on, in the moment.
+ 
+How did American intelligence respond to terrorism, a major war and the most sweeping technological revolution in the last 500 years?  What was NSA before 9/11 and how did it change in its aftermath?  Why did NSA begin the controversial terrorist surveillance program that included the acquisition of domestic phone records? What else was set in motion during this period that formed the backdrop for the infamous Snowden revelations in 2013?  
+ 
+As Director of CIA in the last three years of the Bush administration,  Hayden had to deal with the rendition, detention and interrogation program as bequeathed to him by his predecessors. He also had to ramp up the agency to support its role in the targeted killing program that began to dramatically increase in July 2008. This was a time of great crisis at CIA, and some agency veterans have credited Hayden with actually saving the agency. He himself won\\'t go that far, but he freely acknowledges that CIA helped turn the American security establishment into the most effective killing machine in the history of armed conflict.
+ 
+For 10 years, then, General Michael Hayden was a participant in some of the most telling events in the annals of American national security. General Hayden\\'s goals are in writing this book are simple and unwavering: No apologies. No excuses. Just what happened. And why. As he writes, There is a story here that deserves to be told, without varnish and without spin. My view is my view, and others will certainly have different perspectives, but this view deserves to be told to create as complete a history as possible of these turbulent times. I bear no grudges, or at least not many, but I do want this to be a straightforward and readable history for that slice of the American population who depend on and appreciate intelligence, but who do not have the time to master its many obscure characteristics.
+
+Format: EPUB""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/pckabml> ;
+    ns1:price "$2.99" ;
+    ns1:productName "Playing to the Edge American Intelligence in the A" ;
+    ns1:shipsFrom ns1:Worldwide ;
+    ns1:shipsTo ns1:Worldwide%29%2C%2818228%2C%C3%A2%C2%98%C2%85500_x_110ug%C3%A2%C2%98%C2%85_Parvati%5Cs_Tears_LSD .
+
+<http://darkwebisspooky/product/19461> a ns1:Drugs_%5Cn%09%0941994 ;
+    ns1:description """*************************************************** ***************************************************
+
+*** Watch out for Vendors selling Fentanyl Derivative like Acetyl Fentanyl etc and giving it off as the pure Fentanyl HCl.  It is very hard to get pure Fentanyl HCl right now so when the prices are too good to be true, they usually are.  Had a lot of buyers complain to me that my solution feels much better than others, which made them depressed and stressed out instead of feeling  euiphoric relaxation - what is the real Fentanyl HCl supposed to feel like.
+
+
+My Fentanyl HCl solution  will not be detected by  most urine drug tests for employment, school, sports, etc. It does not come up positive in the  \\"opioid\\" category of most drug tests that detect heroine, Oxycontin, Dilaudid, or Morphine.  You can buy an urine drug test kit from any pharmacy or online and see for yourself! 
+*************************************************** ***************************************************
+
+*-*-*-*-*-*-*-*-*-*-*-*- My formula makes the solution CRYSTAL CLEAR without any BURNING SENSATION for people with sensitive noses, which can be kept for at least 6 months at room temperature without loosing potency!!! -*-*-*-*-*-*-*-*-*-*-*-*- 
+
+
+***This order is for 1(one) 1000mcg/ml bottle  which gives about 100mcg per each spray instantly!!! (Strongest Fentanyl Patch gives 100mcg over an hour for comparison).
+
+
+
+This 30ml. bottle is equal in strength to about 300x 30mg oxycodones:
+ --- there are about 300 sprays per bottle with each spray delivering about 130-150mcg to the bloodstream through your lungs.  To compare, the strongest Fentanyl Patch delivers ONLY 100mcg/HOUR, so this is a very potent alternative!!! 
+All you need is 1-2 sprays to get the same high effect as from the 30mg oxy so this bottle will last you for a few weeks!!!   Pay $150 instead of $6000 and save thousands of dollars every month!!!  This is a no-brainier!!!
+
+** I\\'ve noticed a lot of people copying this listing almost word for word without even posting a real picture of their product but using the one from Google and not really knowing what they are doing.  I\\'ve been making these solutions for a long time now, since Abraxas, and always test the mixtures on myself before sending out to customers.  Watch out for the copycats if you want the best quality sprays made from 99.98% pure, medical grade Fentanyl.  Feel free to ask me any questions about using it and I will gladly answer them.
+
+*** I use USP grade natural ingidients including premixed packets of Medical Grade Sodium Chloride & Sodium Bicarbonate (Purity level <99%) to make my solutions ideal for intranasal administration.  Unlike most other sellers product, my solutions were tested to stay fresh for months and will be just as strong as the day I made them!
+
+*** *** Also, I DO NOT ship my product in those cheap, Chinese-made plastic spray bottles for security reasons.  It is very suspicious to stumble upon an unlabeled spray like that with unknown liquid inside and raises red flags instantly!  Instead, I will ship my product in containers, just like on the picture, which will be labeled with some legit legal product and will raise no suspicion at all, even if inspected by the law enforcement.  Just pour the contents of this bottle into an emptied nasal spray bought from any pharmacy, which would be much better quality and won\\'t break in a few days like those unlabeled fake ones, and you are ready to use it!
+
+I have just moved from Abraxas market where I\\'ve had over 1000 orders with total feedback score of 4.98!!!
+I ended up loosing all my bitcoins, but still had sent out the last 10 orders to the customers even after the market went down.  I knew that there is most likely no way I am getting those bitcoins back but reputation is much more important to me, as I have never scammed anybody, so I\\'ve sent all the pending orders anyway, even though I was giving them out for free...  I can imagine how happy were the guys who lost all hope of getting their order, when it came in the mail yesterday and today(I know for a fact it did as I checked the tracking. Also, if you ordered from me and haven\\'t gotten your order yet, I\\'ve checked that the orders I\\'ve sent out on Thursday, November 5th are still in transit and will get to you sometime beginning of the next week).
+I just wanted to show you that it is safe to order from me, as I always put respect over profit and would never jeopardize my reputation by trying to scam.
+
+Fentanyl is an extremely potent opioid analgesic and might be very dangerous to inexperienced people to handle.  Luckily this solution was already prepared to use safely(by experienced opioid users)  without anything else to do with it - just pour it to a nasal spray bottle and spray in your nose. It is very important however to be used ONLY by people with hight tolerance to opioids(1-2 sprays is equivalent to about one 30mg blue Roxycodone pill.
+
+ONLY order it if you can at least handle snorting 1 30mg oxycodone tablet in a single instance!
+
+This product comprises 30 mL bottle of 1000Âµg/mL solution. It is much more convenient then oxy pill as you can take it anywhere with you!  Just pour the liquid into a real nasal spray bottle bought from a pharmacy(ie Equate nasal spray) and  you can take it anywhere with you, including school or movie theater etc., and spray it in front of people without anybody suspecting a thing - people will think that you have a running nose from allergies or cold!!! It was tested out by me personally and I was doing it in front of my girlfriend,  college professors, and parents.  But the best thing is its value: it only costs $150 and if you convert it to buying 30mg oxycodne pills it would cost you anywhere from $6000(if bought for $20 per pill) to $9000(if bought $30) per pill!!!
+
+If you are tired of spending a fortune on supporting your oxy habit, try this low-cost alternative and you will be amazed at how much money you will save.  I was able to save $5000 in just one month by converting to this alternative myself. 
+ If your oxy habit is taking every last dollar out of your pocket, this is the next best thing to quitting if you want to have money on other things again!  You will be able to finally buy something nice for your girlfriend(or money  on starting to date again and getting a girlfriend for that matter). You will finally be able to start saving money on that dream car you always wanted to get, or move to a better place.  I couldn\\'t believe my eyes when I wrote down how much money I spend on fucking blues, a month - I could\\'ve easily leased the best Ferrari and still had enough money left to pay for all my bills and party with my friends like I used to do. Again, if you are tired of living like a bum because all your money goes on supporting your out-of-control oxy habit but not ready to quit --- this is the next best thing alternative!
+
+It will cost you less then 5 roxy pills to try and will last you for a long time! 
+Order while supplies last as they tend to sell crazy fast since people realize all the benefits of switching to this.
+
+Order with CONFIDENCE and I will ship your order within one business day!
+
+***IMPORTANT:  
+- This is NOT to use intravenously but only snorting through your nose !
+- Start off by only doing 1 spray and wait at least 10 min to see how it feels before doing more.  This stuff is very potent and you don\\'t want to start throwing up because you were greedy and did 10 sprays right away
+instead of just 1 and wait how you feel. 
+ If you are not ready to quit opioids(which I strongly recommend to be your goal!), this is the next best thing, BUT  PLEASE be RESPONSIBLE and use it SAFELY by not overdoing it.""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/InvisibleHand> ;
+    ns1:price "$139.9" ;
+    ns1:productName "30ml Fentanyl HCL Nasal spray(1000mcg/ml): *FE*" ;
+    ns1:shipsFrom ns1:USA ;
+    ns1:shipsTo ns1:United_States%29%2C%2819462%2C1000x_10mg_BRAND_NAME_%5C%22STILNOX%5C%22_2%2C200%21_FE .
+
+<http://darkwebisspooky/product/20982> a ns1:Digital_Goods_%5Cn%09%0929365 ;
+    ns1:description """Super-account (cracked) -> last one 
+Stock : 1
+
+DIRECTV PREMIER Package: the best of everything + NFL SUNDAY TICKET MAX !!
+
+The PREMIERâ¢ Package is the biggest package and the best package that DIRECTV has to offer. Why? You get top of the line programming for the ultimate entertainment experience. With tons of channels and all the best features, nothing can compare.
+
+All the Channels
+Over 315 channels of thrilling entertainment for the whole family are packed into the PREMIERâ¢ Package. No other DIRECTV package comes with this many channels. It gets better with DIRECTVâs 200+ full-time HD channels.1 Get virtually endless entertainment to pick from, and enjoy it in spectacular picture and exceptional sound quality. Donât just get TV. Experience better TV from DIRECTV.
+
+
+All the Premium Networks !!
+Get the entertainment everyone is talking about with the PREMIERâ¢ Package. 
+Premium networks like :
+
+HBOÂ®, 
+SHOWTIMEÂ®, 
+CinemaxÂ®
+STARZÂ® 
+
+are included at no extra cost. 
+Thatâs a line-up you canât beat. From award-winning programs, original series, documentaries, sports events and exclusive, critically acclaimed content, the PREMIERâ¢ Package is like no other. Dive into some of the best entertainment available. Itâs all yours with this package.
+
+Also incuded in this account is a subscription to :
+sports pack + NFL SUNDAY TICKET MAX !!
+
+With the NFL SUNDAY TICKET MAX Package, you\\'ll have access to all the regular NFL SUNDAY TICKET features, plus premium features such as RED ZONE CHANNEL, DIRECTV FANTASY ZONE Channel, Short Cuts, and access to stream LIVE out-of-market games on your laptop, tablet, phone, console or streaming media device. Click here for a full list of supported devices and system requirements.
+
+
+the normal retailprice for this :
+Direct tv (premier) -> $130/month
++ NFL SUNDAY TICKET MAX 2016 !
+$ 59,99/6 months
+Sports Pack  $13,99  per month 
+In total more then $150/month !!
+
+so after a week with this account you have earned your money back ;)
+
+you pay one-off a fraction of the price.
+
+Be careful with this account,dont change anything and
+you are good to go.
+
+After purchase you get the login details in your inbox!""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/BarryBusiness> ;
+    ns1:price "$21.09" ;
+    ns1:productName "Direct TV (PREMIER !!) + Sunday ticket MAX !!" ;
+    ns1:shipsFrom ns1:Worldwide ;
+    ns1:shipsTo ns1:Worldwide%29%2C%2820983%2C100x_Fentanyl_blotters%28500ug%29 .
+
+<http://darkwebisspooky/product/22348> a ns1:Drugs_%5Cn%09%0941692 ;
+    ns1:description """Clean, good quality nbome.
+
+1 blotter - mild trip 
+2 blotters - medium trip 
+3/4 blotters - head fucked :)
+
+These can only be taken by absorbing in your mouth/under your tounge for 20-30 mins.
+
+1 of each sample per person/address please""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/MickTaylor> ;
+    ns1:price "$13.24" ;
+    ns1:productName "25c NBOMe blotters x10 dosed at 800ug" ;
+    ns1:shipsFrom ns1:UK ;
+    ns1:shipsTo ns1:United_Kingdom%29%2C%2822349%2CFearless_Interviewing%3A_How_to_Win_the_Job_by_Commu .
+
+<http://darkwebisspooky/product/23655> a ns1:Drugs_%5Cn%09%0941797 ;
+    ns1:description "SAMPLE 0.5 gram pure COCAINE-flakes - FREE SHIPMENT + TRACKNO + STEALTH PACKAGING" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/DeLosMuertos> ;
+    ns1:price "$65.6" ;
+    ns1:productName "SAMPLE 0.5 gram pure COCAINE-flakes - FREE SHIPMEN" ;
+    ns1:shipsFrom ns1:Australia_Europe ;
+    ns1:shipsTo ns1:Australia_Japan%29%2C%2823656%2CBall_Grinder_-_Leaf .
+
+<http://darkwebisspooky/product/24996> a ns1:Digital_Goods_%5Cn%09%0929476 ;
+    ns1:description """Now in its third edition, this best-selling book continues to bring you some of the best thinking on how to apply Oracle Database to produce scalable applications that perform well and deliver correct results. Tom Kyte and Darl Kuhn share a simple philosophy: you can treat Oracle as a black box and just stick data into it, or you can understand how it works and exploit it as a powerful computing environment. If you choose the latter, then youâll find that there are few information management problems that you cannot solve quickly and elegantly.
+
+This fully revised third edition covers the developments up to Oracle Database 12c. Significant new content is included surrounding Oracle\\'s new cloud feature set, and especially the use of pluggable databases. Each feature is taught in a proof-by-example manner, not only discussing what it is, but also how it works, how to implement software using it, and the common pitfalls associated with it.
+
+Donât treat Oracle Database as a black-box. Get this book. Get under the hood. Turbo-charge your career.
+
+Revised to cover Oracle Database 12c
+Proof-by-example approach: Let the evidence be your guide
+Dives deeply into Oracle Databaseâs most powerful features 
+
+What youâll learn
+
+Develop an evidence-based approach to problem solving
+Manage transactions in highly concurrent environments
+Speed access to data through table and index design
+Manage files and memory structures for performance and reliability
+Scale up through partitioning and parallel processing
+Load and unload data to interface with external systems
+
+Who this book is for
+
+Expert Oracle Database Architecture is aimed at Oracle Database administrators, at PL/SQL and Java developers writing code to be deployed inside the database, and at developers of external applications who use Oracle Database as a data store. It is the go-to book for those wishing to create efficient and scalable applications.
+
+Format: PDF""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/pckabml> ;
+    ns1:price "$2.99" ;
+    ns1:productName "Expert Oracle Database Architecture 3rd edition 20" ;
+    ns1:shipsFrom ns1:Worldwide ;
+    ns1:shipsTo ns1:Worldwide%29%2C%2824997%2C503_-_Forwarding_failure_%28Privoxy%40localhost%29 .
+
+<http://darkwebisspooky/product/26492> a ns1:Drugs_%5Cn%09%0941770 ;
+    ns1:description """Lab tested product purity around 98%.
+Do not miss your chance to purchase this great product.
+
+ââ Chemical has similar pharmacological properties to following products ââ
+
+Hashish, Cannabis, Weed, Synthetic Cannabinoids,
+
+â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾ 
+Delivery directly from China. A fake invoice and value will be used to avoid any delays with your domestic customs.
+
+ââ Please provide following information that we can ship your order ââ
+
+â« First and Second name
+â« Street name, house number
+â« Zip code, City
+â« Country
+â« Tel: ( can be fake)
+
+Check our reviews by yourself for your safety on grams!
+http://grams7enufi7jmdl.onion/infodesk/vendor/0x5B9EA6C20C6F080B
+
+Found cheaper price elsewhere? Provide vendor name and we will match the price.
+
+ââ PLEASE CHECK LATEST REFUND POLICY ALWAYS ON OUR VENDOR PAGE ââ
+
+PM with any questions.
+
+â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾ 
+ALL PRODUCTS SOLD ARE NOT FOR HUMAN CONSUMPTION.
+DO NOT ORDER IF YOU DO NOT ACCEPT THESE CONDITIONS.
+â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/ROCKETCHEM> ;
+    ns1:price "$1150" ;
+    ns1:productName "THJ2201 500g" ;
+    ns1:shipsFrom ns1:China ;
+    ns1:shipsTo <http://darkwebisspooky/Worldwide_Europe%29%2C%2826493%2CTestosterone_C_%7C_5_x_1ml_amp_%28200_mg/ml%29_-_Balkan> .
+
+<http://darkwebisspooky/product/28058> a ns1:Digital_Goods_%5Cn%09%0929390 ;
+    ns1:description """I provide you with high quality real looking documents through which many of our clients get restored their Accounts, but still we do not provide any kind of guarantee of acceptance (specially if they do verify it from Public records / Government Database or some other database, as all documents are edited by Photoshop and have no real data).
+
+There are many other reasons behind account limitations. According to our case study, PayPal / ebay / Skrill / Google Wallet / Perfect Money / Payza / Payoneeer / Facebook / Neteller / Web Money / Ego Pay / Amazon / Freelancer / Elace / odesk or many other also limit all those suspicious accounts even you provide them with your genuine or real documents.
+
+Documents are provided as an initiative for PayPal and others so that they look in to your case and decide to restore it or permanent limit it after manual reviewing your transactions, your purchases, your charge back, refunds, age and many other factors.
+
+Note: You will get your order in JPEG image format (Scanned or Snapshot). No Shipment of documents included.
+
+Documents available:
+Photo ID as Passport, Driver License, National Identity Card
+Utility Bill as Electricity Bill or Energy or Power Bill, Water Bill, Gas Bill or Telephone or Landline Bill
+Supplier Invoice as Sales invoice and Electronic Receipt or Invoice
+Business Details as Business Website with Invoice and Costumer Chat History
+Credit Card statement: Both Online e-statement or Paper statement or Visa Card or Master Card statement of any bank available
+Bank Statement: Both Online e-statement or Paper statement of any bank available.
+SSN Document available
+
+Custom Documents:
+Notary or attested or certified documents available
+USPS form 1583 with Notary documents available
+Birth Certificate, Marriage Certificate or other
+NRIC, SSN, or any other document available on custom demand.
+
+EACH CUSTOM MADE DOCUMENT sells for 45$
+Specify the use case and DOCUMENT NEEDED
+NEED MORE THAN ONE DOC: repurchase listing and let me know which DOCUMENT is needed 
+
+CASES SOLVED
+
+PayPal & eBay is asking to Confirm Identity. Need Photo ID and Proof of Address.
+
+* SOLVED - Please log in to your PayPal account to confirm your identity and update your password and security questions
+
+* SOLVED - I had confirmed my identity and updated my password and security questions but Still not restored
+
+* SOLVED - PayPal is asking to confirm Identity via Phone
+
+* SOLVED - Appeal limitation and fix your account
+
+* SOLVED - How to Get Fake Photo ID for PayPal
+
+* SOLVED - PayPal Proof of Address as Utility Bill
+
+* SOLVED - Ebay is asking to Submit drivers license utility bill and manufacture invoices or receipts
+
+* SOLVED - MC011 Your eBay Selling Account has been restricted
+
+
+Proof of Delivery and Supplier Invoice for PayPal and eBay
+
+* SOLVED - I am a Drop shipper and PayPal asking for Supplier Invoices
+
+* SOLVED - Will Invoice from Chinese Supplier Work for my PayPal or eBay
+
+* SOLVED - How to Resolve PayPal limitation for Provide Proof of Delivery
+
+* SOLVED - How to Provide Proof of Delivery If I am Using Drop Shipping Service
+
+Bank and Credit Card Statement
+
+* SOLVED - PayPal Asking for Bank Statement
+
+* SOLVED - How to provide Bank statement to PayPal? My Account is Limited
+
+* SOLVED - Added Bank of America in PayPal and now asking for Bank Statement
+
+* SOLVED - Need GMAC or Ally Bank Account Statement for PayPal
+
+* SOLVED - Will Fake Bank Account Statement Permanent Ban my PayPal Account?
+
+* SOLVED - I am Scared of uploading Fake CC Statement to PayPal - What will happen next?
+
+* SOLVED - Required Credit Card statement for my Stealth or Fake PayPal and eBay account
+
+* SOLVED - PayPal not accepting my e-statement and demanding me to provide Paper statement
+
+
+Virtual Credit Card (VCC) / Virtual Bank Account (VBA)
+
+
+* SOLVED - How to Add Confirm and Instant Verify USA PayPal via VCC
+
+
+
+FREE ASSIST WILL BE GIVEN SO YOUR ACCOUNT WILL BE IN GOOD STANDING AGAIN QUICKLY
+Best BitcoinThief""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/BitcoinThief> ;
+    ns1:price "$60" ;
+    ns1:productName "Account Verification Service PP/EBAY/PAYZA/Skril.." ;
+    ns1:shipsFrom ns1:worldwide ;
+    ns1:shipsTo ns1:Worldwide_Worldwide%29%2C%2828059%2CDream_Market_Login_-_Featured_anonymous_marketplace .
+
+<http://darkwebisspooky/product/2858> a ns1:Digital_Goods_%5Cn%09%0929390 ;
+    ns1:description """This guide contains everything you need to know to become a successful carder. 
+
+-You\\'ll receive the infos within 24h from ordering
+
+TAGS:
+$$$,100%free,ActNow,Ad,Affordable,Amazingstuff,Applynow,Autoemailremoval,Billion,Cashbonus,Cheap,Collectchildsupport,Comparerates,Competeforyourbusiness,Credit,Creditbureaus,Digupdirtonfriends,Doubleyourincome,Earn$,Earnextracash,Eliminatedebt,Emailmarketing,Explodeyourbusiness,Extraincome,Fastcash,Financialfreedom,Financiallyindependent,Free,Freegift,Freegrantmoney,Freeinfo,Freeinvestment,Freeleads,Freemembership,Freeoffer,Freepreview,Guarantee,Homebased,Homebasedbusiness,Incomefromhome,Increasesales,Increasetraffic,Increaseyoursales,legal,casino,gambling,cashout,creditcard,paypal,Incredibledeal,deal,hotdeal,Internetmarket,Limitedtimeoffer,limited,offer,Make$,gainfromhome,gaining,homebasedmethod,Multilevelmarketing,Noinvestment,nodrugs.noweed,OrderNow,Prices,Promiseyou,Refinance,Save$,nococaine,Onlinemarketing,Opportunity,getrich,richer,richlife,live,life,steadyincome,cashstream,savedollars,bitcoin,earnbitcoin,Searchenginelistings,Seriouscash,Thousands,fraud,liveabroad,easylife,livefree,indipendentlife,stopworking,nostress,freebie,dollarsonline,dollars,dollar,euros,euro,income,transfer,clean,semiclean,middleman,autopilot,software,moneysoftware,moneymethod,guide,moneyguide,business,seriousbusiness,longtermbusiness,digitalproduct,digitalcash,ethereum,monero,financialfreedom,freedom,buydirect,directdeal,island,verycheap,incomefromhome,noinvestment,fullrefund,getpaied,getmoney,getcash,tool,hacking,cracking,moveaway,livefree,freelife,freecash,financialfreedom,bucks,makebucks,makebucksonline,usd,eur,riskfree,limitedtime.CheckBankAcc.WithoutAnsweringSecurityQuestionsYasuosPaypalGuidev4.5MokasJungleMoneyCardingGuideMokasTheFourHorsemenGuide+Docs&Software)KalashnikovTipsUltimateGuidetoPayPalCredit072015LoanFraudGuideV.3.5(WithScans)DirtyBankTransfersForBeginners2015HowToGetaBackgroundCheckAndCreditReportOnAnyone2015Alpha02UniverstyOfCardingThePayPalPirateGuideUltimatePayPalGuidetoMiddlemanAccountsATMHackGetMuchMoreMoneyThanYouWithdrawClearnetListOfDarknessListOfCardableVirtualProductWebsitesCardableSites2015TheArtofCardingByiNSURGEONCardingIntroductionCardingSpecificSitesCardingTermsHowTo:LuhnsAlgorhythm(CheckValidityForFreeWithMaths!)DumpsAndEncodingTheCoverAllGuideLongTermCardingMethodWithAnonWebsiteFindingLocalBinsInYourAreaHowToOpenAFullyVerifiedPolishPaypalAccount7ReasonsYourCreditCardGetsBlockedAGuideToEverythingNonAVSCardingviaPhoneHowToDisguiseYourVoiceListofBINsWhichCodeForWhichBank(WorldBanks)ListofBINSwithnoVBVorMCSCHowtoGetUnlimitedAnonDebitCardsHowTheRussianUndergroundHackingForumsWorkEssentialUndergroundHandbook(PMLPublishing)HowToGetUnlimitedDumpsAndCCV\\'sPaypalNinjaSecretsYasuosPaypalRecievingAndCashoutGuideWesternUnionBINExploitÂ£400aDay2015DiniheroboysCashoutGuide2SkrillCardingMethods2015(BinExploit&Int.Payments)OKPayCashUCashout2015Vtori\\'s100%CleanPaypalTransferGuide2015Easy$500WellsFargoCashoutMethod2015KC\\'sSkyVegasCVVCashout2015TranscendPro:MilkingSquareGuideCardingStripe:CashoutUsingAnEcommerceWebsiteWithStripeAPICompleteStartFinishCarding20KToBTCFor$100CashingOutACCWithSkrillCCCashoutMethod1LongTermCardingMethod10StepCashoutCVVstoEGiftCardsVerifyPPWithETradeDukeNeumCCToBtc2015PPorCCToBTCCashout2015EasyPP/CVVCashoutCVVtoPaypalv1.1UkashToPerfectMoneyTutorialHowtoget~100$fromCVVonlineCCCashoutTicketMethod3NewMethodsToCashoutACreditCard20143WaysToCashoutACreditCardClassifiedsBankCashoutMethodAlibabaCardingMethod,$75+Daily(Autopilot),Earn$100in24hoursontheInternet,MicrosoftWordAppleiPadGuide,TheUltimateGuidetoMakingMoneyandGettingReferralsUsingYoutube,BeaSharecashKingGuide1,Eye\\'sUltimateMonetizingeBook,ThePartnership,Earn300aDaySharecash,Settingupebay,WhitehatCopycat,HowToTurnEveryExeIntoEveryFileType,TheWayoftheBlackhat,SpreadingGuideBySkatinxLifeV2,CPALEADTIPSANDTRICKS,Paypal,AGuideToSuccessfulWeightLoss,MoneyMakingMethod,MicrosoftWordMy$25000Weekend.doc,ebaycccashing,VBAnew,AdobePhotoshopCS5lueminut,HowtoMake$1000\\'saWeekwith,Exploitanonlinecasinoforconstantcash,Make+$50$75,VigtigtfiltilAdobePhotoshopCS5,NeoBuxmethod,Cpalead100in10(2),MicrosoftWordArticleCashRobots.doc,CPAProphet,MaximizeyourRevenuesthroughSHARECASH.,BlackHatCPA,Settinguppaypal,CPALeadNeverTakeaSurveyAgain,TheScienceofInfluence,Steamcashguide,RevisedandWorkingVERYBlackHatCPAMethod,SuperAffiliateCa$h,MAKEMONEYFASTWITHFACEBOOKCPALEADMETHOD,BeaSharecashKingGuide2,MicrosoftWord4C00D5925D96080D43.txt,BlackHatMake200perdayGuaranteed,EasyShareCashMethod,Ablogdsys,Readme,Make1000in10days,Cheat$harecash,RingTonesMastered,articlewritingsecrets,BlackHatmoneymakingmethod,SocialMediaFrenzybyMcFlurry,ModuleCllGettingOnlineInsiderSecrets,LogitechItems,MakemoneyOnlineWithFilesCashout,79method,TheRichVillain,Template,Microsoft,byMew,Method,ViktigtomAdobePhotoshopCS5,CopyofHowtoGetMassiveYouTubeTraffic,Getrefundedforyourgiftcards,SEOArticleBasics,5kdaysystem1,SecretBonusModule,Clickbankmethod,AppleProductswithoutCallIns,Paypalcashout,HowtoEarn%2450adaywithShareCash,45+perhourmethod,CashoutingtoAP,AdsenceKing,HackHotamil,EarnMoneyGivingAwayDirectorySubmitterSoftware100%Free,Earn200$300$permonthwithShareCash,Ebook,MicrosoftWord500aDayfacebookfanpages,$200+Daily,LibertyReserveMinorExploit,$100$370aday,DominatingShareCash,$300Easily,HowtoGetMassiveYouTubeTraffic,$100+10MinsCPALead,$200+Daily,OneClickMoney,$300+Daily
+
+""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/TheShop> ;
+    ns1:price "$1.99" ;
+    ns1:productName "â Full Carding Tutorial â " ;
+    ns1:shipsFrom ns1:Worldwide ;
+    ns1:shipsTo ns1:Worldwide_Worldwide%29%2C%282859%2C50x_Love%2C_Peace_and_Rock_%26_Roll_225MG_XTC .
+
+<http://darkwebisspooky/product/29432> a ns1:Drugs_%5Cn%09%0941749 ;
+    ns1:description """HIGH THC Alcohol extracted CANNABIS E-LIQUID 
+
+*10ML HIGH THC CANNABIS E-LIQUID *HAPPY MIX TRIM 10ml = 2Gram AAA+ TRIM
+
++++FREE WW SHIPPING+++
+***INTRODUCTION PRICE***
+
+
+Made with PREMIUM AAA+++ BUD or HASH!! 
+
+Liquid THC+CBD is all the rage for those who are fans of both marijuana and vaporizers.  Yet the healthiest and most effective way of (Vaping) marijuana is with liquid CBD/THC.
+
+It contains all of the healing benefits of cannabis with all the psychoactive effects without the harm of smoking.
+
+Turning the ingredients that make weed give you that warm fuzzy feeling â the tetrahydrocannabinol â into liquid makes it easier to consume for the novice user, difficult to smell, and easier to transport than traditional marijuana.
+Vaporizers, or vapes as theyâre known, are also excellent because they make smoking cannabis much easier without alerting any bystanders. 
+By combining the two, you have a recipe for success. 
+But with anything, there are certain issues and possibilities that you should always keep in mind to ensure that you have a fun (but safe) time.
+
+All Happy Crew E-liquid has been made from high-quality bud.
+The next step in cannabis evolution has arrived! 
+This amazing product provides users with an incredible medicating experience. 
+Our THC e-liquid is compatible with any electronic cigarette or e-liquid vaporizer. 
+**Most TANK type vaporizers require a mixture of VG AND PG Because OUR 100% VG THC Cannabis e-liquid is to thick for most tanks, read your manual for more information about the perfect % VG/PG mixture for your vaping device
+The squeeze bottle allows the user to easily refill any compatible device without the worry of wasting any medication or making a mess. 
+Unlike traditional methods of consuming medical cannabis such as smoking, There is no combustion when using a vape pen and e-liquid. 
+The medicinal properties of our THC e-liquid are carbonated inside the heating chamber of a vape pen and then are released into a vapor cloud inhaled.  
+This product allows users to easily and discreetly medicate and gives off almost no scent making it the perfect addition to the medical cannabis experience. 
+
+Note That vaping liquid THC+CBD can not be compared to smoking a joint for the simple reason that you are not able to vape 10ml liquid=1.5Gram Weed/Hash in the same time as you could smoke a Joint 1 gram Weed/Hash
+
+
+* HAPPY MIX Autoflower outdoor sativa/indica.
+
+â¢ Medical value : High
+â¢ Medical use : Mainly for pain and stress relief.
+â¢ Effect : Happy, uplifting and even euphoric
+â¢ Lineage : Autoflower outdoor sativa/indica mix
+â¢ CBD : Medium
+â¢ THC : HIGH
+
+
+Hello and very welcome!
+
+The Happy Crew
+Shipping THE best DUTCH produce WORLDWIDE from The Netherlands and Belgium!
+
+We are selling High Quality Cannabis, Seeds, Hash, RSO* THC/CBD-Oils, THC/CBD E-Liquid and occasionally prescription drugs. 
+
+Our motto is QUALITY over QUANTITY no commercial bullshit here.
+
+The customer is King and our goal is to build strong, honest and over all long lasting relationships.
+
+â OUR PRODUCTS â
+
+*CANNABIS
+*HASH
+*CBD+THC *RSO OIL
+*THC CBD E-LIQUID VAPE
+*CANNABIS SEEDS
+*PRESCRIPTION DRUGS
+
+--TRANSLATED PROFILE TEXT--
+
+* ITALIAN: https://anonfiles.com/file/1d24a9569e574b3d5eb344cbbf08f891
+* GERMAN: https://anonfiles.com/file/27cd75f57f88a1069f3719399a2b1420
+
+--MARKETS--
+
+We are also active on the following Markets:
+
+*Valhalla Market: http://valhallaxmn3fydu.onion/thehappycrew
+**Invite link: http://valhallaxmn3fydu.onion/register/Ardp
+
+*AlphaBay Market: http://pwoah7foa6au2pul.onion/search.php?s_userid=TheHappyCrew
+**Invite Referral link:http://pwoah7foa6au2pul.onion/affiliate.php?ref=TheHappyCrew
+
+(*Dr.D Market: http://drddrddig5z3524v.onion/store_999543/profile/view/)Dead market
+(**Refer Customers: drddrddig5z3524v.onion/session/register/D7E6B3)
+(***Refer Vendors: drddrddig5z3524v.onion/session/register_vendor/D7E6B3)
+
+*Dream Market: http://lchudifyeqm4ldjj.onion/contactMember?member=TheHappyCrew
+**Invitation link: http://lchudifyeqm4ldjj.onion/?ai=260936 
+
+*Hansa Market: http://hansamkt2rr6nfg3.onion/vendor/TheHappyCrew
+**Referral link: http://hansamkt2rr6nfg3.onion/affiliate/44428
+
+(*Oasis Market: Ritalin: http://oasisnvwltxvmqqz.onion/profile/99881f58f846a68fff8f721dfc7796351c80ecd6)
+Dead market
+
+*Outlaw market: http://outfor6jwcztwbpd.onion/index.php?step=choose&forum&vendor=4a042ca612fcc2b7c85972b3887bb990
+*public link to vendor: http://outlaw2kyxddkuqc.onion/index.php?vendor=TheHappyCrew
+
+(*Phyton Market: http://25cs4ammearqrw4e.onion/market/profile.php?id=18738)
+Dead market
+
+*Tocka Market: The-happy-crew http://tochka3evlj3sxdv.onion/user/the-happy-crew
+**Referral link: http://tochka3evlj3sxdv.onion/auth/register/aad80709433c45f444a1b32176cbaea5
+
+*Silk Road: TheHappyCrew http://reloadedudjtjvxr.onion/profile.php?id=TheHappyCrew
+
+Cannabis.
+The growers we buy our cannabis from are first class growers who grow for the sake of a splendid produce and grow smaller batches of high quality cannabis strains for us as we are willing to pay the extra buck for a great product.
+Not like most (commercial) growers who go for the highest yielding strains making the most profit.
+No our growers take huge pride in growing the plant they adore so much.
+The plants get the proper time to flourish and fully mature into the very best coffeeshop grade weed.
+You can (almost) taste the love and effort that is been put in.
+
+Ritalin / Methylphenidate at the very best price.
+
+Ritalin (methylphenidate) is a central nervous system stimulant.
+It affects chemicals in the brain and nerves that contribute to hyperactivity and impulse control.
+Ritalin is used to treat attention deficit disorder (ADD), attention deficit hyperactivity disorder (ADHD), and narcolepsy.
+
+â QUALITY IS KEY â
+
+The high quality standard for cannabis is build on these points:
+
+âFree of pesticides
+âFree of weight inducing poisons, artificial flavors ect, ect. no bullshit just honest clean weed.
+âNutrients are properly flushed in the last week of the grow.
+âProperly trimmed and cured.
+âDE-branced, we ship clean cannabis buds no branches and leaves.
+
+The high quality standard for our hash is build on these points:
+
+âThe source of our hash is an reputable honest and Fair business man whom we are doing business with for many years, and now we proudly bring this wonderful products to several deep-web markets.
+âWe buy our hash from our contact who is very close to the source preventing any kind of tampering with the product.
+âOur hash is quality-inspected by our crew and will only make it to the shop if approved by all members of the team, resulting in top-shelf triple A quality hash.
+
+â SHIPPINGâ
+
+Stealth shipping, we provide fast shipment and safe packaging.
+
+âVacuum sealed properly, providing a airtight orderless packing
+âCleaned and sealed again, the first sealed package is cleaned and sealed in a 2th layer.
+âPacked stealthy no way to see, smell, feel or hear what is in the package. âAnd at last send to you.
+
+VERY IMPORTANT INFORMATION BEFORE YOU ORDER
+
+*We ship locally/domestic To/From BELGIUM AND THE NETHERLANDS!!
+
+The Netherlands 5 days of the week. (Monday - Friday)
+Belgium 3 days of the week. 
+
+-orders from the Netherlands ship from the Netherlands NEXT DAY ARRIVAL! on all orders placed on Monday till Thursday!
+
+-orders from Belgium ship from Belgium 3 days per  week.
+
+-orders from all other EUROPEAN countries ship from: 
+**Belgium (3 days of the week) OR 
+**The Netherlands (5 days of the week)
+
+*All orders from the rest of the world ship from Belgium BE to WW! (3 days per week)
+
+*Please always get rid of (Y)OUR envelope discreetly. This is for our and your safety!
+
+â ADRESS SET-UP â
+
+!!!Not responsible for any mistakes with residentâs name or address!!! We copy-paste the address information please make sure it is correct
+
+Higher chance of getting seized when you use a fake name so please think about that.
+
+Use the following link to create the correct address set up. http://www.addressdoctor.com/en/countries-data/address-formats.html
+
+!ALWAYS! ALWAYS! ALWAYS! SEND YOUR ADRESS ENCRYPTED TO PROTECT YOUR ANONYMITY!!!
+
+All products you order are the same as shown on the picture(âs) and that is exactly what you get.
+
+(Because we are active on several other markets it may be a product is sold out and still listing as active we do our best to keep stock as accurate as possible when you purchase a âsold outâ product we always contact you to come to a proper solution)
+
+All weed and hash is quality-inspected by our crew and will only make it to the shop if approved by all members of the team, resulting in top-shelf tripple A quality cannabis and hash.
+
+Spread the love.
+Returning customers will get great deals in the future.
+We are looking for long term business relationships.
+Everybody is welcome, letâs make it a great market together.
+
+â- FREE SAMPLES PROGRAM â
+
+Dear customer with every order you make you receive a free gift code. When you give this code to a friend and he places a order with this code he gets 1 FREE sample, as you get FREE sample(s) with your next order.
+(1 FREE sample for each friend that places a order with your code) up to 5 FREE samples
+
+â- ENCRYPTION IS YOUR FRIEND â
+
+Cryptography is absolutely essential for all communication.
+Plain-text messages will be ignored and deleted!
+Please include the date when order was marked as shipped and order nr.
+
+â REFUND AND RESHIP POLICY â
+
+In a rare case of non arrival or something else please contact us before starting any kind of dispute or leave negative feedback.
+Every problem has itâs solution and together we will work it out.
+
+-50% Refund or Full reship for customers with over 5 succesfull deals.
+
+-Customers with less then 5 deals will get a 50% reship
+
+-NO refund nor reship for buyers with less then 2 deals.
+
+Please contact us if you didnât receive the package after the estimated time of arrival.
+
+We consider a domestic shipped package lost after 15 days.
+
+If you have a complaint/question about our service please let us know and we will look for a solution to make the service we provide even better.
+
+Our success depends on satisfying all customers so we will do all that is reasonably possible to achieve this.
+
+â NO REFUND IN CASE OFâ
+
+1 We donât give refunds to customers with less than 2 transactions! (We apply this rule to avoid scammers! Donât worry though, (y)our product will arrive)
+
+2 PO boxes, garage, Hotels, vacation apartments are at your own risk!
+
+3 Mistakes with residentâs name or address
+
+1 2 & 3 NO REFUND AND WE DO NOT RESEND YOUR ITEM THIS IS NON NEGOTIABLE.
+
+All Your Questions, request, concerns, suggestions, tips, request, concerns, etc, etc anything to make our service even better is more than welcome and will be greatly appreciated!
+
+For information about The Happy Crew\\'s products, shipping policy, bulk orders, quality over quantity policy, Spread the love program, Please don\\'t hesitate to contact us TheHappyCrew is here to help you!
+
+Like what we do? help us grow and leave feedback
+
+And Scammers please donât try.
+Stay Safe, don\\'t worry and be HAPPY:)""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/TheHappyCrew> ;
+    ns1:price "$20.94" ;
+    ns1:productName "10ML HIGH THC CANNABIS E-LIQUID *HAPPY MIX trim " ;
+    ns1:shipsFrom ns1:Belgium_and_the_Netherlands ;
+    ns1:shipsTo ns1:Europe_Worldwide%29%2C%2829433%2CDream_Market_Login_-_Featured_anonymous_marketplace .
+
+<http://darkwebisspooky/product/30788> a ns1:Drugs_%5Cn%09%0942038 ;
+    ns1:description """You must read our entire profile and this listing description before ordering. 
+We will not be responding to PM\\'s that can be answered by reading our profile/listings.
+
+You may request ONE blotter art per order. If you request multiple, I will pick one of them.
+You may choose from-
+1.Rick and Morty
+2.DeadPool
+3.StormTrooper
+4.DC Universe
+If you did not get the art you requested, it means we sold out of the art you requested.
+
+This is a full escrow sale. This sale is to liquidate our current stock and put the current prints out of commission before our next batch arrives. 
+
+Everything is prepacked to ensure shipping times are on point.
+This means if you order two of the 100x listings, you are going to receive two packages.
+
+For anyone ordering less then 10,000 tabs, we are offering a 5% rebate if you post a review with images of proper reagent tests which shows the tabs facing up.
+We will offer a 10% rebate to anyone who sends the tabs to Energy control, as long as the print and every detail is noted by EC. This mean you need to detail which vendor you purchased from, the purity you purchased(98% or 99.99%), the amount you sent to EC, the amount you ordered from the vendor, the ug per tab that we advertised, and the blotter art design.
+Rebate is done in the form of tabs.
+
+Orders are processed within 12-36 hours.
+Orders are guaranteed to arrive within 5 business days from time of order.
+Usually they will arrive within 3, but only 5 is guaranteed.
+
+Once this is moved these artworks are gone FOREVER.
+Once a certain quantity is sold that is it, it will not be restocked until we begin our next run with new prices and prints.
+
+Tracking and inquiries regarding ones shipping time will be ignored for 4 business days from the time your order is placed.
+
+Any vendors wishing to resell our product will be allowed a special lower priced deal!! We at Team Trust hope to help everyone willing to fight in the Darknet revolution earn a solid profit while continuing to spread the highest purity substances.""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/Empath> ;
+    ns1:price "$619" ;
+    ns1:productName "500x LSD of 98% 100+ug Team Trust" ;
+    ns1:shipsFrom ns1:USA ;
+    ns1:shipsTo ns1:United_States%29%2C%2830789%2CDream_Market_Login_-_Featured_anonymous_marketplace .
+
+<http://darkwebisspooky/product/32296> a ns1:Drugs_%5Cn%09%0941621 ;
+    ns1:description """25 230ug Blotters laid in house by the FelixUK team from High Grade White LSD, purity â 98%.
+Sent from the U.K â worldwide. F.E Listing
+Available in quantities of 1 â 10,000.
+
+We ship from Monday till Saturday.
+Ordering means you agree to ALL of our terms written below.
+
+Why should you order from us?
+â 5/5 vendor on Silkroad, BMR and Sheep.
+â We sell only the best quality products at reasonable price.
+â We are professionals.
+
+â¶ Terms:
+â By ordering you agree to ALL of our terms written below.
+
+â¶ Messages:
+â Please keep it short and only message us if it\\'s really important.
+Messages that are too long are ignored
+â Only use PGP for sensitive info, not simple questions.
+â We try to answer within 24 hours however this depends on how busy we are.
+
+â¶ Shipping:
+â Shipping using Royal Mail for all orders.
+â We never give out tracking info for security reasons.
+â Will be sent using Mylar and/or vacuum sealed in a business letter to blend in with your utility//bank letters.
+â All orders shipped within 48 hours unless otherwise stated.
+
+I ship from the U.K and if you have any questions feel free to ask. Always looking for new customers!
+
+Felix
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1
+
+mQINBFVLwPMBEAC5zs2YycmqiWcHKSbw/+drzgr9QlWWoElkO+w6i1dqZhU4ovNs
+Kc2OHPcN/hLbgRq0jTecMOdbe5aU5GPwbqIhqhK5oPWf/KinXAeXO0h0rPRW7lKQ
+a94ci6vWBNdP5L5cGp5agTPkTtbbZA0qO+ZYqFt98lOqpDUFL2gk0eY1suKwYfII
+dxHFzkS3Tu0TNuN1/TiT/nrAwzK8BVmLRX3WJfk1fv2yUAAQuLxbK7mh/XirsV/b
+YJGNzNp4f1QQao/BG227fcqRaOexJOBnR8fDxtYfFLH2Jx5hvt0Wr+b0MTHGNSPw
+d9++pWSw8jS4oIlzyTa+9PGrSjNUtK/HOsm2cC9n7gZXtu302ymft2L2xWrAWwLz
++vsygLxvT/Cn8QmVc29KBbQzwY6nSuSK9WXl0BOmtg1uIld4bHMZjQgolvYF5fx3
+Mr2PeWuWopB3nfQAFvXm6FZ2oWB/7cU1Uue6dBUiZkTzm8V0XV88YYrfCZO7FDWu
++4pNN++81BCsYpSFm29L2jEXh/TTLJ/d708GKc9c/3l987lgldC5DMnFDl/84him
+QthUn3cCHBMioSrRHGalplW4pPKpnsIUvVodBH3i3gUIWWKR8U4ynsCHxjUSVEWB
+c5Oufzsh7bOElHfGnYhX4OYnN3bXnEmMnBzl7mC9ocnyrF76UoCa6TyeqQARAQAB
+tAtGZWxpeFVLIE5ld4kCPAQTAQoAJgUCVUvA8wIbAwUJCWeAfQULCQgHAwUVCgkI
+CwQWAgEAAh4BAheAAAoJEOSDJyPQGEizLdMQALID2oqugTssYmvFrTxlGOWA7bW8
+bJdTR6EtNpNg0cTkgEbJBBcNvKEp7sxX5bcQV/nuFrHrCfl1WaxtuA28skRVHzpv
+jT4AMM0apVGzh5BItvDtojwviLdm5FJtcGpkLF+leKNKPvlrH49xGMV72+088Wi4
+IK+aKNXKeq7ZTaqz64vISlRnpM8tgyVZGKTzq42bPeXgpFey4XjlqIBxGo5YVMUr
+sGcWSiaOe4W5ZxHRYYBLIjD7/h82e/wt09Gwf691Leprs+rqdLLkdTfEHb6q6AFM
+Ezu57In44X6Z8IvkmARYb2oN8vQHiP3frK8ZujbDCdsUNF8oPu7a7Ah1RYiNW+aD
+wew/BykGrlM2uFc963a5LBhrczy5LrFaHWgWRg2S0rNXf83enQrFHL0jpGFG4/UI
+oZDQob7JrXTzBuKRdQcPU1qg/padN5zuJzITo5pDggm7Wx1OUKlrJbVWxQH2egHK
+EyG/W8rRd5bbs1F8mJ01hAMmQ30C0x7d+Ozi0S6W5PFVvErUbJgJKRyjG0rl3gTX
+9YH4uGynb6+V0Z3BOnQG663g1C5cXy1GTMFfWvJyq5oZMNJ1NB584HSzlgdY0TgC
+xYjFjL6WU0FNtLgb+rpKaa1FAaEUTHbljcQVyRYPP/rakng+kJ0A3awAPFRgljRb
+fVwNMQ4iW9uQOAv2uQINBFVLwPMBEADBGrfGAyMm3tkrjZAEJ0Y2wJs5ZUf6rm52
+Wdvj9cPNJlbo9eJq0z9XPFUbrRJJms3rQQWjHoD4TlwxBf/WaAtZA0Vzl4a6jhf9
+xYAqADYchDjEhqutNg/oBJpRIBaTrrgPUmLDSuzYiGzfPs2wd4qySP37bLd9ddzD
+gIky4snFPPWDqNQrGfE6u20JUasqUfGTTq5exnXmhhWG6Ol0IZ2zqVDx8ozRD3F/
+VaMrLF2o9WfAO9ZA/ZshUgf8DRKzeyZl55rb2MhlAG4PZRLg29cL3aavudxPtJ3+
+zG4ylA7Xh+pEc8MP5c0tDaVJtzgZmtQzJ6aEjMDARZ1ho7F6DkpK3VcH4q7DGTzj
+xobs23POEMUvT2k6GEiwgUoLOSyd+3LdA9QXyhB0YA5kVlscCoowG5O9CNbXOPOV
+jK6pet99jsl8farmnFSierL6egOtNsriOAeb9/8cSuTeGGRrrx0M8p9Ps1q+muoV
+Q+eMjtwAuZinvbB3HGybJs8Aogpa+8ZcqCpkN0iMV1QUCPuHeb//7go1v8cX2rDh
+k7euGg/3xcIrZvE51uaRKnmRN0X1hfzvVgbC3NDCivruB0umG1QzbijDkVSHKTLH
+pXrPnDR7UdstgYN/Q3VQhOzRc/DKY5DLbq6oxldNDHB8RpQ51cCVXmQ4KpCT+ZEk
+PV4Z6W9s5QARAQABiQIlBBgBCgAPBQJVS8DzAhsMBQkJZ4B9AAoJEOSDJyPQGEiz
+r1EP/1XaQ5Ai8EN6OOd7JROYp8QWeM5XNV1PscXfjrGKKCHW/LVziJC7KnqNeDk2
+0hmGUMIuu1SHvZZfWvN06w59c1VyNoRm6OjGJPENRtc3Zymn0lsNQ3XcNQjzv2QP
+3iY9ybIoUqRodaV7Xia/bd+OAsE+tC77i2gXQ4jVr+x8ez18oTP6Pw5x+CVeAoXi
+0Ir5V92o1KSVzN0kwMTJ/ogRA5e4baAB4BcRRPODJDbKoLQ1DpC2YLxwuWtH3Q+V
+tq/GO77sEVLG3CAJVawnKKP2xj1Pz0ZSLqo4Z9/vtoSt87HH5l2MtD7fnDYW+rux
+BeVGME360VEFx+/TO24yqP0IfuiEdLaa829GSqpsZTp6amwj+fzF9nimadIaKKLn
+1pX5jlpxWpKgppnOwd1NoXOB2sGpNrh9k9C1cZ3DUuUSeBDjSOFpGuif0dEYO0K3
+caHrwXXDuPgP/p+5uy4ApRQshn4zlAvg/rg1zrHJeOF7lqbQcOs7NvPUwwckySLi
+pgQHlVVDVgiuZy2yzvMgeCALleR1xI3oYHVLjMAPPt4Fi7IHshlUOFQBptj6WMPv
+AiFkLq9tmEP1f+XjVF56cPF+BMN88UGzOlTwNdBkG8LdVfnxba8hGbIpvjDhw1Ra
+XX2Syv/fQn+IViSoeFuXcbfLGdTHBWMRRCZDY/3mXUPV62Pz
+=S+MY
+-----END PGP PUBLIC KEY BLOCK-----""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/FelixUK> ;
+    ns1:price "$150" ;
+    ns1:productName "FelixUK (25) 230ug Green Androids LSD F.E" ;
+    ns1:shipsFrom ns1:UK ;
+    ns1:shipsTo ns1:Worldwide%29%2C%2832297%2CDream_Market_Login_-_Featured_anonymous_marketplace .
+
+<http://darkwebisspooky/product/33616> a ns1:Drugs_%5Cn%09%0941898 ;
+    ns1:description """***Here youâre purchasing MDMA Champagne Crystals 84% Purity***
+
+-Finest quality of MDMA directly from the coocks 
+-First hand, please be aware of the power of this MDMA
+-Crystal sizes do vary in smaller sizes for stealth purposes but will never affect its potency.
+
+-For larger offers contact us with a message 
+
+-We ship all our products worldwide from Germany.
+
+-Please note: It is extremely important that you provide me your correct address in the correct format for your country, as well as your full name (for more information about this please refer to my profile)
+
+-Once your order has been marked as âSentâ it will be shipped within 24 hours.""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/PowerService> ;
+    ns1:price "$260.9" ;
+    ns1:productName "25 Gram MDMA - Champagne Crystals 84% Purity ESCRO" ;
+    ns1:shipsFrom ns1:Germany ;
+    ns1:shipsTo ns1:Worldwide%29%2C%2833617%2C5gram_of_quality_Hia_hash .
+
+<http://darkwebisspooky/product/35024> a ns1:Drugs_%5Cn%09%0942057 ;
+    ns1:description """1 Pound (450 grams) of TopShelf trim ready to produce wax, shatter, hash. FREE TRACKING!!
+
+You can make outstanding hash, bho etc with this top quality FRESH indoor trime. Enough small bud to role joints!!!!""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/greenmountainman> ;
+    ns1:price "$350" ;
+    ns1:productName "1 POUND! 450 Grams of TopShelf trim - Sticky with " ;
+    ns1:shipsFrom ns1:USA ;
+    ns1:shipsTo ns1:United_States%29%2C%2835025%2C100_Gram_NIGHT_QUEEN .
+
+<http://darkwebisspooky/product/36392> a ns1:Drugs_%5Cn%09%0942044 ;
+    ns1:description """â The offer 
+
+There is a small FREE GIFT given out with each order (not a drug of course)!! (Kindly do not mention details of what you received in the feedback for stealth purposes)
+
+This is for 2g of Jack Herer directly from Amsterdam. It smells very nice, and the buds are big and crystalized! 
+
+
+
+â Same day shipping 
+
+- Shipping is made the same day if ordered before 4:30pm, otherwise next morning.
+- Product is mylar packed and vacuum sealed, cannot be detected by dogs or X-rays.
+
+
+
+â  The strain
+
+Jack Herer is a sativa-dominant cannabis strain that has gained much renown. Combining a Haze hybrid with a Northern Lights #5 and Shiva Skunk cross, Sensi Seeds created Jack Herer hoping to capture both the cerebral elevation associated with sativas and the heavy resin production of indicas.  Consumers typically describe this 55% sativa hybrid as blissful, clear-headed, and creative.
+
+Jack Herer was created in the Netherlands in the mid-1990s where it was later distributed by Dutch pharmacies as a recognized medical-grade strain. Since then, the spicy, pine-scented sativa has taken home numerous awards for its quality and potency.
+
+
+
+â  Reviews taken from https://www.leafly.com/sativa/jack-herer/reviews
+
+âExcellent high proper creeper hits you hard after about 20/30mins and last a while good strain for wake and bake as makes you wanna do stuff and nice high buzz well recommendedâ
+
+âThis is my everyday smoke, It is pure happiness. So great for depression, and I love that it allows me to remain clear-headed. Perfect for daytime! One of my all time favorites.â
+
+âI love the creativity, patience & focus that comes with this one. Uplifting, energizing, & relaxing all at the same time. A major favoriteâ
+
+\\"Great for managing PTSD and Depression.\\"
+
+âvery smooth taste and stress killing high. very good stuffâ
+""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/QuicknQuality> ;
+    ns1:price "$25.48" ;
+    ns1:productName "â AAA+ JACK HERER 2G + Free Gift " ;
+    ns1:shipsFrom ns1:Amsterdam ;
+    ns1:shipsTo ns1:Europe_Worldwide%29%2C%2836393%2C10_GR_NEW_BOLIVIA_FISH_SCALE_COCAINE .
+
+<http://darkwebisspooky/product/37830> a ns1:Digital_Goods_%5Cn%09%0929328 ;
+    ns1:description "I\\'ll show you a NEW trick to use with the amazon gift card. This method cant get saturated, so follow the instructions and you can redeem as many times as you want." ;
+    ns1:hasSeller <http://darkwebisspooky/seller/etimbuk> ;
+    ns1:price "$4" ;
+    ns1:productName "Amazon gift cards trick NEW" ;
+    ns1:shipsFrom ns1:Worldwide ;
+    ns1:shipsTo <http://darkwebisspooky/Worldwide_Worldwide%29%2C%2837831%2C1G_ICE_/_Methamphetamine_82%2C4%25> .
+
+<http://darkwebisspooky/product/39376> a ns1:Drugs_%5Cn%09%0941752 ;
+    ns1:description """We offer real:
+Superman Dutch XTC
+Working 170mg
+Breakline""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/invidiousintent> ;
+    ns1:price "$6029" ;
+    ns1:productName "# 5000x Superman Dutch XTC 170mg #" ;
+    ns1:shipsFrom ns1:EU ;
+    ns1:shipsTo ns1:Europe_Worldwide%29%2C%2839377%2CHacking_-_The_Next_Generation_-_%28new_generation_of .
+
+<http://darkwebisspooky/product/4159> a ns1:Drugs_%5Cn%09%0940275 ;
+    ns1:description """Î²-Keto-3,4-methylenedioxy-alpha-propyl-N-ethyl-phenethylamine
+
+â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾
+WHEN ORDERING,PLEASE USE THIS ADDRESS FORMAT:
+
+RECIPIENT NAME.
+STREET NAME & NUMBER,
+REGION,
+CITY, POSTAL CODE,
+COUNTRY
+PHONE#
+
+Phone number can be faked,its only requirement from the post office.
+Please read our profile before ordering!""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/Empereor> ;
+    ns1:price "$1000" ;
+    ns1:productName "BK-EBDP [ 250 Gram\\'s ] | FE" ;
+    ns1:shipsFrom ns1:China ;
+    ns1:shipsTo ns1:Worldwide%29%2C%284160%2CDream_Market_Login_-_Featured_anonymous_marketplace .
+
+<http://darkwebisspooky/product/5499> a ns1:Digital_Goods_%5Cn%09%0929359 ;
+    ns1:description """Limited time price of $1.75, the price will go up! I am a new vendor trying to build a reputation with good reviews.
+
+This listing is the lowest all in one Dark Web Package of the best guides out there. Same guides go for on average $25 elsewhere! The valuable information is worth way more than I\\'m asking for, it\\'s basically free for your great reviews! 
+
+Please finalize and leave good feedback as soon as you can so I can expand and offer more great products and guides for great prices.
+
+Thanks for your future business and enjoy my product!
+
+No need to encrypt any messages for this order, I will just send you a message with a secure link to download the document. 
+
+If you need to encrypt a message, this is My Public PGP:
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: BCPG C# v1.6.1.0
+
+mQENBFf16zcBCACsTotphjeDDim1zSMyEsDl8ihANFg2Q1EA1ejJot4hiUkDP/OU
+gTDdkdLjXH5ACop24yqIapJjQpnYXjETR+V2ZY34suOmzc/fnCPIN+x4PxmihteS
+VVsnQCZySEIKS5A2a9gQYlaM1VRDd0Yz59QUlOvC0rxYXLUjjXfkWJnJ/uCQ1FYC
+IQCZSMvZ+b3fibw3ngHZH7vsU+d9uFP7SUWE1u2ahXoCZR0NM6XfHZ/OKV0CYWnC
+cRo1y+31Guc+FmbFzJBQaSBygdLRsqf6Ih9b+8EIwdKs9DaNf8UgN+5MMKAcEu7o
+rGXwFU76auTQyQO/AV7OkW2h2DWmxkjtsIObABEBAAG0FmRhbWllbjAwMTAwMUB5
+YWhvby5jb22JARwEEAECAAYFAlf16zcACgkQHEeh3XPI5IEy+Qf+KejGI6mPSZ/R
+5/vWPR+ThVpQP3hHrKl0NeFhzbetOeyiD6hfTYOCcJ4QXHgShoQIAO3ae5ShDZzM
+U90uxuRZcZ0XJzQ2ZKfLi3L9vRccJEcDGzhGsGVvsfmgJR4ivSiiqiIQABH4A+RP
+T6Z0ty9tImCf4A5thjxn/q/JV5u/KgRBFUtnTpr/Q9rzkiEKLwSGJPwoGzMLLUhU
+4TKCjSlUQok9p0kjiriAH8IO8le+Pg70xHfJunqvk8AZf1Kp/0rVeIF9Sl4LZTPW
+I0WO9SkZfb8Umsr7mUutWoQZzrjwuq70KcPPzSsUBtqyyJLsH+/k7B24YnibDJOA
+eDAcRUXtjg==
+=4XwN
+-----END PGP PUBLIC KEY BLOCK-----""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/AmericanConnect> ;
+    ns1:price "$1.75" ;
+    ns1:productName "BIGGEST HACK FRAUD GUIDES PACKAGE! LOWEST PRICE!" ;
+    ns1:shipsFrom ns1:WW_Worldwide_USA ;
+    ns1:shipsTo ns1:United_States%29%2C%285500%2C%281%29_Morphine_Sulfate_60mg .
+
+<http://darkwebisspooky/product/6882> a <http://darkwebisspooky/-> ;
+    ns1:description "-" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/-> ;
+    ns1:price "-" ;
+    ns1:productName "Dream Market Login - Featured anonymous marketplace" ;
+    ns1:shipsFrom <http://darkwebisspooky/-> ;
+    ns1:shipsTo <http://darkwebisspooky/-%29%2C%286883%2CPremium_Bayer_Opium_1G_%28UK_to_UK_ONLY%29> .
+
+<http://darkwebisspooky/product/8349> a ns1:Digital_Goods_%5Cn%09%0929476 ;
+    ns1:description """Key Features
+
+Create reusable patterns and modules by leveraging the new features of Node.js
+This unique guide will help you get the most out of Node.js by providing a series of patterns and techniques of the Node.JS ecosystem
+Illustrative examples will help you get a clear practical understanding.
+
+Book Description
+
+Node.js is a massively popular software platform that lets you use JavaScript to easily create scalable server-side applications. It allows you to create efficient code, enabling a more sustainable way of writing software made of only one language across the full stack, along with extreme levels of reusability, pragmatism, simplicity, and collaboration. Node.js is revolutionizing the web and the way people and companies create their software.
+
+In this book, we will take you on a journey across various ideas and components, and the challenges you would commonly encounter while designing and developing software using the Node.js platform. You will also discover the Node.js way of dealing with design and coding decisions.
+
+The book kicks off by exploring the basics of Node.js describing it\\'s asynchronous single-threaded architecture and the main design patterns. It then shows you how to master the asynchronous control flow patterns, the stream library and it culminates into a detailed list of Node.js implementations of the most common design patterns as well as some specific design patterns that are exclusive to the Node.js world. Lastly, it dives into more advanced concepts like modules, Universal Javascript and scalability and it\\'s meant to conclude the journey by giving the reader all the necessary concepts to be able to build an enterprise grade application using Node.js.
+
+What you will learn
+
+Design and implement a series of server-side JavaScript patterns so you understand why and when to apply them in different use case scenarios
+Leverage all the patterns that allow you to take advantage of features from callbacks to the futuristic async-await syntax.
+Identify the most important concerns and apply unique tricks to achieve higher scalability and modularity in your Node.js application
+Untangle your modules by organizing and connecting them coherently
+Reuse well-known solutions to circumvent common design and coding issues
+Explore the new trend of Universal JavaScript that allows you to easily share code with the browser, avoiding duplication between back-end and front-end code
+
+Format: PDF""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/pckabml> ;
+    ns1:price "$2.99" ;
+    ns1:productName "Node.js Design Patterns 2nd edition 2016" ;
+    ns1:shipsFrom ns1:Worldwide ;
+    ns1:shipsTo ns1:Worldwide%29%2C%288350%2C%28INTRO_OFFER%29_UK_CHEESE__3.5g___%C3%82%C2%A325__%28INTRO_OFFER%29 .
+
+<http://darkwebisspooky/product/9797> a ns1:Drugs_%5Cn%09%0941961 ;
+    ns1:description """- We ONLY ship USPS priority mail.
+- Shipping is done within 48 hours.
+- We dont ship weekends of course.
+-  OK INTERNATIONAL SHIPPING W TRACKING NUMBER
+- Don\\'t put any stealth methods on here concerning shipping
+- All customer shipping records are deleted after item is shipped!
+- NO NO tracking info unless order not recieved in 5 business days.
+
+I do get tracking info but wont give it out. This is how they get IP addresses. We dont want that now :)
+
+*****************************************************************
++++++++++++NOW SHIPPING WORLDWIDE+++++++++++
+wholesale buyers wanted!
+
+the ultimate product here is trust and we pay for that
+
+no matter where the fuck we may be this is constant
+*****************************************************************
+BudMasterGeneral has traveled far and met with numerous farmers in all parts of Kali to bring you finest flowers and its variants of products. totally healthy and good for ya!
+i will be unloading serious Kali weights in coming months so please inquire directly! i need you to do this! God speed1
+
+++++++++++++++++++++++++++++++++++++++++++++++
+*****************************************************************
+Pay for shipping on the biggest/heaviest item, all additional items get FREE shipping. if we have to use additional boxes we will inform you kindly
+*****************************************************************
+- NOW SHIPPING WORLDWIDE (FE REQUIRED) UPTO 1 POUND OF CANNABIS
+- All US shipments are made via USPS Priority Mail.
+- Shipping is done within 1 business day.
+- I do not work on Saturday or Sunday or US Federal Holidays.
+- No shipments or messages on those days.
+- Use PGP when discussing personal info or stealth methods.
+- All customer shipping records are deleted 14 days after item is shipped.
+- I will check tracking if item has not arrived in 7 days.
+- I do not give out tracking numbers for US deliveries
+- i absolutely trust USPS!!!!!!!!! USPS fucking Delivers!!!!
+*****************************************************************
+I appreciate customers that FE. This allows me to get new items in stock faster.
+*****************************************************************
+ADDITIONAL INFO
+
+- I check orders once per day. Once received, the order status will be changed to \\"CONFIRMED\\" and the order will be packed.
+- The order status will be changed to \\"SHIPPED\\" only after the order is actually shipped.
+- Orders TYPICALLY arrive 2-3 days later. Keep in mind that some packages may be delayed due to mis-routing by the carrier, and can occasionally take longer to arrive.
+- Please provide address !!!ENCRYPTED!!!, in all CAPS.
+- Please use the following address format:
+
+YOUR NAME
+123 N YOUR ST APT 1
+CITY, ST 00000
+
+we cannot guarantee international delivery (non-US) however, we have had a stellar delivery success rate within US with our stealth method. so if you assume the risk, then i will gladly send. that is why we will require FE on international shipment. FREE SHIPPING is only offered to 2nd, 3rd and 4th items purchase at same time.
+
+IN CASE OF UNCLE SAM\\'S CONFISCATION OF GOODS WHILE IN TRANSIT:
+
+well the industry\\'s standard rule of thumb is that when uncle sam/customs confiscate shipment in the transit, seller and buyer are responsible to eat 1/2 of the total amount minus the shipment cost.
+
+For example, if buyer spent $300 on items and $40 on shipment fee, seller and buyer each take $150 loss. in the case the money was FE\\'ed, only the seller needs to return $150 to the buyer Only AFTER the tracking info says it has been confiscated. until that time though we need to wait for the information or the delivery. we hope for the delivery! i hope this provision helps customers decisions to purchase. Order with CONFIDENCE!!! BMG DELIVERS! somebody asked me their country\\'s post master does not notify if they confiscate it. well then please do not order from me. i kindly refuse service i am sure you do understand.
+
+
+Â¯Â¯Ì¿Ì¿Â¯Ì¿Ì¿\\'Ì¿Ì¿Ì¿Ì¿Ì¿Ì¿Ì¿\\'Ì¿Ì¿\\'Ì¿Ì¿Ì¿Ì¿Ì¿\\'Ì¿Ì¿Ì¿)ÍÌ¿Ì¿)Ì¿Ì¿Ì¿Ì¿ \\'Ì¿Ì¿Ì¿Ì¿Ì¿Ì¿\\\\ÌµÍÌ¿Ì¿\\\\=(â¢ÌªÌâÌ)=o/ÌµÍÌ¿Ì¿/\\'Ì¿Ì¿ Ì¿ Ì¿Ì¿
+*****************************************************************
+Customer\\'s Who have 5 or Fewer Transactions or have an account
+opened for less than 30 day\\'s MUST Finalize before I send.
+This does not affect the way we do buisness in any way.
+BMG appreciates FE customers. we love u! if you FE\\'d, we KNOW WE ARE MAILING YOUR ORDERS!
+just in case site crashes for whatever the reasons.
+
+*****************************************************************
+FREE shipping option is ONLY for those customers who is
+purchasing more than one item at a time. If that is the case,
+you must choose regular shipping option first and then choose
+FREE shipping for additional items purchase at the same time.
+*****************************************************************
+
+PGP encryption is REQUIRED for your address info!
+
+BudMasterGeneral Public Key:
+
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+
+mQENBFTs/QsBCAD5fx+NeOtJQGUOcarkkPA246BdEQKsUEYYsGaRyJzsO8PtWH7C
+69F7FA0PTHbSTlpCvan6tEMwDMUbSKwdcZ/6FaKsqpIpeNsSPLxu1XMXFjUzdynb
+qP+WXYcl11Fs6oYwzXNjkDvGFVdLrksIoQrUSInrycsdMz56m3IcfmMQo/LVt8XL
+VN4m6uIz6qs+8yabZQL734RaXKI0md/10epMAvF1vPNC1CU/Lw9ZviV5ejys1ooV
+4BExVQVIoKqc5LTbppNae8nMFxK/JiMREJzEq5ow1izF/UdIspMwJNyO9ilPznR6
+T+b3/UgeFkjfDhx9P3XAN0SEH7bZnKWSd+CRABEBAAG0MEJ1ZE1hc3RlckdlbmVy
+YWwgPEJ1ZE1hc3RlckdlbmVyYWxAZmFrZW1haWwuY29tPokBOQQTAQIAIwUCVOz9
+CwIbAwcLCQgHAwIBBhUIAgkKCwQWAgMBAh4BAheAAAoJEHaDACaJZE4RpwsIAPHU
+EsxWMOKbNN5HyxiHrAb3VwKL59B67BaLwa8okfYT/Dc1cN/Zve0RFVpjD2iIKREq
+VShV4+R7nH0f7YdrnYYbTAsbG+Ju6Ntm5REcd4sf+ChvQ6e/WY+nP/yjvEm4hfPk
+ZzAkvsYHCKWtf38kbbi3lvsNG5l3MUW1ygjpaUDapES2X0+PPugnn0e/rq6GzhI4
+95HCMo4rvkg3b7GFSf+4VbrZ4MHJ/JKRx5tfklN0e3TpetFTGzAI+U/SApyDGlka
+GU/dDgRAn9iCC2Qgyj6KUimM3T0V4+LIM+7YNH7MtA6J5vjHE4NywTXiGDnGHkk3
+RqYcZwfkLotg4uwPZpO5AQ0EVOz9CwEIANqPsh8UgZrL+HAraYwmePTlEUk7kLHe
+ecNTDVr42oB9luXMECunQT+MIUgbEL34gKE5tY6WrHV/XtulTYjFRB2AQ2yjj4eq
+tTHC3gdgRr/cM4DstCtBXGRrOUTWBT0vYbFwbIjyeTXTk4ofppk7jA9/Mfwhnb5w
+C+9G4XRSibrUNxp0vqMDSvtA6m+UV8zKBHvlXlgsTjvGjKqa7xA4yws/p+d6HMso
+uE4DheNoLfwVheW/DxpycZibKZ87pEGToq03HXKAhZhyQ09BZnoQBx5mF91PlgA/
+gV9vfzM+YGosGqKr/vKG7HuL9RH0uJ6SIk2SADPl6c4TZIaYSQwLzJMAEQEAAYkB
+HwQYAQIACQUCVOz9CwIbDAAKCRB2gwAmiWROEe0FCACBcGmcxtww7+uqvS7sMC1c
+hmfqRd1uYd4yB1EO+8TBKYXEVejRUnjmbhKiieKLowudMqTmda/wSYO/PXPDnfjY
+gkBd0n9tEZZVvVlJ72muvZNNxATQU7K5nxWnE7kEslXYOklcyPsyCPnHeJAzasV/
+UjyzKrl2r01P9gQaQfCoSLE/2LPgGMt6hfrS6EShtm7569AN/3Tbe6963OzS8IVP
+on1omFZ5f7qvhH0V34HaGaF9DJBRU1J9bGZk46ONdiWMbCJPINBzVypk8I8plAtN
+nUzrDSDM6zi25MWGjfo5OS9F5mTpQEm03RscWVyzTDuN/kdHAJtGTqq41MzM8dFa
+=AH00
+-----END PGP PUBLIC KEY BLOCK-----
+- Don\\'t put any stealth methods on here concerning shipping
+- All customer shipping records are deleted after item is shipped!
+- NO NO tracking info unless order not received in 5 business days.
+
+I do get tracking info but wont give it out. This is how they get IP addresses. We dont want that now :)
+
+
+Â¯Â¯Ì¿Ì¿Â¯Ì¿Ì¿\\'Ì¿Ì¿Ì¿Ì¿Ì¿Ì¿Ì¿\\'Ì¿Ì¿\\'Ì¿Ì¿Ì¿Ì¿Ì¿\\'Ì¿Ì¿Ì¿)ÍÌ¿Ì¿)Ì¿Ì¿Ì¿Ì¿ \\'Ì¿Ì¿Ì¿Ì¿Ì¿Ì¿\\\\ÌµÍÌ¿Ì¿\\\\=(â¢ÌªÌâÌ)=o/ÌµÍÌ¿Ì¿/\\'Ì¿Ì¿ Ì¿ Ì¿Ì¿
+*****************************************************************
+Customer\\'s Who have 5 or Fewer Transactions or have an account
+opened for less than 30 day\\'s MUST Finalize before I send.
+This does not affect the way we do buisness in any way.
+BMG appreciates FE customers. we love u! if you FE\\'d, we KNOW WE ARE MAILING YOUR ORDERS!
+just in case site crashes for whatever the reasons.
+
+*****************************************************************
+FREE shipping option is ONLY for those customers who is
+purchasing more than one item at a time. If that is the case,
+you must choose regular shipping option first and then choose
+FREE shipping for additional items purchase at the same time.
+*****************************************************************
+
+PGP encryption is REQUIRED for your address info!
+
+BudMasterGeneral Public Key:
+
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+
+mQENBFTs/QsBCAD5fx+NeOtJQGUOcarkkPA246BdEQKsUEYYsGaRyJzsO8PtWH7C
+69F7FA0PTHbSTlpCvan6tEMwDMUbSKwdcZ/6FaKsqpIpeNsSPLxu1XMXFjUzdynb
+qP+WXYcl11Fs6oYwzXNjkDvGFVdLrksIoQrUSInrycsdMz56m3IcfmMQo/LVt8XL
+VN4m6uIz6qs+8yabZQL734RaXKI0md/10epMAvF1vPNC1CU/Lw9ZviV5ejys1ooV
+4BExVQVIoKqc5LTbppNae8nMFxK/JiMREJzEq5ow1izF/UdIspMwJNyO9ilPznR6
+T+b3/UgeFkjfDhx9P3XAN0SEH7bZnKWSd+CRABEBAAG0MEJ1ZE1hc3RlckdlbmVy
+YWwgPEJ1ZE1hc3RlckdlbmVyYWxAZmFrZW1haWwuY29tPokBOQQTAQIAIwUCVOz9
+CwIbAwcLCQgHAwIBBhUIAgkKCwQWAgMBAh4BAheAAAoJEHaDACaJZE4RpwsIAPHU
+EsxWMOKbNN5HyxiHrAb3VwKL59B67BaLwa8okfYT/Dc1cN/Zve0RFVpjD2iIKREq
+VShV4+R7nH0f7YdrnYYbTAsbG+Ju6Ntm5REcd4sf+ChvQ6e/WY+nP/yjvEm4hfPk
+ZzAkvsYHCKWtf38kbbi3lvsNG5l3MUW1ygjpaUDapES2X0+PPugnn0e/rq6GzhI4
+95HCMo4rvkg3b7GFSf+4VbrZ4MHJ/JKRx5tfklN0e3TpetFTGzAI+U/SApyDGlka
+GU/dDgRAn9iCC2Qgyj6KUimM3T0V4+LIM+7YNH7MtA6J5vjHE4NywTXiGDnGHkk3
+RqYcZwfkLotg4uwPZpO5AQ0EVOz9CwEIANqPsh8UgZrL+HAraYwmePTlEUk7kLHe
+ecNTDVr42oB9luXMECunQT+MIUgbEL34gKE5tY6WrHV/XtulTYjFRB2AQ2yjj4eq
+tTHC3gdgRr/cM4DstCtBXGRrOUTWBT0vYbFwbIjyeTXTk4ofppk7jA9/Mfwhnb5w
+C+9G4XRSibrUNxp0vqMDSvtA6m+UV8zKBHvlXlgsTjvGjKqa7xA4yws/p+d6HMso
+uE4DheNoLfwVheW/DxpycZibKZ87pEGToq03HXKAhZhyQ09BZnoQBx5mF91PlgA/
+gV9vfzM+YGosGqKr/vKG7HuL9RH0uJ6SIk2SADPl6c4TZIaYSQwLzJMAEQEAAYkB
+HwQYAQIACQUCVOz9CwIbDAAKCRB2gwAmiWROEe0FCACBcGmcxtww7+uqvS7sMC1c
+hmfqRd1uYd4yB1EO+8TBKYXEVejRUnjmbhKiieKLowudMqTmda/wSYO/PXPDnfjY
+gkBd0n9tEZZVvVlJ72muvZNNxATQU7K5nxWnE7kEslXYOklcyPsyCPnHeJAzasV/
+UjyzKrl2r01P9gQaQfCoSLE/2LPgGMt6hfrS6EShtm7569AN/3Tbe6963OzS8IVP
+on1omFZ5f7qvhH0V34HaGaF9DJBRU1J9bGZk46ONdiWMbCJPINBzVypk8I8plAtN
+nUzrDSDM6zi25MWGjfo5OS9F5mTpQEm03RscWVyzTDuN/kdHAJtGTqq41MzM8dFa
+=AH00
+-----END PGP PUBLIC KEY BLOCK-----""" ;
+    ns1:hasSeller <http://darkwebisspooky/seller/BudMasterGeneral> ;
+    ns1:price "$55.5" ;
+    ns1:productName "E.BLUNT SLIM RECHARGEABLE VAPORIZER **BLACKBERRY**" ;
+    ns1:shipsFrom ns1:US ;
+    ns1:shipsTo ns1:United_States%29%2C%289798%2C50_x_10mg_Penid_%28Ritalin%29_IR%21_300%24_ESCROW_PRICE .
+

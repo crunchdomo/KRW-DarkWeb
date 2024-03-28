@@ -51,14 +51,23 @@ def add(subject, predicate, object, is_object_property=False):
 def clean_location(value_str):
     # Decode URL-encoded strings and remove unwanted characters
     decoded_str = unquote(value_str)
-    # Remove unwanted characters and trailing numbers
-    cleaned_str = re.sub(r"[\n\t]+", " ", decoded_str).strip()
-    cleaned_str = re.sub(r"%[0-9A-Fa-f]{2}", "", cleaned_str)  # Remove URL-encoded chars
+    # Initial clean-up to remove URL-encoded chars and replace escaped newlines with space
+    cleaned_str = re.sub(r"%[0-9A-Fa-f]{2}", "", decoded_str)  # Remove URL-encoded chars
     cleaned_str = re.sub(r"\\n", " ", cleaned_str)  # Replace escaped newlines with space
-    # Extract the meaningful part of the location name
-    match = re.search(r"^[^\),]+", cleaned_str)  # Adjust regex as needed based on the pattern of concatenated info
-    if match:
-        cleaned_str = match.group(0)
+    cleaned_str = cleaned_str.strip()
+
+    # Specific clean-up based on observed patterns
+    # Example: Split concatenated names and select the first, or apply other logic as needed
+    parts = cleaned_str.split('_')
+    if len(parts) > 1:
+        # This is a simplistic approach; you might need more sophisticated logic
+        cleaned_str = parts[0]  # Consider more complex logic for choosing the correct part
+
+    # Further refine the cleaning process as needed based on the patterns in your data
+    # Example: Remove trailing numbers and other unwanted substrings
+    cleaned_str = re.sub(r"\d+$", "", cleaned_str)  # Remove trailing digits
+    cleaned_str = re.sub(r"Worldwide Worldwide", "Worldwide", cleaned_str)  # Example specific replacement
+
     return cleaned_str.strip()
 
 def clean_data(value_str):
