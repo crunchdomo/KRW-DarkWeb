@@ -71,7 +71,6 @@ def clean_location(value_str):
     cleaned_str = re.sub(r"Belgium and the Netherlands", "Belgium_and_the_Netherlands", cleaned_str)
     cleaned_str = re.sub(r"United Kingdom", "United_Kingdom", cleaned_str)
     cleaned_str = re.sub(r"United States", "United_States", cleaned_str)
-    print(cleaned_str)
     return cleaned_str.strip()
 
 def clean_data(value_str):
