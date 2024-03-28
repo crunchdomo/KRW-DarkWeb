@@ -70,6 +70,7 @@ def clean_location(value_str):
     cleaned_str = re.sub(r"us", "United_States", cleaned_str)
 
     cleaned_str = re.sub(r"canada", "Canada", cleaned_str)
+    cleaned_str = re.sub(r"holland", "Holland", cleaned_str)
     cleaned_str = re.sub(r"GermanyNetherlands", "Germany Netherlands", cleaned_str)
     cleaned_str = re.sub(r"SPAIN", "Spain", cleaned_str)
     cleaned_str = re.sub(r"worldwide", "Worldwide", cleaned_str)
@@ -82,6 +83,7 @@ def clean_location(value_str):
     cleaned_str = re.sub(r"Hong Kong", "Hong_Kong", cleaned_str)
     cleaned_str = re.sub(r"west coast", "West_Coast", cleaned_str)
     cleaned_str = re.sub(r"AUnited_Statestralia", "Australia", cleaned_str)
+    cleaned_str = re.sub(r"The United Snakes of Captivity", "The_United_Snakes_of_Captivity", cleaned_str)
     print(cleaned_str)
     return cleaned_str.strip()
 

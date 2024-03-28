@@ -22,10 +22,6 @@ ns1:Canada a ns1:Location,
         rdfs:Class ;
     rdfs:label "Canada" .
 
-ns1:Captivity a ns1:Location,
-        rdfs:Class ;
-    rdfs:label "Captivity" .
-
 ns1:China a ns1:Location,
         rdfs:Class ;
     rdfs:label "China" .
@@ -55,6 +51,10 @@ ns1:Germany a ns1:Location,
         rdfs:Class ;
     rdfs:label "Germany" .
 
+ns1:Holland a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Holland" .
+
 ns1:Hong_Kong a ns1:Location,
         rdfs:Class ;
     rdfs:label "Hong_Kong" .
@@ -83,24 +83,16 @@ ns1:Other a rdfs:Class ;
 ns1:Services a rdfs:Class ;
     rdfs:label "Services" .
 
-ns1:Snakes a ns1:Location,
-        rdfs:Class ;
-    rdfs:label "Snakes" .
-
 ns1:Spain a ns1:Location,
         rdfs:Class ;
     rdfs:label "Spain" .
 
-ns1:The a ns1:Location,
+ns1:The_United_Snakes_of_Captivity a ns1:Location,
         rdfs:Class ;
-    rdfs:label "The" .
+    rdfs:label "The_United_Snakes_of_Captivity" .
 
 ns1:UV a rdfs:Class ;
     rdfs:label "UV" .
-
-ns1:United a ns1:Location,
-        rdfs:Class ;
-    rdfs:label "United" .
 
 ns1:United_Kingdom a ns1:Location,
         rdfs:Class ;
@@ -117,14 +109,6 @@ ns1:West_Coast a ns1:Location,
 ns1:Worldwide a ns1:Location,
         rdfs:Class ;
     rdfs:label "Worldwide" .
-
-ns1:holland a ns1:Location,
-        rdfs:Class ;
-    rdfs:label "holland" .
-
-ns1:of a ns1:Location,
-        rdfs:Class ;
-    rdfs:label "of" .
 
 <http://darkwebisspooky/product/102636> a ns1:Drugs ;
     ns1:description "Prescription, Relaxants" ;
@@ -228,11 +212,7 @@ If your login stops working we will replace it for you.
     ns1:price "JohnnyUtah" ;
     ns1:productName "H.Q. \\'Thunder Mountain\\' Shards 0.8g" ;
     ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Captivity,
-        ns1:Snakes,
-        ns1:The,
-        ns1:United,
-        ns1:of .
+    ns1:shipsTo ns1:The_United_Snakes_of_Captivity .
 
 <http://darkwebisspooky/product/145405> a ns1:Digital_Goods ;
     ns1:description """LSD Complete Synthesis Guide
