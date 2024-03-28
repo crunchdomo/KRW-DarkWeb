@@ -60,18 +60,31 @@ def clean_location(value_str):
 
     # Specific replacement cause this is jus tthe easiest way to sort out stuff
     # Short ones go first so they dont accidentaly replace some letters later with a new place
-    cleaned_str = re.sub(r"WW", "", cleaned_str)
+    cleaned_str = re.sub(r"WW", "Worldwide", cleaned_str)
+    cleaned_str = re.sub(r"ww", "Worldwide", cleaned_str)
     cleaned_str = re.sub(r"EU", "Europe", cleaned_str)
     cleaned_str = re.sub(r"UK", "United_Kingdom", cleaned_str)
+    cleaned_str = re.sub(r"uk", "United_Kingdom", cleaned_str)
     cleaned_str = re.sub(r"USA", "United_States", cleaned_str)
+    cleaned_str = re.sub(r"usa", "United_States", cleaned_str)
     cleaned_str = re.sub(r"US", "United_States", cleaned_str)
+    cleaned_str = re.sub(r"us", "United_States", cleaned_str)
 
     cleaned_str = re.sub(r"canada", "Canada", cleaned_str)
+    cleaned_str = re.sub(r"holland", "Holland", cleaned_str)
+    cleaned_str = re.sub(r"GermanyNetherlands", "Germany Netherlands", cleaned_str)
+    cleaned_str = re.sub(r"SPAIN", "Spain", cleaned_str)
     cleaned_str = re.sub(r"worldwide", "Worldwide", cleaned_str)
+    cleaned_str = re.sub(r"WORLDWIDE", "Worldwide", cleaned_str)
     cleaned_str = re.sub(r"Worldwide Worldwide", "Worldwide", cleaned_str)
-    cleaned_str = re.sub(r"Belgium and the Netherlands", "Belgium_and_the_Netherlands", cleaned_str)
+    cleaned_str = re.sub(r"Belgium and the Netherlands", "Belgium Netherlands", cleaned_str)
     cleaned_str = re.sub(r"United Kingdom", "United_Kingdom", cleaned_str)
+    cleaned_str = re.sub(r"UNITED KINGDOM", "United_Kingdom", cleaned_str)
     cleaned_str = re.sub(r"United States", "United_States", cleaned_str)
+    cleaned_str = re.sub(r"Hong Kong", "Hong_Kong", cleaned_str)
+    cleaned_str = re.sub(r"west coast", "West_Coast", cleaned_str)
+    cleaned_str = re.sub(r"AUnited_Statestralia", "Australia", cleaned_str)
+    cleaned_str = re.sub(r"The United Snakes of Captivity", "The_United_Snakes_of_Captivity", cleaned_str)
     return cleaned_str.strip()
 
 def clean_data(value_str):
@@ -101,7 +114,7 @@ def create_or_get_class(name, is_location=False):
     return class_uri
 
 # Process the SQL file
-with open('C:\\Users\\oenfa\\Documents\\GitHub\\KRW-DarkWeb\\Datasets\\DreamMarket_2017\\DreamMarket2017_product.sql', 'r', encoding='utf-8') as file:
+with open('Datasets\\DreamMarket_2017\\DreamMarket2017_product.sql', 'r', encoding='utf-8') as file:
     for line in file:
         if line.startswith('INSERT INTO `dnm_dream` VALUES'):
             values = line.split('VALUES')[1].strip().strip(';').strip('(').strip(')').split(',', 3)
@@ -137,4 +150,4 @@ with open('C:\\Users\\oenfa\\Documents\\GitHub\\KRW-DarkWeb\\Datasets\\DreamMark
                     add(product_uri, shipsTo, ship_to_uri, is_object_property=True)
 
 # Serialize the graph
-g.serialize(destination='DMProducts217.ttl', format='turtle')
+g.serialize(destination='DMProducts2017.ttl', format='turtle')

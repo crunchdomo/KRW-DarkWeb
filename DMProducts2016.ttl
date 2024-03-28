@@ -12,9 +12,9 @@ ns1:Australia a ns1:Location,
         rdfs:Class ;
     rdfs:label "Australia" .
 
-ns1:Belgium_and_the_Netherlands a ns1:Location,
+ns1:Belgium a ns1:Location,
         rdfs:Class ;
-    rdfs:label "Belgium_and_the_Netherlands" .
+    rdfs:label "Belgium" .
 
 ns1:Canada a ns1:Location,
         rdfs:Class ;
@@ -737,7 +737,8 @@ Stay Safe, don\\'t worry and be HAPPY:)""" ;
     ns1:hasSeller <http://darkwebisspooky/seller/TheHappyCrew> ;
     ns1:price "$20.94" ;
     ns1:productName "10ML HIGH THC CANNABIS E-LIQUID *HAPPY MIX trim " ;
-    ns1:shipsFrom ns1:Belgium_and_the_Netherlands ;
+    ns1:shipsFrom ns1:Belgium,
+        ns1:Netherlands ;
     ns1:shipsTo ns1:Europe,
         ns1:Worldwide .
 
