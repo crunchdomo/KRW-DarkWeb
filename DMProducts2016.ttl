@@ -4,11 +4,63 @@
 <http://darkwebisspooky/-> a rdfs:Class ;
     rdfs:label "-" .
 
-ns1:Digital_Goods_%5Cn a rdfs:Class ;
-    rdfs:label "Digital Goods \\n" .
+ns1:Amsterdam a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Amsterdam" .
 
-ns1:Drugs_%5Cn a rdfs:Class ;
-    rdfs:label "Drugs \\n" .
+ns1:Australia a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Australia" .
+
+ns1:Belgium_and_the_Netherlands a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Belgium_and_the_Netherlands" .
+
+ns1:China a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "China" .
+
+ns1:Digital_Goods a rdfs:Class ;
+    rdfs:label "Digital_Goods" .
+
+ns1:Drugs a rdfs:Class ;
+    rdfs:label "Drugs" .
+
+ns1:Europe a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Europe'" .
+
+ns1:Germany a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Germany" .
+
+ns1:Japan a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Japan'" .
+
+ns1:Netherlands a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Netherlands" .
+
+ns1:United_Kingdom a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "United_Kingdom" .
+
+ns1:United_States a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "United_States'" .
+
+ns1:Worldwide a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "Worldwide" .
+
+ns1:canada a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "canada" .
+
+ns1:worldwide a ns1:Location,
+        rdfs:Class ;
+    rdfs:label "worldwide" .
 
 <http://darkwebisspooky/product/1> a <http://darkwebisspooky/-> ;
     ns1:description "-" ;
@@ -16,17 +68,17 @@ ns1:Drugs_%5Cn a rdfs:Class ;
     ns1:price "-" ;
     ns1:productName "503 - Forwarding failure (Privoxy@localhost)" ;
     ns1:shipsFrom <http://darkwebisspooky/-> ;
-    ns1:shipsTo <http://darkwebisspooky/-%29%2C%282%2COG_KUSH_1/2_OZ_%24125_AAAA%2B> .
+    ns1:shipsTo <http://darkwebisspooky/-> .
 
-<http://darkwebisspooky/product/11126> a ns1:Digital_Goods_%5Cn ;
+<http://darkwebisspooky/product/11126> a ns1:Digital_Goods ;
     ns1:description "I will show you a ridiculously easy way to become a millionaire within months. The best thing about this is you can do it on the clearnet, yes you hear it right and never go to jail. Yes, the technique is very gray and sort of dishonest but nothing illegal here. I will show you how to manipulate Alt-coins to your advantage! Stop being the trader and become the manipulator.. know all the stories of big traders making thousands upon thousands.. well they are your catalyst. This info will dilute the method and is stupid profitable so this info does cost a good bit but guys you will laugh at this $900 once you read and implement this guide. Bitcointhiefs guide are comparable in price and laughable too he sells guides all day long to teach you about binary options oh my fucking god quit being idiots guys and invest your money in a full-proof way. Guaranteed million dollars before july next year. The best part about this guide is its just a few pages long. This info is not sold anywhere else trust me. Change your life today!" ;
     ns1:hasSeller <http://darkwebisspooky/seller/clearmind> ;
     ns1:price "$900" ;
     ns1:productName "BECOME THE MANIPULATOR: The Guide to end all Guide" ;
     ns1:shipsFrom ns1:Worldwide ;
-    ns1:shipsTo ns1:Worldwide%29%2C%2811127%2CTHE_BIG_CARDING_TUTORIAL .
+    ns1:shipsTo ns1:Worldwide .
 
-<http://darkwebisspooky/product/12500> a ns1:Digital_Goods_%5Cn ;
+<http://darkwebisspooky/product/12500> a ns1:Digital_Goods ;
     ns1:description """WELCOME TOO OUR LISTING:)
 
 
@@ -85,7 +137,7 @@ Verify your PayPal account without a Credit Card""" ;
     ns1:price "$3.99" ;
     ns1:productName "ULTIMATE BIG PACK  !!!!!!!!!!!" ;
     ns1:shipsFrom ns1:canada ;
-    ns1:shipsTo ns1:Worldwide%29%2C%2812501%2CDream_Market_Login_-_Featured_anonymous_marketplace .
+    ns1:shipsTo ns1:Worldwide .
 
 <http://darkwebisspooky/product/13967> a <http://darkwebisspooky/-> ;
     ns1:description "-" ;
@@ -93,7 +145,7 @@ Verify your PayPal account without a Credit Card""" ;
     ns1:price "-" ;
     ns1:productName "Dream Market Login - Featured anonymous marketplace" ;
     ns1:shipsFrom <http://darkwebisspooky/-> ;
-    ns1:shipsTo <http://darkwebisspooky/-%29%2C%2813968%2CDream_Market_Login_-_Featured_anonymous_marketplace> .
+    ns1:shipsTo <http://darkwebisspooky/-> .
 
 <http://darkwebisspooky/product/1502> a <http://darkwebisspooky/-> ;
     ns1:description "-" ;
@@ -101,18 +153,18 @@ Verify your PayPal account without a Credit Card""" ;
     ns1:price "-" ;
     ns1:productName "Dream Market Login - Featured anonymous marketplace" ;
     ns1:shipsFrom <http://darkwebisspooky/-> ;
-    ns1:shipsTo <http://darkwebisspooky/-%29%2C%281503%2CDream_Market_Login_-_Featured_anonymous_marketplace> .
+    ns1:shipsTo <http://darkwebisspooky/-> .
 
-<http://darkwebisspooky/product/15354> a ns1:Drugs_%5Cn ;
+<http://darkwebisspooky/product/15354> a ns1:Drugs ;
     ns1:description """Highest quality available on the market, very rare.
 Intense and extremely clear trip.""" ;
     ns1:hasSeller <http://darkwebisspooky/seller/Scarface-Tony-M> ;
     ns1:price "$287.9" ;
     ns1:productName "â50 x hofman LSD 220 ug â " ;
     ns1:shipsFrom ns1:Netherlands ;
-    ns1:shipsTo ns1:Worldwide%29%2C%2815355%2CDream_Market_Login_-_Featured_anonymous_marketplace .
+    ns1:shipsTo ns1:Worldwide .
 
-<http://darkwebisspooky/product/16771> a ns1:Drugs_%5Cn ;
+<http://darkwebisspooky/product/16771> a ns1:Drugs ;
     ns1:description """1g*  Promo*
 
 Lovely clean clear shards, this has a real euphoric feeling to it :)
@@ -127,10 +179,11 @@ Thanks for looking :)""" ;
     ns1:hasSeller <http://darkwebisspooky/seller/The_Psyche_Nexus> ;
     ns1:price "$31.47" ;
     ns1:productName "Ketamine Racemic - 1g* - super clean shards - Fr" ;
-    ns1:shipsFrom ns1:UK ;
-    ns1:shipsTo ns1:United_Kingdom_Europe%29%2C%2816772%2CPORNPORTAL_Network_MORE_THAN_10_INCREDIBLE_Sites_U .
+    ns1:shipsFrom ns1:United_Kingdom ;
+    ns1:shipsTo ns1:Europe,
+        ns1:United_Kingdom .
 
-<http://darkwebisspooky/product/18227> a ns1:Digital_Goods_%5Cn ;
+<http://darkwebisspooky/product/18227> a ns1:Digital_Goods ;
     ns1:description """An unprecedented high-level master narrative of America\\'s intelligence wars, from the only person ever to helm both CIA and NSA, at a time of heinous new threats and wrenching change
  
 For General Michael Hayden, playing to the edge means playing so close to the line that you get chalk dust on your cleats. Otherwise, by playing back, you may protect yourself, but you will be less successful in protecting America. Play to the edge was Hayden\\'s guiding principle when he ran the National Security Agency, and it remained so when he ran CIA.  In his view, many shortsighted and uninformed people are quick to criticize, and this book will give them much to chew on but little easy comfort; it is an unapologetic insider\\'s look told from the perspective of the people who faced awesome responsibilities head on, in the moment.
@@ -146,9 +199,9 @@ Format: EPUB""" ;
     ns1:price "$2.99" ;
     ns1:productName "Playing to the Edge American Intelligence in the A" ;
     ns1:shipsFrom ns1:Worldwide ;
-    ns1:shipsTo ns1:Worldwide%29%2C%2818228%2C%C3%A2%C2%98%C2%85500_x_110ug%C3%A2%C2%98%C2%85_Parvati%5Cs_Tears_LSD .
+    ns1:shipsTo ns1:Worldwide .
 
-<http://darkwebisspooky/product/19461> a ns1:Drugs_%5Cn ;
+<http://darkwebisspooky/product/19461> a ns1:Drugs ;
     ns1:description """*************************************************** ***************************************************
 
 *** Watch out for Vendors selling Fentanyl Derivative like Acetyl Fentanyl etc and giving it off as the pure Fentanyl HCl.  It is very hard to get pure Fentanyl HCl right now so when the prices are too good to be true, they usually are.  Had a lot of buyers complain to me that my solution feels much better than others, which made them depressed and stressed out instead of feeling  euiphoric relaxation - what is the real Fentanyl HCl supposed to feel like.
@@ -200,10 +253,10 @@ instead of just 1 and wait how you feel.
     ns1:hasSeller <http://darkwebisspooky/seller/InvisibleHand> ;
     ns1:price "$139.9" ;
     ns1:productName "30ml Fentanyl HCL Nasal spray(1000mcg/ml): *FE*" ;
-    ns1:shipsFrom ns1:USA ;
-    ns1:shipsTo ns1:United_States%29%2C%2819462%2C1000x_10mg_BRAND_NAME_%5C%22STILNOX%5C%22_2%2C200%21_FE .
+    ns1:shipsFrom ns1:United_States ;
+    ns1:shipsTo ns1:United_States .
 
-<http://darkwebisspooky/product/20982> a ns1:Digital_Goods_%5Cn ;
+<http://darkwebisspooky/product/20982> a ns1:Digital_Goods ;
     ns1:description """Super-account (cracked) -> last one 
 Stock : 1
 
@@ -252,9 +305,9 @@ After purchase you get the login details in your inbox!""" ;
     ns1:price "$21.09" ;
     ns1:productName "Direct TV (PREMIER !!) + Sunday ticket MAX !!" ;
     ns1:shipsFrom ns1:Worldwide ;
-    ns1:shipsTo ns1:Worldwide%29%2C%2820983%2C100x_Fentanyl_blotters%28500ug%29 .
+    ns1:shipsTo ns1:Worldwide .
 
-<http://darkwebisspooky/product/22348> a ns1:Drugs_%5Cn ;
+<http://darkwebisspooky/product/22348> a ns1:Drugs ;
     ns1:description """Clean, good quality nbome.
 
 1 blotter - mild trip 
@@ -267,18 +320,20 @@ These can only be taken by absorbing in your mouth/under your tounge for 20-30 m
     ns1:hasSeller <http://darkwebisspooky/seller/MickTaylor> ;
     ns1:price "$13.24" ;
     ns1:productName "25c NBOMe blotters x10 dosed at 800ug" ;
-    ns1:shipsFrom ns1:UK ;
-    ns1:shipsTo ns1:United_Kingdom%29%2C%2822349%2CFearless_Interviewing%3A_How_to_Win_the_Job_by_Commu .
+    ns1:shipsFrom ns1:United_Kingdom ;
+    ns1:shipsTo ns1:United_Kingdom .
 
-<http://darkwebisspooky/product/23655> a ns1:Drugs_%5Cn ;
+<http://darkwebisspooky/product/23655> a ns1:Drugs ;
     ns1:description "SAMPLE 0.5 gram pure COCAINE-flakes - FREE SHIPMENT + TRACKNO + STEALTH PACKAGING" ;
     ns1:hasSeller <http://darkwebisspooky/seller/DeLosMuertos> ;
     ns1:price "$65.6" ;
     ns1:productName "SAMPLE 0.5 gram pure COCAINE-flakes - FREE SHIPMEN" ;
-    ns1:shipsFrom ns1:Australia_Europe ;
-    ns1:shipsTo ns1:Australia_Japan%29%2C%2823656%2CBall_Grinder_-_Leaf .
+    ns1:shipsFrom ns1:Australia,
+        ns1:Europe ;
+    ns1:shipsTo ns1:Australia,
+        ns1:Japan .
 
-<http://darkwebisspooky/product/24996> a ns1:Digital_Goods_%5Cn ;
+<http://darkwebisspooky/product/24996> a ns1:Digital_Goods ;
     ns1:description """Now in its third edition, this best-selling book continues to bring you some of the best thinking on how to apply Oracle Database to produce scalable applications that perform well and deliver correct results. Tom Kyte and Darl Kuhn share a simple philosophy: you can treat Oracle as a black box and just stick data into it, or you can understand how it works and exploit it as a powerful computing environment. If you choose the latter, then youâll find that there are few information management problems that you cannot solve quickly and elegantly.
 
 This fully revised third edition covers the developments up to Oracle Database 12c. Significant new content is included surrounding Oracle\\'s new cloud feature set, and especially the use of pluggable databases. Each feature is taught in a proof-by-example manner, not only discussing what it is, but also how it works, how to implement software using it, and the common pitfalls associated with it.
@@ -307,9 +362,9 @@ Format: PDF""" ;
     ns1:price "$2.99" ;
     ns1:productName "Expert Oracle Database Architecture 3rd edition 20" ;
     ns1:shipsFrom ns1:Worldwide ;
-    ns1:shipsTo ns1:Worldwide%29%2C%2824997%2C503_-_Forwarding_failure_%28Privoxy%40localhost%29 .
+    ns1:shipsTo ns1:Worldwide .
 
-<http://darkwebisspooky/product/26492> a ns1:Drugs_%5Cn ;
+<http://darkwebisspooky/product/26492> a ns1:Drugs ;
     ns1:description """Lab tested product purity around 98%.
 Do not miss your chance to purchase this great product.
 
@@ -345,9 +400,10 @@ DO NOT ORDER IF YOU DO NOT ACCEPT THESE CONDITIONS.
     ns1:price "$1150" ;
     ns1:productName "THJ2201 500g" ;
     ns1:shipsFrom ns1:China ;
-    ns1:shipsTo <http://darkwebisspooky/Worldwide_Europe%29%2C%2826493%2CTestosterone_C_%7C_5_x_1ml_amp_%28200_mg/ml%29_-_Balkan> .
+    ns1:shipsTo ns1:Europe,
+        ns1:Worldwide .
 
-<http://darkwebisspooky/product/28058> a ns1:Digital_Goods_%5Cn ;
+<http://darkwebisspooky/product/28058> a ns1:Digital_Goods ;
     ns1:description """I provide you with high quality real looking documents through which many of our clients get restored their Accounts, but still we do not provide any kind of guarantee of acceptance (specially if they do verify it from Public records / Government Database or some other database, as all documents are edited by Photoshop and have no real data).
 
 There are many other reasons behind account limitations. According to our case study, PayPal / ebay / Skrill / Google Wallet / Perfect Money / Payza / Payoneeer / Facebook / Neteller / Web Money / Ego Pay / Amazon / Freelancer / Elace / odesk or many other also limit all those suspicious accounts even you provide them with your genuine or real documents.
@@ -438,9 +494,9 @@ Best BitcoinThief""" ;
     ns1:price "$60" ;
     ns1:productName "Account Verification Service PP/EBAY/PAYZA/Skril.." ;
     ns1:shipsFrom ns1:worldwide ;
-    ns1:shipsTo ns1:Worldwide_Worldwide%29%2C%2828059%2CDream_Market_Login_-_Featured_anonymous_marketplace .
+    ns1:shipsTo ns1:Worldwide .
 
-<http://darkwebisspooky/product/2858> a ns1:Digital_Goods_%5Cn ;
+<http://darkwebisspooky/product/2858> a ns1:Digital_Goods ;
     ns1:description """This guide contains everything you need to know to become a successful carder. 
 
 -You\\'ll receive the infos within 24h from ordering
@@ -453,9 +509,9 @@ $$$,100%free,ActNow,Ad,Affordable,Amazingstuff,Applynow,Autoemailremoval,Billion
     ns1:price "$1.99" ;
     ns1:productName "â Full Carding Tutorial â " ;
     ns1:shipsFrom ns1:Worldwide ;
-    ns1:shipsTo ns1:Worldwide_Worldwide%29%2C%282859%2C50x_Love%2C_Peace_and_Rock_%26_Roll_225MG_XTC .
+    ns1:shipsTo ns1:Worldwide .
 
-<http://darkwebisspooky/product/29432> a ns1:Drugs_%5Cn ;
+<http://darkwebisspooky/product/29432> a ns1:Drugs ;
     ns1:description """HIGH THC Alcohol extracted CANNABIS E-LIQUID 
 
 *10ML HIGH THC CANNABIS E-LIQUID *HAPPY MIX TRIM 10ml = 2Gram AAA+ TRIM
@@ -686,9 +742,10 @@ Stay Safe, don\\'t worry and be HAPPY:)""" ;
     ns1:price "$20.94" ;
     ns1:productName "10ML HIGH THC CANNABIS E-LIQUID *HAPPY MIX trim " ;
     ns1:shipsFrom ns1:Belgium_and_the_Netherlands ;
-    ns1:shipsTo ns1:Europe_Worldwide%29%2C%2829433%2CDream_Market_Login_-_Featured_anonymous_marketplace .
+    ns1:shipsTo ns1:Europe,
+        ns1:Worldwide .
 
-<http://darkwebisspooky/product/30788> a ns1:Drugs_%5Cn ;
+<http://darkwebisspooky/product/30788> a ns1:Drugs ;
     ns1:description """You must read our entire profile and this listing description before ordering. 
 We will not be responding to PM\\'s that can be answered by reading our profile/listings.
 
@@ -722,10 +779,10 @@ Any vendors wishing to resell our product will be allowed a special lower priced
     ns1:hasSeller <http://darkwebisspooky/seller/Empath> ;
     ns1:price "$619" ;
     ns1:productName "500x LSD of 98% 100+ug Team Trust" ;
-    ns1:shipsFrom ns1:USA ;
-    ns1:shipsTo ns1:United_States%29%2C%2830789%2CDream_Market_Login_-_Featured_anonymous_marketplace .
+    ns1:shipsFrom ns1:United_States ;
+    ns1:shipsTo ns1:United_States .
 
-<http://darkwebisspooky/product/32296> a ns1:Drugs_%5Cn ;
+<http://darkwebisspooky/product/32296> a ns1:Drugs ;
     ns1:description """25 230ug Blotters laid in house by the FelixUK team from High Grade White LSD, purity â 98%.
 Sent from the U.K â worldwide. F.E Listing
 Available in quantities of 1 â 10,000.
@@ -811,10 +868,10 @@ XX2Syv/fQn+IViSoeFuXcbfLGdTHBWMRRCZDY/3mXUPV62Pz
     ns1:hasSeller <http://darkwebisspooky/seller/FelixUK> ;
     ns1:price "$150" ;
     ns1:productName "FelixUK (25) 230ug Green Androids LSD F.E" ;
-    ns1:shipsFrom ns1:UK ;
-    ns1:shipsTo ns1:Worldwide%29%2C%2832297%2CDream_Market_Login_-_Featured_anonymous_marketplace .
+    ns1:shipsFrom ns1:United_Kingdom ;
+    ns1:shipsTo ns1:Worldwide .
 
-<http://darkwebisspooky/product/33616> a ns1:Drugs_%5Cn ;
+<http://darkwebisspooky/product/33616> a ns1:Drugs ;
     ns1:description """***Here youâre purchasing MDMA Champagne Crystals 84% Purity***
 
 -Finest quality of MDMA directly from the coocks 
@@ -832,19 +889,19 @@ XX2Syv/fQn+IViSoeFuXcbfLGdTHBWMRRCZDY/3mXUPV62Pz
     ns1:price "$260.9" ;
     ns1:productName "25 Gram MDMA - Champagne Crystals 84% Purity ESCRO" ;
     ns1:shipsFrom ns1:Germany ;
-    ns1:shipsTo ns1:Worldwide%29%2C%2833617%2C5gram_of_quality_Hia_hash .
+    ns1:shipsTo ns1:Worldwide .
 
-<http://darkwebisspooky/product/35024> a ns1:Drugs_%5Cn ;
+<http://darkwebisspooky/product/35024> a ns1:Drugs ;
     ns1:description """1 Pound (450 grams) of TopShelf trim ready to produce wax, shatter, hash. FREE TRACKING!!
 
 You can make outstanding hash, bho etc with this top quality FRESH indoor trime. Enough small bud to role joints!!!!""" ;
     ns1:hasSeller <http://darkwebisspooky/seller/greenmountainman> ;
     ns1:price "$350" ;
     ns1:productName "1 POUND! 450 Grams of TopShelf trim - Sticky with " ;
-    ns1:shipsFrom ns1:USA ;
-    ns1:shipsTo ns1:United_States%29%2C%2835025%2C100_Gram_NIGHT_QUEEN .
+    ns1:shipsFrom ns1:United_States ;
+    ns1:shipsTo ns1:United_States .
 
-<http://darkwebisspooky/product/36392> a ns1:Drugs_%5Cn ;
+<http://darkwebisspooky/product/36392> a ns1:Drugs ;
     ns1:description """â The offer 
 
 There is a small FREE GIFT given out with each order (not a drug of course)!! (Kindly do not mention details of what you received in the feedback for stealth purposes)
@@ -884,17 +941,18 @@ Jack Herer was created in the Netherlands in the mid-1990s where it was later di
     ns1:price "$25.48" ;
     ns1:productName "â AAA+ JACK HERER 2G + Free Gift " ;
     ns1:shipsFrom ns1:Amsterdam ;
-    ns1:shipsTo ns1:Europe_Worldwide%29%2C%2836393%2C10_GR_NEW_BOLIVIA_FISH_SCALE_COCAINE .
+    ns1:shipsTo ns1:Europe,
+        ns1:Worldwide .
 
-<http://darkwebisspooky/product/37830> a ns1:Digital_Goods_%5Cn ;
+<http://darkwebisspooky/product/37830> a ns1:Digital_Goods ;
     ns1:description "I\\'ll show you a NEW trick to use with the amazon gift card. This method cant get saturated, so follow the instructions and you can redeem as many times as you want." ;
     ns1:hasSeller <http://darkwebisspooky/seller/etimbuk> ;
     ns1:price "$4" ;
     ns1:productName "Amazon gift cards trick NEW" ;
     ns1:shipsFrom ns1:Worldwide ;
-    ns1:shipsTo <http://darkwebisspooky/Worldwide_Worldwide%29%2C%2837831%2C1G_ICE_/_Methamphetamine_82%2C4%25> .
+    ns1:shipsTo ns1:Worldwide .
 
-<http://darkwebisspooky/product/39376> a ns1:Drugs_%5Cn ;
+<http://darkwebisspooky/product/39376> a ns1:Drugs ;
     ns1:description """We offer real:
 Superman Dutch XTC
 Working 170mg
@@ -902,10 +960,11 @@ Breakline""" ;
     ns1:hasSeller <http://darkwebisspooky/seller/invidiousintent> ;
     ns1:price "$6029" ;
     ns1:productName "# 5000x Superman Dutch XTC 170mg #" ;
-    ns1:shipsFrom ns1:EU ;
-    ns1:shipsTo ns1:Europe_Worldwide%29%2C%2839377%2CHacking_-_The_Next_Generation_-_%28new_generation_of .
+    ns1:shipsFrom ns1:Europe ;
+    ns1:shipsTo ns1:Europe,
+        ns1:Worldwide .
 
-<http://darkwebisspooky/product/4159> a ns1:Drugs_%5Cn ;
+<http://darkwebisspooky/product/4159> a ns1:Drugs ;
     ns1:description """Î²-Keto-3,4-methylenedioxy-alpha-propyl-N-ethyl-phenethylamine
 
 â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾â¾
@@ -924,9 +983,9 @@ Please read our profile before ordering!""" ;
     ns1:price "$1000" ;
     ns1:productName "BK-EBDP [ 250 Gram\\'s ] | FE" ;
     ns1:shipsFrom ns1:China ;
-    ns1:shipsTo ns1:Worldwide%29%2C%284160%2CDream_Market_Login_-_Featured_anonymous_marketplace .
+    ns1:shipsTo ns1:Worldwide .
 
-<http://darkwebisspooky/product/5499> a ns1:Digital_Goods_%5Cn ;
+<http://darkwebisspooky/product/5499> a ns1:Digital_Goods ;
     ns1:description """Limited time price of $1.75, the price will go up! I am a new vendor trying to build a reputation with good reviews.
 
 This listing is the lowest all in one Dark Web Package of the best guides out there. Same guides go for on average $25 elsewhere! The valuable information is worth way more than I\\'m asking for, it\\'s basically free for your great reviews! 
@@ -960,8 +1019,9 @@ eDAcRUXtjg==
     ns1:hasSeller <http://darkwebisspooky/seller/AmericanConnect> ;
     ns1:price "$1.75" ;
     ns1:productName "BIGGEST HACK FRAUD GUIDES PACKAGE! LOWEST PRICE!" ;
-    ns1:shipsFrom ns1:WW_Worldwide_USA ;
-    ns1:shipsTo ns1:United_States%29%2C%285500%2C%281%29_Morphine_Sulfate_60mg .
+    ns1:shipsFrom ns1:United_States,
+        ns1:Worldwide ;
+    ns1:shipsTo ns1:United_States .
 
 <http://darkwebisspooky/product/6882> a <http://darkwebisspooky/-> ;
     ns1:description "-" ;
@@ -969,9 +1029,9 @@ eDAcRUXtjg==
     ns1:price "-" ;
     ns1:productName "Dream Market Login - Featured anonymous marketplace" ;
     ns1:shipsFrom <http://darkwebisspooky/-> ;
-    ns1:shipsTo <http://darkwebisspooky/-%29%2C%286883%2CPremium_Bayer_Opium_1G_%28UK_to_UK_ONLY%29> .
+    ns1:shipsTo <http://darkwebisspooky/-> .
 
-<http://darkwebisspooky/product/8349> a ns1:Digital_Goods_%5Cn ;
+<http://darkwebisspooky/product/8349> a ns1:Digital_Goods ;
     ns1:description """Key Features
 
 Create reusable patterns and modules by leveraging the new features of Node.js
@@ -1000,9 +1060,9 @@ Format: PDF""" ;
     ns1:price "$2.99" ;
     ns1:productName "Node.js Design Patterns 2nd edition 2016" ;
     ns1:shipsFrom ns1:Worldwide ;
-    ns1:shipsTo ns1:Worldwide%29%2C%288350%2C%28INTRO_OFFER%29_UK_CHEESE__3.5g___%C3%82%C2%A325__%28INTRO_OFFER%29 .
+    ns1:shipsTo ns1:Worldwide .
 
-<http://darkwebisspooky/product/9797> a ns1:Drugs_%5Cn ;
+<http://darkwebisspooky/product/9797> a ns1:Drugs ;
     ns1:description """- We ONLY ship USPS priority mail.
 - Shipping is done within 48 hours.
 - We dont ship weekends of course.
@@ -1172,135 +1232,6 @@ nUzrDSDM6zi25MWGjfo5OS9F5mTpQEm03RscWVyzTDuN/kdHAJtGTqq41MzM8dFa
     ns1:hasSeller <http://darkwebisspooky/seller/BudMasterGeneral> ;
     ns1:price "$55.5" ;
     ns1:productName "E.BLUNT SLIM RECHARGEABLE VAPORIZER **BLACKBERRY**" ;
-    ns1:shipsFrom ns1:US ;
-    ns1:shipsTo ns1:United_States%29%2C%289798%2C50_x_10mg_Penid_%28Ritalin%29_IR%21_300%24_ESCROW_PRICE .
-
-<http://darkwebisspooky/-%29%2C%2813968%2CDream_Market_Login_-_Featured_anonymous_marketplace> a ns1:Location ;
-    rdfs:label "-'),(13968,'Dream Market Login - Featured anonymous marketplace" .
-
-<http://darkwebisspooky/-%29%2C%281503%2CDream_Market_Login_-_Featured_anonymous_marketplace> a ns1:Location ;
-    rdfs:label "-'),(1503,'Dream Market Login - Featured anonymous marketplace" .
-
-<http://darkwebisspooky/-%29%2C%282%2COG_KUSH_1/2_OZ_%24125_AAAA%2B> a ns1:Location ;
-    rdfs:label "-'),(2,'OG KUSH 1/2 OZ $125 AAAA+" .
-
-<http://darkwebisspooky/-%29%2C%286883%2CPremium_Bayer_Opium_1G_%28UK_to_UK_ONLY%29> a ns1:Location ;
-    rdfs:label "-'),(6883,'Premium Bayer Opium 1G (UK to UK ONLY)" .
-
-ns1:Amsterdam a ns1:Location ;
-    rdfs:label "Amsterdam" .
-
-ns1:Australia_Europe a ns1:Location ;
-    rdfs:label "Australia Europe" .
-
-ns1:Australia_Japan%29%2C%2823656%2CBall_Grinder_-_Leaf a ns1:Location ;
-    rdfs:label "Australia Japan'),(23656,'Ball Grinder - Leaf" .
-
-ns1:Belgium_and_the_Netherlands a ns1:Location ;
-    rdfs:label "Belgium and the Netherlands" .
-
-ns1:EU a ns1:Location ;
-    rdfs:label "EU" .
-
-ns1:Europe_Worldwide%29%2C%2829433%2CDream_Market_Login_-_Featured_anonymous_marketplace a ns1:Location ;
-    rdfs:label "Europe Worldwide'),(29433,'Dream Market Login - Featured anonymous marketplace" .
-
-ns1:Europe_Worldwide%29%2C%2836393%2C10_GR_NEW_BOLIVIA_FISH_SCALE_COCAINE a ns1:Location ;
-    rdfs:label "Europe Worldwide'),(36393,'10 GR NEW BOLIVIA FISH SCALE COCAINE" .
-
-ns1:Europe_Worldwide%29%2C%2839377%2CHacking_-_The_Next_Generation_-_%28new_generation_of a ns1:Location ;
-    rdfs:label "Europe Worldwide'),(39377,'Hacking - The Next Generation - (new generation of" .
-
-ns1:Germany a ns1:Location ;
-    rdfs:label "Germany" .
-
-ns1:Netherlands a ns1:Location ;
-    rdfs:label "Netherlands" .
-
-ns1:US a ns1:Location ;
-    rdfs:label "US" .
-
-ns1:United_Kingdom%29%2C%2822349%2CFearless_Interviewing%3A_How_to_Win_the_Job_by_Commu a ns1:Location ;
-    rdfs:label "United Kingdom'),(22349,'Fearless Interviewing: How to Win the Job by Commu" .
-
-ns1:United_Kingdom_Europe%29%2C%2816772%2CPORNPORTAL_Network_MORE_THAN_10_INCREDIBLE_Sites_U a ns1:Location ;
-    rdfs:label "United Kingdom Europe'),(16772,'PORNPORTAL Network MORE THAN 10 INCREDIBLE Sites U" .
-
-ns1:United_States%29%2C%2819462%2C1000x_10mg_BRAND_NAME_%5C%22STILNOX%5C%22_2%2C200%21_FE a ns1:Location ;
-    rdfs:label "United States'),(19462,'1000x 10mg BRAND NAME \\\"STILNOX\\\" 2,200! FE" .
-
-ns1:United_States%29%2C%2830789%2CDream_Market_Login_-_Featured_anonymous_marketplace a ns1:Location ;
-    rdfs:label "United States'),(30789,'Dream Market Login - Featured anonymous marketplace" .
-
-ns1:United_States%29%2C%2835025%2C100_Gram_NIGHT_QUEEN a ns1:Location ;
-    rdfs:label "United States'),(35025,'100 Gram NIGHT QUEEN" .
-
-ns1:United_States%29%2C%285500%2C%281%29_Morphine_Sulfate_60mg a ns1:Location ;
-    rdfs:label "United States'),(5500,'(1) Morphine Sulfate 60mg" .
-
-ns1:United_States%29%2C%289798%2C50_x_10mg_Penid_%28Ritalin%29_IR%21_300%24_ESCROW_PRICE a ns1:Location ;
-    rdfs:label "United States'),(9798,'50 x 10mg Penid (Ritalin) IR! 300$ ESCROW PRICE" .
-
-ns1:WW_Worldwide_USA a ns1:Location ;
-    rdfs:label "WW Worldwide USA" .
-
-ns1:Worldwide%29%2C%2811127%2CTHE_BIG_CARDING_TUTORIAL a ns1:Location ;
-    rdfs:label "Worldwide'),(11127,'THE BIG CARDING TUTORIAL" .
-
-ns1:Worldwide%29%2C%2812501%2CDream_Market_Login_-_Featured_anonymous_marketplace a ns1:Location ;
-    rdfs:label "Worldwide'),(12501,'Dream Market Login - Featured anonymous marketplace" .
-
-ns1:Worldwide%29%2C%2815355%2CDream_Market_Login_-_Featured_anonymous_marketplace a ns1:Location ;
-    rdfs:label "Worldwide'),(15355,'Dream Market Login - Featured anonymous marketplace" .
-
-ns1:Worldwide%29%2C%2818228%2C%C3%A2%C2%98%C2%85500_x_110ug%C3%A2%C2%98%C2%85_Parvati%5Cs_Tears_LSD a ns1:Location ;
-    rdfs:label "Worldwide'),(18228,'â500 x 110ugâ Parvati\\'s Tears LSD" .
-
-ns1:Worldwide%29%2C%2820983%2C100x_Fentanyl_blotters%28500ug%29 a ns1:Location ;
-    rdfs:label "Worldwide'),(20983,'100x Fentanyl blotters(500ug)" .
-
-ns1:Worldwide%29%2C%2824997%2C503_-_Forwarding_failure_%28Privoxy%40localhost%29 a ns1:Location ;
-    rdfs:label "Worldwide'),(24997,'503 - Forwarding failure (Privoxy@localhost)" .
-
-ns1:Worldwide%29%2C%2832297%2CDream_Market_Login_-_Featured_anonymous_marketplace a ns1:Location ;
-    rdfs:label "Worldwide'),(32297,'Dream Market Login - Featured anonymous marketplace" .
-
-ns1:Worldwide%29%2C%2833617%2C5gram_of_quality_Hia_hash a ns1:Location ;
-    rdfs:label "Worldwide'),(33617,'5gram of quality Hia hash" .
-
-ns1:Worldwide%29%2C%284160%2CDream_Market_Login_-_Featured_anonymous_marketplace a ns1:Location ;
-    rdfs:label "Worldwide'),(4160,'Dream Market Login - Featured anonymous marketplace" .
-
-ns1:Worldwide%29%2C%288350%2C%28INTRO_OFFER%29_UK_CHEESE__3.5g___%C3%82%C2%A325__%28INTRO_OFFER%29 a ns1:Location ;
-    rdfs:label "Worldwide'),(8350,'(INTRO OFFER) UK CHEESE  3.5g   Â£25  (INTRO OFFER)" .
-
-<http://darkwebisspooky/Worldwide_Europe%29%2C%2826493%2CTestosterone_C_%7C_5_x_1ml_amp_%28200_mg/ml%29_-_Balkan> a ns1:Location ;
-    rdfs:label "Worldwide Europe'),(26493,'Testosterone C | 5 x 1ml amp (200 mg/ml) - Balkan" .
-
-ns1:Worldwide_Worldwide%29%2C%2828059%2CDream_Market_Login_-_Featured_anonymous_marketplace a ns1:Location ;
-    rdfs:label "Worldwide Worldwide'),(28059,'Dream Market Login - Featured anonymous marketplace" .
-
-ns1:Worldwide_Worldwide%29%2C%282859%2C50x_Love%2C_Peace_and_Rock_%26_Roll_225MG_XTC a ns1:Location ;
-    rdfs:label "Worldwide Worldwide'),(2859,'50x Love, Peace and Rock & Roll 225MG XTC" .
-
-<http://darkwebisspooky/Worldwide_Worldwide%29%2C%2837831%2C1G_ICE_/_Methamphetamine_82%2C4%25> a ns1:Location ;
-    rdfs:label "Worldwide Worldwide'),(37831,'1G ICE / Methamphetamine 82,4%" .
-
-ns1:canada a ns1:Location ;
-    rdfs:label "canada" .
-
-ns1:worldwide a ns1:Location ;
-    rdfs:label "worldwide" .
-
-ns1:China a ns1:Location ;
-    rdfs:label "China" .
-
-ns1:UK a ns1:Location ;
-    rdfs:label "UK" .
-
-ns1:USA a ns1:Location ;
-    rdfs:label "USA" .
-
-ns1:Worldwide a ns1:Location ;
-    rdfs:label "Worldwide" .
+    ns1:shipsFrom ns1:United_States ;
+    ns1:shipsTo ns1:United_States .
 

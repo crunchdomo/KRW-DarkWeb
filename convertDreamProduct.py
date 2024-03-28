@@ -50,35 +50,36 @@ def add(subject, predicate, object, is_object_property=False):
 
 def clean_location(value_str):
     # Decode URL-encoded strings and remove unwanted characters
-    decoded_str = unquote(value_str)
-    # Initial clean-up to remove URL-encoded chars and replace escaped newlines with space
-    cleaned_str = re.sub(r"%[0-9A-Fa-f]{2}", "", decoded_str)  # Remove URL-encoded chars
-    cleaned_str = re.sub(r"\\n", " ", cleaned_str)  # Replace escaped newlines with space
-    cleaned_str = cleaned_str.strip()
+    cleaned_str = unquote(value_str)
 
-    # Specific clean-up based on observed patterns
-    # Example: Split concatenated names and select the first, or apply other logic as needed
-    parts = cleaned_str.split('_')
+    parts = cleaned_str.split('),(')
     if len(parts) > 1:
         # This is a simplistic approach; you might need more sophisticated logic
         cleaned_str = parts[0]  # Consider more complex logic for choosing the correct part
 
-    # Further refine the cleaning process as needed based on the patterns in your data
-    # Example: Remove trailing numbers and other unwanted substrings
-    cleaned_str = re.sub(r"\d+$", "", cleaned_str)  # Remove trailing digits
-    cleaned_str = re.sub(r"Worldwide Worldwide", "Worldwide", cleaned_str)  # Example specific replacement
+    # Specific replacement cause this is jus tthe easiest way to sort out stuff
+    # Short ones go first so they dont accidentaly replace some letters later with a new place
+    cleaned_str = re.sub(r"WW", "", cleaned_str)
+    cleaned_str = re.sub(r"EU", "Europe", cleaned_str)
+    cleaned_str = re.sub(r"UK", "United_Kingdom", cleaned_str)
+    cleaned_str = re.sub(r"USA", "United_States", cleaned_str)
+    cleaned_str = re.sub(r"US", "United_States", cleaned_str)
 
+    cleaned_str = re.sub(r"Worldwide Worldwide", "Worldwide", cleaned_str)
+    cleaned_str = re.sub(r"Belgium and the Netherlands", "Belgium_and_the_Netherlands", cleaned_str)
+    cleaned_str = re.sub(r"United Kingdom", "United_Kingdom", cleaned_str)
+    cleaned_str = re.sub(r"United States", "United_States", cleaned_str)
     return cleaned_str.strip()
 
 def clean_data(value_str):
     # Initial clean-up: Decode URL-encoded strings and remove unwanted characters
     decoded_str = unquote(value_str)
-    cleaned_str = re.sub(r"[\n\t]+", " ", decoded_str).strip()
-    cleaned_str = re.sub(r"%[0-9A-Fa-f]{2}", "", cleaned_str)  # Remove URL-encoded chars
-    cleaned_str = re.sub(r"\\n", " ", cleaned_str)  # Replace escaped newlines with space
-    # Further clean-up as needed
-    # Example: Remove any unexpected concatenated values or characters
-    cleaned_str = re.sub(r"_[\d]+", "", cleaned_str)  # Remove trailing numbers prefixed with _
+    cleaned_str = re.sub(r"Digital Goods", "Digital_Goods", decoded_str)
+    parts = cleaned_str.split(' ')
+    
+    if len(parts) > 1:
+        cleaned_str = parts[0]
+
     return cleaned_str
 
 def create_or_get_class(name, is_location=False):
@@ -97,7 +98,7 @@ def create_or_get_class(name, is_location=False):
     return class_uri
 
 # Process the SQL file
-with open('C:\\Users\\oenfa\\Documents\\GitHub\\KRW-DarkWeb\\Datasets\\DreamMarket 2016\\DreamMarket_2016\\DreamMarket2016_product.sql', 'r', encoding='utf-8') as file:
+with open('Datasets\\DreamMarket_2016\\DreamMarket2016_product.sql', 'r', encoding='utf-8') as file:
     for line in file:
         if line.startswith('INSERT INTO `dnm_dream` VALUES'):
             values = line.split('VALUES')[1].strip().strip(';').strip('(').strip(')').split(',', 3)
@@ -122,13 +123,15 @@ with open('C:\\Users\\oenfa\\Documents\\GitHub\\KRW-DarkWeb\\Datasets\\DreamMark
             # Clean the locations and create location classes
             ship_from_location = clean_location(all_values[15].strip().strip("'"))
             ship_to_location = clean_location(all_values[16].strip().strip("'"))
-            
-            ship_from_uri = create_or_get_class(ship_from_location, is_location=True)
-            ship_to_uri = create_or_get_class(ship_to_location, is_location=True)
-            
-            # Link product to its shipping information with object properties
-            add(product_uri, shipsFrom, ship_from_uri, is_object_property=True)
-            add(product_uri, shipsTo, ship_to_uri, is_object_property=True)
+            for start in ship_from_location.split(' '):
+                for stop in ship_to_location.split(' '):
+
+                    ship_from_uri = create_or_get_class(start, is_location=True)
+                    ship_to_uri = create_or_get_class(stop, is_location=True)
+                    
+                    # Link product to its shipping information with object properties
+                    add(product_uri, shipsFrom, ship_from_uri, is_object_property=True)
+                    add(product_uri, shipsTo, ship_to_uri, is_object_property=True)
 
 # Serialize the graph
-g.serialize(destination='ajjfdslkdsflkfdsklfdslkfdslk.ttl', format='turtle')
+g.serialize(destination='DMProducts2016.ttl', format='turtle')

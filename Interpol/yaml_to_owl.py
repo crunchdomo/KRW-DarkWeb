@@ -3,7 +3,7 @@ from rdflib import Graph, URIRef, Literal, Namespace
 from rdflib.namespace import RDF, SKOS
 
 # Load the YAML file
-with open('C:\\Users\\oenfa\\Documents\\GitHub\\KRW-DarkWeb\\Interpol\\DW-VA-Taxonomy-master\\_data', 'r') as file:
+with open('Interpol\\DW-VA-Taxonomy-master\\_data', 'r') as file:
     yaml_data = yaml.safe_load(file)
 
 
@@ -31,4 +31,4 @@ for concept_key in yaml_data:
             g.add((concept_uri, SKOS.seeAlso, URIRef(concept['seeAlso'])))
 
 # Serialize the graph in Turtle format
-g.serialize(destination='output.ttl', format='turtle')
+g.serialize(destination='interpol.ttl', format='turtle')
