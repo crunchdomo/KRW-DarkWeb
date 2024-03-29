@@ -1,4 +1,5 @@
 @prefix ns1: <http://darkwebisspooky/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <http://darkwebisspooky/-> a rdfs:Class ;
@@ -57,6 +58,10 @@ ns1:United_States a ns1:Location,
 ns1:Worldwide a ns1:Location,
         rdfs:Class ;
     rdfs:label "Worldwide" .
+
+ns1:belongsToCategory a owl:ObjectProperty .
+
+ns1:hasSeller a owl:ObjectProperty .
 
 <http://darkwebisspooky/product/1> a <http://darkwebisspooky/-> ;
     ns1:description "-" ;
@@ -1231,4 +1236,8 @@ nUzrDSDM6zi25MWGjfo5OS9F5mTpQEm03RscWVyzTDuN/kdHAJtGTqq41MzM8dFa
     ns1:productName "E.BLUNT SLIM RECHARGEABLE VAPORIZER **BLACKBERRY**" ;
     ns1:shipsFrom ns1:United_States ;
     ns1:shipsTo ns1:United_States .
+
+ns1:shipsFrom a owl:ObjectProperty .
+
+ns1:shipsTo a owl:ObjectProperty .
 

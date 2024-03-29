@@ -1,4 +1,4 @@
-from rdflib import Graph, Literal, Namespace, URIRef, RDF, RDFS
+from rdflib import Graph, Literal, Namespace, URIRef, RDF, RDFS, OWL
 from urllib.parse import quote, unquote
 import re
 import spacy
@@ -134,6 +134,13 @@ with open('Datasets\\DreamMarket_2016\\DreamMarket2016_product.sql', 'r', encodi
             for stop in ship_to_location.split(' '):
                 ship_to_uri = create_or_get_class(stop, is_location=True)
                 add(product_uri, shipsTo, ship_to_uri, is_object_property=True)
+                
+                
+            g.add((hasSeller, RDF.type, OWL.ObjectProperty))
+            g.add((shipsFrom, RDF.type, OWL.ObjectProperty))
+            g.add((shipsTo, RDF.type, OWL.ObjectProperty))
+            g.add((belongsToCategory, RDF.type, OWL.ObjectProperty))
+
 
 # Serialize the graph
 g.serialize(destination='DMProducts2016.ttl', format='turtle')

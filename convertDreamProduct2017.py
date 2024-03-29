@@ -180,4 +180,4 @@ with open('C:\\Users\\oenfa\\Documents\\GitHub\\KRW-DarkWeb\\Datasets\\DreamMark
             g.add((belongsToCategory, RDF.type, OWL.ObjectProperty))
 
             # Serialize the graph
-g.serialize(destination='DMProductsgodhelpme.ttl', format='turtle')
+g.serialize(destination='DMProducts2017.ttl', format='turtle')

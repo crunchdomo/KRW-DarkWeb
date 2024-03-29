@@ -1,4 +1,5 @@
 @prefix ns1: <http://darkwebisspooky/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <http://darkwebisspooky/-> a ns1:Location,
@@ -110,72 +111,84 @@ ns1:Worldwide a ns1:Location,
         rdfs:Class ;
     rdfs:label "Worldwide" .
 
+ns1:belongsToCategory a owl:ObjectProperty .
+
+ns1:hasSeller a owl:ObjectProperty .
+
 <http://darkwebisspooky/product/102636> a ns1:Drugs ;
     ns1:description "Prescription, Relaxants" ;
-    ns1:hasSeller <-> ;
-    ns1:price "Angelina" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "SOMA (Carisoprolol) 350mg - 50x" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/109913> a ns1:Digital_Goods ;
     ns1:description "Data" ;
-    ns1:hasSeller <-> ;
-    ns1:price "Cyberzen" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "ANY PREMIUM PORN ACCOUNT OF YOUR CHOICE [LIFETIME " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Internet .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Internet> .
 
 <http://darkwebisspooky/product/116127> a ns1:Digital_Goods ;
     ns1:description "Erotica" ;
-    ns1:hasSeller <-> ;
-    ns1:price "Cyberzen" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "ANY PREMIUM PORN ACCOUNT OF YOUR CHOICE [LIFETIME " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Internet .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Internet> .
 
 <http://darkwebisspooky/product/122247> a ns1:Drugs ;
     ns1:description "Cannabis, Hash" ;
-    ns1:hasSeller <-> ;
-    ns1:price "hammerhome123" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "28 Gram High Grade Pollen " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_Kingdom .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom> .
 
 <http://darkwebisspooky/product/129621> a ns1:Digital_Goods ;
     ns1:description "Software" ;
-    ns1:hasSeller <-> ;
-    ns1:price "europe" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "NAVICAT 11.2.5 PREMIUM EN 2016" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/134703> a ns1:Digital_Goods ;
     ns1:description """The speed of change in the world of cybersecurity is amazing. If you attend any meeting where cybersecurity is discussed, it can be like listening to a foreign language: blue team, black hat, metamorphic malware, steganography What are these people talking about? This dictionary began life as the reference section at the back of \\'Cybersecurity for Beginners\\' and has now taken on a life of its own, with hundreds of the primary cybersecurity terms defined. This book is designed to be a useful companion for anyone who wants to keep up on cybersecurity terms or confound others with their understanding. Finally, cybersecurity does not need to sound like a different language.
 
 Format: EPUB 
 """ ;
-    ns1:hasSeller <pckabml> ;
-    ns1:price "2.99" ;
+    ns1:hasSeller ns1:pckabml ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "The Cybersecurity to English Dictionary 2016" ;
-    ns1:shipsFrom ns1:Worldwide ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/138300> a ns1:Digital_Goods ;
     ns1:description "E-Books" ;
-    ns1:hasSeller <-> ;
-    ns1:price "pckabml" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Building Responsive Data Visualization for the Web" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/139282> a ns1:Digital_Goods ;
     ns1:description "E-Books" ;
-    ns1:hasSeller <-> ;
-    ns1:price "pckabml" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Understanding Industrial Design Principles for UX " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/140533> a ns1:Digital_Goods ;
     ns1:description """You will get:
@@ -184,35 +197,39 @@ Format: EPUB
 
 If your login stops working we will replace it for you. 
 """ ;
-    ns1:hasSeller <seventy3> ;
-    ns1:price "6.0" ;
+    ns1:hasSeller ns1:seventy3 ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Tidal Premium Account [Lifetime Warranty]" ;
-    ns1:shipsFrom ns1:Worldwide ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/141748> a ns1:Digital_Goods ;
     ns1:description "E-Books" ;
-    ns1:hasSeller <-> ;
-    ns1:price "pckabml" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Learning Ansible 2014" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/142940> a ns1:Digital_Goods ;
     ns1:description "E-Books" ;
-    ns1:hasSeller <-> ;
-    ns1:price "pckabml" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Mastering Apache Spark 2015" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/145> a ns1:Drugs ;
     ns1:description "Stimulants, Meth" ;
-    ns1:hasSeller <-> ;
-    ns1:price "JohnnyUtah" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "H.Q. \\'Thunder Mountain\\' Shards 0.8g" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:The_United_Snakes_of_Captivity .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/The_United_Snakes_of_Captivity> .
 
 <http://darkwebisspooky/product/145405> a ns1:Digital_Goods ;
     ns1:description """LSD Complete Synthesis Guide
@@ -223,27 +240,30 @@ If your login stops working we will replace it for you.
 TAGS
 Due 45 Minute Psychosis AD AIP AMT Abe Abe\\'s cabe Abolic Acapulco gold Acapulco red Ace Acid Acid head Adam African black African bush African woodbine Agonies Ah-pen-yen Aimies Air blast Airhead Airplane Alice B. Toklas All lit up All star All-American drug Alpha-ET Ames Amidone Amoeba Amp Amp joint Amped-out Amping Amys Anadrol Anatrofin Anavar Angel Angel Poke Angel dust Angel hair Angel mist Angie Angola Animal Animal trank Animal tranquilizer Antifreeze Apache Apple jacks Aries Aroma of men Artillery Ashes Atom bomb Atshitshi Aunt Hazel Aunt Mary Aunt Nora Aunti Aunti Emma Aurora borealis B B-40 B.J.\\'s Babe Baby Baby T Baby bhang Baby habit Babysit Back door Back to back Backbreakers Backjack Backtrack Backup Backwards Bad Bad bundle Bad go Bad seed Bag Bag bride Bag man Bagging Bale Ball Balling Balloon Ballot Bam Bambalacha Bambs Bang Bank bandit pills Bar Barb Barbies Barbs Barrels Base Base crazies Base head Baseball Bash Basuco Bathtub speed Batt Battery acid Batu Bazooka Bazulco Beam me up Scottie Beamer Beans Beast Beat artist Beat vials Beautiful boulders Bebe Bedbugs Beemers Behind the scale Beiging Belladonna Belt Belushi Belyando spruce Bender Bennie Benz Bernice Bernie Bernie\\'s flakes Bernie\\'s gold dust Bhang Big 8 Big C Big D Big H Big Harry Big O Big bag Big bloke Big flake Big man Big rush Bill Blass Billie hoke Bindle Bing Bingers Bingo Bings Birdie powder Biscuit Bite one\\'s lips Biz Black Black Russian Black acid Black and white Black bart Black beauties Black birds Black bombers Black ganga Black gold Black gungi Black gunion Black hash Black mo Black mollies Black mote Black pearl Black pill Black rock Black star Black stuff Black sunshine Black tabs Black tar Black whack Blacks Blanco Blanket Blanks Blast Blast a joint Blast a roach Blast a stick Blasted Blizzard Block Block busters Blonde Blotter Blotter acid Blotter cube Blow Blow a fix Blow a stick Blow blue Blow coke Blow one\\'s roof Blow smoke Blow up Blowcaine Blowing smoke Blowout Blud madman Blue Blue acid Blue angels Blue barrels Blue birds Blue boy Blue bullets Blue caps Blue chairs Blue cheers Blue de hue Blue devil Blue dolls Blue heaven Blue heavens Blue microdot Blue mist Blue moons Blue sage Blue sky blond Blue tips Blue vials Blunt Bo-bo Boat Bobo Bobo bush Body packer Body stuffer Bogart a joint Bohd Bolasterone Bolivian marching powder Bolo Bolt Bomb Bomb squad Bomber Bombido Bombita Bombs away Bone Bonecrusher Bones Bong Bonita Boo Boom Boomers Boost Boost and shoot Booster Boot Boot the gong Booted Boppers Botray Bottles Boubou Boulder Boulya Bouncing powder Boxed Boy Bozo Brain ticklers Break night Breakdowns Brewery Brick Brick gum Bridge up Britton Broccoli Broker Brown Brown bombers Brown crystal Brown dots Brown rhine Brown sugar Brownies Browns Bubble gum Buck Bud Buda Buffer Bugged Bull Bullet Bullet bolt Bullia capital Bullion Bullyon Bumblebees Bummer trip Bump Bundle Bunk Burese Burn one Burn the main line Burned Burned out Burnese Burnie Burnout Bush Businessman\\'s LSD Businessman\\'s special Businessman\\'s trip Busted Busters Busy bee Butt naked Butter Butter flower Buttons Butu Buzz Buzz bomb C C  joint C & M C-dust C-game CJ Caballo Cabello Caca Cactus Cactus buttons Cactus head Cad Cadillac Cadillac express Caine Cakes California cornflakes California sunshine Cam red Cam trip Cambodian red Came Can Canadian black Canamo Canappa Cancelled stick Candy Candy C Cannabinol Cannabis tea Cap Cap up Capital H Caps Carburetor Carga Carmabis Carne Carnie Carpet patrol Carrie Carrie Nation Cartucho Cartwheels Casper the ghost Cat Cat valium Catnip Caviar Cavite all star Cecil Chalk Chalked up Chalking Chandoo Channel Channel swimmer Charas Charge Charged up Charley Charlie Chase Chaser Chasing the dragon Chasing the tiger Cheap basing Check Cheeba Cheeo Chemical Chewies Chiba chiba Chicago black Chicago green Chicken powder Chicken scratch Chicle Chief Chieva China White China cat China girl China town Chinese molasses Chinese red Chinese tobacco Chip Chipper Chipping Chippy Chira Chocolate Chocolate chips Chocolate ecstasy Cholly Chorals Christina Christmas rolls Christmas tree Chronic Chucks Churus Cid Cigarette paper Cigarrode cristal Citrol Clarity Clear up Clicker Cliffhanger Climax Climb Clips Clocking paper Closet baser Cloud Cloud nine Cluck Co-pilot Coasting Coasts to coasts Coca Cocaine blues Cochornis Cocktail Coco rocks Coco snow Cocoa puff Coconut Cod Coffee Coke Coke bar Cola Cold turkey Coli Coliflor tostao Colorado cocktail Columbian Columbo Columbus black Come home Comeback Conductor Connect Contact lens Cook Cook down Cooker Cookies Cooler Coolie Cop Copping zones Coral Coriander seeds Cork the air Corrinne Cosa Cotics Cotton Cotton brothers Courage pills Course note Cozmo\\'s Crack Crack attack Crack back Crack cooler Crack gallery Crack spot Cracker jacks Crackers Crank Cranking up Crap Crash Crazy Eddie Crazy coke Crazy weed Credit card Crib Crimmie Crink Cripple Cris Crisscross Cristina Cristy Croak Cross tops Crossroads Crown crap Crumbs Crunch & Munch Cruz Crying weed Crypto Crystal Crystal joint Crystal meth Crystal tea Cube Cubes Culican Cupcakes Cura Cushion Cut Cut-deck Cycline Cyclones Cystal T D DET DMT DOA Dabble Dagga Dama blanca Dance fever Dawamesk Dead on arrival Deca-duabolin Deccadence Deck Deeda Delatestryl Demo Demolish Dep-testosterone Detroit pink Deuce Devil\\'s dandruff Devil\\'s dick Devil\\'s dust Devilsmoke Dew Dews Dexies Diambista Dianabol Diet pills Dihydrolone Dimba Dime Dime bag Dime\\'s worth Ding Dinkie dow Dip Dipper Dipping out Dirt Dirt grass Dirty basing Disco biscuits Disease Ditch Ditch weed Djamba Do a joint Do a line Do it Jack Doctor Dog Dog food Dogie Dollar Dolls Domes Domestic Domex Dominoes Don jem Dona Juana Dona Juanita Doobie Doogie Dooley Dope Dope fiend Dope smoke Dopium Doradilla Dots Doub Double bubble Double cross Double dome Double rock Double trouble Double ups Double yoke Dove Dover\\'s powder Downer Downie Draf weed Drag weed Draw up Dream Dream gum Dream stick Dreamer Dreams Dreck Drink Dropper Drowsy high Dry high Duct Duji Dummy dust Durabolin Durog Duros Dust Dust joint Dust of angels Dusted parsley Dusting Dymethzine Dynamite Dyno Dyno-pure ET Earth Easing powder Eastside player Easy score Eating Ecstasy Egg Eight ball Eightball Eighth El diablito El diablo Electric Kool Aid Elephant Elephant tranquilizer Embalming fluid Emergency gun Emsel Endo Energizer Enoltestovis Ephedrone Equipose Erth Esra Essence Estuffa Eve Explorers club Eye opener Factory Fake STP Fall Fallbrook redhair Famous dimes Fantasia Fat bags Fatty Feed bag Ferry dust Fi-do-nie Fields Fiend Fifteen cents Fifty-one Finajet Fine stuff Finger Fir Fire Fire it up First line Fish scales Five C note Five cent bag Five dollar bag Fives Fix Fizzies Flag Flake Flakes Flame cooking Flamethrowers Flash Flat blues Flat chunks Flea powder Florida snow Flower Flower tops Fly Mexican airlines Flying Following that cloud Foo foo stuff Foo-foo dust Foolish powder Footballs Forwards Fraho Freebase Freeze French blue French fries Fresh Friend Fries Frios Frisco special Frisco speedball Friskie powder Fry Fry daddy Fu Fuel Fuete Fuma D\\'Angola G G-rock G-shot G.B. GHB Gaffel Gaffus Gage Gagers Gaggers Galloping horse Gamot Gange Gangster Gangster pills Ganja Gank Garbage Garbage heads Garbage rock Gash Gasper Gasper stick Gato Gauge butt Gee Geek Geeze Geezer Geezin a bit of dee gee George smack Get a gage up Get a gift Get down Get high Get lifted Get off Get the wind Get through Ghana Ghost Ghost busting Gick monster Gift-of-the-sun Giggle smoke Gimmick Gimmie Gin Girl Girlfriend Give wings Glacines Glad stuff Glading Glass Glass gun Glo Gluey Go into a sewer Go loco Go on a sleigh ride Go-fast God\\'s drug God\\'s flesh God\\'s medicine Gold Gold dust Gold star Golden Dragon Golden girl Golden leaf Golf ball Golf balls Golpe Goma Gondola Gong Goob Good Good H Good and plenty Good butt Good giggles Good go Good lick Goodfellas Goof butt Goofball Goofers Goofy\\'s Goon Goon dust Gopher Goric Gorilla biscuits Gorilla pills Gorilla tab Got it going on Graduate Gram Grape parfait Grass Grass brownies Grata Gravel Gravy Grease Great bear Great tobacco Green Green double domes Green dragons Green frog Green goddess Green gold Green goods Green leaves Green single domes Green tea Green wedge Greens Greeter Greta Grey shields Griefo Griff Griffa Griffo Grit Groceries Ground control Gum Guma Gun Gungun Gutter Gutter junkie Gyve H H & C H Caps HCP HRN Hache Hail Hairy Half Half G Half a football field Half load Half moon Half piece Half track Half-a-C Hamburger helper Hand-to-hand Hand-to-hand man Hanhich Hanyak Happy cigarette Happy dust Happy powder Happy trails Hard candy Hard line Hard rock Hard stuff Hardware Harry Has Hats Have a dust Haven dust Hawaiian sunshine Hawaiin Hawk Hay Hay butt Haze Hazel He-man Head drugs Headlights Heart-on Hearts Heaven and Hell Heaven dust Heavenly blue Heeled Helen Hell dust Hemp Henpicking Henry Henry VIII Her Herb Herb and Al Herba Herms Hero Hero of the underworld Heroina Herone Hessle Highbeams Hikori Hikuli Him Hinkley Hippie crack Hiropon Hit Hit the hay Hit the main line Hit the needle Hit the pit Hitch up the reindeers Hitter Hitting up Hocus Hog Holding Hombre Hombrecitos Homegrown Honey Honey blunts Honey oil Honeymoon Hong-yen Hooch Hooked Hooter Hop Hopped up Horn Horning Horse Horse heads Horse tracks Horse tranquilizer Hot dope Hot heroin Hot ice Hot load Hot stick Hotcakes House fee House piece How do you like me now? Hows Hubba pigeon Hubba, I am back Hubbas Huff Huffer Hulling Hunter Hustle Hyatari Hype Hype stick I am back Ice Ice cream habit Ice cube Icing Idiot pills In Inbetweens Inca message Indian boy Indian hay Indica Indo Indonesian bud Instant zen Interplanetary mission Isda Issues J Jab Jack Jack-Up Jackpot Jag Jam Jam cecil Jane Jay Jay smoke Jee gee Jefferson airplane Jellies Jelly Jelly baby Jelly bean Jelly beans Jet Jet fuel Jim Jones Jive Jive doo jee Jive stick Johnson Joint Jojee Jolly bean Jolly green Jolly pop Jolt Jones Jonesing Joy flakes Joy juice Joy plant Joy pop Joy popping Joy powder Joy smoke Joy stick Ju-ju Juan Valdez Juanita Juggle Juggler Jugs Juice Juice joint Jum Jumbos Junk Junkie K K-blast K-hole KGB (killer green bud) KJ KW Kabayo Kabuki Kaksonjae Kali Kangaroo Kaps Karachi Kaya Kentucky blue Kibbles & Bits Kick Kick stick Kiddie dope Kiff Killer Killer weed (1960s) Killer weed (1980s) Kilo Kilter Kind King Kong pills King ivory King\\'s habit Kit Kleenex Klingons Kokomo Koller joints Kools Kryptonite Krystal Krystal joint Kumba L L.A. L.A. glass L.A. ice L.L. LBJ LSD Lace Lady Lady caine Lady snow Lakbay diva Lamborghini Las mujercitas Lason sa daga Laugh and scratch Laughing gas Laughing grass Laughing weed Lay back Lay-out Leaf Leaky bolla Leaky leak Leapers Leaping Legal speed Lemon 714 Lemonade Lens Lethal weapon Lettuce Lib (Librium) Lid Lid proppers Light stuff Lightning Lima Lime acid Line Lipton Tea Lit up Little bomb Little ones Little smoke Live ones Llesca Load Loaded Loaf Lobo Locker room Locoweed Log Logor Loused Love Love affair Love boat Love drug Love pearls Love pills Love trip Love weed Lovelies Lovely Lubage Lucy in the sky with diamonds Ludes Luding out Luds M M&M M.J. M.O. M.S. M.U. MDM MDMA Machinery Macon Mad dog Madman Magic Magic dust Magic mushroom Magic smoke Main line Mainliner Make up Mama coca Manhattan silver Marathons Mari Marshmallow reds Mary Mary Ann Mary Jane Mary Jonas Mary Warner Mary Weaver Mary and Johnny Maserati Matchbox Matsakow Maui wauie Max Maxibolin Mayo Mean green Meg Megg Meggie Mellow yellow Merchandise Merk Mesc Mescal Mese Messorole Meth Meth head Meth monster Methatriol Methyltestosterone Mexican brown Mexican horse Mexican mud Mexican mushroom Mexican red Mexican reds Mezc Mickey Finn Mickey\\'s Microdot Midnight oil Mighty Joe Young Mighty Quinn Mighty mezz Mind detergent Minibennie Mint leaf Mint weed Mira Miss Miss Emma Missile basing Mission Mist Mister blue Modams Mohasky Mojo Monkey Monkey dust Monkey tranquilizer Monos Monte Mooca Moon Moonrock Mooster Moota Mooters Mootie Mootos Mor a grifa More Morf Morning wake-up Morotgara Mortal combat Mosquitos Mota Mother Mother\\'s little helper Mouth worker Movie star drug Mow the grass Mud Muggie Mujer Mule Murder 8 Murder one Mushrooms Musk Mutha Muzzle Nail Nailed Nanoo Nebbies Nemmies New Jack Swing New acid New magic Nexus Nice and easy Nickel bag Nickel deck Nickel note Nickelonians Niebla Nimbies Nix Nod Noise Nontoucher Nose Nose candy Nose drops Nose powder Nose stuff Nubs Nugget Nuggets Number Number 3 Number 4 Number 8 O O.J. O.P. O.P.P. Octane Ogoy Oil Old Steve On a mission On a trip On ice On the bricks On the nod One and one One box tissue One way One-fifty-one Ope Optical illusions Orange barrels Orange crystal Orange cubes Orange haze Orange micro Orange wedges Oranges Outerlimits Owsley Owsley\\'s acid Oz Ozone P P-dope P-funk P.R. (Panama Red) PCP PCPA Pack Pack of rocks Pakalolo Pakistani black Panama cut Panama gold Panama red Panatella Panckes and syrup Pane Pangonadalot Panic Paper acid Paper bag Paper blunts Paper boy Parabolin Parachute Paradise Paradise white Parlay Parsley Paste Pat Patico Paz Peace Peace pill Peace tablets Peace weed Peaches Peanut Peanut butter Pearl Pearls Pearly gates Pebbles Peddlar Pee Wee Peep Peg Pellets Pen yan Pep pills Pepsi habit Perfect High Perico Perp Peruvian Peruvian flake Peruvian lady Peter Pan Peth Peyote Phennies Phenos Pianoing Piece Piedras Pig Killer Piles Pimp Pimp your pipe Pin Pin gon Pin yen Ping-in-wing Pink Panther Pink blotters Pink hearts Pink ladies Pink robots Pink wedge Pink witches Pipe Pipero Pit Pixies Plant Pocket rocket Pod Poison Poke Polvo Polvo blanco Polvo de angel Polvo de estrellas Pony Poor man\\'s pot Pop Poppers Poppy Pot Potato Potato chips Potten bush Powder Powder diamonds Power puller Pox Prescription Press Pretendica Pretendo Primo Primobolan Primos Proviron Pseudocaine Puff the dragon Puffer Puffy Pulborn Pullers Pumping Pure Pure love Purple Purple barrels Purple flats Purple haze Purple hearts Purple ozoline Purple rain Push Push shorts Pusher Q Quad Quarter Quarter bag Quarter moon Quarter piece Quartz Quas Queen Ann\\'s lace Quicksilver Quill Quinolone Racehorse charlie Ragweed Railroad weed Rainbows Rainy day woman Rambo Rane Rangood Rap Raspberry Rasta weed Rave Raw Razed Ready rock Recompress Recycle Red Red and blue Red bullets Red caps Red chicken Red cross Red devil Red dirt Red eagle Red phosphorus Reds Reefer Regular P Reindeer dust Rhine Rhythm Riding the wave Rig Righteous bush Ringer Rippers Roach Roach clip Road dope Roca Rock attack Rock house Rock star Rock(s) Rocket caps Rocket fuel Rockets Rockette Rocks of hell Rocky III Roid rage Roller Rollers Rolling Rooster Root Rope Rosa Rose marie Roses Rox Roxanne Royal blues Roz Ruderalis Runners Running Rush Rush snappers Russian sickles STP Sack Sacrament Sacre mushroom Salt Salt and pepper Sam Sancocho Sandoz Sandwich Santa Marta Sasfras Satan\\'s secret Satch Satch cotton Sativa Scaffle Scag Scat Scate Schmeck Schoolboy Schoolcraft Scissors Score Scorpion Scott Scottie Scotty Scramble Scratch Scruples Scuffle Seccy Seeds Seggy Sen Seni Sernyl Serpico 21 Server Sess Set Sevenup Sewer Sezz Shabu Shake Shaker Sharps She Sheet rocking Sheets Shermans Sherms Shmeck Shoot Shoot the breeze Shooting gallery Shot Shot down Shrooms Siddi Sightball Silly Putty Simple Simon Sinse Sinsemilla Sixty-two Skee Skeegers Skid Skied Skin popping Skuffle Skunk Slab Slam Slanging Sleeper Sleet Slick superspeed Slime Smack Smears Smoke Smoke Canada Smoke-out Smoking Smoking gun Snap Snappers Sniff Snop Snort Snorts Snot Snot balls Snow Snow bird Snow pallets Snow seals Snow soke Snow white Snowball Snowcones Society high Soda Softballs Soles Soma Sopers Space base Space cadet Space dust Space ship Spark it up Sparkle plenty Sparklers Special \\"K\\" Special la coke Speed Speed boat Speed for lovers Speed freak Speedball Spider blue Spike Splash Spliff Splim Split Splivins Spoon Spores Sporting Spray Sprung Square mackerel Square time Bob Squirrel Stack Stacking Star Star-spangled powder Stardust Stash Stash areas Stat Steerer Stem Stems Step on Stick Stink weed Stoned Stones Stoppers Straw Strawberries Strawberry Strawberry fields Strung out Stuff Stumbler Sugar Sugar block Sugar cubes Sugar lumps Sugar weed Sunshine Super Super C Super Grass Super acid Super ice Super joint Super kools Super weed Supergrass Sweet Jesus Sweet Lucy Sweet stuff Sweets Swell up Synthetic THT T T-buzz T.N.T. THC TR-6s TT1 TT2 TT3 Tabs Tail lights Taima Taking a cruise Takkouri Tango & Cash Tar Tardust Taste Taxing Tea Tea party Teardrops Tecate Tecatos Teeth Tension Tex-mex Texas pot Texas tea Thai sticks The C The beast The devil The witch Therobolin Thing Thirst monsters Thirteen Thoroughbred Thrust Thrusters Thumb Tic Tic tac Ticket Tie Tin Tish Tissue Titch Toilet water Toke Toke up Toncho Tooles Tools Toot Tooties Tootsie roll Top gun Topi Tops Torch Torch cooking Torch up Torpedo Toss up Totally spent Toucher Tout Toxy Toys Track Tracks Tragic magic Trails Trank Tranq Trap Travel agent Trays Trip Troop Trophobolene Truck drivers Tuie Turbo Turf Turkey Turnabout Turned on Tutti-frutti Tweak mission Tweaker Tweaking Tweek Tweeker Twenty Twenty-five Twist Twistum Two for nine Ultimate Uncle Uncle Milty Unkie Up against the stem Uppers Uppies Ups and downs Utopiates Uzi V Viper\\'s weed Vodka acid Wac Wack Wacky weed Wake ups Wasted Water Wave Wedding bells Wedge Weed Weed tea Weightless Whack Wheat When-shee Whippets White White Owsley\\'s White ball White boy White cloud White cross White dust White ghost White girl White horizon White horse White junk White lady White lightning White mosquito White nurse White powder White stuff White sugar White tornado White-haired lady Whiteout Whites Whiz bang Wild cat Window glass Window pane Wings Winstrol Winstrol V Witch Witch hazel Wobble weed Wolf Wollie Wonder star Woolah Woolas Woolies Wooly blunts Working Working half Works Worm Wrecking crew X X-ing XTC Yahoo Yale Yeh Yellow Yellow bam Yellow bullets Yellow dimples Yellow fever Yellow jackets Yellow submarine Yellow sunshine Yen Shee Suey Yen pop Yen sleep Yerba Yerba mala Yesca Yesco Yeyo Yimyom Z Zacatecas purple Zambi Zen Zero Zig Zag man Zip Zol Zombie Zombie weed Zooie Zoom Zoomers baker black moat blow a shot blow the vein bring up chandu crop doojee dubbe duby dugie finaject frajo gauge green stuff hops hot shot job moocah moto mutah schmeek shoot up skeezers surfer synthetic cocaine water yeaho  
 """ ;
-    ns1:hasSeller <TheShop> ;
-    ns1:price "1.99" ;
+    ns1:hasSeller ns1:TheShop ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName " How To Make LSD  " ;
-    ns1:shipsFrom ns1:Worldwide ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/148928> a ns1:Digital_Goods ;
     ns1:description "E-Books" ;
-    ns1:hasSeller <-> ;
-    ns1:price "pckabml" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Bioethics An Anthology 3rd edition 2016" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/153060> a ns1:Services ;
     ns1:description "Money" ;
-    ns1:hasSeller <-> ;
-    ns1:price "OnePiece" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Important Templates pack For USA" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_States .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_States> .
 
 <http://darkwebisspooky/product/158273> a ns1:Digital_Goods ;
     ns1:description """----------------------------------------------------
@@ -343,27 +363,30 @@ And much more.
 Thank you for watching,
 Cyberzen 
 """ ;
-    ns1:hasSeller <Cyberzen> ;
-    ns1:price "0.01" ;
+    ns1:hasSeller ns1:Cyberzen ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "ANY PREMIUM PORN ACCOUNT OF YOUR CHOICE [LIFETIME " ;
-    ns1:shipsFrom ns1:Internet ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Internet> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/162740> a ns1:Digital_Goods ;
     ns1:description "E-Books" ;
-    ns1:hasSeller <-> ;
-    ns1:price "captainkirk" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Why Your Life Sucks" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Internet .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Internet> .
 
 <http://darkwebisspooky/product/165169> a ns1:Digital_Goods ;
     ns1:description "E-Books" ;
-    ns1:hasSeller <-> ;
-    ns1:price "captainkirk" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Wicca Spellcraft for Men: A Spellbook for Male Pag" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Internet .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Internet> .
 
 <http://darkwebisspooky/product/170595> a ns1:Digital_Goods ;
     ns1:description """A PSD file of a GERMAN identity card to create your fake identity scans.
@@ -375,260 +398,292 @@ After your purchase you get a download link in your inbox.
 BarryBusiness
  
 """ ;
-    ns1:hasSeller <BarryBusiness> ;
-    ns1:price "19.94" ;
+    ns1:hasSeller ns1:BarryBusiness ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "German ID editable PSD template !!" ;
-    ns1:shipsFrom ns1:Worldwide ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/175316> a ns1:Digital_Goods ;
     ns1:description "Information, eBooks" ;
-    ns1:hasSeller <-> ;
-    ns1:price "HappyEyes" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Assorted Magazines Bundle - July 10 2016" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/179177> a ns1:Digital_Goods ;
     ns1:description "E-Books" ;
-    ns1:hasSeller <-> ;
-    ns1:price "pckabml" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "iOS 10 Programming Fundamentals with Swift 3rd edi" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/184648> a ns1:Other ;
     ns1:description "Counterfeits, Accessories" ;
-    ns1:hasSeller <-> ;
-    ns1:price "RepAAA" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Audemars Piguet - Royal Oak 15400 RG Blue [JF]" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Hong_Kong .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Hong_Kong> .
 
 <http://darkwebisspooky/product/188370> a ns1:Digital_Goods ;
     ns1:description "E-Books" ;
-    ns1:hasSeller <-> ;
-    ns1:price "HappyEyes" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Fasting for Life - Medical Proof Fasting Reduces R" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/192925> a ns1:Services ;
     ns1:description "Other" ;
-    ns1:hasSeller <-> ;
-    ns1:price "TheShop" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName " MOBILE CASH V3.0 | EARN $100 WEEKLY " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/19295> a ns1:Drugs ;
     ns1:description "Benzos" ;
-    ns1:hasSeller <-> ;
-    ns1:price "Mindful-Shaman" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "100 g Diclazepam -- FREE SHIPPING" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:China .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/China> .
 
 <http://darkwebisspooky/product/196090> a ns1:Services ;
     ns1:description "Other" ;
-    ns1:hasSeller <-> ;
-    ns1:price "TheShop" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName " CASH IT At least $20 a day " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/198329> a ns1:Services ;
     ns1:description "Other" ;
-    ns1:hasSeller <-> ;
-    ns1:price "Sl3vin" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Promotion - BOYSFINGERING + STAGHOMM + CITIBOYZ" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/201837> a ns1:Services ;
     ns1:description "IDs &Passports" ;
-    ns1:hasSeller <-> ;
-    ns1:price "MrFugazi" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Connecticut Driver\\'s License" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/208721> a ns1:Drugs ;
     ns1:description "Stimulants, Cocaine" ;
-    ns1:hasSeller <-> ;
-    ns1:price "NextGeneration" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "UNCUT Peruvian 89% FISHSCALE COCAINE 2g FREE UK ND" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_Kingdom .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom> .
 
 <http://darkwebisspooky/product/212985> a ns1:Digital_Goods ;
     ns1:description "E-Books" ;
-    ns1:hasSeller <-> ;
-    ns1:price "pckabml" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Cassandra Design Patterns 2014" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/217139> a ns1:Digital_Goods ;
     ns1:description "Software" ;
-    ns1:hasSeller <-> ;
-    ns1:price "motherfuckerj0nes" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Adobe Photoshop CS6 + Crack" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/219537> a ns1:Digital_Goods ;
     ns1:description "Other" ;
-    ns1:hasSeller <-> ;
-    ns1:price "TheShop" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName " Collection of Esoteric Ebooks " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/226284> a ns1:Drugs ;
     ns1:description "Cannabis, Edibles" ;
-    ns1:hasSeller <-> ;
-    ns1:price "cornerbakery" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Punch Bar// 225mg Peanut Butter //5 Pack" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_States .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_States> .
 
 <http://darkwebisspooky/product/230150> a ns1:Digital_Goods ;
     ns1:description "E-Books" ;
-    ns1:hasSeller <-> ;
-    ns1:price "pckabml" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Magento 2 DIY 2017" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/232450> a ns1:Digital_Goods ;
     ns1:description "Erotica" ;
-    ns1:hasSeller <-> ;
-    ns1:price "Sl3vin" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Angelawhite.com [PORN LIFETIME ACCOUNT]" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/236940> a ns1:100%25 ;
     ns1:description "Digital Goods, Software" ;
-    ns1:hasSeller <-> ;
-    ns1:price "fence" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "BITCOIN STEALER>>> Start Stealing Bitcoin" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/23899> a ns1:Digital_Goods ;
     ns1:description """How to Hide From Bill Collectors 
 """ ;
-    ns1:hasSeller <BANK> ;
-    ns1:price "2.0" ;
+    ns1:hasSeller ns1:BANK ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "How to Hide From Bill Collectors" ;
-    ns1:shipsFrom ns1:Worldwide ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/240054> a ns1:Drugs ;
     ns1:description "Ecstasy, MDMA" ;
-    ns1:hasSeller <-> ;
-    ns1:price "NextGeneration" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Dutch Import MDMA 90%  28g FREE UK NDD" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_Kingdom .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom> .
 
 <http://darkwebisspooky/product/245189> a ns1:Digital_Goods ;
     ns1:description "Information, eBooks" ;
-    ns1:hasSeller <-> ;
-    ns1:price "HappyEyes" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "5 Steps to a 5 - AP Calculus AB 2017 - 3rd Edition" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/249128> a ns1:Services ;
     ns1:description "IDs &Passports" ;
-    ns1:hasSeller <-> ;
-    ns1:price "namedeclined" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Forged Australian Electricity Bill - Ergon Energy " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_States .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_States> .
 
 <http://darkwebisspooky/product/251142> a ns1:Digital_Goods ;
     ns1:description "E-Books" ;
-    ns1:hasSeller <-> ;
-    ns1:price "pckabml" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Getting Started with TypeScript 2017" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/253528> a ns1:Digital_Goods ;
     ns1:description "Data" ;
-    ns1:hasSeller <-> ;
-    ns1:price "Sl3vin" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "MiamiBoyz.com  [GAY PORN LIFETIME ACCOUNT]" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/259014> a ns1:Drugs ;
     ns1:description "Stimulants, Cocaine" ;
-    ns1:hasSeller <-> ;
-    ns1:price "BritishDragon" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "0.25g Heroin + 0.2g Crack *Light/Dark COMBO DEAL*" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_Kingdom .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom> .
 
 <http://darkwebisspooky/product/261767> a ns1:Digital_Goods ;
     ns1:description "Fraud Related" ;
-    ns1:hasSeller <-> ;
-    ns1:price "philobeto13" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "CRACK WI-FI PASSWORDSFOR BEGINNERS!" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Canada .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Canada> .
 
 <http://darkwebisspooky/product/265605> a ns1:250 ;
     ns1:description "Drugs, Stimulants, Cocaine" ;
-    ns1:hasSeller <-> ;
-    ns1:price "Yourdrug" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Cocaine Peru 90%+ Purity" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Germany .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Germany> .
 
 <http://darkwebisspooky/product/268412> a ns1:Digital_Goods ;
     ns1:description "E-Books" ;
-    ns1:hasSeller <-> ;
-    ns1:price "pckabml" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Test Driven Development in Ruby 2017" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/271758> a ns1:Drugs ;
     ns1:description "Stimulants, Cocaine" ;
-    ns1:hasSeller <-> ;
-    ns1:price "DRUGBOX" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "<DRUGBX> GRADE*COCAINE Menge:80 g." ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Germany .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Germany> .
 
 <http://darkwebisspooky/product/27491> a ns1:10 ;
     ns1:description "Drugs, Ecstasy, MDMA" ;
-    ns1:hasSeller <-> ;
-    ns1:price "Yourdrug" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "MDMA Crystals Champagne 84%+" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Germany .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Germany> .
 
 <http://darkwebisspooky/product/275619> a ns1:Drugs ;
     ns1:description "Psychedelics, LSD" ;
-    ns1:hasSeller <-> ;
-    ns1:price "Timetofiesta" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "DOMESTIC1000 BLOTTERS 200 Ug" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Germany .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Germany> .
 
 <http://darkwebisspooky/product/278088> a ns1:Digital_Goods ;
     ns1:description "Fraud" ;
-    ns1:hasSeller <-> ;
-    ns1:price "TheShop" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName " MAKE MONEY WITH FACEBOOK " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/279431> a ns1:Digital_Goods ;
     ns1:description """Before starting talking about the method on itself. 
@@ -723,27 +778,30 @@ Verify richer Free Specific FACEBOOK GiftCards Guide hour with BTC Disguise ebay
 
  
 """ ;
-    ns1:hasSeller <TheShop> ;
-    ns1:price "3.99" ;
+    ns1:hasSeller ns1:TheShop ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName " CARDING AMAZON TO BITCOIN " ;
-    ns1:shipsFrom ns1:Worldwide ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/281434> a ns1:Illustrator ;
     ns1:description "InDesign - NEW 2017" ;
-    ns1:hasSeller <-> ;
-    ns1:price "-" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Adobe Photoshop" ;
-    ns1:shipsFrom <http://darkwebisspooky/-> ;
-    ns1:shipsTo ns1:Dream .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/-> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> .
 
 <http://darkwebisspooky/product/283312> a ns1:Digital_Goods ;
     ns1:description "Other" ;
-    ns1:hasSeller <-> ;
-    ns1:price "TheShop" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName " PAYPAL MEGAPACK " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/286689> a ns1:Digital_Goods ;
     ns1:description """Newsest Avira AntiVirus Pro Version 2017 3 years licence
@@ -756,147 +814,165 @@ after you received and test it is ok,please release the money and feedback in ti
 
 if you have more problem,please contact me,i will be happy to help you. 
 """ ;
-    ns1:hasSeller <europe> ;
-    ns1:price "8.22" ;
+    ns1:hasSeller ns1:europe ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Newsest Avira AntiVirus Pro Version 2017 3 years l" ;
-    ns1:shipsFrom ns1:Worldwide ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/290504> a ns1:Digital_Goods ;
     ns1:description "Fraud" ;
-    ns1:hasSeller <-> ;
-    ns1:price "HappyEyes" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Femina India - 7 February 2017" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/293213> a ns1:Digital_Goods ;
     ns1:description "E-Books" ;
-    ns1:hasSeller <-> ;
-    ns1:price "pckabml" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Common OpenStack Deployments 2017" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/295249> a ns1:Services ;
     ns1:description "Other" ;
-    ns1:hasSeller <-> ;
-    ns1:price "TheShop" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName " CANNABIS GUIDES PACK " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/298607> a ns1:UV ;
     ns1:description "SC" ;
-    ns1:hasSeller <-> ;
-    ns1:price "-" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "DELAWARE Fake ID Fake drivers licence HOLO" ;
-    ns1:shipsFrom <http://darkwebisspooky/-> ;
-    ns1:shipsTo ns1:Dream .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/-> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> .
 
 <http://darkwebisspooky/product/302422> a ns1:Masterone ;
     ns1:description "100mg/ml" ;
-    ns1:hasSeller <-> ;
-    ns1:price "-" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Omnia Labs" ;
-    ns1:shipsFrom <http://darkwebisspooky/-> ;
-    ns1:shipsTo ns1:Dream .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/-> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> .
 
 <http://darkwebisspooky/product/305232> a ns1:Drugs ;
     ns1:description "Ecstasy, MDMA" ;
-    ns1:hasSeller <-> ;
-    ns1:price "fastfooduk" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "3.5g OF PURE MDMA! UK2UK BACKBYPOPULARDEMAND!" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_Kingdom .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom> .
 
 <http://darkwebisspooky/product/308931> a ns1:Drugs ;
     ns1:description "Cannabis" ;
-    ns1:hasSeller <-> ;
-    ns1:price "tonysdrugsstore" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "MASTER KUSH 500 g" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_Kingdom .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom> .
 
 <http://darkwebisspooky/product/312722> a ns1:Drugs ;
     ns1:description "Psychedelics, LSD" ;
-    ns1:hasSeller <-> ;
-    ns1:price "OceanMind" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "LSD (240) x 1 Blotter" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Europe .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Europe> .
 
 <http://darkwebisspooky/product/31310> a ns1:Digital_Goods ;
     ns1:description "Hacking" ;
-    ns1:hasSeller <-> ;
-    ns1:price "color" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "HACKING EXPOSED WINDOWS MICROSOFT WINDOWS SECURITY" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_States .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_States> .
 
 <http://darkwebisspooky/product/315849> a ns1:Drugs ;
     ns1:description "Opioids, Heroin" ;
-    ns1:hasSeller <-> ;
-    ns1:price "911turbo" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "2.5G Afghan Heroin Pure Uncut" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Europe .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Europe> .
 
 <http://darkwebisspooky/product/316883> a ns1:Drugs ;
     ns1:description "Cannabis, Weed" ;
-    ns1:hasSeller <-> ;
-    ns1:price "FlorDeVida" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "100 g -  Amnesia Haze << Phenotype 2 << Bio Indoor" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Spain .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Spain> .
 
 <http://darkwebisspooky/product/317542> a ns1:Drugs ;
     ns1:description "Cannabis, Seeds" ;
-    ns1:hasSeller <-> ;
-    ns1:price "MicroDroper" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Sour Diesel - [50 SEEDS] [FEMINIZED] [GIFT]" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/318144> a ns1:Digital_Goods ;
     ns1:description "Fraud Related, Documents &Data" ;
-    ns1:hasSeller <-> ;
-    ns1:price "MicroDroper" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "TEXAS A&M UNIVERSITY COLLEGE ID CARD PSD TEMPLATE" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/321402> a ns1:Digital_Goods ;
     ns1:description "Fraud Related" ;
-    ns1:hasSeller <-> ;
-    ns1:price "lunis" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName " N T I D E T E C T 7 CRACKED" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/325400> a ns1:Drugs ;
     ns1:description "Stimulants, Meth" ;
-    ns1:hasSeller <-> ;
-    ns1:price "n_chanted" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "2G PURE UNCUT CRYSTAL METH  FREE EXPRESS!" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Australia .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Australia> .
 
 <http://darkwebisspooky/product/327763> a ns1:Drugs ;
     ns1:description "Opioids, Opium" ;
-    ns1:hasSeller <-> ;
-    ns1:price "rs6quattro" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "3.5G Cheap Brown Afghan Heroin #3 Cheap" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Luxembourg .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Luxembourg> .
 
 <http://darkwebisspooky/product/330351> a ns1:Digital_Goods ;
     ns1:description "Fraud Related, Accounts" ;
-    ns1:hasSeller <-> ;
-    ns1:price "matryoshka90" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Amazon  ACCOUNT LIFETIME WARRANTY 100 SATISFACTION" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/334208> a ns1:Digital_Goods ;
     ns1:description """hey there! 
@@ -943,44 +1019,49 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox
 Cookie: cookie_check=yes; LANG=en_US%3BUS; tsrce=settingsnodeweb; nsid=s%3AjDAyB_kBLwR3WV3pud-eRCStFHN8dyUy.V8v%2BVNn5O%2BgJyjY0d8LnABM72bQv7%2F0xZaihyPRqICs; AKDC=phx-origin-www-1.paypal.com; akavpau_ppsd=1500793374~id=6c74fe917ab6bbd795a4e8735ff9f6d4; xppcts=8068851dc1f3220f; x-pp-s=eyJ0IjoiMTUwMDc5Mjc2NjExMyIsIm0iOiIwIn0; login_email=bamir_87%40yahoo.com; ui_experience=home%3D2%26login_type%3DEMAIL_PASSWORD; fn_dt=191243809de84bc9ab10e274c8b18338; HaC80bwXscjqZ7KM6VOxULOB534=fQI5NlH52cYG0EAB7NBalgQ_BOqFamyBcaiQG0CDHijzZCQz6yuoUtd3a-rXoggd4Kry8hFumXCDhYm8Epp2xFoo2PFfePtCfVRX9r26maVBbdSctGDnC8hto5kXIJ5jylWbfm; X-PP-ADS=AToBtUd0Wa.jFmTBl6DhxjPxmtImxeg; navcmd=_complaint-view; feel_cookie=a%2015%20_complaint-view%20b%200%20%20c%206%20webscr%20d%200%20%20e%2051%20CaseManagement%2fcustomerservice%2fResolutionCenter.xsl%20f%200%20%20g%205%20en_US%20h%200%20%20i%2051%20xpt%2fCaseManagement%2fcustomerservice%2fResolutionCenter%20j%200%20%20k%2026%20Resolution%20Center%20-%20PayPal%20l%200%20%20; KHcl0EuY7AKSMgfvHl7J5E7hPtK=GSsnACkdIQJ8Nub4xTefDy3RivA0QLvJ1XwQx7q3S__YQANKb39lb9hQk9jhAwgcQt__86D-HD31IqQN; x-pp-p=7Zgu2wYoH0TkGV8Xwgrbxm0af27hqjyh6p-HhrH.ptagTwIYhBkHsg3d8u8dtaDimZgsGdhXvhNxiZ7Ke-FlWv7ziJcL1DU.8LUv-QL-O8vtYomjDOxDdqhKaE-YEPn.4L8nN5hziMlnpelonqYzHE2myK0D003X2eLDRL57Y72PMcRaP7fDu0ZPV-fJhiB0-hOJvbFZ8g1lRSocPhnNZyhNWSg6ePH9T-K3r3aJjkFaWvFezYEYHuleaCyiXPxQ; navlns=0.5; SEGM=kPdr9wAD9vnD2klO5j9sDt3jd9Dr8DDbshd72DDrt8ZQpln941oplFGH9isom0wDWnGlL83Ghjir932dfkd8FCou; cwrClyrK4LoCV1fydGbAxiNL6iG=38tYG0w-LZDrSdVJu-XMlRcglei9An3tuOMPaHwCmxPhKHpIF5bNR3Dm3fgYbZCCCmv8tBcrkUnNraUQJ8UHNv3rM3-jC3ZeFkXq7cl0uiNqDfJtUwkZOar-5xHrq7BF67I-PcZrAf5IIgvzVtVs5imenKMPPC6GqHXHsbz2AD_ACmj354JzMw-h_LmI_wyQp4zGmBLA5bSFgNqxsGyGKNAKVdLRPGCuwivZa0dkn9l3DwEvGukuiWLzIkV1_ejYby3jQOFv7BcMvMl-7HoeAE3t-hUzJLAyPzQ26wPGL_ivW1XuZ3TU3ek66kUrBBz3oyxPHhkafvZ1gseCCEmnPQY9RULnGVNCgZmCIryMjzMuFah6Ql2FCxaJitqkNx1QS4IyRpMYWgKantPOAwJV2BW46muJkCZcQsxNWTjeYMzuLIkxBsDIisu-8ma
 ====================================== 
 """ ;
-    ns1:hasSeller <RealMalcomTurnbull> ;
-    ns1:price "11.77" ;
+    ns1:hasSeller ns1:RealMalcomTurnbull ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "US Paypal account+CCV - MIDDLEMAN for cashout" ;
-    ns1:shipsFrom ns1:Australia ;
-    ns1:shipsTo ns1:Australia,
-        ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Australia> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Australia>,
+        <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/336929> a ns1:Digital_Goods ;
     ns1:description "Fraud Related, CC &CVV" ;
-    ns1:hasSeller <-> ;
-    ns1:price "TopNotchMoneyMaker" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Platinum Virtual Carder Handbook (UVCH) 2.11" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Digital .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Digital> .
 
 <http://darkwebisspooky/product/340105> a ns1:Drugs ;
     ns1:description "Steroids" ;
-    ns1:hasSeller <-> ;
-    ns1:price "SteroidWarehouse" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Custom listing (andrestero)" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Netherlands .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Netherlands> .
 
 <http://darkwebisspooky/product/343326> a ns1:Drugs ;
     ns1:description "Ecstasy, Pills" ;
-    ns1:hasSeller <-> ;
-    ns1:price "GoodFellasCompany2.0" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "5.000 Yellow Nintendo 230MG  ESCROW " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Netherlands .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Netherlands> .
 
 <http://darkwebisspooky/product/346298> a ns1:Drugs ;
     ns1:description "Ecstasy, MDMA" ;
-    ns1:hasSeller <-> ;
-    ns1:price "GoodFellasCompany2.0" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "5 gr Champange MDMAPROMO!ESCROW" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Germany .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Germany> .
 
 <http://darkwebisspooky/product/349007> a ns1:Digital_Goods ;
     ns1:description """---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1498,59 +1579,66 @@ AND MANY MANY MORE!!!
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 """ ;
-    ns1:hasSeller <GodsLeftNut> ;
-    ns1:price "14.99" ;
+    ns1:hasSeller ns1:GodsLeftNut ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "JOKERS STASH!!! LEARN HOW TO MAKE MONEY FROM HOME!" ;
-    ns1:shipsFrom ns1:Worldwide ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/352307> a ns1:Drugs ;
     ns1:description "Stimulants, Speed" ;
-    ns1:hasSeller <-> ;
-    ns1:price "Carnal_Instinct_UK" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "C.I [FE] 10g Speed Powder {Amphetamine} [UK-UK]" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_Kingdom .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom> .
 
 <http://darkwebisspooky/product/355128> a ns1:Drugs ;
     ns1:description "Ecstasy, Pills" ;
-    ns1:hasSeller <-> ;
-    ns1:price "Fifties" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "500. PCS. -Green Minions 180mg pure mdma pills (3D" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Germany .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Germany> .
 
 <http://darkwebisspooky/product/360418> a ns1:Drugs ;
     ns1:description "Cannabis, Hash" ;
-    ns1:hasSeller <-> ;
-    ns1:price "urano27" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "<MOROCCO BLOND POLEN> [5GR]" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Spain .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Spain> .
 
 <http://darkwebisspooky/product/364453> a ns1:Drugs ;
     ns1:description "Ecstasy, MDMA" ;
-    ns1:hasSeller <-> ;
-    ns1:price "TheGoodFellasCompany" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "2KG Champange MDMA NO ESCROW" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Germany .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Germany> .
 
 <http://darkwebisspooky/product/367707> a ns1:Services ;
     ns1:description "Cash out" ;
-    ns1:hasSeller <-> ;
-    ns1:price "TheWizard" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Guide to Eating McDonald\\'s for Free" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/37035> a ns1:Digital_Goods ;
     ns1:description "Other" ;
-    ns1:hasSeller <-> ;
-    ns1:price "SoftKingUS" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Godzilla Gigapack  The biggest pack out there" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/371080> a ns1:Digital_Goods ;
     ns1:description """2017 PLATINUM BANK DROP CREATION PACKAGE - PERFECT for CARDERS: BOA - Wells Fargo - Fidelity - Ally - SunTrust - Low Price!! [$15.99]
@@ -1600,35 +1688,39 @@ WHAT\\'S REQUIRED:
 
 --- FIRST 10 ORDERS PAY JUST $15.99 - WOW GET THIS BEFORE PRICES GO BACK UP TO $275 --- 
 """ ;
-    ns1:hasSeller <TopNotchMoneyMaker> ;
-    ns1:price "15.96" ;
+    ns1:hasSeller ns1:TopNotchMoneyMaker ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "BANK DROP CREATE PACK: BOA/Wells/Fidelity/Ally/Sun" ;
-    ns1:shipsFrom ns1:Digital ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Digital> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/373152> a ns1:Digital_Goods ;
     ns1:description "Security" ;
-    ns1:hasSeller <-> ;
-    ns1:price "Odin2030" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "4X NEW CC TO BTC CASHOUT METHODS 2017" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/374590> a ns1:FRAUD ;
     ns1:description "MORE" ;
-    ns1:hasSeller <-> ;
-    ns1:price "-" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "DARKNET STARTER KIT: MAKE MONEY" ;
-    ns1:shipsFrom <http://darkwebisspooky/-> ;
-    ns1:shipsTo ns1:Dream .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/-> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> .
 
 <http://darkwebisspooky/product/376671> a ns1:Drugs ;
     ns1:description "Psychedelics, DMT" ;
-    ns1:hasSeller <-> ;
-    ns1:price "Noumena" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "4g Changa Royal" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Germany .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Germany> .
 
 <http://darkwebisspooky/product/379423> a ns1:Digital_Goods ;
     ns1:description """$ 2017  MAIL DROP CREATION PACK [NEXT 10 PAY $8.00] - PERFECT for CARDERS $ 
@@ -1686,140 +1778,157 @@ REFUND POLICY: NO REFUNDS - NO DISPUTES WITHOUT CONTACTING US FIRST.
  
 DO NOT BUY THIS GUIDE IF YOU AREN\\'T FAMILIAR WITH ALL THE ABOVE OR LAZY! 
 """ ;
-    ns1:hasSeller <TheWealthMaker> ;
-    ns1:price "5.0" ;
+    ns1:hasSeller ns1:TheWealthMaker ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "MAKE YOUR OWN MAIL DROP 2017" ;
-    ns1:shipsFrom ns1:Digital ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Digital> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/382542> a ns1:Drugs ;
     ns1:description "Stimulants, Meth" ;
-    ns1:hasSeller <-> ;
-    ns1:price "JehovahUK" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "50 Grams of Methamphetamine" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_Kingdom .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom> .
 
 <http://darkwebisspooky/product/385480> a ns1:FRAUD ;
     ns1:description "MORE" ;
-    ns1:hasSeller <-> ;
-    ns1:price "-" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "DARKNET STARTER KIT - MAKE MONEY" ;
-    ns1:shipsFrom <http://darkwebisspooky/-> ;
-    ns1:shipsTo ns1:Dream .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/-> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> .
 
 <http://darkwebisspooky/product/388049> a ns1:Drugs ;
     ns1:description "Cannabis, Concentrates" ;
-    ns1:hasSeller <-> ;
-    ns1:price "budgetbudsexpress" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Dispensary Shatter Pack 448g" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_States .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_States> .
 
 <http://darkwebisspooky/product/389846> a ns1:Other ;
     ns1:description "Counterfeits, Other" ;
-    ns1:hasSeller <-> ;
-    ns1:price "TheWealthMaker" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "HOW TO PASS COUNTERFEIT MONEY ONLY $5" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Digital .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Digital> .
 
 <http://darkwebisspooky/product/393778> a ns1:Digital_Goods ;
     ns1:description "Fraud Related, CC &CVV" ;
-    ns1:hasSeller <-> ;
-    ns1:price "TheWizard" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName " The Carding School Tutorial " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/395454> a ns1:Drugs ;
     ns1:description "Cannabis, Edibles" ;
-    ns1:hasSeller <-> ;
-    ns1:price "robertmondale" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Coconut Oil Tincture 100 MG THC" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_States .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_States> .
 
 <http://darkwebisspooky/product/398517> a ns1:Services ;
     ns1:description "Cash out" ;
-    ns1:hasSeller <-> ;
-    ns1:price "Citra2016" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Stripped Carding University From Hell666" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Germany .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Germany> .
 
 <http://darkwebisspooky/product/40053> a ns1:Digital_Goods ;
     ns1:description "Information, Guides" ;
-    ns1:hasSeller <-> ;
-    ns1:price "darkmarket" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Backtracking EMAIL Messages" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/401791> a ns1:Digital_Goods ;
     ns1:description "Fraud Related, Accounts" ;
-    ns1:hasSeller <-> ;
-    ns1:price "matryoshka90" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "VPN UNLIMETED APP PREMIUM ACCOUNT LIFETIME" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/403282> a ns1:Drugs ;
     ns1:description "Cannabis" ;
-    ns1:hasSeller <-> ;
-    ns1:price "vidagreen" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "GRADE AAA*Skywalker OG KUSH AND 25 MIXED STRAINS(B" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_States .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_States> .
 
 <http://darkwebisspooky/product/404306> a ns1:Drugs ;
     ns1:description "Ecstasy, MDMA" ;
-    ns1:hasSeller <-> ;
-    ns1:price "rs6quattro" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "2.5G MDMA Crystals Dutch" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Luxembourg .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Luxembourg> .
 
 <http://darkwebisspooky/product/405692> a ns1:Drugs ;
     ns1:description "Cannabis, Weed" ;
-    ns1:hasSeller <-> ;
-    ns1:price "urano27" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "<SEX BUD> // OUTDOOR! [20GR]" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Spain .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Spain> .
 
 <http://darkwebisspooky/product/408159> a ns1:Drugs ;
     ns1:description "Cannabis" ;
-    ns1:hasSeller <-> ;
-    ns1:price "nature4sale" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "2LB BLACKBERRY KUSH" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_States .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_States> .
 
 <http://darkwebisspooky/product/410673> a ns1:Drugs ;
     ns1:description "Cannabis" ;
-    ns1:hasSeller <-> ;
-    ns1:price "GreenConnection" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "1x 10ml SATIVEX --> Farmaceutical Spray Cannabis " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Spain .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Spain> .
 
 <http://darkwebisspooky/product/413140> a ns1:Drugs ;
     ns1:description "Cannabis, Weed" ;
-    ns1:hasSeller <-> ;
-    ns1:price "ebooklover" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName " Northern Light  25g " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Germany .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Germany> .
 
 <http://darkwebisspooky/product/414825> a ns1:Drugs ;
     ns1:description "Ecstasy, Pills" ;
-    ns1:hasSeller <-> ;
-    ns1:price "GoodFellasCompany2.0" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "750 White 3D 310mg  Escrow " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Germany,
-        ns1:Netherlands .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Germany>,
+        <http://darkwebisspooky/http%3A//darkwebisspooky/Netherlands> .
 
 <http://darkwebisspooky/product/416429> a ns1:Digital_Goods ;
     ns1:description """Welcome.
@@ -1917,59 +2026,66 @@ Thanks for everybody for the amazing support and for contributing for this huge 
 In your service,
 Team rvaska 
 """ ;
-    ns1:hasSeller <rvaska> ;
-    ns1:price "1.19" ;
+    ns1:hasSeller ns1:rvaska ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "ULTIMATE CASHOUT PAYPAL CARDING GUIDE" ;
-    ns1:shipsFrom ns1:Internet ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Internet> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/419352> a ns1:Drugs ;
     ns1:description "Cannabis, Weed" ;
-    ns1:hasSeller <-> ;
-    ns1:price "powerplane" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "100GR AMNESIA HAZE !! TOP PRODUCT !!  NEW NEW " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Holland .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Holland> .
 
 <http://darkwebisspooky/product/421254> a ns1:Drugs ;
     ns1:description "Opioids, Heroin" ;
-    ns1:hasSeller <-> ;
-    ns1:price "hollyblood" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Brown powder heroin quarter (6) g pure gunp powder" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:West_Coast .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/West_Coast> .
 
 <http://darkwebisspooky/product/422462> a ns1:Drugs ;
     ns1:description "Prescription, Stimulants" ;
-    ns1:hasSeller <-> ;
-    ns1:price "fox125" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Best Quality Mexedrone Available $100/5g sample" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Hong_Kong .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Hong_Kong> .
 
 <http://darkwebisspooky/product/424191> a ns1:Drugs ;
     ns1:description "Cannabis" ;
-    ns1:hasSeller <-> ;
-    ns1:price "polocapo" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "girl scout cookies :Grade AA+ donation on 1p" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_States .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_States> .
 
 <http://darkwebisspooky/product/425216> a ns1:Drugs ;
     ns1:description "Cannabis, Weed" ;
-    ns1:hasSeller <-> ;
-    ns1:price "urano27" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "<SHARK> // OUTDOOR! [20GR]" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Spain .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Spain> .
 
 <http://darkwebisspooky/product/426271> a ns1:Drugs ;
     ns1:description "Cannabis" ;
-    ns1:hasSeller <-> ;
-    ns1:price "polocapo" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "gradeAA++ medical marjinana lbs donation" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_States .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_States> .
 
 <http://darkwebisspooky/product/427399> a ns1:Digital_Goods ;
     ns1:description """We are dispensary owner with multiple licenses.
@@ -2006,35 +2122,39 @@ Wickr....hugobuds
 
 Thanks 
 """ ;
-    ns1:hasSeller <hugobuds> ;
-    ns1:price "1498.33" ;
+    ns1:hasSeller ns1:hugobuds ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "1LB OF SOUR DIESEL" ;
-    ns1:shipsFrom ns1:United_States ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/United_States> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/428813> a ns1:Drugs ;
     ns1:description "Dissociatives, Other" ;
-    ns1:hasSeller <-> ;
-    ns1:price "shemag" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "GRAND DADDY PURPLE AAAA+  1 ounce (30 grams)     f" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_States .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_States> .
 
 <http://darkwebisspooky/product/429919> a ns1:Drugs ;
     ns1:description "Cannabis" ;
-    ns1:hasSeller <-> ;
-    ns1:price "joykush" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "cannabis  avaible" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_States .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_States> .
 
 <http://darkwebisspooky/product/430790> a ns1:Drugs ;
     ns1:description "Opioids, Codeine" ;
-    ns1:hasSeller <-> ;
-    ns1:price "jarritos" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "50 Pint Pink Promethazine & Codeine Lean - Grade A" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_States .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_States> .
 
 <http://darkwebisspooky/product/431742> a ns1:Digital_Goods ;
     ns1:description """CHAPTE R 1: HOW TO MAKE ACID (D-LYSERGIC ACID DIETHYLAMIDE) LSD
@@ -2104,11 +2224,12 @@ CHAPTER 16: (INHALANTS)
 CHAPTER 17: (MAKING HEROIN)
 -CONVERTING CODEINE INTO MORPHINE -CONVERTING MORPHINE INTO HEROIN  
 """ ;
-    ns1:hasSeller <geekgorilla> ;
-    ns1:price "1.99" ;
+    ns1:hasSeller ns1:geekgorilla ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName " The Great Big Narcotics Cookbook  " ;
-    ns1:shipsFrom ns1:Worldwide ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/49078> a ns1:Digital_Goods ;
     ns1:description """Ignore the feedback from the customer who didn\\'t receive pack please!
@@ -2316,65 +2437,77 @@ THE PROPAGATION, CHARACTERISATION AND optimisation of cannabis sativa l as a phy
 UNODC - Recommended methods for the identification and analysis of cannabis and cannabis products
 USDA BULLETIN 1935 
 """ ;
-    ns1:hasSeller <darkmarket> ;
-    ns1:price "2.9" ;
+    ns1:hasSeller ns1:darkmarket ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Pack Cannabis - Ultimate Collection 300+ books" ;
-    ns1:shipsFrom ns1:Worldwide ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/57303> a ns1:Services ;
     ns1:description "Money" ;
-    ns1:hasSeller <-> ;
-    ns1:price "HappyEyes" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Happy Pocket Full of Money" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/64721> a ns1:Digital_Goods ;
     ns1:description "Software" ;
-    ns1:hasSeller <-> ;
-    ns1:price "ElCartel" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Driver Scanner v4 Cracked" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/73599> a ns1:Drugs ;
     ns1:description "Stimulants, Cocaine" ;
-    ns1:hasSeller <-> ;
-    ns1:price "ukwhite" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "14G BOLIVIAN CREAM BRICK COCAINE [UK2WW]" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_Kingdom .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom> .
 
 <http://darkwebisspooky/product/8001> a ns1:Services ;
     ns1:description "IDs &Passports" ;
-    ns1:hasSeller <-> ;
-    ns1:price "Kingscan" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "1 National Identity Card Scans Germany (PERSONALAU" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Internet .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Internet> .
 
 <http://darkwebisspooky/product/80919> a ns1:Digital_Goods ;
     ns1:description "Erotica" ;
-    ns1:hasSeller <-> ;
-    ns1:price "debuyerking" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Onlinehardcorestars PREMIUM Porn Account WARRANTY " ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/86091> a ns1:Digital_Goods ;
     ns1:description "Information, eBooks" ;
-    ns1:hasSeller <-> ;
-    ns1:price "HappyEyes" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "Uprooting Viruses" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:Worldwide .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
 
 <http://darkwebisspooky/product/94813> a ns1:Drugs ;
     ns1:description "Cannabis, Hash" ;
-    ns1:hasSeller <-> ;
-    ns1:price "jnenfrancis" ;
+    ns1:hasSeller <http://darkwebisspooky/-> ;
+    ns1:priceBTC "0" ;
+    ns1:priceUSD "0" ;
     ns1:productName "5G OF PREMIER POLM **FREE UK DELIVERY**" ;
-    ns1:shipsFrom ns1:Dream ;
-    ns1:shipsTo ns1:United_Kingdom .
+    ns1:shipsFrom <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> ;
+    ns1:shipsTo <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom> .
+
+ns1:shipsFrom a owl:ObjectProperty .
+
+ns1:shipsTo a owl:ObjectProperty .
 
