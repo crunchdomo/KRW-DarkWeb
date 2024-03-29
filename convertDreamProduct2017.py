@@ -1,4 +1,5 @@
-from rdflib import Graph, Literal, Namespace, URIRef, RDF, RDFS
+from rdflib import Graph, Literal, Namespace, URIRef, RDF, RDFS, OWL
+from rdflib.namespace import XSD
 from urllib.parse import quote, unquote
 import re
 import spacy
@@ -17,6 +18,7 @@ hasSeller = dw.hasSeller
 belongsToCategory = dw.belongsToCategory
 shipsFrom = dw.shipsFrom
 shipsTo = dw.shipsTo
+price = dw.price 
 
 # Initialize spaCy NER
 nlp = spacy.load("en_core_web_sm")
@@ -30,11 +32,20 @@ def is_valid_location(text):
                 return True
     return False
 
-def extract_price_from_text(text):
-    doc = nlp(text)
-    prices = [ent.text for ent in doc.ents if ent.label_ == "MONEY"]
-    return prices if prices else None
 
+def extract_price_from_text(text):
+    # Use regular expressions to find patterns that represent prices
+    # This regex looks for patterns like '฿0.00 ($0)' and captures the numerical values
+    price_matches = re.findall(r'฿([0-9.]+) \(\$([0-9.]+)\)', text)
+    if price_matches:
+        # Return the first price found in BTC and USD
+        btc_price, usd_price = price_matches[0]
+        return btc_price, usd_price
+    else:
+        # Return default values if no price is found
+        return "0", "0"
+    
+    
 def clean_and_split_values(value_str):
     values = value_str.strip().strip('(').strip(')').split("',")
     values = [v.strip("'") for v in values]
@@ -42,10 +53,17 @@ def clean_and_split_values(value_str):
 
 def add(subject, predicate, object, is_object_property=False):
     if is_object_property:
-        g.add((subject, predicate, URIRef(object)))
+        # If the predicate is an object property, add the object as a URIRef
+        if isinstance(object, str):
+            object = URIRef(dw[quote(object)])
+        g.add((subject, predicate, object))
     else:
         # For data properties, add the object as a Literal
-        g.add((subject, predicate, Literal(object)))
+        if predicate == dw.price:
+            # Assuming price is a decimal value, you can customize the datatype
+            g.add((subject, predicate, Literal(object, datatype=XSD.decimal)))
+        else:
+            g.add((subject, predicate, Literal(object)))
 
 def clean_location(value_str):
     # Decode URL-encoded strings and remove unwanted characters
@@ -113,7 +131,7 @@ def create_or_get_class(name, is_location=False):
     return class_uri
 
 # Process the SQL file
-with open('Datasets\\DreamMarket_2017\\DreamMarket2017_product.sql', 'r', encoding='utf-8') as file:
+with open('C:\\Users\\oenfa\\Documents\\GitHub\\KRW-DarkWeb\\Datasets\\DreamMarket_2017\\DreamMarket2017_product.sql', 'r', encoding='utf-8') as file:
     for line in file:
         if line.startswith('INSERT INTO `dnm_dream` VALUES'):
             values = line.split('VALUES')[1].strip().strip(';').strip('(').strip(')').split(',', 3)
@@ -129,7 +147,17 @@ with open('Datasets\\DreamMarket_2017\\DreamMarket2017_product.sql', 'r', encodi
             g.add((product_uri, RDF.type, category_class))
             add(product_uri, dw.productName, all_values[1].strip().strip("'"))
             add(product_uri, dw.description, all_values[3].strip().strip("'").replace("\\n", "\n"))
-            add(product_uri, dw.price, all_values[7].strip().strip("'"))
+
+
+            price_text = all_values[7].strip().strip("'")  # Adjust the index if necessary
+            # price_value = extract_price_from_text(price_text)
+            # add(product_uri, dw.price, price_value, is_object_property=False)
+            
+            btc_price, usd_price = extract_price_from_text(price_text)
+            
+            add(product_uri, dw.priceBTC, btc_price, is_object_property=False)
+            add(product_uri, dw.priceUSD, usd_price, is_object_property=False)
+        
             
             # Object property assertions
             seller_uri = clean_data(all_values[6].strip().strip("'"))
@@ -145,6 +173,11 @@ with open('Datasets\\DreamMarket_2017\\DreamMarket2017_product.sql', 'r', encodi
             for stop in ship_to_location.split(' '):
                 ship_to_uri = create_or_get_class(stop, is_location=True)
                 add(product_uri, shipsTo, ship_to_uri, is_object_property=True)
+                
+            g.add((hasSeller, RDF.type, OWL.ObjectProperty))
+            g.add((shipsFrom, RDF.type, OWL.ObjectProperty))
+            g.add((shipsTo, RDF.type, OWL.ObjectProperty))
+            g.add((belongsToCategory, RDF.type, OWL.ObjectProperty))
 
-# Serialize the graph
-g.serialize(destination='DMProducts2017.ttl', format='turtle')
+            # Serialize the graph
+g.serialize(destination='DMProductsgodhelpme.ttl', format='turtle')
