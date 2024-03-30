@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base=""/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1711823310553" name="http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-26/" uri="DreamMarket%202017%20V2.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1711823310553" name="http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-27/" uri="DreamMarket%202016%20V2.rdf"/>
+    </group>
 </catalog>

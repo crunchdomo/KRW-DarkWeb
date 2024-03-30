@@ -13,25 +13,23 @@ drug_class = dw.Drug
 g.add((drug_class, RDF.type, RDFS.Class))
 g.add((drug_class, RDFS.label, Literal("Drug")))
 
-# Define the hasSlangTerm property
-hasSlangTerm = dw.hasSlangTerm
-g.add((hasSlangTerm, RDF.type, RDF.Property))
-
-# Function to add a drug and its slang terms to the graph
+# Function to add a drug and its slang terms to the graph, linking them as the same entity
 def add_drug_with_slang(drug_name, slang_terms_str):
-    # Create the drug entity
-    drug_uri = dw[quote(drug_name)]
+    # Create the primary drug entity
+    drug_uri = dw[quote(drug_name.replace(" ", "_"))]
     g.add((drug_uri, RDF.type, drug_class))
     g.add((drug_uri, RDFS.label, Literal(drug_name)))
 
-    # Add slang terms for the drug
+    # Add slang terms for the drug and link them as owl:sameAs the primary drug entity
     slang_terms_list = slang_terms_str.split("; ")
     for term in slang_terms_list:
         term = term.strip()  # Remove leading and trailing whitespace
         term_uri = dw[quote(term.replace(" ", "_"))]  # Create a valid URI for the term
         g.add((term_uri, RDF.type, OWL.NamedIndividual))
         g.add((term_uri, RDFS.label, Literal(term)))
-        g.add((drug_uri, hasSlangTerm, term_uri))  # Link the drug to the slang term
+        g.add((term_uri, OWL.sameAs, drug_uri))  # Indicate the slang term is the same as the drug
+
+
 
 # Example usage: Add "Marijuana" and its slang terms
 marijuana_slang_terms = """420; Acapulco Gold; Acapulco Red; Ace; African Black; African Bush; Airplane; Alfombra; Alice B Toklas; AllStar; Angola; Animal Cookies (hydroponic); Arizona; Ashes; Aunt Mary; Baby; Bale; Bambalachacha; Barbara
