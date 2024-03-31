@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#" uri="file:/C:/Users/oenfa/Documents/GitHub/KRW-DarkWeb/Interpol/DW-VA-Taxonomy-master/dwva-taxonomy-v03.ttl"/>
-    <uri id="User Entered Import Resolution" name="http://darkwebisspooky/drug/version1" uri="DAO.ttl"/>
+    <uri id="Imports Wizard Entry" name="https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#" uri="dwva-taxonomy-v03.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://darkwebisspooky/drug/version1" uri="file:/C:/Users/oenfa/Documents/GitHub/KRW-DarkWeb/DarkWebOnto/v1/DM-merged-onto.ttl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base=""/>
 </catalog>
