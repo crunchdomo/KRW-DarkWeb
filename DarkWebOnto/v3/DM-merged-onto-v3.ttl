@@ -15,14 +15,53 @@
 #    Object Properties
 #################################################################
 
+###  http://darkwebisspooky/hasSeller
+<http://darkwebisspooky/hasSeller> rdf:type owl:AsymmetricProperty ,
+                                            owl:IrreflexiveProperty ;
+                                   rdfs:domain :Goods ;
+                                   rdfs:range <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> ;
+                                   owl:propertyDisjointWith :offersGood ,
+                                                            :isSoldOn .
+
+
+###  http://darkwebisspooky/drug/version3#offersGood
+:offersGood rdf:type owl:ObjectProperty ;
+            owl:inverseOf :isSoldOn ;
+            rdf:type owl:AsymmetricProperty ,
+                     owl:IrreflexiveProperty ;
+            rdfs:domain :Dark_Net_Market ;
+            rdfs:range :Goods .
+
+
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/hasDrugType
-:hasDrugType rdf:type owl:ObjectProperty ;
+:hasDrugType rdf:type owl:ObjectProperty ,
+                      owl:FunctionalProperty ,
+                      owl:AsymmetricProperty ,
+                      owl:IrreflexiveProperty ;
              rdfs:domain <http://darkwebisspooky/Drugs> ;
-             rdfs:range <http://cor.esipfed.org/ont/~ushanri/DAO/Substance_related> .
+             rdfs:range <http://cor.esipfed.org/ont/~ushanri/DAO/Drug> .
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/isSoldOn
-:isSoldOn rdf:type owl:ObjectProperty .
+:isSoldOn rdf:type owl:ObjectProperty ,
+                   owl:AsymmetricProperty ,
+                   owl:IrreflexiveProperty ;
+          rdfs:domain :Goods ;
+          rdfs:range :Dark_Net_Market .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://cor.esipfed.org/ont/~ushanri/DAO/has_brand_name
+<http://cor.esipfed.org/ont/~ushanri/DAO/has_brand_name> rdfs:domain <http://cor.esipfed.org/ont/~ushanri/DAO/Drug> ;
+                                                         rdfs:range rdfs:Literal .
+
+
+###  http://cor.esipfed.org/ont/~ushanri/DAO/has_chemical_formula
+<http://cor.esipfed.org/ont/~ushanri/DAO/has_chemical_formula> rdfs:domain <http://cor.esipfed.org/ont/~ushanri/DAO/Drug> ;
+                                                               rdfs:range rdfs:Literal .
 
 
 #################################################################
@@ -43,15 +82,22 @@
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
                                                      owl:onProperty :hasDrugType ;
-                                                     owl:someValuesFrom <http://cor.esipfed.org/ont/~ushanri/DAO/Substance_related>
+                                                     owl:someValuesFrom <http://cor.esipfed.org/ont/~ushanri/DAO/Drug>
                                                    ] .
+
+
+###  http://darkwebisspooky/drug/version3#Goods
+:Goods rdf:type owl:Class ;
+       owl:disjointUnionOf ( <http://darkwebisspooky/Digital_Goods>
+                             <http://darkwebisspooky/Drugs>
+                           ) .
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/Dark_Net_Market
 :Dark_Net_Market rdf:type owl:Class ;
                  owl:equivalentClass [ rdf:type owl:Restriction ;
-                                       owl:onProperty :isSoldOn ;
-                                       owl:someValuesFrom :Dark_Net_Market
+                                       owl:onProperty :offersGood ;
+                                       owl:someValuesFrom :Goods
                                      ] .
 
 
