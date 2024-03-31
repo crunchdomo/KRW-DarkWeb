@@ -38,6 +38,10 @@
 
 ###  http://darkwebisspooky/Drugs
 <http://darkwebisspooky/Drugs> owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                     owl:onProperty <http://darkwebisspooky/hasSeller> ;
+                                                     owl:someValuesFrom <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers>
+                                                   ] ,
+                                                   [ rdf:type owl:Restriction ;
                                                      owl:onProperty :hasDrugType ;
                                                      owl:someValuesFrom <http://cor.esipfed.org/ont/~ushanri/DAO/Substance_related>
                                                    ] .
