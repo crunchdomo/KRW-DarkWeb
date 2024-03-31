@@ -21,6 +21,27 @@
              rdfs:range <http://cor.esipfed.org/ont/~ushanri/DAO/Substance_related> .
 
 
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/isSoldOn
+:isSoldOn rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/Dark_Net_Market
+:Dark_Net_Market rdf:type owl:Class ;
+                 owl:equivalentClass [ rdf:type owl:Restriction ;
+                                       owl:onProperty :isSoldOn ;
+                                       owl:someValuesFrom :Dark_Net_Market
+                                     ] .
+
+
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/DreamMarket
+:DreamMarket rdf:type owl:Class ;
+             rdfs:subClassOf :Dark_Net_Market .
+
+
 #################################################################
 #    Individuals
 #################################################################
