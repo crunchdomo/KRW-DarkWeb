@@ -29,6 +29,13 @@
 #    Classes
 #################################################################
 
+###  http://cor.esipfed.org/ont/~ushanri/DAO/Drug
+<http://cor.esipfed.org/ont/~ushanri/DAO/Drug> owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty <http://cor.esipfed.org/ont/~ushanri/DAO/administrate> ;
+                                                                     owl:someValuesFrom <http://darkwebisspooky/Drugs>
+                                                                   ] .
+
+
 ###  http://darkwebisspooky/Drugs
 <http://darkwebisspooky/Drugs> owl:equivalentClass [ rdf:type owl:Restriction ;
                                                      owl:onProperty :hasDrugType ;
