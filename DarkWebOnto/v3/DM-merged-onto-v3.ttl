@@ -20,17 +20,21 @@
                                             owl:IrreflexiveProperty ;
                                    rdfs:domain :Goods ;
                                    rdfs:range <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> ;
-                                   owl:propertyDisjointWith :offersGood ,
-                                                            :isSoldOn .
+                                   owl:propertyDisjointWith :isSoldOn ,
+                                                            :offersGood .
 
 
-###  http://darkwebisspooky/drug/version3#offersGood
-:offersGood rdf:type owl:ObjectProperty ;
-            owl:inverseOf :isSoldOn ;
-            rdf:type owl:AsymmetricProperty ,
-                     owl:IrreflexiveProperty ;
-            rdfs:domain :Dark_Net_Market ;
-            rdfs:range :Goods .
+###  http://darkwebisspooky/shipsFrom
+<http://darkwebisspooky/shipsFrom> owl:inverseOf <http://darkwebisspooky/shipsTo> ;
+                                   rdf:type owl:FunctionalProperty ,
+                                            owl:IrreflexiveProperty ;
+                                   rdfs:domain <http://darkwebisspooky/Location> ;
+                                   rdfs:range <http://darkwebisspooky/Location> .
+
+
+###  http://darkwebisspooky/shipsTo
+<http://darkwebisspooky/shipsTo> rdfs:domain <http://darkwebisspooky/Location> ;
+                                 rdfs:range <http://darkwebisspooky/Location> .
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/hasDrugType
@@ -43,11 +47,20 @@
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/isSoldOn
-:isSoldOn rdf:type owl:ObjectProperty ,
-                   owl:AsymmetricProperty ,
+:isSoldOn rdf:type owl:ObjectProperty ;
+          owl:inverseOf :offersGood ;
+          rdf:type owl:AsymmetricProperty ,
                    owl:IrreflexiveProperty ;
           rdfs:domain :Goods ;
           rdfs:range :Dark_Net_Market .
+
+
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/offersGood
+:offersGood rdf:type owl:ObjectProperty ,
+                     owl:AsymmetricProperty ,
+                     owl:IrreflexiveProperty ;
+            rdfs:domain :Dark_Net_Market ;
+            rdfs:range :Goods .
 
 
 #################################################################
@@ -86,11 +99,13 @@
                                                    ] .
 
 
-###  http://darkwebisspooky/drug/version3#Goods
-:Goods rdf:type owl:Class ;
-       owl:disjointUnionOf ( <http://darkwebisspooky/Digital_Goods>
-                             <http://darkwebisspooky/Drugs>
-                           ) .
+###  http://darkwebisspooky/drug/version3#Client
+:Client rdf:type owl:Class ;
+        owl:equivalentClass [ rdf:type owl:Restriction ;
+                              owl:onProperty <http://cor.esipfed.org/ont/~ushanri/DAO/buy> ;
+                              owl:someValuesFrom :Goods
+                            ] ;
+        rdfs:subClassOf <http://cor.esipfed.org/ont/~ushanri/DAO/Network_related> .
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/Dark_Net_Market
@@ -106,12 +121,105 @@
              rdfs:subClassOf :Dark_Net_Market .
 
 
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/Goods
+:Goods rdf:type owl:Class ;
+       owl:equivalentClass [ rdf:type owl:Restriction ;
+                             owl:onProperty :isSoldOn ;
+                             owl:someValuesFrom :Dark_Net_Market
+                           ] ;
+       owl:disjointUnionOf ( <http://darkwebisspooky/Digital_Goods>
+                             <http://darkwebisspooky/Drugs>
+                           ) .
+
+
 #################################################################
 #    Individuals
 #################################################################
 
+###  http://darkwebisspooky/drug/version3#client
+:client rdf:type owl:NamedIndividual ,
+                 :Client ;
+        owl:sameAs <https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#customer> .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#customer
+
 ###  http://darkwebisspooky/product/122247
 <http://darkwebisspooky/product/122247> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis> .
+
+
+###  http://darkwebisspooky/product/145
+<http://darkwebisspooky/product/145> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Methamphetamine> .
+
+
+###  http://darkwebisspooky/product/208721
+<http://darkwebisspooky/product/208721> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Cocaine_hcl> .
+
+
+###  http://darkwebisspooky/product/226284
+<http://darkwebisspooky/product/226284> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis_Edibles> .
+
+
+###  http://darkwebisspooky/product/240054
+<http://darkwebisspooky/product/240054> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/MDMA> .
+
+
+###  http://darkwebisspooky/product/259014
+<http://darkwebisspooky/product/259014> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Cocaine_hcl> .
+
+
+###  http://darkwebisspooky/product/271758
+<http://darkwebisspooky/product/271758> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Cocaine_hcl> .
+
+
+###  http://darkwebisspooky/product/275619
+<http://darkwebisspooky/product/275619> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/LSD> .
+
+
+###  http://darkwebisspooky/product/305232
+<http://darkwebisspooky/product/305232> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/MDMA> .
+
+
+###  http://darkwebisspooky/product/308931
+<http://darkwebisspooky/product/308931> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis> .
+
+
+###  http://darkwebisspooky/product/312722
+<http://darkwebisspooky/product/312722> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/LSD> .
+
+
+###  http://darkwebisspooky/product/315849
+<http://darkwebisspooky/product/315849> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Heroin> ,
+                                                     <http://cor.esipfed.org/ont/~ushanri/DAO/Opioid> .
+
+
+###  http://darkwebisspooky/product/316883
+<http://darkwebisspooky/product/316883> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis> .
+
+
+###  http://darkwebisspooky/product/317542
+<http://darkwebisspooky/product/317542> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis> .
+
+
+###  http://darkwebisspooky/product/325400
+<http://darkwebisspooky/product/325400> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Methamphetamine> .
+
+
+###  http://darkwebisspooky/product/327763
+<http://darkwebisspooky/product/327763> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Opioid> ,
+                                                     <http://cor.esipfed.org/ont/~ushanri/DAO/Opium> .
+
+
+###  http://darkwebisspooky/product/343326
+<http://darkwebisspooky/product/343326> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/MDMA> .
+
+
+###  http://darkwebisspooky/product/346298
+<http://darkwebisspooky/product/346298> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/MDMA> .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#customer
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#customer> rdf:type :Client .
 
 
 ###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
