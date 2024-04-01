@@ -152,6 +152,20 @@
                                                    ] .
 
 
+###  http://darkwebisspooky/drug/version3#Cryptocurrency
+:Cryptocurrency rdf:type owl:Class .
+
+
+###  http://darkwebisspooky/drug/version3#Currencies
+:Currencies rdf:type owl:Class ;
+            rdfs:subClassOf :Cryptocurrency .
+
+
+###  http://darkwebisspooky/drug/version3#Terminology
+:Terminology rdf:type owl:Class ;
+             rdfs:subClassOf :Cryptocurrency .
+
+
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/City
 :City rdf:type owl:Class ;
       rdfs:subClassOf :Region .
