@@ -24,31 +24,35 @@
                                                                 :offersGood .
 
 
-###  http://darkwebisspooky/drug/version3#digitalGoodProvidedBy
-:digitalGoodProvidedBy rdf:type owl:ObjectProperty .
+###  http://darkwebisspooky/shipsFrom
+<http://darkwebisspooky/shipsFrom> rdf:type owl:ObjectProperty ,
+                                            owl:InverseFunctionalProperty ,
+                                            owl:AsymmetricProperty ,
+                                            owl:IrreflexiveProperty .
 
 
-###  http://darkwebisspooky/drug/version3#hasCity
+###  http://darkwebisspooky/shipsTo
+<http://darkwebisspooky/shipsTo> rdf:type owl:ObjectProperty ,
+                                          owl:InverseFunctionalProperty ,
+                                          owl:AsymmetricProperty ,
+                                          owl:IrreflexiveProperty .
+
+
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy
+:digitalGoodProvidedBy rdf:type owl:ObjectProperty ,
+                                owl:FunctionalProperty .
+
+
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/hasCity
 :hasCity rdf:type owl:ObjectProperty ;
-         rdfs:subPropertyOf :hasLocation .
+         rdfs:subPropertyOf :hasLocation ;
+         rdf:type owl:FunctionalProperty .
 
 
-###  http://darkwebisspooky/drug/version3#hasCountry
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/hasCountry
 :hasCountry rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf :hasLocation .
-
-
-###  http://darkwebisspooky/drug/version3#hasLocation
-:hasLocation rdf:type owl:ObjectProperty .
-
-
-###  http://darkwebisspooky/drug/version3#hasRegion
-:hasRegion rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf :hasLocation .
-
-
-###  http://darkwebisspooky/drug/version3#sellsDigitalGood
-:sellsDigitalGood rdf:type owl:ObjectProperty .
+            rdfs:subPropertyOf :hasLocation ;
+            rdf:type owl:FunctionalProperty .
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/hasDrugType
@@ -58,6 +62,18 @@
                       owl:IrreflexiveProperty ;
              rdfs:domain <http://darkwebisspooky/Drugs> ;
              rdfs:range <http://cor.esipfed.org/ont/~ushanri/DAO/Drug> .
+
+
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/hasLocation
+:hasLocation rdf:type owl:ObjectProperty ,
+                      owl:FunctionalProperty ,
+                      owl:TransitiveProperty .
+
+
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/hasRegion
+:hasRegion rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf :hasLocation ;
+           rdf:type owl:FunctionalProperty .
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/isSoldOn
@@ -73,6 +89,17 @@
                      owl:AsymmetricProperty ,
                      owl:IrreflexiveProperty ;
             rdfs:domain :Dark_Net_Market .
+
+
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/operates
+:operates rdf:type owl:ObjectProperty ,
+                   owl:FunctionalProperty .
+
+
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/sellsDigitalGood
+:sellsDigitalGood rdf:type owl:ObjectProperty ,
+                           owl:AsymmetricProperty ,
+                           owl:IrreflexiveProperty .
 
 
 #################################################################
@@ -125,12 +152,12 @@
                                                    ] .
 
 
-###  http://darkwebisspooky/drug/version3#City
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/City
 :City rdf:type owl:Class ;
       rdfs:subClassOf :Region .
 
 
-###  http://darkwebisspooky/drug/version3#Continent
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/Continent
 :Continent rdf:type owl:Class ;
            owl:equivalentClass [ rdf:type owl:Restriction ;
                                  owl:onProperty :hasCountry ;
@@ -139,7 +166,7 @@
            rdfs:subClassOf <http://darkwebisspooky/Location> .
 
 
-###  http://darkwebisspooky/drug/version3#Country
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/Country
 :Country rdf:type owl:Class ;
          owl:equivalentClass [ rdf:type owl:Restriction ;
                                owl:onProperty :hasCity ;
@@ -152,23 +179,32 @@
          rdfs:subClassOf :Continent .
 
 
-###  http://darkwebisspooky/drug/version3#OtherLocation
-:OtherLocation rdf:type owl:Class ;
-               rdfs:subClassOf <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/drug/version3#Region
-:Region rdf:type owl:Class ;
-        rdfs:subClassOf :Country .
-
-
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/Dark_Net_Market
-:Dark_Net_Market rdf:type owl:Class .
+:Dark_Net_Market rdf:type owl:Class ;
+                 owl:equivalentClass [ rdf:type owl:Restriction ;
+                                       owl:onProperty :operates ;
+                                       owl:someValuesFrom :Dark_Net_Market
+                                     ] .
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/DreamMarket
 :DreamMarket rdf:type owl:Class ;
              rdfs:subClassOf :Dark_Net_Market .
+
+
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/Financial_Institution
+:Financial_Institution rdf:type owl:Class ;
+                       rdfs:subClassOf <http://cor.esipfed.org/ont/~ushanri/DAO/Actors> .
+
+
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/OtherLocation
+:OtherLocation rdf:type owl:Class ;
+               rdfs:subClassOf <http://darkwebisspooky/Location> .
+
+
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/Region
+:Region rdf:type owl:Class ;
+        rdfs:subClassOf :Country .
 
 
 #################################################################
@@ -179,7 +215,7 @@
 <http://cor.esipfed.org/ont/~ushanri/DAO/Darknet> owl:sameAs :DarkNetSeller .
 
 
-###  http://darkwebisspooky/drug/version3#DarkNetSeller
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/DarkNetSeller
 
 ###  http://darkwebisspooky/Australia
 <http://darkwebisspooky/Australia> rdf:type :Country .
@@ -239,7 +275,11 @@
 <http://darkwebisspooky/West_Coast> rdf:type :Region .
 
 
-###  http://darkwebisspooky/drug/version3#DarkNetSeller
+###  http://darkwebisspooky/product/122247
+<http://darkwebisspooky/product/122247> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis> .
+
+
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/DarkNetSeller
 :DarkNetSeller rdf:type owl:NamedIndividual ,
                         <http://cor.esipfed.org/ont/~ushanri/DAO/Internet> ,
                         [ rdf:type owl:Restriction ;
@@ -248,13 +288,17 @@
                         ] .
 
 
-###  http://darkwebisspooky/drug/version3#druggydrug
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/druggydrug
 :druggydrug rdf:type owl:NamedIndividual ;
             :digitalGoodProvidedBy :DarkNetSeller .
 
 
-###  http://darkwebisspooky/product/122247
-<http://darkwebisspooky/product/122247> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis> .
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#bank
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#bank> rdf:type :Financial_Institution .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#virtual_asset_service_provider
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#virtual_asset_service_provider> rdf:type :Financial_Institution .
 
 
 ###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

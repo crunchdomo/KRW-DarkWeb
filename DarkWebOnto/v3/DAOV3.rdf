@@ -210,6 +210,14 @@
     
 
 
+    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Actors -->
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Actors">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
     <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Adulterant -->
 
     <owl:Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Adulterant">
@@ -437,7 +445,7 @@
     <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Dealers -->
 
     <owl:Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Dealers">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Sources"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Actors"/>
     </owl:Class>
     
 
@@ -645,7 +653,7 @@
     <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Internet -->
 
     <owl:Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Internet">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Sources"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Actors"/>
     </owl:Class>
     
 
@@ -701,7 +709,7 @@
     <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Medical_Institutions -->
 
     <owl:Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Medical_Institutions">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Sources"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Actors"/>
     </owl:Class>
     
 
@@ -1064,7 +1072,7 @@
     <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Self_produced -->
 
     <owl:Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Self_produced">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Sources"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Actors"/>
     </owl:Class>
     
 
@@ -1088,14 +1096,6 @@
     <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Society -->
 
     <owl:Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Society">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Sources -->
-
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Sources">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:Class>
     
