@@ -16,8 +16,7 @@
 #################################################################
 
 ###  http://darkwebisspooky/hasDrugSeller
-<http://darkwebisspooky/hasDrugSeller> rdf:type owl:ObjectProperty ,
-                                                owl:AsymmetricProperty ,
+<http://darkwebisspooky/hasDrugSeller> rdf:type owl:AsymmetricProperty ,
                                                 owl:IrreflexiveProperty ;
                                        rdfs:domain <http://darkwebisspooky/Drugs> ;
                                        rdfs:range <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> ;
@@ -136,16 +135,14 @@
 
 
 ###  http://darkwebisspooky/Digital_Goods
-<http://darkwebisspooky/Digital_Goods> rdf:type owl:Class ;
-                                       owl:equivalentClass [ rdf:type owl:Restriction ;
+<http://darkwebisspooky/Digital_Goods> owl:equivalentClass [ rdf:type owl:Restriction ;
                                                              owl:onProperty :digitalGoodProvidedBy ;
                                                              owl:someValuesFrom <http://cor.esipfed.org/ont/~ushanri/DAO/Internet>
                                                            ] .
 
 
 ###  http://darkwebisspooky/Drugs
-<http://darkwebisspooky/Drugs> rdf:type owl:Class ;
-                               owl:equivalentClass [ rdf:type owl:Restriction ;
+<http://darkwebisspooky/Drugs> owl:equivalentClass [ rdf:type owl:Restriction ;
                                                      owl:onProperty <http://darkwebisspooky/hasDrugSeller> ;
                                                      owl:someValuesFrom <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers>
                                                    ] ,
@@ -155,8 +152,9 @@
                                                    ] .
 
 
-###  http://darkwebisspooky/Location
-<http://darkwebisspooky/Location> rdf:type owl:Class .
+###  http://darkwebisspooky/drug/version3#Goods
+:Goods rdf:type owl:Class ;
+       rdfs:subClassOf :DreamMarket .
 
 
 ###  http://darkwebisspooky/drug/version3#Roles
@@ -244,80 +242,550 @@
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/DarkNetSeller
 
 ###  http://darkwebisspooky/Australia
-<http://darkwebisspooky/Australia> rdf:type owl:NamedIndividual ,
-                                            :Country .
+<http://darkwebisspooky/Australia> rdf:type :Country .
 
 
 ###  http://darkwebisspooky/Canada
-<http://darkwebisspooky/Canada> rdf:type owl:NamedIndividual ,
-                                         :Country .
+<http://darkwebisspooky/Canada> rdf:type :Country .
 
 
 ###  http://darkwebisspooky/China
-<http://darkwebisspooky/China> rdf:type owl:NamedIndividual ,
-                                        :Country .
+<http://darkwebisspooky/China> rdf:type :Country .
 
 
 ###  http://darkwebisspooky/Europe
-<http://darkwebisspooky/Europe> rdf:type owl:NamedIndividual ,
-                                         :Continent .
+<http://darkwebisspooky/Europe> rdf:type :Continent .
 
 
 ###  http://darkwebisspooky/Germany
-<http://darkwebisspooky/Germany> rdf:type owl:NamedIndividual ,
-                                          :Country .
+<http://darkwebisspooky/Germany> rdf:type :Country .
 
 
 ###  http://darkwebisspooky/Holland
-<http://darkwebisspooky/Holland> rdf:type owl:NamedIndividual ,
-                                          :Region .
+<http://darkwebisspooky/Holland> rdf:type :Region .
 
 
 ###  http://darkwebisspooky/Hong_Kong
-<http://darkwebisspooky/Hong_Kong> rdf:type owl:NamedIndividual ,
-                                            :Country .
+<http://darkwebisspooky/Hong_Kong> rdf:type :Country .
 
 
 ###  http://darkwebisspooky/Luxembourg
-<http://darkwebisspooky/Luxembourg> rdf:type owl:NamedIndividual ,
-                                             :Country .
+<http://darkwebisspooky/Luxembourg> rdf:type :Country .
 
 
 ###  http://darkwebisspooky/Netherlands
-<http://darkwebisspooky/Netherlands> rdf:type owl:NamedIndividual ,
-                                              :Country ;
+<http://darkwebisspooky/Netherlands> rdf:type :Country ;
                                      :hasRegion <http://darkwebisspooky/Holland> .
 
 
 ###  http://darkwebisspooky/Spain
-<http://darkwebisspooky/Spain> rdf:type owl:NamedIndividual ,
-                                        :Country .
+<http://darkwebisspooky/Spain> rdf:type :Country .
 
 
 ###  http://darkwebisspooky/The_United_Snakes_of_Captivity
-<http://darkwebisspooky/The_United_Snakes_of_Captivity> rdf:type owl:NamedIndividual ,
-                                                                 :OtherLocation .
+<http://darkwebisspooky/The_United_Snakes_of_Captivity> rdf:type :OtherLocation .
 
 
 ###  http://darkwebisspooky/United_Kingdom
-<http://darkwebisspooky/United_Kingdom> rdf:type owl:NamedIndividual ,
-                                                 :Country .
+<http://darkwebisspooky/United_Kingdom> rdf:type :Country .
 
 
 ###  http://darkwebisspooky/United_States
-<http://darkwebisspooky/United_States> rdf:type owl:NamedIndividual ,
-                                                :Country ;
+<http://darkwebisspooky/United_States> rdf:type :Country ;
                                        :hasRegion <http://darkwebisspooky/West_Coast> .
 
 
 ###  http://darkwebisspooky/West_Coast
-<http://darkwebisspooky/West_Coast> rdf:type owl:NamedIndividual ,
-                                             :Region .
+<http://darkwebisspooky/West_Coast> rdf:type :Region .
+
+
+###  http://darkwebisspooky/product/102636
+<http://darkwebisspooky/product/102636> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/109913
+<http://darkwebisspooky/product/109913> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/116127
+<http://darkwebisspooky/product/116127> rdf:type :Goods .
 
 
 ###  http://darkwebisspooky/product/122247
-<http://darkwebisspooky/product/122247> rdf:type owl:NamedIndividual ;
+<http://darkwebisspooky/product/122247> rdf:type :Goods ;
                                         :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis> .
+
+
+###  http://darkwebisspooky/product/129621
+<http://darkwebisspooky/product/129621> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/134703
+<http://darkwebisspooky/product/134703> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/138300
+<http://darkwebisspooky/product/138300> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/139282
+<http://darkwebisspooky/product/139282> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/140533
+<http://darkwebisspooky/product/140533> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/141748
+<http://darkwebisspooky/product/141748> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/142940
+<http://darkwebisspooky/product/142940> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/145
+<http://darkwebisspooky/product/145> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/145405
+<http://darkwebisspooky/product/145405> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/148928
+<http://darkwebisspooky/product/148928> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/153060
+<http://darkwebisspooky/product/153060> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/158273
+<http://darkwebisspooky/product/158273> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/162740
+<http://darkwebisspooky/product/162740> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/165169
+<http://darkwebisspooky/product/165169> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/170595
+<http://darkwebisspooky/product/170595> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/175316
+<http://darkwebisspooky/product/175316> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/179177
+<http://darkwebisspooky/product/179177> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/184648
+<http://darkwebisspooky/product/184648> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/188370
+<http://darkwebisspooky/product/188370> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/192925
+<http://darkwebisspooky/product/192925> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/19295
+<http://darkwebisspooky/product/19295> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/196090
+<http://darkwebisspooky/product/196090> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/198329
+<http://darkwebisspooky/product/198329> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/201837
+<http://darkwebisspooky/product/201837> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/208721
+<http://darkwebisspooky/product/208721> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/212985
+<http://darkwebisspooky/product/212985> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/217139
+<http://darkwebisspooky/product/217139> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/219537
+<http://darkwebisspooky/product/219537> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/226284
+<http://darkwebisspooky/product/226284> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/230150
+<http://darkwebisspooky/product/230150> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/232450
+<http://darkwebisspooky/product/232450> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/236940
+<http://darkwebisspooky/product/236940> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/23899
+<http://darkwebisspooky/product/23899> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/240054
+<http://darkwebisspooky/product/240054> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/245189
+<http://darkwebisspooky/product/245189> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/249128
+<http://darkwebisspooky/product/249128> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/251142
+<http://darkwebisspooky/product/251142> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/253528
+<http://darkwebisspooky/product/253528> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/259014
+<http://darkwebisspooky/product/259014> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/261767
+<http://darkwebisspooky/product/261767> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/265605
+<http://darkwebisspooky/product/265605> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/268412
+<http://darkwebisspooky/product/268412> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/271758
+<http://darkwebisspooky/product/271758> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/27491
+<http://darkwebisspooky/product/27491> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/275619
+<http://darkwebisspooky/product/275619> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/278088
+<http://darkwebisspooky/product/278088> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/279431
+<http://darkwebisspooky/product/279431> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/281434
+<http://darkwebisspooky/product/281434> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/283312
+<http://darkwebisspooky/product/283312> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/286689
+<http://darkwebisspooky/product/286689> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/290504
+<http://darkwebisspooky/product/290504> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/293213
+<http://darkwebisspooky/product/293213> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/295249
+<http://darkwebisspooky/product/295249> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/298607
+<http://darkwebisspooky/product/298607> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/302422
+<http://darkwebisspooky/product/302422> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/305232
+<http://darkwebisspooky/product/305232> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/308931
+<http://darkwebisspooky/product/308931> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/312722
+<http://darkwebisspooky/product/312722> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/31310
+<http://darkwebisspooky/product/31310> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/315849
+<http://darkwebisspooky/product/315849> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/316883
+<http://darkwebisspooky/product/316883> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/317542
+<http://darkwebisspooky/product/317542> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/318144
+<http://darkwebisspooky/product/318144> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/321402
+<http://darkwebisspooky/product/321402> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/325400
+<http://darkwebisspooky/product/325400> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/327763
+<http://darkwebisspooky/product/327763> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/330351
+<http://darkwebisspooky/product/330351> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/334208
+<http://darkwebisspooky/product/334208> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/336929
+<http://darkwebisspooky/product/336929> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/340105
+<http://darkwebisspooky/product/340105> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/343326
+<http://darkwebisspooky/product/343326> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/346298
+<http://darkwebisspooky/product/346298> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/349007
+<http://darkwebisspooky/product/349007> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/352307
+<http://darkwebisspooky/product/352307> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/355128
+<http://darkwebisspooky/product/355128> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/360418
+<http://darkwebisspooky/product/360418> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/364453
+<http://darkwebisspooky/product/364453> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/367707
+<http://darkwebisspooky/product/367707> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/37035
+<http://darkwebisspooky/product/37035> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/371080
+<http://darkwebisspooky/product/371080> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/373152
+<http://darkwebisspooky/product/373152> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/376671
+<http://darkwebisspooky/product/376671> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/379423
+<http://darkwebisspooky/product/379423> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/382542
+<http://darkwebisspooky/product/382542> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/388049
+<http://darkwebisspooky/product/388049> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/389846
+<http://darkwebisspooky/product/389846> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/393778
+<http://darkwebisspooky/product/393778> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/395454
+<http://darkwebisspooky/product/395454> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/398517
+<http://darkwebisspooky/product/398517> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/40053
+<http://darkwebisspooky/product/40053> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/401791
+<http://darkwebisspooky/product/401791> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/403282
+<http://darkwebisspooky/product/403282> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/404306
+<http://darkwebisspooky/product/404306> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/405692
+<http://darkwebisspooky/product/405692> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/408159
+<http://darkwebisspooky/product/408159> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/410673
+<http://darkwebisspooky/product/410673> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/413140
+<http://darkwebisspooky/product/413140> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/414825
+<http://darkwebisspooky/product/414825> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/416429
+<http://darkwebisspooky/product/416429> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/419352
+<http://darkwebisspooky/product/419352> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/421254
+<http://darkwebisspooky/product/421254> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/422462
+<http://darkwebisspooky/product/422462> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/424191
+<http://darkwebisspooky/product/424191> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/425216
+<http://darkwebisspooky/product/425216> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/426271
+<http://darkwebisspooky/product/426271> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/427399
+<http://darkwebisspooky/product/427399> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/428813
+<http://darkwebisspooky/product/428813> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/429919
+<http://darkwebisspooky/product/429919> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/430790
+<http://darkwebisspooky/product/430790> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/431742
+<http://darkwebisspooky/product/431742> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/49078
+<http://darkwebisspooky/product/49078> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/57303
+<http://darkwebisspooky/product/57303> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/64721
+<http://darkwebisspooky/product/64721> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/73599
+<http://darkwebisspooky/product/73599> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/8001
+<http://darkwebisspooky/product/8001> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/80919
+<http://darkwebisspooky/product/80919> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/86091
+<http://darkwebisspooky/product/86091> rdf:type :Goods .
+
+
+###  http://darkwebisspooky/product/94813
+<http://darkwebisspooky/product/94813> rdf:type :Goods .
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/DarkNetSeller
