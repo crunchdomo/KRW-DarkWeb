@@ -372,6 +372,28 @@
 # http://darkwebisspooky/product/419352
 # 
 # http://darkwebisspooky/product/421254
+# 
+# http://darkwebisspooky/product/422462
+# 
+# http://darkwebisspooky/product/424191
+# 
+# http://darkwebisspooky/product/425216
+# 
+# http://darkwebisspooky/product/426271
+# 
+# http://darkwebisspooky/product/427399
+# 
+# http://darkwebisspooky/product/428813
+# 
+# http://darkwebisspooky/product/429919
+# 
+# http://darkwebisspooky/product/430790
+# 
+# http://darkwebisspooky/product/431742
+# 
+# http://darkwebisspooky/product/49078
+# 
+# http://darkwebisspooky/product/57303
 
 <http://darkwebisspooky/drug/version1> a owl:Ontology .
 
@@ -503,7 +525,7 @@
 
 <http://darkwebisspooky/http://darkwebisspooky/BlankLocation> a owl:NamedIndividual .
 
-<http://darkwebisspooky/product/102636> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/102636> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
@@ -530,7 +552,7 @@
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "ANY PREMIUM PORN ACCOUNT OF YOUR CHOICE [LIFETIME " .
 
-<http://darkwebisspooky/product/122247> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/122247> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom>;
@@ -610,7 +632,7 @@ If your login stops working we will replace it for you.
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Mastering Apache Spark 2015" .
 
-<http://darkwebisspooky/product/145> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/145> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/The_United_Snakes_of_Captivity>;
@@ -838,7 +860,7 @@ BarryBusiness
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> " MOBILE CASH V3.0 | EARN $100 WEEKLY " .
 
-<http://darkwebisspooky/product/19295> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/19295> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/China>;
@@ -874,7 +896,7 @@ BarryBusiness
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Connecticut Driver\\'s License" .
 
-<http://darkwebisspooky/product/208721> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/208721> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom>;
@@ -910,7 +932,7 @@ BarryBusiness
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> " Collection of Esoteric Ebooks " .
 
-<http://darkwebisspooky/product/226284> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/226284> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_States>;
@@ -956,7 +978,7 @@ BarryBusiness
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "How to Hide From Bill Collectors" .
 
-<http://darkwebisspooky/product/240054> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/240054> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom>;
@@ -1001,7 +1023,7 @@ BarryBusiness
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "MiamiBoyz.com  [GAY PORN LIFETIME ACCOUNT]" .
 
-<http://darkwebisspooky/product/259014> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/259014> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom>;
@@ -1037,7 +1059,7 @@ BarryBusiness
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Test Driven Development in Ruby 2017" .
 
-<http://darkwebisspooky/product/271758> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/271758> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Germany>;
@@ -1055,7 +1077,7 @@ BarryBusiness
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "MDMA Crystals Champagne 84%+" .
 
-<http://darkwebisspooky/product/275619> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/275619> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Germany>;
@@ -1254,7 +1276,7 @@ if you have more problem,please contact me,i will be happy to help you.
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Omnia Labs" .
 
-<http://darkwebisspooky/product/305232> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/305232> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom>;
@@ -1263,7 +1285,7 @@ if you have more problem,please contact me,i will be happy to help you.
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "3.5g OF PURE MDMA! UK2UK BACKBYPOPULARDEMAND!" .
 
-<http://darkwebisspooky/product/308931> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/308931> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom>;
@@ -1272,7 +1294,7 @@ if you have more problem,please contact me,i will be happy to help you.
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "MASTER KUSH 500 g" .
 
-<http://darkwebisspooky/product/312722> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/312722> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Europe>;
@@ -1290,7 +1312,7 @@ if you have more problem,please contact me,i will be happy to help you.
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "HACKING EXPOSED WINDOWS MICROSOFT WINDOWS SECURITY" .
 
-<http://darkwebisspooky/product/315849> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/315849> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Europe>;
@@ -1299,7 +1321,7 @@ if you have more problem,please contact me,i will be happy to help you.
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "2.5G Afghan Heroin Pure Uncut" .
 
-<http://darkwebisspooky/product/316883> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/316883> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Spain>;
@@ -1308,7 +1330,7 @@ if you have more problem,please contact me,i will be happy to help you.
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "100 g -  Amnesia Haze << Phenotype 2 << Bio Indoor" .
 
-<http://darkwebisspooky/product/317542> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/317542> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
@@ -1335,7 +1357,7 @@ if you have more problem,please contact me,i will be happy to help you.
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> " N T I D E T E C T 7 CRACKED" .
 
-<http://darkwebisspooky/product/325400> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/325400> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Australia>;
@@ -1344,7 +1366,7 @@ if you have more problem,please contact me,i will be happy to help you.
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "2G PURE UNCUT CRYSTAL METH  FREE EXPRESS!" .
 
-<http://darkwebisspooky/product/327763> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/327763> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Luxembourg>;
@@ -1423,7 +1445,7 @@ Cookie: cookie_check=yes; LANG=en_US%3BUS; tsrce=settingsnodeweb; nsid=s%3AjDAyB
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Platinum Virtual Carder Handbook (UVCH) 2.11" .
 
-<http://darkwebisspooky/product/340105> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/340105> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Netherlands>;
@@ -1432,7 +1454,7 @@ Cookie: cookie_check=yes; LANG=en_US%3BUS; tsrce=settingsnodeweb; nsid=s%3AjDAyB
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Custom listing (andrestero)" .
 
-<http://darkwebisspooky/product/343326> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/343326> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Netherlands>;
@@ -1441,7 +1463,7 @@ Cookie: cookie_check=yes; LANG=en_US%3BUS; tsrce=settingsnodeweb; nsid=s%3AjDAyB
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "5.000 Yellow Nintendo 230MG  ESCROW " .
 
-<http://darkwebisspooky/product/346298> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/346298> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Germany>;
@@ -1973,7 +1995,7 @@ AND MANY MANY MORE!!!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "JOKERS STASH!!! LEARN HOW TO MAKE MONEY FROM HOME!" .
 
-<http://darkwebisspooky/product/352307> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/352307> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom>;
@@ -1982,7 +2004,7 @@ AND MANY MANY MORE!!!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "C.I [FE] 10g Speed Powder {Amphetamine} [UK-UK]" .
 
-<http://darkwebisspooky/product/355128> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/355128> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Germany>;
@@ -1991,7 +2013,7 @@ AND MANY MANY MORE!!!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "500. PCS. -Green Minions 180mg pure mdma pills (3D" .
 
-<http://darkwebisspooky/product/360418> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/360418> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Spain>;
@@ -2000,7 +2022,7 @@ AND MANY MANY MORE!!!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "<MOROCCO BLOND POLEN> [5GR]" .
 
-<http://darkwebisspooky/product/364453> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/364453> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Germany>;
@@ -2090,7 +2112,7 @@ WHAT\\'S REQUIRED:
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "4X NEW CC TO BTC CASHOUT METHODS 2017" .
 
-<http://darkwebisspooky/product/376671> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/376671> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Germany>;
@@ -2161,7 +2183,7 @@ DO NOT BUY THIS GUIDE IF YOU AREN\\'T FAMILIAR WITH ALL THE ABOVE OR LAZY!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "MAKE YOUR OWN MAIL DROP 2017" .
 
-<http://darkwebisspooky/product/382542> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/382542> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom>;
@@ -2170,7 +2192,7 @@ DO NOT BUY THIS GUIDE IF YOU AREN\\'T FAMILIAR WITH ALL THE ABOVE OR LAZY!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "50 Grams of Methamphetamine" .
 
-<http://darkwebisspooky/product/388049> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/388049> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_States>;
@@ -2196,7 +2218,7 @@ DO NOT BUY THIS GUIDE IF YOU AREN\\'T FAMILIAR WITH ALL THE ABOVE OR LAZY!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> " The Carding School Tutorial " .
 
-<http://darkwebisspooky/product/395454> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/395454> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_States>;
@@ -2232,7 +2254,7 @@ DO NOT BUY THIS GUIDE IF YOU AREN\\'T FAMILIAR WITH ALL THE ABOVE OR LAZY!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "VPN UNLIMETED APP PREMIUM ACCOUNT LIFETIME" .
 
-<http://darkwebisspooky/product/403282> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/403282> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_States>;
@@ -2241,7 +2263,7 @@ DO NOT BUY THIS GUIDE IF YOU AREN\\'T FAMILIAR WITH ALL THE ABOVE OR LAZY!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "GRADE AAA*Skywalker OG KUSH AND 25 MIXED STRAINS(B" .
 
-<http://darkwebisspooky/product/404306> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/404306> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Luxembourg>;
@@ -2250,7 +2272,7 @@ DO NOT BUY THIS GUIDE IF YOU AREN\\'T FAMILIAR WITH ALL THE ABOVE OR LAZY!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "2.5G MDMA Crystals Dutch" .
 
-<http://darkwebisspooky/product/405692> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/405692> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Spain>;
@@ -2259,7 +2281,7 @@ DO NOT BUY THIS GUIDE IF YOU AREN\\'T FAMILIAR WITH ALL THE ABOVE OR LAZY!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "<SEX BUD> // OUTDOOR! [20GR]" .
 
-<http://darkwebisspooky/product/408159> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/408159> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_States>;
@@ -2268,7 +2290,7 @@ DO NOT BUY THIS GUIDE IF YOU AREN\\'T FAMILIAR WITH ALL THE ABOVE OR LAZY!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "2LB BLACKBERRY KUSH" .
 
-<http://darkwebisspooky/product/410673> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/410673> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Spain>;
@@ -2277,7 +2299,7 @@ DO NOT BUY THIS GUIDE IF YOU AREN\\'T FAMILIAR WITH ALL THE ABOVE OR LAZY!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "1x 10ml SATIVEX --> Farmaceutical Spray Cannabis " .
 
-<http://darkwebisspooky/product/413140> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/413140> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Germany>;
@@ -2286,7 +2308,7 @@ DO NOT BUY THIS GUIDE IF YOU AREN\\'T FAMILIAR WITH ALL THE ABOVE OR LAZY!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> " Northern Light  25g " .
 
-<http://darkwebisspooky/product/414825> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/414825> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Germany>,
@@ -2399,7 +2421,7 @@ Team rvaska
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "ULTIMATE CASHOUT PAYPAL CARDING GUIDE" .
 
-<http://darkwebisspooky/product/419352> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/419352> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Holland>;
@@ -2408,53 +2430,16 @@ Team rvaska
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "100GR AMNESIA HAZE !! TOP PRODUCT !!  NEW NEW " .
 
-<http://darkwebisspooky/product/421254> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/421254> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/West_Coast>;
-  <http://darkwebisspooky/description> "Opioids, Heroin" .
-# 
-# http://darkwebisspooky/product/422462
-# 
-# http://darkwebisspooky/product/424191
-# 
-# http://darkwebisspooky/product/425216
-# 
-# http://darkwebisspooky/product/426271
-# 
-# http://darkwebisspooky/product/427399
-# 
-# http://darkwebisspooky/product/428813
-# 
-# http://darkwebisspooky/product/429919
-# 
-# http://darkwebisspooky/product/430790
-# 
-# http://darkwebisspooky/product/431742
-# 
-# http://darkwebisspooky/product/49078
-# 
-# http://darkwebisspooky/product/57303
-# 
-# http://darkwebisspooky/product/64721
-# 
-# http://darkwebisspooky/product/73599
-# 
-# http://darkwebisspooky/product/8001
-# 
-# http://darkwebisspooky/product/80919
-# 
-# http://darkwebisspooky/product/86091
-# 
-# http://darkwebisspooky/product/94813
-# 
-# Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
-
-<http://darkwebisspooky/product/421254> <http://darkwebisspooky/priceBTC> "0";
+  <http://darkwebisspooky/description> "Opioids, Heroin";
+  <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Brown powder heroin quarter (6) g pure gunp powder" .
 
-<http://darkwebisspooky/product/422462> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/422462> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Hong_Kong>;
@@ -2463,7 +2448,7 @@ Team rvaska
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Best Quality Mexedrone Available $100/5g sample" .
 
-<http://darkwebisspooky/product/424191> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/424191> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_States>;
@@ -2472,7 +2457,7 @@ Team rvaska
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "girl scout cookies :Grade AA+ donation on 1p" .
 
-<http://darkwebisspooky/product/425216> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/425216> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Spain>;
@@ -2481,7 +2466,7 @@ Team rvaska
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "<SHARK> // OUTDOOR! [20GR]" .
 
-<http://darkwebisspooky/product/426271> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/426271> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_States>;
@@ -2490,7 +2475,7 @@ Team rvaska
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "gradeAA++ medical marjinana lbs donation" .
 
-<http://darkwebisspooky/product/427399> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
+<http://darkwebisspooky/product/427399> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/hugobuds>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/United_States>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
@@ -2532,7 +2517,7 @@ Thanks
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "1LB OF SOUR DIESEL" .
 
-<http://darkwebisspooky/product/428813> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/428813> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_States>;
@@ -2541,7 +2526,7 @@ Thanks
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "GRAND DADDY PURPLE AAAA+  1 ounce (30 grams)     f" .
 
-<http://darkwebisspooky/product/429919> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/429919> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_States>;
@@ -2550,7 +2535,7 @@ Thanks
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "cannabis  avaible" .
 
-<http://darkwebisspooky/product/430790> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/430790> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_States>;
@@ -2559,7 +2544,7 @@ Thanks
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "50 Pint Pink Promethazine & Codeine Lean - Grade A" .
 
-<http://darkwebisspooky/product/431742> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
+<http://darkwebisspooky/product/431742> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/geekgorilla>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
@@ -2634,7 +2619,7 @@ CHAPTER 17: (MAKING HEROIN)
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> " The Great Big Narcotics Cookbook  " .
 
-<http://darkwebisspooky/product/49078> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
+<http://darkwebisspooky/product/49078> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/darkmarket>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
@@ -2850,13 +2835,28 @@ USDA BULLETIN 1935
 <http://darkwebisspooky/product/57303> a owl:NamedIndividual, <http://darkwebisspooky/Services>;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
-  <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
-  <http://darkwebisspooky/description> "Money";
+  <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
+# 
+# http://darkwebisspooky/product/64721
+# 
+# http://darkwebisspooky/product/73599
+# 
+# http://darkwebisspooky/product/8001
+# 
+# http://darkwebisspooky/product/80919
+# 
+# http://darkwebisspooky/product/86091
+# 
+# http://darkwebisspooky/product/94813
+# 
+# Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
+
+<http://darkwebisspooky/product/57303> <http://darkwebisspooky/description> "Money";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Happy Pocket Full of Money" .
 
-<http://darkwebisspooky/product/64721> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
+<http://darkwebisspooky/product/64721> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
@@ -2865,7 +2865,7 @@ USDA BULLETIN 1935
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Driver Scanner v4 Cracked" .
 
-<http://darkwebisspooky/product/73599> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/73599> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom>;
@@ -2883,7 +2883,7 @@ USDA BULLETIN 1935
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "1 National Identity Card Scans Germany (PERSONALAU" .
 
-<http://darkwebisspooky/product/80919> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
+<http://darkwebisspooky/product/80919> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
@@ -2892,7 +2892,7 @@ USDA BULLETIN 1935
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Onlinehardcorestars PREMIUM Porn Account WARRANTY " .
 
-<http://darkwebisspooky/product/86091> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
+<http://darkwebisspooky/product/86091> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
@@ -2901,7 +2901,7 @@ USDA BULLETIN 1935
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Uprooting Viruses" .
 
-<http://darkwebisspooky/product/94813> a owl:NamedIndividual, <http://darkwebisspooky/Drugs>;
+<http://darkwebisspooky/product/94813> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom>;
