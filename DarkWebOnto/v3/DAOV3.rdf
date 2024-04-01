@@ -32,12 +32,6 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/believe -->
-
-    <owl:ObjectProperty rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/believe"/>
-    
-
-
     <!-- http://cor.esipfed.org/ont/~ushanri/DAO/belong -->
 
     <owl:ObjectProperty rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/belong"/>
@@ -47,18 +41,6 @@
     <!-- http://cor.esipfed.org/ont/~ushanri/DAO/buy -->
 
     <owl:ObjectProperty rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/buy"/>
-    
-
-
-    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/cause -->
-
-    <owl:ObjectProperty rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/cause"/>
-    
-
-
-    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/compare -->
-
-    <owl:ObjectProperty rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/compare"/>
     
 
 
@@ -79,18 +61,6 @@
     <owl:ObjectProperty rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/influence">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     </owl:ObjectProperty>
-    
-
-
-    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/intend -->
-
-    <owl:ObjectProperty rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/intend"/>
-    
-
-
-    <!-- http://cor.esipfed.org/ont/~ushanri/DAO/prepare -->
-
-    <owl:ObjectProperty rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/prepare"/>
     
 
 

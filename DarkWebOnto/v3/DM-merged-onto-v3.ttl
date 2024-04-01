@@ -15,6 +15,10 @@
 #    Object Properties
 #################################################################
 
+###  http://darkwebisspooky/belongsToCategory
+<http://darkwebisspooky/belongsToCategory> rdf:type owl:TransitiveProperty .
+
+
 ###  http://darkwebisspooky/hasDrugSeller
 <http://darkwebisspooky/hasDrugSeller> rdf:type owl:AsymmetricProperty ,
                                                 owl:IrreflexiveProperty ;
@@ -120,8 +124,19 @@
 #    Classes
 #################################################################
 
+###  http://cor.esipfed.org/ont/~ushanri/DAO/Actors
+<http://cor.esipfed.org/ont/~ushanri/DAO/Actors> owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty <http://cor.esipfed.org/ont/~ushanri/DAO/buy> ;
+                                                                       owl:someValuesFrom <http://darkwebisspooky/Digital_Goods>
+                                                                     ] .
+
+
 ###  http://cor.esipfed.org/ont/~ushanri/DAO/Dealers
 <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://cor.esipfed.org/ont/~ushanri/DAO/administrate> ;
+                                                                        owl:someValuesFrom <http://darkwebisspooky/Drugs>
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
                                                                         owl:onProperty <http://darkwebisspooky/shipsFrom> ;
                                                                         owl:someValuesFrom <http://darkwebisspooky/Location>
                                                                       ] ,
@@ -142,6 +157,25 @@
                                                                    ] .
 
 
+###  http://cor.esipfed.org/ont/~ushanri/DAO/Internet
+<http://cor.esipfed.org/ont/~ushanri/DAO/Internet> owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://cor.esipfed.org/ont/~ushanri/DAO/consume> ;
+                                                                         owl:someValuesFrom <http://darkwebisspooky/Digital_Goods>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://cor.esipfed.org/ont/~ushanri/DAO/desire> ;
+                                                                         owl:someValuesFrom <http://darkwebisspooky/Digital_Goods>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://cor.esipfed.org/ont/~ushanri/DAO/influence> ;
+                                                                         owl:someValuesFrom <http://darkwebisspooky/Digital_Goods>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty :offersGood ;
+                                                                         owl:someValuesFrom <http://darkwebisspooky/Digital_Goods>
+                                                                       ] .
+
+
 ###  http://cor.esipfed.org/ont/~ushanri/DAO/Medical_Institutions
 <http://cor.esipfed.org/ont/~ushanri/DAO/Medical_Institutions> owl:equivalentClass [ rdf:type owl:Restriction ;
                                                                                      owl:onProperty :hasRegion ;
@@ -158,6 +192,10 @@
 
 ###  http://darkwebisspooky/Digital_Goods
 <http://darkwebisspooky/Digital_Goods> owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                             owl:onProperty <http://cor.esipfed.org/ont/~ushanri/DAO/belong> ;
+                                                             owl:someValuesFrom :Dark_Net_Market
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
                                                              owl:onProperty :digitalGoodProvidedBy ;
                                                              owl:someValuesFrom <http://cor.esipfed.org/ont/~ushanri/DAO/Internet>
                                                            ] .
@@ -165,6 +203,10 @@
 
 ###  http://darkwebisspooky/Drugs
 <http://darkwebisspooky/Drugs> owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                     owl:onProperty <http://cor.esipfed.org/ont/~ushanri/DAO/belong> ;
+                                                     owl:someValuesFrom :Dark_Net_Market
+                                                   ] ,
+                                                   [ rdf:type owl:Restriction ;
                                                      owl:onProperty <http://darkwebisspooky/hasDrugSeller> ;
                                                      owl:someValuesFrom <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers>
                                                    ] ,
@@ -184,12 +226,20 @@
 
 ###  http://darkwebisspooky/drug/version3#Goods
 :Goods rdf:type owl:Class ;
+       owl:equivalentClass [ rdf:type owl:Restriction ;
+                             owl:onProperty :isSoldOn ;
+                             owl:someValuesFrom :DreamMarket
+                           ] ;
        rdfs:subClassOf :DreamMarket .
 
 
 ###  http://darkwebisspooky/drug/version3#Roles
 :Roles rdf:type owl:Class ;
        owl:equivalentClass [ rdf:type owl:Restriction ;
+                             owl:onProperty <http://cor.esipfed.org/ont/~ushanri/DAO/administrate> ;
+                             owl:someValuesFrom <http://darkwebisspooky/Digital_Goods>
+                           ] ,
+                           [ rdf:type owl:Restriction ;
                              owl:onProperty <http://cor.esipfed.org/ont/~ushanri/DAO/influence> ;
                              owl:someValuesFrom :Dark_Net_Market
                            ] ;
@@ -246,6 +296,10 @@
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/DreamMarket
 :DreamMarket rdf:type owl:Class ;
+             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty <http://darkwebisspooky/belongsToCategory> ;
+                                   owl:someValuesFrom :Dark_Net_Market
+                                 ] ;
              rdfs:subClassOf :Dark_Net_Market .
 
 
