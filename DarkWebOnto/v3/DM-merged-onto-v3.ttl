@@ -15,22 +15,40 @@
 #    Object Properties
 #################################################################
 
-###  http://darkwebisspooky/hasSeller
-<http://darkwebisspooky/hasSeller> rdf:type owl:AsymmetricProperty ,
-                                            owl:IrreflexiveProperty ;
-                                   rdfs:domain :Goods ;
-                                   rdfs:range <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> ;
-                                   owl:propertyDisjointWith :offersGood ,
-                                                            :isSoldOn .
+###  http://darkwebisspooky/hasDrugSeller
+<http://darkwebisspooky/hasDrugSeller> rdf:type owl:AsymmetricProperty ,
+                                                owl:IrreflexiveProperty ;
+                                       rdfs:domain <http://darkwebisspooky/Drugs> ;
+                                       rdfs:range <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> ;
+                                       owl:propertyDisjointWith :isSoldOn ,
+                                                                :offersGood .
 
 
-###  http://darkwebisspooky/drug/version3#offersGood
-:offersGood rdf:type owl:ObjectProperty ;
-            owl:inverseOf :isSoldOn ;
-            rdf:type owl:AsymmetricProperty ,
-                     owl:IrreflexiveProperty ;
-            rdfs:domain :Dark_Net_Market ;
-            rdfs:range :Goods .
+###  http://darkwebisspooky/drug/version3#digitalGoodProvidedBy
+:digitalGoodProvidedBy rdf:type owl:ObjectProperty .
+
+
+###  http://darkwebisspooky/drug/version3#hasCity
+:hasCity rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf :hasLocation .
+
+
+###  http://darkwebisspooky/drug/version3#hasCountry
+:hasCountry rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :hasLocation .
+
+
+###  http://darkwebisspooky/drug/version3#hasLocation
+:hasLocation rdf:type owl:ObjectProperty .
+
+
+###  http://darkwebisspooky/drug/version3#hasRegion
+:hasRegion rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf :hasLocation .
+
+
+###  http://darkwebisspooky/drug/version3#sellsDigitalGood
+:sellsDigitalGood rdf:type owl:ObjectProperty .
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/hasDrugType
@@ -43,11 +61,18 @@
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/isSoldOn
-:isSoldOn rdf:type owl:ObjectProperty ,
-                   owl:AsymmetricProperty ,
+:isSoldOn rdf:type owl:ObjectProperty ;
+          owl:inverseOf :offersGood ;
+          rdf:type owl:AsymmetricProperty ,
                    owl:IrreflexiveProperty ;
-          rdfs:domain :Goods ;
           rdfs:range :Dark_Net_Market .
+
+
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/offersGood
+:offersGood rdf:type owl:ObjectProperty ,
+                     owl:AsymmetricProperty ,
+                     owl:IrreflexiveProperty ;
+            rdfs:domain :Dark_Net_Market .
 
 
 #################################################################
@@ -75,9 +100,23 @@
                                                                    ] .
 
 
+###  http://cor.esipfed.org/ont/~ushanri/DAO/Street
+<http://cor.esipfed.org/ont/~ushanri/DAO/Street> owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty :isSoldOn ;
+                                                                       owl:someValuesFrom <http://cor.esipfed.org/ont/~ushanri/DAO/Street>
+                                                                     ] .
+
+
+###  http://darkwebisspooky/Digital_Goods
+<http://darkwebisspooky/Digital_Goods> owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :digitalGoodProvidedBy ;
+                                                             owl:someValuesFrom <http://cor.esipfed.org/ont/~ushanri/DAO/Internet>
+                                                           ] .
+
+
 ###  http://darkwebisspooky/Drugs
 <http://darkwebisspooky/Drugs> owl:equivalentClass [ rdf:type owl:Restriction ;
-                                                     owl:onProperty <http://darkwebisspooky/hasSeller> ;
+                                                     owl:onProperty <http://darkwebisspooky/hasDrugSeller> ;
                                                      owl:someValuesFrom <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers>
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
@@ -86,19 +125,45 @@
                                                    ] .
 
 
-###  http://darkwebisspooky/drug/version3#Goods
-:Goods rdf:type owl:Class ;
-       owl:disjointUnionOf ( <http://darkwebisspooky/Digital_Goods>
-                             <http://darkwebisspooky/Drugs>
-                           ) .
+###  http://darkwebisspooky/drug/version3#City
+:City rdf:type owl:Class ;
+      rdfs:subClassOf :Region .
+
+
+###  http://darkwebisspooky/drug/version3#Continent
+:Continent rdf:type owl:Class ;
+           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                 owl:onProperty :hasCountry ;
+                                 owl:someValuesFrom :Country
+                               ] ;
+           rdfs:subClassOf <http://darkwebisspooky/Location> .
+
+
+###  http://darkwebisspooky/drug/version3#Country
+:Country rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasCity ;
+                               owl:someValuesFrom :City
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasRegion ;
+                               owl:someValuesFrom :Region
+                             ] ;
+         rdfs:subClassOf :Continent .
+
+
+###  http://darkwebisspooky/drug/version3#OtherLocation
+:OtherLocation rdf:type owl:Class ;
+               rdfs:subClassOf <http://darkwebisspooky/Location> .
+
+
+###  http://darkwebisspooky/drug/version3#Region
+:Region rdf:type owl:Class ;
+        rdfs:subClassOf :Country .
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/Dark_Net_Market
-:Dark_Net_Market rdf:type owl:Class ;
-                 owl:equivalentClass [ rdf:type owl:Restriction ;
-                                       owl:onProperty :offersGood ;
-                                       owl:someValuesFrom :Goods
-                                     ] .
+:Dark_Net_Market rdf:type owl:Class .
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/DreamMarket
@@ -109,6 +174,84 @@
 #################################################################
 #    Individuals
 #################################################################
+
+###  http://cor.esipfed.org/ont/~ushanri/DAO/Darknet
+<http://cor.esipfed.org/ont/~ushanri/DAO/Darknet> owl:sameAs :DarkNetSeller .
+
+
+###  http://darkwebisspooky/drug/version3#DarkNetSeller
+
+###  http://darkwebisspooky/Australia
+<http://darkwebisspooky/Australia> rdf:type :Country .
+
+
+###  http://darkwebisspooky/Canada
+<http://darkwebisspooky/Canada> rdf:type :Country .
+
+
+###  http://darkwebisspooky/China
+<http://darkwebisspooky/China> rdf:type :Country .
+
+
+###  http://darkwebisspooky/Europe
+<http://darkwebisspooky/Europe> rdf:type :Continent .
+
+
+###  http://darkwebisspooky/Germany
+<http://darkwebisspooky/Germany> rdf:type :Country .
+
+
+###  http://darkwebisspooky/Holland
+<http://darkwebisspooky/Holland> rdf:type :Region .
+
+
+###  http://darkwebisspooky/Hong_Kong
+<http://darkwebisspooky/Hong_Kong> rdf:type :Country .
+
+
+###  http://darkwebisspooky/Luxembourg
+<http://darkwebisspooky/Luxembourg> rdf:type :Country .
+
+
+###  http://darkwebisspooky/Netherlands
+<http://darkwebisspooky/Netherlands> rdf:type :Country ;
+                                     :hasRegion <http://darkwebisspooky/Holland> .
+
+
+###  http://darkwebisspooky/Spain
+<http://darkwebisspooky/Spain> rdf:type :Country .
+
+
+###  http://darkwebisspooky/The_United_Snakes_of_Captivity
+<http://darkwebisspooky/The_United_Snakes_of_Captivity> rdf:type :OtherLocation .
+
+
+###  http://darkwebisspooky/United_Kingdom
+<http://darkwebisspooky/United_Kingdom> rdf:type :Country .
+
+
+###  http://darkwebisspooky/United_States
+<http://darkwebisspooky/United_States> rdf:type :Country ;
+                                       :hasRegion <http://darkwebisspooky/West_Coast> .
+
+
+###  http://darkwebisspooky/West_Coast
+<http://darkwebisspooky/West_Coast> rdf:type :Region .
+
+
+###  http://darkwebisspooky/drug/version3#DarkNetSeller
+:DarkNetSeller rdf:type owl:NamedIndividual ,
+                        <http://cor.esipfed.org/ont/~ushanri/DAO/Internet> ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :sellsDigitalGood ;
+                          owl:someValuesFrom <http://darkwebisspooky/Digital_Goods>
+                        ] .
+
+
+###  http://darkwebisspooky/drug/version3#druggydrug
+:druggydrug rdf:type owl:NamedIndividual ;
+            :digitalGoodProvidedBy :DarkNetSeller .
+
 
 ###  http://darkwebisspooky/product/122247
 <http://darkwebisspooky/product/122247> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis> .
