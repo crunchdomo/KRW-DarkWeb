@@ -120,11 +120,33 @@
 #    Classes
 #################################################################
 
+###  http://cor.esipfed.org/ont/~ushanri/DAO/Dealers
+<http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://darkwebisspooky/shipsFrom> ;
+                                                                        owl:someValuesFrom <http://darkwebisspooky/Location>
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty :hasCity ;
+                                                                        owl:someValuesFrom :City
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty :offersGood ;
+                                                                        owl:someValuesFrom <http://darkwebisspooky/Drugs>
+                                                                      ] .
+
+
 ###  http://cor.esipfed.org/ont/~ushanri/DAO/Drug
 <http://cor.esipfed.org/ont/~ushanri/DAO/Drug> owl:equivalentClass [ rdf:type owl:Restriction ;
                                                                      owl:onProperty <http://cor.esipfed.org/ont/~ushanri/DAO/administrate> ;
                                                                      owl:someValuesFrom <http://darkwebisspooky/Drugs>
                                                                    ] .
+
+
+###  http://cor.esipfed.org/ont/~ushanri/DAO/Medical_Institutions
+<http://cor.esipfed.org/ont/~ushanri/DAO/Medical_Institutions> owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty :hasRegion ;
+                                                                                     owl:someValuesFrom :Region
+                                                                                   ] .
 
 
 ###  http://cor.esipfed.org/ont/~ushanri/DAO/Street
@@ -147,6 +169,14 @@
                                                      owl:someValuesFrom <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers>
                                                    ] ,
                                                    [ rdf:type owl:Restriction ;
+                                                     owl:onProperty <http://darkwebisspooky/shipsFrom> ;
+                                                     owl:someValuesFrom <http://darkwebisspooky/Location>
+                                                   ] ,
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty <http://darkwebisspooky/shipsTo> ;
+                                                     owl:someValuesFrom <http://darkwebisspooky/Location>
+                                                   ] ,
+                                                   [ rdf:type owl:Restriction ;
                                                      owl:onProperty :hasDrugType ;
                                                      owl:someValuesFrom <http://cor.esipfed.org/ont/~ushanri/DAO/Drug>
                                                    ] .
@@ -159,6 +189,10 @@
 
 ###  http://darkwebisspooky/drug/version3#Roles
 :Roles rdf:type owl:Class ;
+       owl:equivalentClass [ rdf:type owl:Restriction ;
+                             owl:onProperty <http://cor.esipfed.org/ont/~ushanri/DAO/influence> ;
+                             owl:someValuesFrom :Dark_Net_Market
+                           ] ;
        rdfs:subClassOf <http://cor.esipfed.org/ont/~ushanri/DAO/Actors> .
 
 
@@ -201,6 +235,10 @@
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/Dark_Net_Market
 :Dark_Net_Market rdf:type owl:Class ;
                  owl:equivalentClass [ rdf:type owl:Restriction ;
+                                       owl:onProperty :hasLocation ;
+                                       owl:someValuesFrom <http://darkwebisspooky/Location>
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
                                        owl:onProperty :operates ;
                                        owl:someValuesFrom :Dark_Net_Market
                                      ] .
@@ -213,6 +251,10 @@
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/Financial_Institution
 :Financial_Institution rdf:type owl:Class ;
+                       owl:equivalentClass [ rdf:type owl:Restriction ;
+                                             owl:onProperty :hasCountry ;
+                                             owl:someValuesFrom :Country
+                                           ] ;
                        rdfs:subClassOf <http://cor.esipfed.org/ont/~ushanri/DAO/Actors> .
 
 
