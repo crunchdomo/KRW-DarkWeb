@@ -39,6 +39,8 @@
 # 
 # http://darkwebisspooky/shipsTo
 # 
+# http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy
+# 
 # 
 # 
 # #################################################################
@@ -413,6 +415,9 @@
 
 <http://darkwebisspooky/shipsTo> a owl:ObjectProperty .
 
+<http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+  a owl:ObjectProperty .
+
 <http://darkwebisspooky/Digital_Goods> a owl:Class;
   rdfs:label "Digital_Goods" .
 
@@ -534,19 +539,21 @@
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "SOMA (Carisoprolol) 350mg - 50x" .
 
-<http://darkwebisspooky/product/109913> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/109913> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Internet>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Data";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "ANY PREMIUM PORN ACCOUNT OF YOUR CHOICE [LIFETIME " .
 
-<http://darkwebisspooky/product/116127> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/116127> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Internet>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Erotica";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -561,19 +568,21 @@
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "28 Gram High Grade Pollen " .
 
-<http://darkwebisspooky/product/129621> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/129621> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Software";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "NAVICAT 11.2.5 PREMIUM EN 2016" .
 
-<http://darkwebisspooky/product/134703> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/pckabml>;
+<http://darkwebisspooky/product/134703> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/pckabml>;
   <http://darkwebisspooky/description> """The speed of change in the world of cybersecurity is amazing. If you attend any meeting where cybersecurity is discussed, it can be like listening to a foreign language: blue team, black hat, metamorphic malware, steganography What are these people talking about? This dictionary began life as the reference section at the back of \\'Cybersecurity for Beginners\\' and has now taken on a life of its own, with hundreds of the primary cybersecurity terms defined. This book is designed to be a useful companion for anyone who wants to keep up on cybersecurity terms or confound others with their understanding. Finally, cybersecurity does not need to sound like a different language.
 
 Format: EPUB 
@@ -582,28 +591,31 @@ Format: EPUB
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "The Cybersecurity to English Dictionary 2016" .
 
-<http://darkwebisspooky/product/138300> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/138300> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "E-Books";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Building Responsive Data Visualization for the Web" .
 
-<http://darkwebisspooky/product/139282> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/139282> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "E-Books";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Understanding Industrial Design Principles for UX " .
 
-<http://darkwebisspooky/product/140533> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/seventy3>;
+<http://darkwebisspooky/product/140533> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/seventy3>;
   <http://darkwebisspooky/description> """You will get:
 -Tidal Account comes with lifetime warranty.
 -Premium Account with Hi-Fi
@@ -614,19 +626,21 @@ If your login stops working we will replace it for you.
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Tidal Premium Account [Lifetime Warranty]" .
 
-<http://darkwebisspooky/product/141748> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/141748> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "E-Books";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Learning Ansible 2014" .
 
-<http://darkwebisspooky/product/142940> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/142940> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "E-Books";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -641,10 +655,11 @@ If your login stops working we will replace it for you.
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "H.Q. \\'Thunder Mountain\\' Shards 0.8g" .
 
-<http://darkwebisspooky/product/145405> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/TheShop>;
+<http://darkwebisspooky/product/145405> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/TheShop>;
   <http://darkwebisspooky/description> """LSD Complete Synthesis Guide
 
 -You\\'ll receive the download link within 24h from ordering-  
@@ -657,10 +672,11 @@ Due 45 Minute Psychosis AD AIP AMT Abe Abe\\'s cabe Abolic Acapulco gold Acapulc
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> " How To Make LSD  " .
 
-<http://darkwebisspooky/product/148928> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/148928> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "E-Books";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -675,10 +691,11 @@ Due 45 Minute Psychosis AD AIP AMT Abe Abe\\'s cabe Abolic Acapulco gold Acapulc
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Important Templates pack For USA" .
 
-<http://darkwebisspooky/product/158273> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/Cyberzen>;
+<http://darkwebisspooky/product/158273> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Internet>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/Cyberzen>;
   <http://darkwebisspooky/description> """----------------------------------------------------
 LIFETIME+FREEBIES [Original Price $349.95]
 ----------------------------------------------------
@@ -780,28 +797,31 @@ Cyberzen
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "ANY PREMIUM PORN ACCOUNT OF YOUR CHOICE [LIFETIME " .
 
-<http://darkwebisspooky/product/162740> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/162740> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Internet>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "E-Books";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Why Your Life Sucks" .
 
-<http://darkwebisspooky/product/165169> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/165169> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Internet>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "E-Books";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Wicca Spellcraft for Men: A Spellbook for Male Pag" .
 
-<http://darkwebisspooky/product/170595> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/BarryBusiness>;
+<http://darkwebisspooky/product/170595> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/BarryBusiness>;
   <http://darkwebisspooky/description> """A PSD file of a GERMAN identity card to create your fake identity scans.
 
 Perfect for carding and website verifications !
@@ -815,19 +835,21 @@ BarryBusiness
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "German ID editable PSD template !!" .
 
-<http://darkwebisspooky/product/175316> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/175316> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Information, eBooks";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Assorted Magazines Bundle - July 10 2016" .
 
-<http://darkwebisspooky/product/179177> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/179177> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "E-Books";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -842,10 +864,11 @@ BarryBusiness
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Audemars Piguet - Royal Oak 15400 RG Blue [JF]" .
 
-<http://darkwebisspooky/product/188370> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/188370> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "E-Books";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -905,28 +928,31 @@ BarryBusiness
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "UNCUT Peruvian 89% FISHSCALE COCAINE 2g FREE UK ND" .
 
-<http://darkwebisspooky/product/212985> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/212985> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "E-Books";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Cassandra Design Patterns 2014" .
 
-<http://darkwebisspooky/product/217139> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/217139> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Software";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Adobe Photoshop CS6 + Crack" .
 
-<http://darkwebisspooky/product/219537> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/219537> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Other";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -941,19 +967,21 @@ BarryBusiness
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Punch Bar// 225mg Peanut Butter //5 Pack" .
 
-<http://darkwebisspooky/product/230150> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/230150> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "E-Books";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Magento 2 DIY 2017" .
 
-<http://darkwebisspooky/product/232450> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/232450> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Erotica";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -968,10 +996,11 @@ BarryBusiness
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "BITCOIN STEALER>>> Start Stealing Bitcoin" .
 
-<http://darkwebisspooky/product/23899> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/BANK>;
+<http://darkwebisspooky/product/23899> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/BANK>;
   <http://darkwebisspooky/description> """How to Hide From Bill Collectors 
 """;
   <http://darkwebisspooky/priceBTC> "0";
@@ -987,10 +1016,11 @@ BarryBusiness
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Dutch Import MDMA 90%  28g FREE UK NDD" .
 
-<http://darkwebisspooky/product/245189> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/245189> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Information, eBooks";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -1005,19 +1035,21 @@ BarryBusiness
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Forged Australian Electricity Bill - Ergon Energy " .
 
-<http://darkwebisspooky/product/251142> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/251142> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "E-Books";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Getting Started with TypeScript 2017" .
 
-<http://darkwebisspooky/product/253528> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/253528> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Data";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -1032,10 +1064,11 @@ BarryBusiness
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "0.25g Heroin + 0.2g Crack *Light/Dark COMBO DEAL*" .
 
-<http://darkwebisspooky/product/261767> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/261767> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Canada>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Fraud Related";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -1050,10 +1083,11 @@ BarryBusiness
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Cocaine Peru 90%+ Purity" .
 
-<http://darkwebisspooky/product/268412> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/268412> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "E-Books";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -1086,19 +1120,21 @@ BarryBusiness
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "DOMESTIC1000 BLOTTERS 200 Ug" .
 
-<http://darkwebisspooky/product/278088> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/278088> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Fraud";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> " MAKE MONEY WITH FACEBOOK " .
 
-<http://darkwebisspooky/product/279431> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/TheShop>;
+<http://darkwebisspooky/product/279431> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/TheShop>;
   <http://darkwebisspooky/description> """Before starting talking about the method on itself. 
 
 I would like to talk about one of the most valuable things you will learn in this guide apart from the method itself. 
@@ -1204,19 +1240,21 @@ Verify richer Free Specific FACEBOOK GiftCards Guide hour with BTC Disguise ebay
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Adobe Photoshop" .
 
-<http://darkwebisspooky/product/283312> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/283312> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Other";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> " PAYPAL MEGAPACK " .
 
-<http://darkwebisspooky/product/286689> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/europe>;
+<http://darkwebisspooky/product/286689> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/europe>;
   <http://darkwebisspooky/description> """Newsest Avira AntiVirus Pro Version 2017 3 years licence
 
 no CD,Only active code. available to all language versions
@@ -1231,19 +1269,21 @@ if you have more problem,please contact me,i will be happy to help you.
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Newsest Avira AntiVirus Pro Version 2017 3 years l" .
 
-<http://darkwebisspooky/product/290504> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/290504> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Fraud";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Femina India - 7 February 2017" .
 
-<http://darkwebisspooky/product/293213> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/293213> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "E-Books";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -1303,10 +1343,11 @@ if you have more problem,please contact me,i will be happy to help you.
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "LSD (240) x 1 Blotter" .
 
-<http://darkwebisspooky/product/31310> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/31310> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_States>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Hacking";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -1339,19 +1380,21 @@ if you have more problem,please contact me,i will be happy to help you.
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Sour Diesel - [50 SEEDS] [FEMINIZED] [GIFT]" .
 
-<http://darkwebisspooky/product/318144> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/318144> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Fraud Related, Documents &Data";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "TEXAS A&M UNIVERSITY COLLEGE ID CARD PSD TEMPLATE" .
 
-<http://darkwebisspooky/product/321402> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/321402> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Fraud Related";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -1375,20 +1418,22 @@ if you have more problem,please contact me,i will be happy to help you.
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "3.5G Cheap Brown Afghan Heroin #3 Cheap" .
 
-<http://darkwebisspooky/product/330351> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/330351> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Fraud Related, Accounts";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Amazon  ACCOUNT LIFETIME WARRANTY 100 SATISFACTION" .
 
-<http://darkwebisspooky/product/334208> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/RealMalcomTurnbull>;
+<http://darkwebisspooky/product/334208> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Australia>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Australia>,
     <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/RealMalcomTurnbull>;
   <http://darkwebisspooky/description> """hey there! 
 
 got fresh hacked paypal accounts from US users. 
@@ -1437,9 +1482,10 @@ Cookie: cookie_check=yes; LANG=en_US%3BUS; tsrce=settingsnodeweb; nsid=s%3AjDAyB
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "US Paypal account+CCV - MIDDLEMAN for cashout" .
 
-<http://darkwebisspooky/product/336929> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
+<http://darkwebisspooky/product/336929> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
-  <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/description> "Fraud Related, CC &CVV";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -1472,7 +1518,7 @@ Cookie: cookie_check=yes; LANG=en_US%3BUS; tsrce=settingsnodeweb; nsid=s%3AjDAyB
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "5 gr Champange MDMAPROMO!ESCROW" .
 
-<http://darkwebisspooky/product/349007> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
+<http://darkwebisspooky/product/349007> a owl:NamedIndividual;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/GodsLeftNut>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
@@ -1996,9 +2042,10 @@ AND MANY MANY MORE!!!
   <http://darkwebisspooky/productName> "JOKERS STASH!!! LEARN HOW TO MAKE MONEY FROM HOME!" .
 
 <http://darkwebisspooky/product/352307> a owl:NamedIndividual;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Stimulants, Speed";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -2040,18 +2087,20 @@ AND MANY MANY MORE!!!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Guide to Eating McDonald\\'s for Free" .
 
-<http://darkwebisspooky/product/37035> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/37035> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Other";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Godzilla Gigapack  The biggest pack out there" .
 
-<http://darkwebisspooky/product/371080> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/TopNotchMoneyMaker>;
+<http://darkwebisspooky/product/371080> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/TopNotchMoneyMaker>;
   <http://darkwebisspooky/description> """2017 PLATINUM BANK DROP CREATION PACKAGE - PERFECT for CARDERS: BOA - Wells Fargo - Fidelity - Ally - SunTrust - Low Price!! [$15.99]
 
 Description:
@@ -2103,10 +2152,11 @@ WHAT\\'S REQUIRED:
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "BANK DROP CREATE PACK: BOA/Wells/Fidelity/Ally/Sun" .
 
-<http://darkwebisspooky/product/373152> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/373152> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Security";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -2121,9 +2171,10 @@ WHAT\\'S REQUIRED:
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "4g Changa Royal" .
 
-<http://darkwebisspooky/product/379423> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/TheWealthMaker>;
+<http://darkwebisspooky/product/379423> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/TheWealthMaker>;
   <http://darkwebisspooky/description> """$ 2017  MAIL DROP CREATION PACK [NEXT 10 PAY $8.00] - PERFECT for CARDERS $ 
 
 $$ WORKS WORLDWIDE - IN THE US, CANADA, EVERYWHERE! $$ 
@@ -2209,10 +2260,11 @@ DO NOT BUY THIS GUIDE IF YOU AREN\\'T FAMILIAR WITH ALL THE ABOVE OR LAZY!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "HOW TO PASS COUNTERFEIT MONEY ONLY $5" .
 
-<http://darkwebisspooky/product/393778> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/393778> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Fraud Related, CC &CVV";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -2236,19 +2288,21 @@ DO NOT BUY THIS GUIDE IF YOU AREN\\'T FAMILIAR WITH ALL THE ABOVE OR LAZY!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Stripped Carding University From Hell666" .
 
-<http://darkwebisspooky/product/40053> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/40053> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Information, Guides";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Backtracking EMAIL Messages" .
 
-<http://darkwebisspooky/product/401791> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
+<http://darkwebisspooky/product/401791> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/UnknownSeller>;
   <http://darkwebisspooky/description> "Fraud Related, Accounts";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
@@ -2318,10 +2372,11 @@ DO NOT BUY THIS GUIDE IF YOU AREN\\'T FAMILIAR WITH ALL THE ABOVE OR LAZY!
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "750 White 3D 310mg  Escrow " .
 
-<http://darkwebisspooky/product/416429> a owl:NamedIndividual, <http://darkwebisspooky/Digital_Goods>;
-  <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/rvaska>;
+<http://darkwebisspooky/product/416429> a owl:NamedIndividual;
   <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Internet>;
   <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy>
+    <http://darkwebisspooky/rvaska>;
   <http://darkwebisspooky/description> """Welcome.
 Discover how to hack paypal, ebay and make a lot of money, with a lot of tutorials about hacking, security, anonymity, programming and a lot of content you MUST know  Over 400MB and more then 10.000 pages of contents, guides, tutorials and other useful informations. 
 
@@ -2834,8 +2889,7 @@ USDA BULLETIN 1935
 
 <http://darkwebisspooky/product/57303> a owl:NamedIndividual, <http://darkwebisspooky/Services>;
   <http://darkwebisspooky/hasDrugSeller> <http://darkwebisspooky/UnknownSeller>;
-  <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream>;
-  <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> .
+  <http://darkwebisspooky/shipsFrom> <http://darkwebisspooky/http%3A//darkwebisspooky/Dream> .
 # 
 # http://darkwebisspooky/product/64721
 # 
@@ -2851,7 +2905,8 @@ USDA BULLETIN 1935
 # 
 # Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
 
-<http://darkwebisspooky/product/57303> <http://darkwebisspooky/description> "Money";
+<http://darkwebisspooky/product/57303> <http://darkwebisspooky/shipsTo> <http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide>;
+  <http://darkwebisspooky/description> "Money";
   <http://darkwebisspooky/priceBTC> "0";
   <http://darkwebisspooky/priceUSD> "0";
   <http://darkwebisspooky/productName> "Happy Pocket Full of Money" .

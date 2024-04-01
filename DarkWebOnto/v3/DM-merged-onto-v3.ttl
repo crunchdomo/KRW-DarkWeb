@@ -189,12 +189,13 @@
                                                                                     owl:someValuesFrom <http://darkwebisspooky/Location>
                                                                                   ]
                                                                                   [ rdf:type owl:Restriction ;
-                                                                                    owl:onProperty :sellsDigitalGood ;
+                                                                                    owl:onProperty :digitalGoodProvidedBy ;
                                                                                     owl:someValuesFrom <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers>
                                                                                   ]
                                                                                 ) ;
                                                              rdf:type owl:Class
-                                                           ] .
+                                                           ] ;
+                                       owl:disjointWith <http://darkwebisspooky/Drugs> .
 
 
 ###  http://darkwebisspooky/Drugs
@@ -303,12 +304,20 @@
 <http://darkwebisspooky/BANK> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
 
 
+###  http://darkwebisspooky/BarryBusiness
+<http://darkwebisspooky/BarryBusiness> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
+
+
 ###  http://darkwebisspooky/Canada
 <http://darkwebisspooky/Canada> rdf:type <http://darkwebisspooky/Location> .
 
 
 ###  http://darkwebisspooky/China
 <http://darkwebisspooky/China> rdf:type <http://darkwebisspooky/Location> .
+
+
+###  http://darkwebisspooky/Cyberzen
+<http://darkwebisspooky/Cyberzen> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
 
 
 ###  http://darkwebisspooky/Europe
@@ -357,6 +366,10 @@
                                                                  :OtherLocation .
 
 
+###  http://darkwebisspooky/TopNotchMoneyMaker
+<http://darkwebisspooky/TopNotchMoneyMaker> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
+
+
 ###  http://darkwebisspooky/United_Kingdom
 <http://darkwebisspooky/United_Kingdom> rdf:type <http://darkwebisspooky/Location> .
 
@@ -375,11 +388,15 @@
 
 
 ###  http://darkwebisspooky/europe
-<http://darkwebisspooky/europe> rdf:type <http://darkwebisspooky/Location> .
+<http://darkwebisspooky/europe> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
 
 
 ###  http://darkwebisspooky/pckabml
 <http://darkwebisspooky/pckabml> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
+
+
+###  http://darkwebisspooky/rvaska
+<http://darkwebisspooky/rvaska> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
 
 
 ###  http://darkwebisspooky/http%3A//darkwebisspooky/Australia
