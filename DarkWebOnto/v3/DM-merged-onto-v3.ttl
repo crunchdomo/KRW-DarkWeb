@@ -16,7 +16,8 @@
 #################################################################
 
 ###  http://darkwebisspooky/hasDrugSeller
-<http://darkwebisspooky/hasDrugSeller> rdf:type owl:AsymmetricProperty ,
+<http://darkwebisspooky/hasDrugSeller> rdf:type owl:ObjectProperty ,
+                                                owl:AsymmetricProperty ,
                                                 owl:IrreflexiveProperty ;
                                        rdfs:domain <http://darkwebisspooky/Drugs> ;
                                        rdfs:range <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> ;
@@ -135,14 +136,16 @@
 
 
 ###  http://darkwebisspooky/Digital_Goods
-<http://darkwebisspooky/Digital_Goods> owl:equivalentClass [ rdf:type owl:Restriction ;
+<http://darkwebisspooky/Digital_Goods> rdf:type owl:Class ;
+                                       owl:equivalentClass [ rdf:type owl:Restriction ;
                                                              owl:onProperty :digitalGoodProvidedBy ;
                                                              owl:someValuesFrom <http://cor.esipfed.org/ont/~ushanri/DAO/Internet>
                                                            ] .
 
 
 ###  http://darkwebisspooky/Drugs
-<http://darkwebisspooky/Drugs> owl:equivalentClass [ rdf:type owl:Restriction ;
+<http://darkwebisspooky/Drugs> rdf:type owl:Class ;
+                               owl:equivalentClass [ rdf:type owl:Restriction ;
                                                      owl:onProperty <http://darkwebisspooky/hasDrugSeller> ;
                                                      owl:someValuesFrom <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers>
                                                    ] ,
@@ -152,18 +155,13 @@
                                                    ] .
 
 
-###  http://darkwebisspooky/drug/version3#Cryptocurrency
-:Cryptocurrency rdf:type owl:Class .
+###  http://darkwebisspooky/Location
+<http://darkwebisspooky/Location> rdf:type owl:Class .
 
 
-###  http://darkwebisspooky/drug/version3#Currencies
-:Currencies rdf:type owl:Class ;
-            rdfs:subClassOf :Cryptocurrency .
-
-
-###  http://darkwebisspooky/drug/version3#Terminology
-:Terminology rdf:type owl:Class ;
-             rdfs:subClassOf :Cryptocurrency .
+###  http://darkwebisspooky/drug/version3#Roles
+:Roles rdf:type owl:Class ;
+       rdfs:subClassOf <http://cor.esipfed.org/ont/~ushanri/DAO/Actors> .
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/City
@@ -191,6 +189,15 @@
                                owl:someValuesFrom :Region
                              ] ;
          rdfs:subClassOf :Continent .
+
+
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/Cryptocurrency
+:Cryptocurrency rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/Currencies
+:Currencies rdf:type owl:Class ;
+            rdfs:subClassOf :Cryptocurrency .
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/Dark_Net_Market
@@ -221,6 +228,11 @@
         rdfs:subClassOf :Country .
 
 
+###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/Terminology
+:Terminology rdf:type owl:Class ;
+             rdfs:subClassOf :Cryptocurrency .
+
+
 #################################################################
 #    Individuals
 #################################################################
@@ -232,65 +244,80 @@
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/DarkNetSeller
 
 ###  http://darkwebisspooky/Australia
-<http://darkwebisspooky/Australia> rdf:type :Country .
+<http://darkwebisspooky/Australia> rdf:type owl:NamedIndividual ,
+                                            :Country .
 
 
 ###  http://darkwebisspooky/Canada
-<http://darkwebisspooky/Canada> rdf:type :Country .
+<http://darkwebisspooky/Canada> rdf:type owl:NamedIndividual ,
+                                         :Country .
 
 
 ###  http://darkwebisspooky/China
-<http://darkwebisspooky/China> rdf:type :Country .
+<http://darkwebisspooky/China> rdf:type owl:NamedIndividual ,
+                                        :Country .
 
 
 ###  http://darkwebisspooky/Europe
-<http://darkwebisspooky/Europe> rdf:type :Continent .
+<http://darkwebisspooky/Europe> rdf:type owl:NamedIndividual ,
+                                         :Continent .
 
 
 ###  http://darkwebisspooky/Germany
-<http://darkwebisspooky/Germany> rdf:type :Country .
+<http://darkwebisspooky/Germany> rdf:type owl:NamedIndividual ,
+                                          :Country .
 
 
 ###  http://darkwebisspooky/Holland
-<http://darkwebisspooky/Holland> rdf:type :Region .
+<http://darkwebisspooky/Holland> rdf:type owl:NamedIndividual ,
+                                          :Region .
 
 
 ###  http://darkwebisspooky/Hong_Kong
-<http://darkwebisspooky/Hong_Kong> rdf:type :Country .
+<http://darkwebisspooky/Hong_Kong> rdf:type owl:NamedIndividual ,
+                                            :Country .
 
 
 ###  http://darkwebisspooky/Luxembourg
-<http://darkwebisspooky/Luxembourg> rdf:type :Country .
+<http://darkwebisspooky/Luxembourg> rdf:type owl:NamedIndividual ,
+                                             :Country .
 
 
 ###  http://darkwebisspooky/Netherlands
-<http://darkwebisspooky/Netherlands> rdf:type :Country ;
+<http://darkwebisspooky/Netherlands> rdf:type owl:NamedIndividual ,
+                                              :Country ;
                                      :hasRegion <http://darkwebisspooky/Holland> .
 
 
 ###  http://darkwebisspooky/Spain
-<http://darkwebisspooky/Spain> rdf:type :Country .
+<http://darkwebisspooky/Spain> rdf:type owl:NamedIndividual ,
+                                        :Country .
 
 
 ###  http://darkwebisspooky/The_United_Snakes_of_Captivity
-<http://darkwebisspooky/The_United_Snakes_of_Captivity> rdf:type :OtherLocation .
+<http://darkwebisspooky/The_United_Snakes_of_Captivity> rdf:type owl:NamedIndividual ,
+                                                                 :OtherLocation .
 
 
 ###  http://darkwebisspooky/United_Kingdom
-<http://darkwebisspooky/United_Kingdom> rdf:type :Country .
+<http://darkwebisspooky/United_Kingdom> rdf:type owl:NamedIndividual ,
+                                                 :Country .
 
 
 ###  http://darkwebisspooky/United_States
-<http://darkwebisspooky/United_States> rdf:type :Country ;
+<http://darkwebisspooky/United_States> rdf:type owl:NamedIndividual ,
+                                                :Country ;
                                        :hasRegion <http://darkwebisspooky/West_Coast> .
 
 
 ###  http://darkwebisspooky/West_Coast
-<http://darkwebisspooky/West_Coast> rdf:type :Region .
+<http://darkwebisspooky/West_Coast> rdf:type owl:NamedIndividual ,
+                                             :Region .
 
 
 ###  http://darkwebisspooky/product/122247
-<http://darkwebisspooky/product/122247> :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis> .
+<http://darkwebisspooky/product/122247> rdf:type owl:NamedIndividual ;
+                                        :hasDrugType <http://cor.esipfed.org/ont/~ushanri/DAO/Cannabis> .
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/DarkNetSeller
@@ -307,12 +334,400 @@
             :digitalGoodProvidedBy :DarkNetSeller .
 
 
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#ADA
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#ADA> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#BCH
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#BCH> rdf:type :Currencies .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#BNB
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#BNB> rdf:type :Currencies .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#BTC
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#BTC> rdf:type :Currencies .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#DOGE
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#DOGE> rdf:type :Currencies .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#DOT
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#DOT> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#ETH
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#ETH> rdf:type :Currencies .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#I2P
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#I2P> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#LTC
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#LTC> rdf:type :Currencies .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#USDT
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#USDT> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#XMR
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#XMR> rdf:type :Currencies .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#XRP
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#XRP> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#ZEC
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#ZEC> rdf:type :Currencies .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#actor
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#actor> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#administrator
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#administrator> rdf:type :Roles .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#asset
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#asset> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#authorities
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#authorities> rdf:type :Roles .
+
+
 ###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#bank
 <https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#bank> rdf:type :Financial_Institution .
 
 
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#bank_credentials
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#bank_credentials> rdf:type :Financial_Institution .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#bip_bitcoin_improvement_proposals
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#bip_bitcoin_improvement_proposals> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#blockchain
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#blockchain> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#bridge
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#bridge> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#bulletproof_hosting
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#bulletproof_hosting> rdf:type :Dark_Net_Market .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#coin_swapping
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#coin_swapping> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#coinjoin
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#coinjoin> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#counterfeit_product
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#counterfeit_product> rdf:type :Dark_Net_Market .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#credentials
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#credentials> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#crypto_assets
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#crypto_assets> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#crypto_atm
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#crypto_atm> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#cryptocurrencies_user
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#cryptocurrencies_user> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#cryptocurrency
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#cryptocurrency> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#customer
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#customer> rdf:type :Roles .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#cyberterrorist
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#cyberterrorist> rdf:type :Roles .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#dark_market
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#dark_market> rdf:type :Dark_Net_Market .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#dark_web
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#dark_web> rdf:type :Dark_Net_Market .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#darknet_email_service
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#darknet_email_service> rdf:type :Dark_Net_Market .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#darknet_forum
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#darknet_forum> rdf:type :Dark_Net_Market .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#darknet_wiki
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#darknet_wiki> rdf:type :Dark_Net_Market .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#dead_drop
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#dead_drop> rdf:type :Dark_Net_Market .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#deep_web
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#deep_web> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#defi
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#defi> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#dex
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#dex> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#dht_distributed_hash_technology
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#dht_distributed_hash_technology> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#dot_onion
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#dot_onion> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#drop-ship
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#drop-ship> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#entity2
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#entity2> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#escrow
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#escrow> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#exchange
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#exchange> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#exit-scam
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#exit-scam> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#fe_finalize_early
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#fe_finalize_early> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#fiat_currencies
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#fiat_currencies> rdf:type :Currencies .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#flash-loan
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#flash-loan> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#flash-loan-attack
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#flash-loan-attack> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#hardware_wallet
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#hardware_wallet> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#hidden_service
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#hidden_service> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#hierarchically_deterministic_wallets
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#hierarchically_deterministic_wallets> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#hosted-wallet
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#hosted-wallet> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#i2p_invisible_internet_protocol_network
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#i2p_invisible_internet_protocol_network> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#ico
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#ico> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#infrastructure
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#infrastructure> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#irc
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#irc> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#layer-2
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#layer-2> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#metadata
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#metadata> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#moderator
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#moderator> rdf:type :Roles .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#money_mule
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#money_mule> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#multisig
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#multisig> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#non-fungible-token
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#non-fungible-token> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#paste_site_service
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#paste_site_service> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#peer_to_peer_exchange
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#peer_to_peer_exchange> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#pgp_pretty_good_privacy
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#pgp_pretty_good_privacy> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#pos_proof_of_stake
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#pos_proof_of_stake> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#pow_proof_of_work
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#pow_proof_of_work> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#privacy_coin
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#privacy_coin> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#process
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#process> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#proxy
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#proxy> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#regulator
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#regulator> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#relay_node
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#relay_node> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#rug-pull
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#rug-pull> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#service
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#service> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#service-provider
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#service-provider> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#shop
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#shop> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#shop_owner
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#shop_owner> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#sidechain
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#sidechain> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#smart_contract
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#smart_contract> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#software_wallet
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#software_wallet> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#takedown_notice
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#takedown_notice> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#technology
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#technology> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#tor_network
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#tor_network> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#tumbler
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#tumbler> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#unhosted-wallet
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#unhosted-wallet> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#utxo_unspent_transaction_output
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#utxo_unspent_transaction_output> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#vendor
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#vendor> rdf:type :Roles .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#victim
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#victim> rdf:type :Roles .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#virtual_asset_
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#virtual_asset_> rdf:type :Terminology .
+
+
 ###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#virtual_asset_service_provider
 <https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#virtual_asset_service_provider> rdf:type :Financial_Institution .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#wallet
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#wallet> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#yield-farming
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#yield-farming> rdf:type :Terminology .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#zeronet
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#zeronet> rdf:type :Dark_Net_Market .
+
+
+###  https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#dapp_–_decentralized_apps
+<https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/taxonomies/entities#dapp_–_decentralized_apps> rdf:type :Terminology .
 
 
 ###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
