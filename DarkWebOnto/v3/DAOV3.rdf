@@ -3076,7 +3076,6 @@
     <!-- http://cor.esipfed.org/ont/~ushanri/DAO/Dealer -->
 
     <owl:NamedIndividual rdf:about="http://cor.esipfed.org/ont/~ushanri/DAO/Dealer">
-        <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Dealers"/>
         <rdf:type rdf:resource="http://cor.esipfed.org/ont/~ushanri/DAO/Known_Dealers"/>
         <has_slang_term>plug</has_slang_term>
         <has_term>dealer</has_term>

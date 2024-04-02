@@ -33,18 +33,22 @@
 ###  http://darkwebisspooky/shipsFrom
 <http://darkwebisspooky/shipsFrom> rdf:type owl:ObjectProperty ,
                                             owl:AsymmetricProperty ,
-                                            owl:IrreflexiveProperty .
+                                            owl:IrreflexiveProperty ;
+                                   rdfs:range <http://darkwebisspooky/Location> .
 
 
 ###  http://darkwebisspooky/shipsTo
 <http://darkwebisspooky/shipsTo> rdf:type owl:ObjectProperty ,
                                           owl:AsymmetricProperty ,
-                                          owl:IrreflexiveProperty .
+                                          owl:IrreflexiveProperty ;
+                                 rdfs:range <http://darkwebisspooky/Location> .
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/digitalGoodProvidedBy
 :digitalGoodProvidedBy rdf:type owl:ObjectProperty ,
-                                owl:FunctionalProperty .
+                                owl:FunctionalProperty ;
+                       rdfs:domain <http://darkwebisspooky/Digital_Goods> ;
+                       rdfs:range <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
 
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/hasCity
@@ -122,13 +126,6 @@
 #################################################################
 #    Classes
 #################################################################
-
-###  http://cor.esipfed.org/ont/~ushanri/DAO/Actors
-<http://cor.esipfed.org/ont/~ushanri/DAO/Actors> owl:equivalentClass [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://cor.esipfed.org/ont/~ushanri/DAO/buy> ;
-                                                                       owl:someValuesFrom <http://darkwebisspooky/Digital_Goods>
-                                                                     ] .
-
 
 ###  http://cor.esipfed.org/ont/~ushanri/DAO/Dealers
 <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
@@ -293,167 +290,16 @@
 
 ###  http://www.semanticweb.org/oenfadam/ontologies/2024/2/untitled-ontology-53/DarkNetSeller
 
-###  http://darkwebisspooky/Australia
-<http://darkwebisspooky/Australia> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/BANK
-<http://darkwebisspooky/BANK> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
-
-
-###  http://darkwebisspooky/BarryBusiness
-<http://darkwebisspooky/BarryBusiness> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
-
-
-###  http://darkwebisspooky/Canada
-<http://darkwebisspooky/Canada> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/China
-<http://darkwebisspooky/China> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/Cyberzen
-<http://darkwebisspooky/Cyberzen> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
-
-
-###  http://darkwebisspooky/Europe
-<http://darkwebisspooky/Europe> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/Germany
-<http://darkwebisspooky/Germany> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/Holland
-<http://darkwebisspooky/Holland> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/Hong_Kong
-<http://darkwebisspooky/Hong_Kong> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/Luxembourg
-<http://darkwebisspooky/Luxembourg> rdf:type <http://darkwebisspooky/Location> .
-
-
 ###  http://darkwebisspooky/Netherlands
-<http://darkwebisspooky/Netherlands> rdf:type <http://darkwebisspooky/Location> ;
-                                     :hasRegion <http://darkwebisspooky/Holland> .
-
-
-###  http://darkwebisspooky/RealMalcomTurnbull
-<http://darkwebisspooky/RealMalcomTurnbull> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
-
-
-###  http://darkwebisspooky/Spain
-<http://darkwebisspooky/Spain> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/TheShop
-<http://darkwebisspooky/TheShop> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
-
-
-###  http://darkwebisspooky/TheWealthMaker
-<http://darkwebisspooky/TheWealthMaker> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
+<http://darkwebisspooky/Netherlands> :hasRegion <http://darkwebisspooky/Holland> .
 
 
 ###  http://darkwebisspooky/The_United_Snakes_of_Captivity
-<http://darkwebisspooky/The_United_Snakes_of_Captivity> rdf:type <http://darkwebisspooky/Location> ,
-                                                                 :OtherLocation .
-
-
-###  http://darkwebisspooky/TopNotchMoneyMaker
-<http://darkwebisspooky/TopNotchMoneyMaker> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
-
-
-###  http://darkwebisspooky/United_Kingdom
-<http://darkwebisspooky/United_Kingdom> rdf:type <http://darkwebisspooky/Location> .
+<http://darkwebisspooky/The_United_Snakes_of_Captivity> rdf:type :OtherLocation .
 
 
 ###  http://darkwebisspooky/United_States
-<http://darkwebisspooky/United_States> rdf:type <http://darkwebisspooky/Location> ;
-                                       :hasRegion <http://darkwebisspooky/West_Coast> .
-
-
-###  http://darkwebisspooky/UnknownSeller
-<http://darkwebisspooky/UnknownSeller> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
-
-
-###  http://darkwebisspooky/Worldwide
-<http://darkwebisspooky/Worldwide> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/europe
-<http://darkwebisspooky/europe> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
-
-
-###  http://darkwebisspooky/pckabml
-<http://darkwebisspooky/pckabml> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
-
-
-###  http://darkwebisspooky/rvaska
-<http://darkwebisspooky/rvaska> rdf:type <http://cor.esipfed.org/ont/~ushanri/DAO/Dealers> .
-
-
-###  http://darkwebisspooky/http%3A//darkwebisspooky/Australia
-<http://darkwebisspooky/http%3A//darkwebisspooky/Australia> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/http%3A//darkwebisspooky/Canada
-<http://darkwebisspooky/http%3A//darkwebisspooky/Canada> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/http%3A//darkwebisspooky/China
-<http://darkwebisspooky/http%3A//darkwebisspooky/China> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/http%3A//darkwebisspooky/Dream
-<http://darkwebisspooky/http%3A//darkwebisspooky/Dream> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/http%3A//darkwebisspooky/Europe
-<http://darkwebisspooky/http%3A//darkwebisspooky/Europe> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/http%3A//darkwebisspooky/Germany
-<http://darkwebisspooky/http%3A//darkwebisspooky/Germany> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/http%3A//darkwebisspooky/Holland
-<http://darkwebisspooky/http%3A//darkwebisspooky/Holland> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/http%3A//darkwebisspooky/Hong_Kong
-<http://darkwebisspooky/http%3A//darkwebisspooky/Hong_Kong> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/http%3A//darkwebisspooky/Luxembourg
-<http://darkwebisspooky/http%3A//darkwebisspooky/Luxembourg> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/http%3A//darkwebisspooky/Netherlands
-<http://darkwebisspooky/http%3A//darkwebisspooky/Netherlands> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/http%3A//darkwebisspooky/Spain
-<http://darkwebisspooky/http%3A//darkwebisspooky/Spain> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/http%3A//darkwebisspooky/The_United_Snakes_of_Captivity
-<http://darkwebisspooky/http%3A//darkwebisspooky/The_United_Snakes_of_Captivity> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom
-<http://darkwebisspooky/http%3A//darkwebisspooky/United_Kingdom> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/http%3A//darkwebisspooky/United_States
-<http://darkwebisspooky/http%3A//darkwebisspooky/United_States> rdf:type <http://darkwebisspooky/Location> .
-
-
-###  http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide
-<http://darkwebisspooky/http%3A//darkwebisspooky/Worldwide> rdf:type <http://darkwebisspooky/Location> .
+<http://darkwebisspooky/United_States> :hasRegion <http://darkwebisspooky/West_Coast> .
 
 
 ###  http://darkwebisspooky/product/102636
