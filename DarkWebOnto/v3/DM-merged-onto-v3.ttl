@@ -32,14 +32,12 @@
 
 ###  http://darkwebisspooky/shipsFrom
 <http://darkwebisspooky/shipsFrom> rdf:type owl:ObjectProperty ,
-                                            owl:InverseFunctionalProperty ,
                                             owl:AsymmetricProperty ,
                                             owl:IrreflexiveProperty .
 
 
 ###  http://darkwebisspooky/shipsTo
 <http://darkwebisspooky/shipsTo> rdf:type owl:ObjectProperty ,
-                                          owl:InverseFunctionalProperty ,
                                           owl:AsymmetricProperty ,
                                           owl:IrreflexiveProperty .
 
@@ -194,8 +192,7 @@
                                                                                   ]
                                                                                 ) ;
                                                              rdf:type owl:Class
-                                                           ] ;
-                                       owl:disjointWith <http://darkwebisspooky/Drugs> .
+                                                           ] .
 
 
 ###  http://darkwebisspooky/Drugs
